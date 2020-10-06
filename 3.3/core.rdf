@@ -107,7 +107,7 @@ GeoSPARQL is Copyright (c) 2012 Open Geospatial Consortium, Inc. All Rights Rese
 
 GeoSPARQL is Copyright (c) 2012 Open Geospatial Consortium, Inc. All Rights Reserved. http://www.opengeospatial.org/ogc/document.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://www.opengis.net/ont/geosparql#"/>
-        <rdfs:label xml:lang="en">defaultGeometry</rdfs:label>
+        <rdfs:label xml:lang="en">default geometry</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -120,7 +120,17 @@ GeoSPARQL is Copyright (c) 2012 Open Geospatial Consortium, Inc. All Rights Rese
 
 GeoSPARQL is Copyright (c) 2012 Open Geospatial Consortium, Inc. All Rights Reserved. http://www.opengeospatial.org/ogc/document.</rdfs:comment>
         <rdfs:isDefinedBy rdf:resource="http://www.opengis.net/ont/geosparql#"/>
-        <rdfs:label xml:lang="en">hasGeometry</rdfs:label>
+        <rdfs:label xml:lang="en">has geometry</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/rec/core/architectedBy -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/rec/core/architectedBy">
+        <rdfs:domain rdf:resource="https://w3id.org/rec/core/Space"/>
+        <rdfs:range rdf:resource="https://w3id.org/rec/core/Agent"/>
+        <rdfs:label xml:lang="en">architected by</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -156,6 +166,16 @@ GeoSPARQL is Copyright (c) 2012 Open Geospatial Consortium, Inc. All Rights Rese
         <rdfs:range rdf:resource="https://w3id.org/rec/core/Building"/>
         <rdfs:comment xml:lang="en">Indicates which Building a certain Building Component is part of.</rdfs:comment>
         <rdfs:label xml:lang="en">component of building</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- https://w3id.org/rec/core/constructedBy -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/rec/core/constructedBy">
+        <rdfs:domain rdf:resource="https://w3id.org/rec/core/Space"/>
+        <rdfs:range rdf:resource="https://w3id.org/rec/core/Agent"/>
+        <rdfs:label xml:lang="en">constructed by</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -454,30 +474,6 @@ Deprecated in favour of qudt:hasQuantityKind</rdfs:comment>
     
 
 
-    <!-- https://w3id.org/rec/core/includesRealEstate -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/rec/core/includesRealEstate">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/rec/core/Portfolio"/>
-        <rdfs:range rdf:resource="https://w3id.org/rec/core/RealEstate"/>
-        <rdfs:comment xml:lang="en">Indicates any real estate entities that are included in a portfolio.</rdfs:comment>
-        <rdfs:label xml:lang="en">includes real estate</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- https://w3id.org/rec/core/includesSpace -->
-
-    <owl:ObjectProperty rdf:about="https://w3id.org/rec/core/includesSpace">
-        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
-        <rdfs:domain rdf:resource="https://w3id.org/rec/core/Portfolio"/>
-        <rdfs:range rdf:resource="https://w3id.org/rec/core/Space"/>
-        <rdfs:comment xml:lang="en">Indicates any spatial entities (rooms, buildings, land, etc) that are part of a portfolio.</rdfs:comment>
-        <rdfs:label xml:lang="en">includes space</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- https://w3id.org/rec/core/isMemberOf -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/rec/core/isMemberOf">
@@ -579,6 +575,15 @@ Deprecated in favour of core:componentOfBuilding</rdfs:comment>
     
 
 
+    <!-- https://w3id.org/rec/core/operatedBy -->
+
+    <owl:ObjectProperty rdf:about="https://w3id.org/rec/core/operatedBy">
+        <rdfs:range rdf:resource="https://w3id.org/rec/core/Agent"/>
+        <rdfs:label xml:lang="en">operated by</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
     <!-- https://w3id.org/rec/core/ownedBy -->
 
     <owl:ObjectProperty rdf:about="https://w3id.org/rec/core/ownedBy">
@@ -631,6 +636,7 @@ Deprecated in favour of qudt:unit</rdfs:comment>
     <owl:ObjectProperty rdf:about="https://w3id.org/rec/core/sensorInterface">
         <rdfs:domain rdf:resource="https://w3id.org/rec/core/Sensor"/>
         <rdfs:range rdf:resource="https://w3id.org/rec/core/SensorInterface"/>
+        <rdfs:label xml:lang="en">sensor interface</rdfs:label>
     </owl:ObjectProperty>
     
 
@@ -1258,6 +1264,12 @@ GeoSPARQL is Copyright (c) 2012 Open Geospatial Consortium, Inc. All Rights Rese
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/rec/core/includedIn"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/rec/core/Collection"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/rec/core/isPartOf"/>
                 <owl:allValuesFrom rdf:resource="https://w3id.org/rec/core/Asset"/>
             </owl:Restriction>
@@ -1314,6 +1326,12 @@ GeoSPARQL is Copyright (c) 2012 Open Geospatial Consortium, Inc. All Rights Rese
 
     <owl:Class rdf:about="https://w3id.org/rec/core/AssetCollection">
         <rdfs:subClassOf rdf:resource="https://w3id.org/rec/core/Collection"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/rec/core/includes"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/rec/core/Asset"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/rec/core/includes"/>
@@ -1393,6 +1411,12 @@ GeoSPARQL is Copyright (c) 2012 Open Geospatial Consortium, Inc. All Rights Rese
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/rec/core/includes"/>
                 <owl:allValuesFrom rdf:resource="https://w3id.org/rec/core/Space"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/rec/core/operatedBy"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/rec/core/Agent"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">A campus represents a collection of location entities. The constituent locations may have differing legal ownership and utilization purposes, but they are generally perceived as a coherent unit or sub-region within a city or other region. E.g., a university campus, a hospital campus, a corporate campus, etc.</rdfs:comment>
@@ -1704,17 +1728,11 @@ MillimeterPerHour for Precipation</rdfs:comment>
         <rdfs:subClassOf rdf:resource="https://w3id.org/rec/core/Collection"/>
         <rdfs:subClassOf>
             <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/rec/core/includesRealEstate"/>
-                <owl:allValuesFrom rdf:resource="https://w3id.org/rec/core/RealEstate"/>
+                <owl:onProperty rdf:resource="https://w3id.org/rec/core/includes"/>
+                <owl:someValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/rec/core/includesSpace"/>
-                <owl:allValuesFrom rdf:resource="https://w3id.org/rec/core/Space"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:comment xml:lang="en">A portfolio is a grouping of real estates or spaces that share some business-relevant commonality, e.g., are managed by the same company, are rented out to the same tenant, share utilization or legal definition (industrial vs commercial), etc.</rdfs:comment>
+        <rdfs:comment xml:lang="en">A portfolio is a grouping of real estates, spaces, or other portfolios that share some business-relevant commonality, e.g., are managed by the same company, are rented out to the same tenant, share utilization or legal definition (industrial vs commercial), etc.</rdfs:comment>
         <rdfs:label xml:lang="en">Portfolio</rdfs:label>
     </owl:Class>
     
@@ -1965,6 +1983,18 @@ Describes the type of values that can be observed by sensors or set by actuators
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/rec/core/architectedBy"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/rec/core/Agent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/rec/core/constructedBy"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/rec/core/Agent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/rec/core/hasCapability"/>
                 <owl:allValuesFrom rdf:resource="https://w3id.org/rec/core/Capability"/>
             </owl:Restriction>
@@ -1985,6 +2015,18 @@ Describes the type of values that can be observed by sensors or set by actuators
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/rec/core/isPartOf"/>
                 <owl:allValuesFrom rdf:resource="https://w3id.org/rec/core/Space"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/rec/core/operatedBy"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/rec/core/Agent"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/rec/core/ownedBy"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/rec/core/Agent"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">A contiguous part of the physical world that has a 3D spatial extent and that contains or can contain sub-spaces. E.g., a Region can contain many pieces of Land, which in turn can contain many Buildings.</rdfs:comment>
