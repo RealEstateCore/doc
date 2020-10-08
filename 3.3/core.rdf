@@ -336,7 +336,7 @@ Deprecated in favour of qudt:unit</rdfs:comment>
     <owl:ObjectProperty rdf:about="https://w3id.org/rec/core/hasPart">
         <owl:inverseOf rdf:resource="https://w3id.org/rec/core/isPartOf"/>
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <rdfs:comment xml:lang="en">Inverse properties of the isPartOf property tree, used for top-down traversal of the parthood hierarchy.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Points to sub-entities of this node that share the same base type (i.e., Spaces only have Spaces as parts, Assets only have Assets as parts, etc.).</rdfs:comment>
         <rdfs:label xml:lang="en">has part</rdfs:label>
     </owl:ObjectProperty>
     
@@ -458,7 +458,7 @@ Deprecated in favour of qudt:hasQuantityKind</rdfs:comment>
     <owl:ObjectProperty rdf:about="https://w3id.org/rec/core/includedIn">
         <owl:inverseOf rdf:resource="https://w3id.org/rec/core/includes"/>
         <rdfs:range rdf:resource="https://w3id.org/rec/core/Collection"/>
-        <rdfs:comment xml:lang="en">Indicates that a REC entity is included in some Collection, e.g., a Building is included in a RealEstate, or a Room is included in an Apartment.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Indicates that an entity is included in some Collection, e.g., a Building is included in a RealEstate, or a Room is included in an Apartment.</rdfs:comment>
         <rdfs:label xml:lang="en">included in</rdfs:label>
     </owl:ObjectProperty>
     
@@ -468,7 +468,7 @@ Deprecated in favour of qudt:hasQuantityKind</rdfs:comment>
 
     <owl:ObjectProperty rdf:about="https://w3id.org/rec/core/includes">
         <rdfs:domain rdf:resource="https://w3id.org/rec/core/Collection"/>
-        <rdfs:comment xml:lang="en">Indicates that a collection entity includes some member entity, e.g., a campus includes some building, an apartment includes some room, etc.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Member entities of a collection; e.g., a Campus includes some Space, an Apartment includes some Room, etc.</rdfs:comment>
         <rdfs:label xml:lang="en">includes</rdfs:label>
     </owl:ObjectProperty>
     
@@ -513,7 +513,7 @@ Deprecated in favour of qudt:hasQuantityKind</rdfs:comment>
 
     <owl:ObjectProperty rdf:about="https://w3id.org/rec/core/isPartOf">
         <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <rdfs:comment xml:lang="en">A generic clustering of meronomy (parthood) relations, allowing for the traversal of the parthood taxonomy of a real estate. Note that this is a transitive property.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Indicates a super-entity of the same type (i.e., Spaces only have Spaces as parents, Organizations only have Organizations, etc).</rdfs:comment>
         <rdfs:label xml:lang="en">is part of</rdfs:label>
     </owl:ObjectProperty>
     
@@ -589,7 +589,7 @@ Deprecated in favour of core:componentOfBuilding</rdfs:comment>
     <owl:ObjectProperty rdf:about="https://w3id.org/rec/core/ownedBy">
         <owl:inverseOf rdf:resource="https://w3id.org/rec/core/owns"/>
         <rdfs:range rdf:resource="https://w3id.org/rec/core/Agent"/>
-        <rdfs:comment xml:lang="en">Property that defines the legal owner(s) of a given REC entity.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Property that defines the legal owner(s) of a given entity.</rdfs:comment>
         <rdfs:label xml:lang="en">owned by</rdfs:label>
     </owl:ObjectProperty>
     
@@ -599,7 +599,7 @@ Deprecated in favour of core:componentOfBuilding</rdfs:comment>
 
     <owl:ObjectProperty rdf:about="https://w3id.org/rec/core/owns">
         <rdfs:domain rdf:resource="https://w3id.org/rec/core/Agent"/>
-        <rdfs:comment xml:lang="en">Indicates that an agent is the legal owner of a given REC entity, e.g., a Company owns some Real Estate.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Indicates that an agent is the legal owner of a given entity, e.g., a Company owns some Real Estate.</rdfs:comment>
         <rdfs:label xml:lang="en">owns</rdfs:label>
     </owl:ObjectProperty>
     
@@ -1244,7 +1244,7 @@ GeoSPARQL is Copyright (c) 2012 Open Geospatial Consortium, Inc. All Rights Rese
     <!-- https://w3id.org/rec/core/Agent -->
 
     <owl:Class rdf:about="https://w3id.org/rec/core/Agent">
-        <rdfs:comment xml:lang="en">The human, group, or machine that consumes or acts upon an object or data. This higher-level grouping allows properties that are shared among its subclasses (Person, Organization, Group) to be anchored in one joint place, on the Agent class. Conceptually this mimics the Agent class from the well-known FOAF vocabulary, see http://xmlns.com/foaf/spec/#term_Agent.</rdfs:comment>
+        <rdfs:comment xml:lang="en">The human, group, or machine that consumes or acts upon an object or data. This higher-level grouping allows properties that are shared among its subclasses (Person, Organization, Company, Department...) to be anchored in one joint place, on the Agent class.</rdfs:comment>
         <rdfs:label xml:lang="en">Agent</rdfs:label>
     </owl:Class>
     
@@ -1479,7 +1479,7 @@ GeoSPARQL is Copyright (c) 2012 Open Geospatial Consortium, Inc. All Rights Rese
                 <owl:allValuesFrom rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment xml:lang="en">A Capability indicates the capacity of a rec entity, be it a Space, an Asset, or a Device, to produce or ingest data. This is roughly equivalent to the established Brick Schema and generic BMS term &quot;point&quot;. Specific subclasses specialize this behaviour: Sensor entities harvest data from the real world, Actuator entities accept commands from a digital twin platform, and Parameter entities configure some capability or system.</rdfs:comment>
+        <rdfs:comment xml:lang="en">A Capability indicates the capacity of an entity, be it a Space, an Asset, or a Device, to produce or ingest data. This is roughly equivalent to the established Brick Schema and generic BMS term &quot;point&quot;. Specific subclasses specialize this behaviour: Sensor entities harvest data from the real world, Actuator entities accept commands from a digital twin platform, and Parameter entities configure some capability or system.</rdfs:comment>
         <rdfs:label xml:lang="en">Capability</rdfs:label>
     </owl:Class>
     
@@ -2009,7 +2009,7 @@ Describes the type of values that can be observed by sensors or set by actuators
                 <owl:onClass rdf:resource="http://qudt.org/schema/qudt/QuantityKind"/>
             </owl:Restriction>
         </rdfs:subClassOf>
-        <rdfs:comment xml:lang="en">Thing which detects or measures a physical property and records, indicates, or otherwise responds to it.</rdfs:comment>
+        <rdfs:comment xml:lang="en">Capability to detect or measure properties of the physical world.</rdfs:comment>
         <rdfs:label xml:lang="en">Sensor</rdfs:label>
         <o2o:endpoint rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sensor</o2o:endpoint>
         <o2o:included rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</o2o:included>
