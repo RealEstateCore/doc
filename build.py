@@ -9,7 +9,7 @@ from rdflib import Graph
 from rdflib.namespace import OWL, RDF
 
 # GitHub Pages blows up if PyLODE is included in the repo, strangely
-pylodePath = "/Applications/pyLODE-2.5/pylode/bin/pylode.sh"
+pylodePath = "/Applications/pyLODE-2.8.4/pylode/bin/pylode.sh"
 owl2vowlPath = "bin/owl2vowl.jar"
 
 ontologyFileEndings = ["owl", "rdf", "ttl", "nq"]
@@ -40,11 +40,11 @@ for inputFile in ontologyFiles:
         outputHtmlFileName = f"{ontologyPath}/{moduleName}.html"
         subprocess.run([pylodePath, "-i", inputFilePath, "-o", outputHtmlFileName])
 
-        # 2. Merge into temp full graph (excluding lantmäteriet module)
+        # 2. Merge into temp full graph (excluding lfr module)
         moduleGraph = Graph()
         moduleGraph.parse(inputFilePath)
         moduleOntologyUris = list(moduleGraph.subjects(RDF.type, OWL.Ontology))
-        if not inputFile.startswith("lantmäteriet"):
+        if not inputFile.startswith("lfr"):
             for (s, p, o) in moduleGraph:
                 if not s in moduleOntologyUris:
                     unionedOntology.add((s, p, o))
