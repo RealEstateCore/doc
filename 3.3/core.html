@@ -344,6 +344,7 @@
         <li><a href="#Volumesensor">Volume sensor</a></li>
         <li><a href="#Waterflowsensor">Water flow sensor</a></li>
         <li><a href="#Watertemperaturesensor">Water temperature sensor</a></li>
+        <li><a href="#Workspace">Workspace</a></li>
         <li><a href="#Zone">Zone</a></li>
     </ul>
     <div class="entity class" id="Geometry">
@@ -375,16 +376,16 @@
             <tr>
                 <th>In domain of</th>
                 <td>
-                    <a href="http://www.opengis.net/ont/geosparql#hasSerialization">geo:hasSerialization</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                     <a href="http://www.opengis.net/ont/geosparql#asGML">geo:asGML</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="http://www.opengis.net/ont/geosparql#hasSerialization">geo:hasSerialization</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                     <a href="http://www.opengis.net/ont/geosparql#asWKT">geo:asWKT</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>In range of</th>
                 <td>
-                    <a href="http://www.opengis.net/ont/geosparql#defaultGeometry">geo:defaultGeometry</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="http://www.opengis.net/ont/geosparql#hasGeometry">geo:hasGeometry</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="http://www.opengis.net/ont/geosparql#defaultGeometry">geo:defaultGeometry</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
         </table>
@@ -411,8 +412,8 @@
             <tr>
                 <th>In range of</th>
                 <td>
-                    <a href="https://w3id.org/rec/core/constructedBy">constructedBy</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/core/operatedBy">operatedBy</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/core/constructedBy">constructedBy</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/core/ownedBy">ownedBy</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/core/architectedBy">architectedBy</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
@@ -493,20 +494,21 @@
             <tr>
                 <th>Restrictions</th>
                 <td>
-                    <a href="https://w3id.org/rec/core/serves">serves</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="http://www.w3.org/2002/07/owl#Thing">owl:Thing</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/core/serialNumber">serialNumber</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">only</span> <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/hasCapability">hasCapability</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Capability">Capability</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/core/IPAddress">IPAddress</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">only</span> <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/core/hosts">hosts</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/LogicalDevice">LogicalDevice</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/core/hasComment">hasComment</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">only</span> <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/core/modelNumber">modelNumber</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">only</span> <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/core/isPartOf">isPartOf</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Asset">Asset</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/core/hasPart">hasPart</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Asset">Asset</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/core/physicalTagNumber">physicalTagNumber</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">only</span> <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/locatedIn">locatedIn</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">some</span> <a href="https://w3id.org/rec/core/Space">Space</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/locatedIn">locatedIn</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Space">Space</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/core/includedIn">includedIn</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Collection">Collection</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/MACAddress">MACAddress</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">only</span> <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/IPAddress">IPAddress</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">only</span> <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/modelNumber">modelNumber</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">only</span> <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/hasPart">hasPart</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Asset">Asset</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/hosts">hosts</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/LogicalDevice">LogicalDevice</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/physicalTagNumber">physicalTagNumber</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">only</span> <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/isPartOf">isPartOf</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Asset">Asset</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/serialNumber">serialNumber</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">only</span> <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/includedIn">includedIn</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Collection">Collection</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/servedBy">servedBy</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="http://www.w3.org/2002/07/owl#Thing">owl:Thing</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/serves">serves</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="http://www.w3.org/2002/07/owl#Thing">owl:Thing</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/hasComment">hasComment</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">only</span> <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
@@ -568,9 +570,9 @@
             <tr>
                 <th>In range of</th>
                 <td>
-                    <a href="https://w3id.org/rec/core/isPartOfBuilding">isPartOfBuilding</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/core/servesBuilding">servesBuilding</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/core/componentOfBuilding">componentOfBuilding</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/core/isPartOfBuilding">isPartOfBuilding</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
         </table>
@@ -591,11 +593,11 @@
             <tr>
                 <th>Restrictions</th>
                 <td>
-                    <a href="https://w3id.org/rec/core/hasPart">hasPart</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/BuildingComponent">BuildingComponent</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/componentOfBuilding">componentOfBuilding</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Building">Building</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/core/componentOfBuilding">componentOfBuilding</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">max</span> 1 <a href="https://w3id.org/rec/core/Building">Building</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/core/isPartOf">isPartOf</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">max</span> 1 <a href="https://w3id.org/rec/core/BuildingComponent">BuildingComponent</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/isPartOf">isPartOf</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/BuildingComponent">BuildingComponent</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/hasPart">hasPart</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/BuildingComponent">BuildingComponent</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/isPartOf">isPartOf</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">max</span> 1 <a href="https://w3id.org/rec/core/BuildingComponent">BuildingComponent</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/componentOfBuilding">componentOfBuilding</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">max</span> 1 <a href="https://w3id.org/rec/core/Building">Building</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
@@ -607,20 +609,20 @@
             <tr>
                 <th>In domain of</th>
                 <td>
-                    <a href="https://w3id.org/rec/core/isPartOfBuilding">isPartOfBuilding</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="https://w3id.org/rec/core/hasSubBuildingComponent">hasSubBuildingComponent</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/core/componentOfBuilding">componentOfBuilding</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/core/isPartOfBuilding">isPartOfBuilding</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/core/hasSuperBuildingComponent">hasSuperBuildingComponent</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/core/hasSubBuildingComponent">hasSubBuildingComponent</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>In range of</th>
                 <td>
-                    <a href="https://w3id.org/rec/core/isMountedInBuildingComponent">isMountedInBuildingComponent</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="https://w3id.org/rec/core/servesBuildingComponent">servesBuildingComponent</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/core/hasBuildingComponent">hasBuildingComponent</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="https://w3id.org/rec/core/hasSubBuildingComponent">hasSubBuildingComponent</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/core/hasSuperBuildingComponent">hasSuperBuildingComponent</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/core/isMountedInBuildingComponent">isMountedInBuildingComponent</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/core/hasSubBuildingComponent">hasSubBuildingComponent</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/core/servesBuildingComponent">servesBuildingComponent</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
         </table>
@@ -730,8 +732,8 @@
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="https://w3id.org/rec/core/Sensor">Sensor</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/Parameter">Parameter</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/Sensor">Sensor</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
@@ -765,8 +767,8 @@
                 <th>Sub-classes</th>
                 <td>
                     <a href="https://w3id.org/rec/core/AssetCollection">AssetCollection</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/core/SpaceCollection">SpaceCollection</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/Portfolio">Portfolio</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/SpaceCollection">SpaceCollection</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
@@ -779,8 +781,8 @@
             <tr>
                 <th>In range of</th>
                 <td>
-                    <a href="https://w3id.org/rec/core/isMemberOf">isMemberOf</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/core/includedIn">includedIn</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/core/isMemberOf">isMemberOf</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
         </table>
@@ -864,27 +866,25 @@
                 <th>In domain of</th>
                 <td>
                     <a href="https://w3id.org/rec/core/hasSuperDevice">hasSuperDevice</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="https://w3id.org/rec/core/deviceMeasurementUnit">deviceMeasurementUnit</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="https://w3id.org/rec/core/hasSubDevice">hasSubDevice</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="https://w3id.org/rec/core/isMountedInBuildingComponent">isMountedInBuildingComponent</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="https://w3id.org/rec/core/servesBuildingComponent">servesBuildingComponent</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="https://w3id.org/rec/core/associatedWithEvent">associatedWithEvent</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="https://w3id.org/rec/core/isMountedIn">isMountedIn</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="https://w3id.org/rec/core/serves">serves</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="https://w3id.org/rec/core/servesBuilding">servesBuilding</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/core/deviceQuantityKind">deviceQuantityKind</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/core/servesBuildingComponent">servesBuildingComponent</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/core/servesBuilding">servesBuilding</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/core/servesDevice">servesDevice</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/core/isMountedIn">isMountedIn</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/core/deviceMeasurementUnit">deviceMeasurementUnit</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/core/associatedWithEvent">associatedWithEvent</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/core/isMountedInBuildingComponent">isMountedInBuildingComponent</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/core/hasSubDevice">hasSubDevice</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>In range of</th>
                 <td>
+                    <a href="https://w3id.org/rec/core/containsMountedDevice">containsMountedDevice</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/core/hasSuperDevice">hasSuperDevice</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/core/hasSubDevice">hasSubDevice</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/core/associatedWithDevice">associatedWithDevice</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/core/servesDevice">servesDevice</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="https://w3id.org/rec/core/hasSuperDevice">hasSuperDevice</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="https://w3id.org/rec/core/servedBy">servedBy</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="https://w3id.org/rec/core/hasSubDevice">hasSubDevice</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="https://w3id.org/rec/core/containsMountedDevice">containsMountedDevice</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
         </table>
@@ -962,8 +962,8 @@
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="https://w3id.org/rec/core/ThermalEnergySensor">ThermalEnergySensor</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/ElectricalEnergySensor">ElectricalEnergySensor</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/ThermalEnergySensor">ThermalEnergySensor</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -990,19 +990,19 @@
             <tr>
                 <th>In domain of</th>
                 <td>
+                    <a href="https://w3id.org/rec/core/associatedWithDevice">associatedWithDevice</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/core/hasObservationTime">hasObservationTime</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/rec/core/hasUpdatedTime">hasUpdatedTime</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                     <a href="https://w3id.org/rec/core/hasStartTime">hasStartTime</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                     <a href="https://w3id.org/rec/core/eventMeasurementUnit">eventMeasurementUnit</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="https://w3id.org/rec/core/hasDeletedTime">hasDeletedTime</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
-                    <a href="https://w3id.org/rec/core/hasReadTime">hasReadTime</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                     <a href="https://w3id.org/rec/core/hasCreatedTime">hasCreatedTime</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                     <a href="https://w3id.org/rec/core/hasPointInTime">hasPointInTime</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
-                    <a href="https://w3id.org/rec/core/hasDuration">hasDuration</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
-                    <a href="https://w3id.org/rec/core/hasObservationTime">hasObservationTime</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
-                    <a href="https://w3id.org/rec/core/hasTime">hasTime</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                     <a href="https://w3id.org/rec/core/hasStopTime">hasStopTime</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
-                    <a href="https://w3id.org/rec/core/hasUpdatedTime">hasUpdatedTime</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/rec/core/hasTime">hasTime</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                     <a href="https://w3id.org/rec/core/eventQuantityKind">eventQuantityKind</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="https://w3id.org/rec/core/associatedWithDevice">associatedWithDevice</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/core/hasDeletedTime">hasDeletedTime</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/rec/core/hasDuration">hasDuration</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/rec/core/hasReadTime">hasReadTime</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                 </td>
             </tr>
             <tr>
@@ -1074,8 +1074,8 @@
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="https://w3id.org/rec/core/MassFlowSensor">MassFlowSensor</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/AirFlowSensor">AirFlowSensor</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/MassFlowSensor">MassFlowSensor</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/WaterFlowSensor">WaterFlowSensor</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
@@ -1342,18 +1342,18 @@
                 <th>Restrictions</th>
                 <td>
                     <a href="https://w3id.org/rec/core/hasCapability">hasCapability</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Capability">Capability</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/core/hostedBy">hostedBy</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Asset">Asset</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/IPAddress">IPAddress</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">only</span> <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/hostedBy">hostedBy</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">max</span> 1 <a href="https://w3id.org/rec/core/Asset">Asset</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/hostedBy">hostedBy</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Asset">Asset</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/isPartOf">isPartOf</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/LogicalDevice">LogicalDevice</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/isPartOf">isPartOf</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">max</span> 1 <a href="https://w3id.org/rec/core/LogicalDevice">LogicalDevice</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/core/hostedBy">hostedBy</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">max</span> 1 <a href="https://w3id.org/rec/core/Asset">Asset</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="https://w3id.org/rec/core/LogicalGateway">LogicalGateway</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/LogicalServer">LogicalServer</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/LogicalGateway">LogicalGateway</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/LogicalController">LogicalController</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
@@ -1471,8 +1471,8 @@ MillimeterPerHour for Precipation</p>
             <tr>
                 <th>In range of</th>
                 <td>
-                    <a href="https://w3id.org/rec/core/hasMeasurementUnit">hasMeasurementUnit</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/core/qkMeasurementUnit">qkMeasurementUnit</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/core/hasMeasurementUnit">hasMeasurementUnit</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/core/eventMeasurementUnit">eventMeasurementUnit</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/core/deviceMeasurementUnit">deviceMeasurementUnit</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
@@ -1522,16 +1522,16 @@ MillimeterPerHour for Precipation</p>
             <tr>
                 <th>Restrictions</th>
                 <td>
-                    <a href="http://qudt.org/schema/qudt/unit">qudt:unit</a> <span class="cardinality">some</span> <a href="http://qudt.org/schema/qudt/Unit">qudt:Unit</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="http://qudt.org/schema/qudt/hasQuantityKind">qudt:hasQuantityKind</a> <span class="cardinality">some</span> <a href="http://qudt.org/schema/qudt/QuantityKind">qudt:QuantityKind</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="http://qudt.org/schema/qudt/unit">qudt:unit</a> <span class="cardinality">some</span> <a href="http://qudt.org/schema/qudt/Unit">qudt:Unit</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/hasValue">hasValue</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">some</span> <a href="http://www.w3.org/2000/01/rdf-schema#Literal">rdfs:Literal</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>In domain of</th>
                 <td>
-                    <a href="https://w3id.org/rec/core/observationGeneratedBy">observationGeneratedBy</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/core/hasProcessedTime">hasProcessedTime</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/rec/core/observationGeneratedBy">observationGeneratedBy</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
             <tr>
@@ -1654,8 +1654,8 @@ MillimeterPerHour for Precipation</p>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="https://w3id.org/rec/core/ThermalPowerSensor">ThermalPowerSensor</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/ElectricalPowerSensor">ElectricalPowerSensor</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/ThermalPowerSensor">ThermalPowerSensor</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -1794,15 +1794,16 @@ MillimeterPerHour for Precipation</p>
             <tr>
                 <th>Restrictions</th>
                 <td>
-                    <a href="https://w3id.org/rec/core/includes">includes</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Space">Space</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/includes">includes</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">some</span> <a href="https://w3id.org/rec/core/Space">Space</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/ownedBy">ownedBy</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">some</span> <a href="https://w3id.org/rec/core/Agent">Agent</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/ownedBy">ownedBy</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Agent">Agent</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/core/includes">includes</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">some</span> <a href="https://w3id.org/rec/core/Space">Space</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/includes">includes</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Space">Space</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>In domain of</th>
                 <td>
+                    <a href="https://w3id.org/rec/core/propertyRegisterDesignation">propertyRegisterDesignation</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                     <a href="https://w3id.org/rec/core/hasRealEstateComponent">hasRealEstateComponent</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
@@ -1836,8 +1837,8 @@ MillimeterPerHour for Precipation</p>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="https://w3id.org/rec/core/Land">Land</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/Building">Building</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/Land">Land</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
@@ -1895,12 +1896,6 @@ MillimeterPerHour for Precipation</p>
                     <a href="https://w3id.org/rec/core/Space">Space</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
-            <tr>
-                <th>Restrictions</th>
-                <td>
-                    <a href="https://w3id.org/rec/core/personCapacity">personCapacity</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">only</span> <a href="http://www.w3.org/2001/XMLSchema#int">xsd:int</a><sup class="sup-c" title="class">c</sup><br/>
-                </td>
-            </tr>
         </table>
     </div>
     <div class="entity class" id="Sensor">
@@ -1919,45 +1914,45 @@ MillimeterPerHour for Precipation</p>
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="https://w3id.org/rec/core/Device">Device</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/Capability">Capability</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/Device">Device</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Restrictions</th>
                 <td>
+                    <a href="http://qudt.org/schema/qudt/hasQuantityKind">qudt:hasQuantityKind</a> <span class="cardinality">exactly</span> 1 <a href="http://qudt.org/schema/qudt/QuantityKind">qudt:QuantityKind</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/observes">observes</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="http://www.w3.org/2002/07/owl#Thing">owl:Thing</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="http://qudt.org/schema/qudt/unit">qudt:unit</a> <span class="cardinality">min</span> 1 <a href="http://qudt.org/schema/qudt/Unit">qudt:Unit</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/sensorInterface">sensorInterface</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">some</span> <a href="https://w3id.org/rec/core/SensorInterface">SensorInterface</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/core/observes">observes</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="http://www.w3.org/2002/07/owl#Thing">owl:Thing</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="http://qudt.org/schema/qudt/hasQuantityKind">qudt:hasQuantityKind</a> <span class="cardinality">exactly</span> 1 <a href="http://qudt.org/schema/qudt/QuantityKind">qudt:QuantityKind</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="https://w3id.org/rec/core/OccupancySensor">OccupancySensor</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/CO2Sensor">CO2Sensor</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/core/TemperatureSensor">TemperatureSensor</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/core/IlluminanceSensor">IlluminanceSensor</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/core/PressureSensor">PressureSensor</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/core/PeopleCountSensor">PeopleCountSensor</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/core/FlowSensor">FlowSensor</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/core/HumiditySensor">HumiditySensor</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/core/VolumeSensor">VolumeSensor</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/core/PowerSensor">PowerSensor</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/core/MotionSensor">MotionSensor</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/core/StatusSensor">StatusSensor</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/MassSensor">MassSensor</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/core/TVOCSensor">TVOCSensor</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/FlowSensor">FlowSensor</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/PressureSensor">PressureSensor</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/MotionSensor">MotionSensor</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/VolumeSensor">VolumeSensor</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/EnergySensor">EnergySensor</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/HumiditySensor">HumiditySensor</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/OccupancySensor">OccupancySensor</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/IlluminanceSensor">IlluminanceSensor</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/TemperatureSensor">TemperatureSensor</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/PeopleCountSensor">PeopleCountSensor</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/PowerSensor">PowerSensor</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/TVOCSensor">TVOCSensor</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/StatusSensor">StatusSensor</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>In domain of</th>
                 <td>
-                    <a href="https://w3id.org/rec/core/sensorInterface">sensorInterface</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/core/generatedObservation">generatedObservation</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/core/observes">observes</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/core/sensorInterface">sensorInterface</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
             <tr>
@@ -2027,9 +2022,9 @@ MillimeterPerHour for Precipation</p>
                 <th>Sub-classes</th>
                 <td>
                     <a href="https://w3id.org/rec/core/FlowSetpoint">FlowSetpoint</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/core/CO2Setpoint">CO2Setpoint</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/HumiditySetpoint">HumiditySetpoint</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/TemperatureSetpoint">TemperatureSetpoint</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/CO2Setpoint">CO2Setpoint</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -2071,35 +2066,40 @@ MillimeterPerHour for Precipation</p>
             <tr>
                 <th>Restrictions</th>
                 <td>
-                    <a href="https://w3id.org/rec/core/operatedBy">operatedBy</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Agent">Agent</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/hasPart">hasPart</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Space">Space</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/core/ownedBy">ownedBy</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Agent">Agent</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="http://www.opengis.net/ont/geosparql#hasGeometry">geo:hasGeometry</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">some</span> <a href="http://www.opengis.net/ont/geosparql#Geometry">geo:Geometry</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/core/architectedBy">architectedBy</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Agent">Agent</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/core/isPartOf">isPartOf</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Space">Space</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/core/includedIn">includedIn</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Collection">Collection</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="http://www.opengis.net/ont/geosparql#hasGeometry">geo:hasGeometry</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="http://www.opengis.net/ont/geosparql#Geometry">geo:Geometry</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/servedBy">servedBy</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="http://www.w3.org/2002/07/owl#Thing">owl:Thing</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/hasCapability">hasCapability</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Capability">Capability</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="http://www.opengis.net/ont/geosparql#hasGeometry">geo:hasGeometry</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="http://www.opengis.net/ont/geosparql#Geometry">geo:Geometry</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/constructedBy">constructedBy</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Agent">Agent</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="http://www.opengis.net/ont/geosparql#hasGeometry">geo:hasGeometry</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">some</span> <a href="http://www.opengis.net/ont/geosparql#Geometry">geo:Geometry</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/personOccupancy">personOccupancy</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">only</span> <a href="http://www.w3.org/2001/XMLSchema#int">xsd:int</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/includedIn">includedIn</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Collection">Collection</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/personCapacity">personCapacity</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">only</span> <a href="http://www.w3.org/2001/XMLSchema#int">xsd:int</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/ownedBy">ownedBy</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Agent">Agent</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/isPartOf">isPartOf</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Space">Space</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/operatedBy">operatedBy</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Agent">Agent</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/architectedBy">architectedBy</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Agent">Agent</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="https://w3id.org/rec/core/Region">Region</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/Building">Building</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/Zone">Zone</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/Region">Region</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/Room">Room</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/Level">Level</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/core/Land">Land</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/core/Building">Building</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/SubBuilding">SubBuilding</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/Land">Land</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>In domain of</th>
                 <td>
-                    <a href="https://w3id.org/rec/core/architectedBy">architectedBy</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/core/constructedBy">constructedBy</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/core/personOccupancy">personOccupancy</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/rec/core/personCapacity">personCapacity</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/rec/core/architectedBy">architectedBy</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
             <tr>
@@ -2126,16 +2126,16 @@ MillimeterPerHour for Precipation</p>
             <tr>
                 <th>Restrictions</th>
                 <td>
-                    <a href="https://w3id.org/rec/core/includes">includes</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">some</span> <a href="https://w3id.org/rec/core/Space">Space</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/includes">includes</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Space">Space</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/includes">includes</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">some</span> <a href="https://w3id.org/rec/core/Space">Space</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>Sub-classes</th>
                 <td>
+                    <a href="https://w3id.org/rec/core/Apartment">Apartment</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/Campus">Campus</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/Premises">Premises</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/core/Apartment">Apartment</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/RealEstate">RealEstate</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
@@ -2163,10 +2163,10 @@ MillimeterPerHour for Precipation</p>
             <tr>
                 <th>Sub-classes</th>
                 <td>
-                    <a href="https://w3id.org/rec/core/FanStatusSensor">FanStatusSensor</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/FireExtinguisherRemovedSensor">FireExtinguisherRemovedSensor</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/DamperStatusSensor">DamperStatusSensor</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/FireExtinguisherTroubleSensor">FireExtinguisherTroubleSensor</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/FanStatusSensor">FanStatusSensor</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/LeakSensor">LeakSensor</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
@@ -2377,6 +2377,21 @@ MillimeterPerHour for Precipation</p>
             </tr>
         </table>
     </div>
+    <div class="entity class" id="Workspace">
+        <h3>Workspace<sup title="class" class="sup-c">c</sup></h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://w3id.org/rec/core/Workspace</code></td>
+            </tr>
+            <tr>
+                <th>Super-classes</th>
+                <td>
+                    <a href="https://w3id.org/rec/core/Zone">Zone</a><sup class="sup-c" title="class">c</sup><br/>
+                </td>
+            </tr>
+        </table>
+    </div>
     <div class="entity class" id="Zone">
         <h3>Zone<sup title="class" class="sup-c">c</sup></h3>
         <table>
@@ -2399,6 +2414,7 @@ MillimeterPerHour for Precipation</p>
             <tr>
                 <th>Sub-classes</th>
                 <td>
+                    <a href="https://w3id.org/rec/core/Workspace">Workspace</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/HVACZone">HVACZone</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
@@ -3742,21 +3758,13 @@ Deprecated in favour of qudt:unit
             <tr>
                 <th>Description</th>
                 <td>
-                    Indicates that an area or entity is served by some device or sensor. For example: an entrance room might be served by (e.g., covered by) some camera equipment, or a conference room served by a CO2 sensor.
-
-Deprecated in favour of inverse properties core:servesSpace and core:servesAsset
+                    Indicates that a Space or Asset is served by some Sensor/Actuator or other Asset. For example: an entrance room might be served by (e.g., covered by) some camera equipment, or a conference room served by a CO2 sensor. Note that Assets can also service one another, e.g., an air-treatment Asset might serve an air diffuser Asset.
                 </td>
             </tr>
             <tr>
                 <th>Inverse properties</th>
                 <td>
                     <a href="https://w3id.org/rec/core/serves">serves</a><sup class="sup-op" title="object property">op</sup>
-                </td>
-            </tr>
-            <tr>
-                <th>Range(s)</th>
-                <td>
-                    <a href="https://w3id.org/rec/core/Device">Device</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
         </table>
@@ -3772,12 +3780,6 @@ Deprecated in favour of inverse properties core:servesSpace and core:servesAsset
                 <th>Description</th>
                 <td>
                     The coverage or impact area of a given Asset or Sensor/Actuator. For example: an air-treatment unit might serve several Rooms or a full Building. Note that Assets can also service one another, e.g., an air-treatment Asset might serve an air diffuser Asset.
-                </td>
-            </tr>
-            <tr>
-                <th>Domain(s)</th>
-                <td>
-                    <a href="https://w3id.org/rec/core/Device">Device</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
         </table>
@@ -3930,7 +3932,9 @@ Deprecated in favour of core:servesAsset
         <li><a href="#levelnumber">level number</a></li>
         <li><a href="#modelnumber">model number</a></li>
         <li><a href="#personcapacity">person capacity</a></li>
+        <li><a href="#personoccupancy">person occupancy</a></li>
         <li><a href="#physicaltagnumber">physical tag number</a></li>
+        <li><a href="#propertyregisterdesignation">property register designation</a></li>
         <li><a href="#schemaName">schemaName</a></li>
         <li><a href="#serialnumber">serial number</a></li>
         <li><a href="#timeinterval">time interval</a></li>
@@ -4869,7 +4873,40 @@ Time is expressed in UTC (Coordinated Universal Time), with designated UTC  ("Z"
             <tr>
                 <th>Description</th>
                 <td>
-                    The number of people who can fit in a Room or Elevator.
+                    The number of people who can fit in a Space.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="https://w3id.org/rec/core/Space">Space</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.w3.org/2001/XMLSchema#int">xsd:int</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="personoccupancy">
+        <h3>person occupancy<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://w3id.org/rec/core/personOccupancy</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    The number of people presently occupying a Space.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="https://w3id.org/rec/core/Space">Space</a><sup class="sup-c" title="class">c</sup>
                 </td>
             </tr>
             <tr>
@@ -4886,6 +4923,33 @@ Time is expressed in UTC (Coordinated Universal Time), with designated UTC  ("Z"
             <tr>
                 <th>URI</th>
                 <td><code>https://w3id.org/rec/core/physicalTagNumber</code></td>
+            </tr>
+            <tr>
+                <th>Range(s)</th>
+                <td>
+                    <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup>
+                </td>
+            </tr>
+        </table>
+    </div>
+    <div class="entity property" id="propertyregisterdesignation">
+        <h3>property register designation<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <table>
+            <tr>
+                <th>URI</th>
+                <td><code>https://w3id.org/rec/core/propertyRegisterDesignation</code></td>
+            </tr>
+            <tr>
+                <th>Description</th>
+                <td>
+                    Reference to the unique identity of the real estate in the property register in the country where the real estate is located.
+                </td>
+            </tr>
+            <tr>
+                <th>Domain(s)</th>
+                <td>
+                    <a href="https://w3id.org/rec/core/RealEstate">RealEstate</a><sup class="sup-c" title="class">c</sup>
+                </td>
             </tr>
             <tr>
                 <th>Range(s)</th>
@@ -6596,7 +6660,7 @@ Time is expressed in UTC (Coordinated Universal Time), with designated UTC  ("Z"
             <tr>
                 <th>See Also</th>
                 <td>
-                    <a href="Pressure">Pressure</a>
+                    <a href="Tryck">Tryck</a>
                 </td>
             </tr>
         </table>

@@ -186,10 +186,10 @@
           "value" : "https://w3id.org/rec/core/Lux",
           "type" : "iri"
         } ],
-        "quantityKind" : [ {
-          "identifier" : "quantityKind",
+        "sensorInterface" : [ {
+          "identifier" : "sensorInterface",
           "language" : "undefined",
-          "value" : "https://w3id.org/rec/core/Illuminance",
+          "value" : "https://w3id.org/rec/example/HueMotionSensorLightMeterInterface",
           "type" : "iri"
         } ],
         "hasMeasurementUnit" : [ {
@@ -198,10 +198,10 @@
           "value" : "https://w3id.org/rec/core/Lux",
           "type" : "iri"
         } ],
-        "sensorInterface" : [ {
-          "identifier" : "sensorInterface",
+        "quantityKind" : [ {
+          "identifier" : "quantityKind",
           "language" : "undefined",
-          "value" : "https://w3id.org/rec/example/HueMotionSensorLightMeterInterface",
+          "value" : "https://w3id.org/rec/core/Illuminance",
           "type" : "iri"
         } ]
       },
@@ -236,16 +236,16 @@
           "value" : "https://w3id.org/rec/core/Celsius",
           "type" : "iri"
         } ],
-        "quantityKind" : [ {
-          "identifier" : "quantityKind",
-          "language" : "undefined",
-          "value" : "https://w3id.org/rec/core/Temperature",
-          "type" : "iri"
-        } ],
         "sensorInterface" : [ {
           "identifier" : "sensorInterface",
           "language" : "undefined",
           "value" : "https://w3id.org/rec/example/HueMotionSensorThermometerInterface",
+          "type" : "iri"
+        } ],
+        "quantityKind" : [ {
+          "identifier" : "quantityKind",
+          "language" : "undefined",
+          "value" : "https://w3id.org/rec/core/Temperature",
           "type" : "iri"
         } ]
       },
@@ -268,6 +268,12 @@
           "value" : "https://w3id.org/rec/core/Presence",
           "type" : "iri"
         } ],
+        "quantityKind" : [ {
+          "identifier" : "quantityKind",
+          "language" : "undefined",
+          "value" : "https://w3id.org/rec/core/Presence",
+          "type" : "iri"
+        } ],
         "hasMeasurementUnit" : [ {
           "identifier" : "hasMeasurementUnit",
           "language" : "undefined",
@@ -278,12 +284,6 @@
           "identifier" : "sensorInterface",
           "language" : "undefined",
           "value" : "https://w3id.org/rec/example/HueMotionSensorMotionDetectorInterface",
-          "type" : "iri"
-        } ],
-        "quantityKind" : [ {
-          "identifier" : "quantityKind",
-          "language" : "undefined",
-          "value" : "https://w3id.org/rec/core/Presence",
           "type" : "iri"
         } ]
       },
@@ -499,7 +499,7 @@
         "hasRealEstateComponent" : [ {
           "identifier" : "hasRealEstateComponent",
           "language" : "undefined",
-          "value" : "https://w3id.org/rec/example/Ulvsnaes2_MainHouse",
+          "value" : "https://w3id.org/rec/example/Ulvsnaes2_Garage",
           "type" : "iri"
         }, {
           "identifier" : "hasRealEstateComponent",
@@ -509,7 +509,7 @@
         }, {
           "identifier" : "hasRealEstateComponent",
           "language" : "undefined",
-          "value" : "https://w3id.org/rec/example/Ulvsnaes2_Garage",
+          "value" : "https://w3id.org/rec/example/Ulvsnaes2_MainHouse",
           "type" : "iri"
         } ]
       },
@@ -770,17 +770,17 @@
         "hasSubBuildingComponent" : [ {
           "identifier" : "hasSubBuildingComponent",
           "language" : "undefined",
-          "value" : "https://w3id.org/rec/example/Ulvsnaes2_MainHouse_DiningRoom",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasSubBuildingComponent",
-          "language" : "undefined",
           "value" : "https://w3id.org/rec/example/Ulvsnaes2_MainHouse_Kitchen",
           "type" : "iri"
         }, {
           "identifier" : "hasSubBuildingComponent",
           "language" : "undefined",
           "value" : "https://w3id.org/rec/example/Ulvsnaes2_MainHouse_Entrance",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasSubBuildingComponent",
+          "language" : "undefined",
+          "value" : "https://w3id.org/rec/example/Ulvsnaes2_MainHouse_DiningRoom",
           "type" : "iri"
         }, {
           "identifier" : "hasSubBuildingComponent",

@@ -29,22 +29,22 @@
       "coversRequirements" : [ {
         "identifier" : "coversRequirements",
         "language" : "en",
-        "value" : "How many entrances are there to Building 7?",
-        "type" : "label"
-      }, {
-        "identifier" : "coversRequirements",
-        "language" : "en",
         "value" : "Which facade- or roof-mounted sensors are installed in Building 7?",
         "type" : "label"
       }, {
         "identifier" : "coversRequirements",
         "language" : "en",
-        "value" : "What equipment is mounted in server rooms in Building 7?",
+        "value" : "How many entrances are there to Building 7?",
         "type" : "label"
       }, {
         "identifier" : "coversRequirements",
         "language" : "en",
         "value" : "Are there any labs in Building 7?",
+        "type" : "label"
+      }, {
+        "identifier" : "coversRequirements",
+        "language" : "en",
+        "value" : "What equipment is mounted in server rooms in Building 7?",
         "type" : "label"
       }, {
         "identifier" : "coversRequirements",
@@ -76,16 +76,16 @@
         "value" : "building",
         "type" : "label"
       } ],
-      "modified" : [ {
-        "identifier" : "modified",
-        "language" : "undefined",
-        "value" : "2020-06-23",
-        "type" : "label"
-      } ],
       "publisher" : [ {
         "identifier" : "publisher",
         "language" : "undefined",
         "value" : "RealEstateCore Consortium",
+        "type" : "label"
+      } ],
+      "modified" : [ {
+        "identifier" : "modified",
+        "language" : "undefined",
+        "value" : "2020-06-23",
         "type" : "label"
       } ],
       "versionInfo" : [ {
@@ -125,7 +125,7 @@
     "id" : "14",
     "type" : "owl:Class"
   }, {
-    "id" : "16",
+    "id" : "17",
     "type" : "owl:Class"
   }, {
     "id" : "19",
@@ -134,7 +134,7 @@
     "id" : "20",
     "type" : "owl:Class"
   }, {
-    "id" : "33",
+    "id" : "34",
     "type" : "owl:Class"
   }, {
     "id" : "42",
@@ -146,7 +146,7 @@
     "id" : "51",
     "type" : "owl:Class"
   }, {
-    "id" : "4",
+    "id" : "8",
     "type" : "owl:Class"
   }, {
     "id" : "53",
@@ -170,9 +170,6 @@
     "id" : "60",
     "type" : "owl:Class"
   }, {
-    "id" : "18",
-    "type" : "owl:Class"
-  }, {
     "id" : "73",
     "type" : "owl:Class"
   }, {
@@ -180,6 +177,9 @@
     "type" : "owl:Class"
   }, {
     "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
     "type" : "owl:Class"
   }, {
     "id" : "66",
@@ -203,28 +203,28 @@
     "id" : "88",
     "type" : "owl:Class"
   }, {
-    "id" : "65",
-    "type" : "owl:Class"
-  }, {
     "id" : "89",
-    "type" : "owl:Class"
-  }, {
-    "id" : "95",
-    "type" : "owl:Class"
-  }, {
-    "id" : "47",
-    "type" : "owl:Class"
-  }, {
-    "id" : "26",
-    "type" : "owl:Class"
-  }, {
-    "id" : "22",
     "type" : "owl:Class"
   }, {
     "id" : "70",
     "type" : "owl:Class"
   }, {
-    "id" : "76",
+    "id" : "96",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "29",
+    "type" : "owl:Class"
+  }, {
+    "id" : "24",
+    "type" : "owl:Class"
+  }, {
+    "id" : "72",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
     "type" : "owl:Class"
   }, {
     "id" : "27",
@@ -236,31 +236,31 @@
     "id" : "61",
     "type" : "owl:Class"
   }, {
-    "id" : "68",
+    "id" : "65",
     "type" : "owl:Class"
   }, {
-    "id" : "92",
-    "type" : "owl:Class"
-  }, {
-    "id" : "24",
-    "type" : "owl:Class"
-  }, {
-    "id" : "2",
+    "id" : "94",
     "type" : "owl:Class"
   }, {
     "id" : "1",
     "type" : "owl:Class"
   }, {
-    "id" : "119",
+    "id" : "2",
     "type" : "owl:Class"
   }, {
-    "id" : "37",
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "120",
+    "type" : "owl:Class"
+  }, {
+    "id" : "39",
     "type" : "owl:Class"
   }, {
     "id" : "6",
     "type" : "owl:Class"
   }, {
-    "id" : "35",
+    "id" : "36",
     "type" : "owl:Class"
   }, {
     "id" : "56",
@@ -269,28 +269,28 @@
     "id" : "52",
     "type" : "owl:Class"
   }, {
-    "id" : "135",
+    "id" : "136",
     "type" : "owl:Class"
   }, {
-    "id" : "137",
+    "id" : "138",
     "type" : "owl:Class"
   }, {
-    "id" : "130",
+    "id" : "132",
     "type" : "owl:Class"
   }, {
-    "id" : "117",
+    "id" : "119",
     "type" : "owl:Class"
   }, {
-    "id" : "123",
+    "id" : "108",
     "type" : "owl:Class"
   }, {
     "id" : "151",
     "type" : "owl:Class"
   }, {
-    "id" : "80",
+    "id" : "68",
     "type" : "owl:Class"
   }, {
-    "id" : "109",
+    "id" : "111",
     "type" : "owl:Class"
   }, {
     "id" : "153",
@@ -302,70 +302,70 @@
     "id" : "155",
     "type" : "owl:Class"
   }, {
-    "id" : "29",
+    "id" : "31",
     "type" : "owl:Class"
   }, {
     "id" : "154",
     "type" : "owl:Class"
   }, {
-    "id" : "138",
+    "id" : "125",
     "type" : "owl:Class"
   }, {
-    "id" : "31",
+    "id" : "33",
     "type" : "owl:Class"
   }, {
-    "id" : "72",
+    "id" : "26",
     "type" : "owl:Class"
   }, {
-    "id" : "121",
+    "id" : "123",
     "type" : "owl:Class"
   }, {
     "id" : "172",
     "type" : "owl:Class"
   }, {
+    "id" : "105",
+    "type" : "owl:Class"
+  }, {
+    "id" : "166",
+    "type" : "owl:Class"
+  }, {
     "id" : "103",
     "type" : "owl:Class"
   }, {
-    "id" : "101",
+    "id" : "91",
     "type" : "owl:Class"
   }, {
-    "id" : "173",
+    "id" : "79",
     "type" : "owl:Class"
   }, {
-    "id" : "106",
+    "id" : "41",
     "type" : "owl:Class"
   }, {
-    "id" : "78",
+    "id" : "134",
     "type" : "owl:Class"
   }, {
-    "id" : "39",
+    "id" : "137",
     "type" : "owl:Class"
   }, {
-    "id" : "133",
+    "id" : "213",
     "type" : "owl:Class"
   }, {
-    "id" : "136",
+    "id" : "114",
     "type" : "owl:Class"
   }, {
-    "id" : "206",
-    "type" : "owl:Class"
-  }, {
-    "id" : "112",
-    "type" : "owl:Class"
-  }, {
-    "id" : "97",
+    "id" : "99",
     "type" : "owl:Class"
   }, {
     "id" : "160",
     "type" : "owl:Class"
   }, {
-    "id" : "162",
+    "id" : "204",
     "type" : "owl:Class"
   }, {
-    "id" : "9",
+    "id" : "12",
     "type" : "owl:Class"
   }, {
-    "id" : "79",
+    "id" : "80",
     "type" : "owl:Class"
   }, {
     "id" : "63",
@@ -374,58 +374,61 @@
     "id" : "86",
     "type" : "owl:Class"
   }, {
-    "id" : "180",
+    "id" : "181",
     "type" : "owl:Class"
   }, {
-    "id" : "41",
-    "type" : "owl:Class"
-  }, {
-    "id" : "126",
-    "type" : "owl:Class"
-  }, {
-    "id" : "49",
-    "type" : "owl:Class"
-  }, {
-    "id" : "34",
-    "type" : "owl:Class"
-  }, {
-    "id" : "115",
-    "type" : "owl:Class"
-  }, {
-    "id" : "183",
-    "type" : "owl:Class"
-  }, {
-    "id" : "217",
-    "type" : "owl:Class"
-  }, {
-    "id" : "44",
-    "type" : "owl:Class"
-  }, {
-    "id" : "196",
-    "type" : "owl:Class"
-  }, {
-    "id" : "43",
-    "type" : "owl:Class"
-  }, {
-    "id" : "77",
-    "type" : "owl:Class"
-  }, {
-    "id" : "13",
-    "type" : "owl:Class"
-  }, {
-    "id" : "134",
-    "type" : "owl:Class"
-  }, {
-    "id" : "139",
+    "id" : "47",
     "type" : "owl:Class"
   }, {
     "id" : "128",
     "type" : "owl:Class"
   }, {
+    "id" : "22",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "117",
+    "type" : "owl:Class"
+  }, {
+    "id" : "184",
+    "type" : "owl:Class"
+  }, {
+    "id" : "201",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "199",
+    "type" : "owl:Class"
+  }, {
+    "id" : "43",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "16",
+    "type" : "owl:Class"
+  }, {
+    "id" : "135",
+    "type" : "owl:Class"
+  }, {
+    "id" : "139",
+    "type" : "owl:Class"
+  }, {
     "id" : "140",
     "type" : "owl:Class"
   }, {
-    "id" : "99",
+    "id" : "130",
+    "type" : "owl:Class"
+  }, {
+    "id" : "196",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "101",
     "type" : "owl:Class"
   }, {
     "id" : "58",
@@ -477,7 +480,7 @@
       "IRI-based" : "CloakRoom",
       "en" : "CloakRoom"
     },
-    "id" : "16",
+    "id" : "17",
     "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/rec/building/VirtualBuildingComponent",
@@ -510,9 +513,9 @@
       "IRI-based" : "CableRoom",
       "en" : "Cable room"
     },
-    "subClasses" : [ "35" ],
-    "id" : "33",
-    "superClasses" : [ "34" ]
+    "subClasses" : [ "36" ],
+    "id" : "34",
+    "superClasses" : [ "35" ]
   }, {
     "iri" : "https://w3id.org/rec/building/Office",
     "baseIri" : "https://w3id.org/rec/building",
@@ -555,7 +558,7 @@
       "IRI-based" : "Slab",
       "en" : "Slab"
     },
-    "id" : "4",
+    "id" : "8",
     "superClasses" : [ "2" ]
   }, {
     "iri" : "https://w3id.org/rec/building/VirtualBuilding",
@@ -641,7 +644,7 @@
       "IRI-based" : "ElevatorShaft",
       "en" : "ElevatorShaft"
     },
-    "id" : "18",
+    "id" : "73",
     "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/rec/building/ConferenceRoom",
@@ -651,7 +654,7 @@
       "IRI-based" : "ConferenceRoom",
       "en" : "ConferenceRoom"
     },
-    "id" : "73",
+    "id" : "74",
     "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/rec/building/ElevatorRoom",
@@ -661,7 +664,7 @@
       "IRI-based" : "ElevatorRoom",
       "en" : "ElevatorRoom"
     },
-    "id" : "74",
+    "id" : "75",
     "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/rec/building/TreatmentRoom",
@@ -671,11 +674,11 @@
       "IRI-based" : "TreatmentRoom",
       "en" : "TreatmentRoom"
     },
-    "subClasses" : [ "76" ],
+    "subClasses" : [ "77" ],
     "comment" : {
       "en" : "For e.g. medical or other treatment or consultation."
     },
-    "id" : "75",
+    "id" : "76",
     "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/rec/building/FoodHandlingRoom",
@@ -685,7 +688,7 @@
       "IRI-based" : "FoodHandlingRoom",
       "en" : "FoodHandlingRoom"
     },
-    "subClasses" : [ "77", "78", "79", "80", "68", "65", "70" ],
+    "subClasses" : [ "78", "79", "80", "68", "65", "70", "72" ],
     "id" : "66",
     "superClasses" : [ "6" ]
   }, {
@@ -737,7 +740,7 @@
       "en" : "ClimateControlRoom"
     },
     "id" : "87",
-    "superClasses" : [ "34" ]
+    "superClasses" : [ "35" ]
   }, {
     "iri" : "https://w3id.org/rec/building/SecurityRoom",
     "baseIri" : "https://w3id.org/rec/building",
@@ -747,6 +750,16 @@
       "en" : "Security room"
     },
     "id" : "88",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/LoadingReceivingRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LoadingReceivingRoom",
+      "en" : "Loading/receiving room"
+    },
+    "id" : "89",
     "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/rec/building/CoffeeRoom",
@@ -760,18 +773,8 @@
       "en" : "Deprecated in favour of building:CafeteriaRoom"
     },
     "attributes" : [ "deprecated" ],
-    "id" : "65",
+    "id" : "70",
     "superClasses" : [ "66" ]
-  }, {
-    "iri" : "https://w3id.org/rec/building/LoadingReceivingRoom",
-    "baseIri" : "https://w3id.org/rec/building",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "LoadingReceivingRoom",
-      "en" : "Loading/receiving room"
-    },
-    "id" : "89",
-    "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/rec/building/Cabinet",
     "baseIri" : "https://w3id.org/rec/building",
@@ -780,8 +783,8 @@
       "IRI-based" : "Cabinet",
       "en" : "Cabinet"
     },
-    "id" : "95",
-    "superClasses" : [ "34" ]
+    "id" : "96",
+    "superClasses" : [ "35" ]
   }, {
     "iri" : "https://w3id.org/rec/building/Floor",
     "baseIri" : "https://w3id.org/rec/building",
@@ -790,7 +793,7 @@
       "IRI-based" : "Floor",
       "en" : "Floor"
     },
-    "id" : "47",
+    "id" : "49",
     "superClasses" : [ "2" ]
   }, {
     "iri" : "https://w3id.org/rec/building/LaboratoryWet",
@@ -803,7 +806,7 @@
     "comment" : {
       "en" : "A LaboratoryWet is a type of laboratory where it is necessary to handle various types of chemicals and potential \"wet\" hazards, so the room has to be carefully designed, constructed, and controlled to avoid spillage and contamination."
     },
-    "id" : "26",
+    "id" : "29",
     "superClasses" : [ "27" ]
   }, {
     "iri" : "https://w3id.org/rec/building/Facade",
@@ -813,7 +816,7 @@
       "IRI-based" : "Facade",
       "en" : "Facade"
     },
-    "id" : "22",
+    "id" : "24",
     "superClasses" : [ "2" ]
   }, {
     "iri" : "https://w3id.org/rec/building/DishingRoom",
@@ -823,7 +826,7 @@
       "IRI-based" : "DishingRoom",
       "en" : "DishingRoom"
     },
-    "id" : "70",
+    "id" : "72",
     "superClasses" : [ "66" ]
   }, {
     "iri" : "https://w3id.org/rec/building/TreatmentWaitingRoom",
@@ -833,8 +836,8 @@
       "IRI-based" : "TreatmentWaitingRoom",
       "en" : "TreatmentWaitingRoom"
     },
-    "id" : "76",
-    "superClasses" : [ "75" ]
+    "id" : "77",
+    "superClasses" : [ "76" ]
   }, {
     "iri" : "https://w3id.org/rec/building/Laboratory",
     "baseIri" : "https://w3id.org/rec/building",
@@ -843,7 +846,7 @@
       "IRI-based" : "Laboratory",
       "en" : "Laboratory"
     },
-    "subClasses" : [ "72", "26" ],
+    "subClasses" : [ "26", "29" ],
     "id" : "27",
     "superClasses" : [ "6" ]
   }, {
@@ -874,7 +877,7 @@
       "IRI-based" : "DiningRoom",
       "en" : "DiningRoom"
     },
-    "id" : "68",
+    "id" : "65",
     "superClasses" : [ "66" ]
   }, {
     "iri" : "https://w3id.org/rec/building/RecreationalRoom",
@@ -884,7 +887,7 @@
       "IRI-based" : "RecreationalRoom",
       "en" : "RecreationalRoom"
     },
-    "id" : "92",
+    "id" : "94",
     "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/rec/building/Wall",
@@ -894,8 +897,8 @@
       "IRI-based" : "Wall",
       "en" : "Wall"
     },
-    "subClasses" : [ "29" ],
-    "id" : "24",
+    "subClasses" : [ "31" ],
+    "id" : "1",
     "superClasses" : [ "2" ]
   }, {
     "iri" : "https://w3id.org/rec/core/BuildingComponent",
@@ -904,7 +907,7 @@
     "label" : {
       "IRI-based" : "BuildingComponent"
     },
-    "subClasses" : [ "31", "19", "37", "39", "41", "47", "49", "22", "24", "1", "4" ],
+    "subClasses" : [ "33", "19", "39", "41", "47", "49", "22", "24", "1", "4", "8" ],
     "attributes" : [ "external" ],
     "id" : "2"
   }, {
@@ -933,7 +936,7 @@
       "en" : "The level of storey, a.k.a. floorplan.\n\nDeprecated in favour of core:Level"
     },
     "attributes" : [ "deprecated" ],
-    "id" : "1",
+    "id" : "4",
     "superClasses" : [ "2" ]
   }, {
     "iri" : "https://w3id.org/rec/building/ElectricityRoom",
@@ -943,8 +946,8 @@
       "IRI-based" : "ElectricityRoom",
       "en" : "ElectricityRoom"
     },
-    "id" : "119",
-    "superClasses" : [ "34" ]
+    "id" : "120",
+    "superClasses" : [ "35" ]
   }, {
     "iri" : "https://w3id.org/rec/building/Balcony",
     "baseIri" : "https://w3id.org/rec/building",
@@ -953,7 +956,7 @@
       "IRI-based" : "Balcony",
       "en" : "Balcony"
     },
-    "id" : "37",
+    "id" : "39",
     "superClasses" : [ "2" ]
   }, {
     "iri" : "https://w3id.org/rec/core/Room",
@@ -962,7 +965,7 @@
     "label" : {
       "IRI-based" : "Room"
     },
-    "subClasses" : [ "5", "9", "10", "13", "14", "18", "16", "133", "63", "56", "134", "86", "52", "135", "136", "73", "74", "137", "20", "138", "75", "126", "128", "130", "34", "27", "115", "117", "66", "121", "123", "42", "109", "50", "112", "81", "97", "99", "101", "103", "82", "106", "84", "92", "57", "88", "89" ],
+    "subClasses" : [ "5", "12", "10", "16", "14", "73", "17", "134", "63", "56", "135", "86", "52", "136", "137", "74", "75", "138", "20", "125", "76", "128", "130", "132", "35", "27", "117", "119", "66", "123", "108", "42", "111", "50", "114", "81", "99", "101", "103", "105", "82", "91", "84", "94", "57", "88", "89" ],
     "attributes" : [ "external" ],
     "id" : "6"
   }, {
@@ -973,8 +976,8 @@
       "IRI-based" : "TelecommunicationRoom",
       "en" : "TelecommunicationRoom"
     },
-    "id" : "35",
-    "superClasses" : [ "33" ]
+    "id" : "36",
+    "superClasses" : [ "34" ]
   }, {
     "iri" : "https://w3id.org/rec/building/Garage",
     "baseIri" : "https://w3id.org/rec/building",
@@ -1005,7 +1008,7 @@
       "IRI-based" : "Workshop",
       "en" : "Workshop"
     },
-    "id" : "135",
+    "id" : "136",
     "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/rec/building/Auditorium",
@@ -1015,7 +1018,7 @@
       "IRI-based" : "Auditorium",
       "en" : "Auditorium"
     },
-    "id" : "137",
+    "id" : "138",
     "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/rec/building/CopyingRoom",
@@ -1025,7 +1028,7 @@
       "IRI-based" : "CopyingRoom",
       "en" : "CopyingRoom"
     },
-    "id" : "130",
+    "id" : "132",
     "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/rec/building/Library",
@@ -1035,7 +1038,7 @@
       "IRI-based" : "Library",
       "en" : "Library"
     },
-    "id" : "117",
+    "id" : "119",
     "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/rec/building/ExhibitionRoom",
@@ -1045,7 +1048,7 @@
       "IRI-based" : "ExhibitionRoom",
       "en" : "ExhibitionRoom"
     },
-    "id" : "123",
+    "id" : "108",
     "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/rec/building/DataServerRoom",
@@ -1056,7 +1059,7 @@
       "en" : "DataServerRoom"
     },
     "id" : "151",
-    "superClasses" : [ "34" ]
+    "superClasses" : [ "35" ]
   }, {
     "iri" : "https://w3id.org/rec/building/CookingRoom",
     "baseIri" : "https://w3id.org/rec/building",
@@ -1065,7 +1068,7 @@
       "IRI-based" : "CookingRoom",
       "en" : "CookingRoom"
     },
-    "id" : "80",
+    "id" : "68",
     "superClasses" : [ "66" ]
   }, {
     "iri" : "https://w3id.org/rec/building/MothersRoom",
@@ -1075,7 +1078,7 @@
       "IRI-based" : "MothersRoom",
       "en" : "Mothers' room"
     },
-    "id" : "109",
+    "id" : "111",
     "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/rec/building/SprinklerRoom",
@@ -1086,7 +1089,7 @@
       "en" : "Sprinkler room"
     },
     "id" : "153",
-    "superClasses" : [ "34" ]
+    "superClasses" : [ "35" ]
   }, {
     "iri" : "https://w3id.org/rec/building/Entrance",
     "baseIri" : "https://w3id.org/rec/building",
@@ -1116,8 +1119,8 @@
       "IRI-based" : "WallInner",
       "en" : "Inner wall"
     },
-    "id" : "29",
-    "superClasses" : [ "24" ]
+    "id" : "31",
+    "superClasses" : [ "1" ]
   }, {
     "iri" : "https://w3id.org/rec/building/ServiceEntrance",
     "baseIri" : "https://w3id.org/rec/building",
@@ -1136,7 +1139,7 @@
       "IRI-based" : "Bedroom",
       "en" : "Bedroom"
     },
-    "id" : "138",
+    "id" : "125",
     "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/rec/building/StoreyLevel",
@@ -1158,7 +1161,7 @@
       "en" : "The level of storey, a.k.a. floorplan"
     },
     "attributes" : [ "deprecated" ],
-    "id" : "31",
+    "id" : "33",
     "superClasses" : [ "2" ]
   }, {
     "iri" : "https://w3id.org/rec/building/LaboratoryDry",
@@ -1171,7 +1174,7 @@
     "comment" : {
       "en" : "A LaboratoryDry is a laboratory where computational or applied mathematical analyses are done on a computer-generated model to simulate a phenomenon in the physical realm."
     },
-    "id" : "72",
+    "id" : "26",
     "superClasses" : [ "27" ]
   }, {
     "iri" : "https://w3id.org/rec/building/Bathroom",
@@ -1181,7 +1184,7 @@
       "IRI-based" : "Bathroom",
       "en" : "Bathroom"
     },
-    "id" : "121",
+    "id" : "123",
     "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/rec/core/Type",
@@ -1201,17 +1204,7 @@
       "IRI-based" : "MultiPurposeRoom",
       "en" : "Multi-purpose room"
     },
-    "id" : "103",
-    "superClasses" : [ "6" ]
-  }, {
-    "iri" : "https://w3id.org/rec/building/LaundryRoom",
-    "baseIri" : "https://w3id.org/rec/building",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "LaundryRoom",
-      "en" : "LaundryRoom"
-    },
-    "id" : "101",
+    "id" : "105",
     "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/rec/building/Classroom",
@@ -1221,8 +1214,18 @@
       "IRI-based" : "Classroom",
       "en" : "Classroom"
     },
-    "id" : "173",
-    "superClasses" : [ "13" ]
+    "id" : "166",
+    "superClasses" : [ "16" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/LaundryRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LaundryRoom",
+      "en" : "LaundryRoom"
+    },
+    "id" : "103",
+    "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/rec/building/ConversationRoom",
     "baseIri" : "https://w3id.org/rec/building",
@@ -1231,7 +1234,7 @@
       "IRI-based" : "ConversationRoom",
       "en" : "ConversationRoom"
     },
-    "id" : "106",
+    "id" : "91",
     "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/rec/building/CafeteriaRoom",
@@ -1241,7 +1244,7 @@
       "IRI-based" : "CafeteriaRoom",
       "en" : "CafeteriaRoom"
     },
-    "id" : "78",
+    "id" : "79",
     "superClasses" : [ "66" ]
   }, {
     "iri" : "https://w3id.org/rec/building/RoofInner",
@@ -1251,7 +1254,7 @@
       "IRI-based" : "RoofInner",
       "en" : "Roof, inner"
     },
-    "id" : "39",
+    "id" : "41",
     "superClasses" : [ "2" ]
   }, {
     "iri" : "https://w3id.org/rec/building/MeditationRoom",
@@ -1261,7 +1264,7 @@
       "IRI-based" : "MeditationRoom",
       "en" : "Meditation room"
     },
-    "id" : "133",
+    "id" : "134",
     "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/rec/building/Reception",
@@ -1271,7 +1274,7 @@
       "IRI-based" : "Reception",
       "en" : "Reception"
     },
-    "id" : "136",
+    "id" : "137",
     "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/rec/building/ShelterGasLock",
@@ -1281,7 +1284,7 @@
       "IRI-based" : "ShelterGasLock",
       "en" : "ShelterGasLock"
     },
-    "id" : "206",
+    "id" : "213",
     "superClasses" : [ "86" ]
   }, {
     "iri" : "https://w3id.org/rec/building/Storage",
@@ -1291,7 +1294,7 @@
       "IRI-based" : "Storage",
       "en" : "Storage"
     },
-    "id" : "112",
+    "id" : "114",
     "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/rec/building/Hallway",
@@ -1301,7 +1304,7 @@
       "IRI-based" : "Hallway",
       "en" : "Hallway"
     },
-    "id" : "97",
+    "id" : "99",
     "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/rec/building/RoomType",
@@ -1382,12 +1385,12 @@
       "seeAlso" : [ {
         "identifier" : "seeAlso",
         "language" : "en",
-        "value" : "RWC",
+        "value" : "HWC",
         "type" : "label"
       }, {
         "identifier" : "seeAlso",
         "language" : "en",
-        "value" : "HWC",
+        "value" : "RWC",
         "type" : "label"
       } ]
     },
@@ -1395,7 +1398,7 @@
       "IRI-based" : "DisabledToilet",
       "en" : "DisabledToilet"
     },
-    "id" : "162",
+    "id" : "204",
     "superClasses" : [ "63" ]
   }, {
     "iri" : "https://w3id.org/rec/building/BackOffice",
@@ -1405,8 +1408,8 @@
       "IRI-based" : "BackOffice",
       "en" : "BackOffice"
     },
-    "subClasses" : [ "196" ],
-    "id" : "9",
+    "subClasses" : [ "199" ],
+    "id" : "12",
     "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/rec/building/Pentry",
@@ -1416,7 +1419,7 @@
       "IRI-based" : "Pentry",
       "en" : "Pentry"
     },
-    "id" : "79",
+    "id" : "80",
     "superClasses" : [ "66" ]
   }, {
     "iri" : "https://w3id.org/rec/building/PersonalHygiene",
@@ -1426,7 +1429,7 @@
       "IRI-based" : "PersonalHygiene",
       "en" : "PersonalHygiene"
     },
-    "subClasses" : [ "217", "162", "62", "155" ],
+    "subClasses" : [ "201", "204", "62", "155" ],
     "id" : "63",
     "superClasses" : [ "6" ]
   }, {
@@ -1437,7 +1440,7 @@
       "IRI-based" : "Shelter",
       "en" : "Shelter"
     },
-    "subClasses" : [ "85", "206" ],
+    "subClasses" : [ "85", "213" ],
     "id" : "86",
     "superClasses" : [ "6" ]
   }, {
@@ -1448,8 +1451,8 @@
       "IRI-based" : "GroupRoom",
       "en" : "GroupRoom"
     },
-    "id" : "180",
-    "superClasses" : [ "13" ]
+    "id" : "181",
+    "superClasses" : [ "16" ]
   }, {
     "iri" : "https://w3id.org/rec/building/RoofOuter",
     "baseIri" : "https://w3id.org/rec/building",
@@ -1458,7 +1461,7 @@
       "IRI-based" : "RoofOuter",
       "en" : "Roof, outer"
     },
-    "id" : "41",
+    "id" : "47",
     "superClasses" : [ "2" ]
   }, {
     "iri" : "https://w3id.org/rec/building/ExerciseRoom",
@@ -1468,7 +1471,7 @@
       "IRI-based" : "ExerciseRoom",
       "en" : "ExerciseRoom"
     },
-    "id" : "126",
+    "id" : "128",
     "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/rec/building/Terrace",
@@ -1478,7 +1481,7 @@
       "IRI-based" : "Terrace",
       "en" : "Terrace"
     },
-    "id" : "49",
+    "id" : "22",
     "superClasses" : [ "2" ]
   }, {
     "iri" : "https://w3id.org/rec/building/UtilitiesRoom",
@@ -1488,8 +1491,8 @@
       "IRI-based" : "UtilitiesRoom",
       "en" : "UtilitiesRoom"
     },
-    "subClasses" : [ "153", "33", "87", "95", "151", "119" ],
-    "id" : "34",
+    "subClasses" : [ "153", "34", "87", "96", "151", "120" ],
+    "id" : "35",
     "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/rec/building/CleaningRoom",
@@ -1499,7 +1502,7 @@
       "IRI-based" : "CleaningRoom",
       "en" : "CleaningRoom"
     },
-    "id" : "115",
+    "id" : "117",
     "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/rec/building/SmallStudyRoom",
@@ -1509,8 +1512,8 @@
       "IRI-based" : "SmallStudyRoom",
       "en" : "SmallStudyRoom"
     },
-    "id" : "183",
-    "superClasses" : [ "13" ]
+    "id" : "184",
+    "superClasses" : [ "16" ]
   }, {
     "iri" : "https://w3id.org/rec/building/Sauna",
     "baseIri" : "https://w3id.org/rec/building",
@@ -1519,7 +1522,7 @@
       "IRI-based" : "Sauna",
       "en" : "Sauna"
     },
-    "id" : "217",
+    "id" : "201",
     "superClasses" : [ "63" ]
   }, {
     "iri" : "https://w3id.org/rec/building/OfficeLandscape",
@@ -1539,8 +1542,8 @@
       "IRI-based" : "MailRoom",
       "en" : "Mail room"
     },
-    "id" : "196",
-    "superClasses" : [ "9" ]
+    "id" : "199",
+    "superClasses" : [ "12" ]
   }, {
     "iri" : "https://w3id.org/rec/building/OfficeRoom",
     "baseIri" : "https://w3id.org/rec/building",
@@ -1559,7 +1562,7 @@
       "IRI-based" : "BarRoom",
       "en" : "BarRoom"
     },
-    "id" : "77",
+    "id" : "78",
     "superClasses" : [ "66" ]
   }, {
     "iri" : "https://w3id.org/rec/building/EducationalRoom",
@@ -1569,8 +1572,8 @@
       "IRI-based" : "EducationalRoom",
       "en" : "EducationalRoom"
     },
-    "subClasses" : [ "180", "183", "173" ],
-    "id" : "13",
+    "subClasses" : [ "181", "184", "166" ],
+    "id" : "16",
     "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/rec/building/LivingRoom",
@@ -1580,7 +1583,7 @@
       "IRI-based" : "LivingRoom",
       "en" : "LivingRoom"
     },
-    "id" : "134",
+    "id" : "135",
     "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/rec/building/ParkingSlotCold",
@@ -1593,16 +1596,6 @@
     "id" : "139",
     "superClasses" : [ "56" ]
   }, {
-    "iri" : "https://w3id.org/rec/building/Theater",
-    "baseIri" : "https://w3id.org/rec/building",
-    "instances" : 0,
-    "label" : {
-      "IRI-based" : "Theater",
-      "en" : "Theater"
-    },
-    "id" : "128",
-    "superClasses" : [ "6" ]
-  }, {
     "iri" : "https://w3id.org/rec/building/BicycleGarage",
     "baseIri" : "https://w3id.org/rec/building",
     "instances" : 0,
@@ -1613,6 +1606,23 @@
     "id" : "140",
     "superClasses" : [ "56" ]
   }, {
+    "iri" : "https://w3id.org/rec/building/Theater",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Theater",
+      "en" : "Theater"
+    },
+    "id" : "130",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "196",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
     "iri" : "https://w3id.org/rec/building/DressingRoom",
     "baseIri" : "https://w3id.org/rec/building",
     "instances" : 0,
@@ -1620,7 +1630,7 @@
       "IRI-based" : "DressingRoom",
       "en" : "DressingRoom"
     },
-    "id" : "99",
+    "id" : "101",
     "superClasses" : [ "6" ]
   }, {
     "iri" : "https://w3id.org/rec/building/School",
@@ -1643,19 +1653,19 @@
     "id" : "7",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "8",
+    "id" : "9",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "11",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "12",
+    "id" : "13",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "15",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "17",
+    "id" : "18",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "21",
@@ -1676,7 +1686,7 @@
     "id" : "32",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "36",
+    "id" : "37",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "38",
@@ -1706,16 +1716,16 @@
     "id" : "90",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "91",
+    "id" : "92",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "93",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "94",
+    "id" : "95",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "96",
+    "id" : "97",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "98",
@@ -1730,25 +1740,25 @@
     "id" : "104",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "105",
+    "id" : "106",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "107",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "108",
+    "id" : "109",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "110",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "111",
+    "id" : "112",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "113",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "114",
+    "id" : "115",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "116",
@@ -1757,7 +1767,7 @@
     "id" : "118",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "120",
+    "id" : "121",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "122",
@@ -1766,7 +1776,7 @@
     "id" : "124",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "125",
+    "id" : "126",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "127",
@@ -1778,7 +1788,7 @@
     "id" : "131",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "132",
+    "id" : "133",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "141",
@@ -1829,6 +1839,9 @@
     "id" : "161",
     "type" : "rdf:Property"
   }, {
+    "id" : "162",
+    "type" : "rdf:Property"
+  }, {
     "id" : "163",
     "type" : "rdf:Property"
   }, {
@@ -1836,9 +1849,6 @@
     "type" : "rdf:Property"
   }, {
     "id" : "165",
-    "type" : "rdf:Property"
-  }, {
-    "id" : "166",
     "type" : "rdf:Property"
   }, {
     "id" : "167",
@@ -1856,6 +1866,9 @@
     "id" : "171",
     "type" : "rdf:Property"
   }, {
+    "id" : "173",
+    "type" : "rdf:Property"
+  }, {
     "id" : "174",
     "type" : "rdf:Property"
   }, {
@@ -1863,31 +1876,31 @@
     "type" : "rdf:Property"
   }, {
     "id" : "176",
-    "type" : "rdf:Property"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "177",
-    "type" : "rdfs:SubClassOf"
+    "type" : "rdf:Property"
   }, {
     "id" : "178",
-    "type" : "rdf:Property"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "179",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "181",
     "type" : "rdf:Property"
+  }, {
+    "id" : "180",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "182",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "184",
     "type" : "rdf:Property"
+  }, {
+    "id" : "183",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "185",
-    "type" : "rdfs:SubClassOf"
+    "type" : "rdf:Property"
   }, {
     "id" : "186",
-    "type" : "rdf:Property"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "187",
     "type" : "rdf:Property"
@@ -1914,21 +1927,12 @@
     "type" : "rdf:Property"
   }, {
     "id" : "195",
-    "type" : "rdf:Property"
-  }, {
-    "id" : "197",
-    "type" : "rdfs:SubClassOf"
+    "type" : "owl:objectProperty"
   }, {
     "id" : "198",
     "type" : "rdf:Property"
   }, {
-    "id" : "199",
-    "type" : "rdfs:SubClassOf"
-  }, {
     "id" : "200",
-    "type" : "rdf:Property"
-  }, {
-    "id" : "201",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "202",
@@ -1937,10 +1941,10 @@
     "id" : "203",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "204",
+    "id" : "205",
     "type" : "rdf:Property"
   }, {
-    "id" : "205",
+    "id" : "206",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "207",
@@ -1961,80 +1965,83 @@
     "id" : "212",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "213",
-    "type" : "rdfs:SubClassOf"
-  }, {
     "id" : "214",
-    "type" : "rdfs:SubClassOf"
-  }, {
-    "id" : "215",
     "type" : "rdf:Property"
   }, {
+    "id" : "215",
+    "type" : "rdfs:SubClassOf"
+  }, {
     "id" : "216",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "217",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "218",
-    "type" : "rdf:Property"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "219",
-    "type" : "owl:objectProperty"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "220",
     "type" : "rdf:Property"
   }, {
     "id" : "221",
-    "type" : "rdf:Property"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "222",
     "type" : "rdf:Property"
   }, {
+    "id" : "197",
+    "type" : "owl:objectProperty"
+  }, {
     "id" : "223",
-    "type" : "rdfs:SubClassOf"
+    "type" : "rdf:Property"
   }, {
     "id" : "224",
     "type" : "rdf:Property"
   }, {
     "id" : "225",
-    "type" : "rdfs:SubClassOf"
+    "type" : "rdf:Property"
   }, {
     "id" : "226",
-    "type" : "rdf:Property"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "227",
-    "type" : "rdfs:SubClassOf"
+    "type" : "rdf:Property"
   }, {
     "id" : "228",
-    "type" : "rdf:Property"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "229",
-    "type" : "rdfs:SubClassOf"
+    "type" : "rdf:Property"
   }, {
     "id" : "230",
-    "type" : "rdf:Property"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "231",
-    "type" : "rdfs:SubClassOf"
+    "type" : "rdf:Property"
   }, {
     "id" : "232",
-    "type" : "rdf:Property"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "233",
-    "type" : "rdfs:SubClassOf"
+    "type" : "rdf:Property"
   }, {
     "id" : "234",
-    "type" : "rdf:Property"
-  }, {
-    "id" : "235",
     "type" : "rdfs:SubClassOf"
   }, {
-    "id" : "236",
+    "id" : "235",
     "type" : "rdf:Property"
+  }, {
+    "id" : "236",
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "237",
     "type" : "rdf:Property"
   }, {
     "id" : "238",
-    "type" : "rdf:Property"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "239",
     "type" : "rdf:Property"
@@ -2094,13 +2101,13 @@
     "type" : "rdf:Property"
   }, {
     "id" : "258",
-    "type" : "rdfs:SubClassOf"
+    "type" : "rdf:Property"
   }, {
     "id" : "259",
-    "type" : "rdfs:SubClassOf"
+    "type" : "rdf:Property"
   }, {
     "id" : "260",
-    "type" : "rdfs:SubClassOf"
+    "type" : "rdf:Property"
   }, {
     "id" : "261",
     "type" : "rdfs:SubClassOf"
@@ -2115,13 +2122,13 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "265",
-    "type" : "rdf:Property"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "266",
-    "type" : "rdf:Property"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "267",
-    "type" : "rdf:Property"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "268",
     "type" : "rdf:Property"
@@ -2145,13 +2152,13 @@
     "type" : "rdf:Property"
   }, {
     "id" : "275",
-    "type" : "rdfs:SubClassOf"
+    "type" : "rdf:Property"
   }, {
     "id" : "276",
-    "type" : "rdfs:SubClassOf"
+    "type" : "rdf:Property"
   }, {
     "id" : "277",
-    "type" : "rdfs:SubClassOf"
+    "type" : "rdf:Property"
   }, {
     "id" : "278",
     "type" : "rdfs:SubClassOf"
@@ -2160,19 +2167,19 @@
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "280",
-    "type" : "rdf:Property"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "281",
     "type" : "rdfs:SubClassOf"
   }, {
     "id" : "282",
-    "type" : "rdfs:SubClassOf"
+    "type" : "rdf:Property"
   }, {
     "id" : "283",
-    "type" : "rdf:Property"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "284",
-    "type" : "rdf:Property"
+    "type" : "rdfs:SubClassOf"
   }, {
     "id" : "285",
     "type" : "rdf:Property"
@@ -2188,325 +2195,331 @@
   }, {
     "id" : "289",
     "type" : "rdf:Property"
+  }, {
+    "id" : "290",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "291",
+    "type" : "rdf:Property"
   } ],
   "propertyAttribute" : [ {
     "range" : "2",
     "domain" : "1",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "0"
   }, {
     "range" : "2",
     "domain" : "4",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "3"
   }, {
-    "range" : "6",
-    "domain" : "5",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "2",
+    "domain" : "8",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "7"
   }, {
     "range" : "6",
-    "domain" : "9",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "8"
+    "domain" : "5",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "9"
   }, {
     "range" : "6",
-    "domain" : "10",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "12",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "11"
   }, {
     "range" : "6",
-    "domain" : "13",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "12"
+    "domain" : "10",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "13"
   }, {
     "range" : "6",
-    "domain" : "14",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "16",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "15"
   }, {
     "range" : "6",
-    "domain" : "18",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "17"
+    "domain" : "14",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "18"
   }, {
     "range" : "2",
     "domain" : "22",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "21"
   }, {
     "range" : "2",
     "domain" : "24",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "23"
   }, {
     "range" : "27",
     "domain" : "26",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "25"
   }, {
-    "range" : "24",
+    "range" : "27",
     "domain" : "29",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "28"
   }, {
-    "range" : "2",
+    "range" : "1",
     "domain" : "31",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "30"
   }, {
     "range" : "2",
-    "domain" : "19",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "33",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "32"
   }, {
     "range" : "2",
-    "domain" : "37",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "36"
+    "domain" : "19",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "37"
   }, {
     "range" : "2",
     "domain" : "39",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "38"
   }, {
     "range" : "2",
     "domain" : "41",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "40"
   }, {
     "range" : "2",
     "domain" : "47",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "46"
   }, {
     "range" : "2",
     "domain" : "49",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "48"
   }, {
     "range" : "66",
     "domain" : "65",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "64"
   }, {
     "range" : "66",
     "domain" : "68",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "67"
   }, {
     "range" : "66",
     "domain" : "70",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "69"
   }, {
-    "range" : "27",
+    "range" : "66",
     "domain" : "72",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "71"
   }, {
     "range" : "6",
-    "domain" : "84",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "91",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "90"
   }, {
     "range" : "6",
-    "domain" : "92",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "91"
+    "domain" : "84",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "92"
   }, {
     "range" : "6",
-    "domain" : "57",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "94",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "93"
   }, {
     "range" : "6",
-    "domain" : "88",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "94"
+    "domain" : "57",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "95"
   }, {
     "range" : "6",
-    "domain" : "97",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "96"
+    "domain" : "81",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "97"
   }, {
     "range" : "6",
     "domain" : "99",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "98"
   }, {
     "range" : "6",
     "domain" : "101",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "100"
   }, {
     "range" : "6",
     "domain" : "103",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "102"
   }, {
     "range" : "6",
-    "domain" : "82",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "105",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "104"
   }, {
     "range" : "6",
-    "domain" : "106",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "105"
+    "domain" : "82",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "106"
   }, {
     "range" : "6",
-    "domain" : "42",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "108",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "107"
   }, {
     "range" : "6",
-    "domain" : "109",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "108"
+    "domain" : "42",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "109"
   }, {
     "range" : "6",
-    "domain" : "50",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "111",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "110"
   }, {
     "range" : "6",
-    "domain" : "112",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "111"
+    "domain" : "50",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "112"
   }, {
     "range" : "6",
-    "domain" : "81",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "114",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "113"
   }, {
     "range" : "6",
-    "domain" : "115",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "114"
+    "domain" : "27",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "115"
   }, {
     "range" : "6",
     "domain" : "117",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "116"
   }, {
     "range" : "6",
-    "domain" : "66",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "119",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "118"
   }, {
     "range" : "6",
-    "domain" : "121",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "120"
+    "domain" : "66",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "121"
   }, {
     "range" : "6",
     "domain" : "123",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "122"
   }, {
     "range" : "6",
-    "domain" : "75",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "125",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "124"
   }, {
     "range" : "6",
-    "domain" : "126",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "125"
+    "domain" : "76",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "126"
   }, {
     "range" : "6",
     "domain" : "128",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "127"
   }, {
     "range" : "6",
     "domain" : "130",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "129"
   }, {
     "range" : "6",
-    "domain" : "34",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "132",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "131"
   }, {
     "range" : "6",
-    "domain" : "27",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "132"
+    "domain" : "35",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "133"
   }, {
     "range" : "6",
     "domain" : "74",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "141"
   }, {
     "range" : "6",
-    "domain" : "137",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "75",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "142"
   }, {
     "range" : "6",
-    "domain" : "20",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "138",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "143"
   }, {
     "range" : "6",
-    "domain" : "138",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "20",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "144"
   }, {
     "range" : "6",
-    "domain" : "56",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "63",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "145"
   }, {
     "range" : "6",
-    "domain" : "134",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "56",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "146"
   }, {
     "range" : "6",
-    "domain" : "86",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "135",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "147"
   }, {
     "range" : "6",
-    "domain" : "52",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "86",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "148"
   }, {
     "range" : "6",
-    "domain" : "135",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "52",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "149"
   }, {
     "range" : "6",
     "domain" : "136",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "150"
   }, {
     "range" : "6",
-    "domain" : "73",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "137",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "152"
   }, {
     "range" : "6",
-    "domain" : "16",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "73",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "156"
   }, {
     "range" : "6",
-    "domain" : "133",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "17",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "157"
   }, {
     "range" : "6",
-    "domain" : "63",
-    "attributes" : [ "object", "anonymous" ],
+    "domain" : "134",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "158"
   }, {
     "domain" : "160",
-    "range" : "106",
+    "range" : "89",
     "id" : "159",
     "label" : {
       "IRI-based" : "30",
@@ -2514,7 +2527,7 @@
     }
   }, {
     "domain" : "160",
-    "range" : "162",
+    "range" : "114",
     "id" : "161",
     "label" : {
       "IRI-based" : "29",
@@ -2523,38 +2536,38 @@
   }, {
     "domain" : "160",
     "range" : "56",
-    "id" : "163",
+    "id" : "162",
     "label" : {
       "IRI-based" : "28",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "138",
-    "id" : "164",
+    "range" : "99",
+    "id" : "163",
     "label" : {
       "IRI-based" : "25",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "112",
-    "id" : "165",
+    "range" : "20",
+    "id" : "164",
     "label" : {
       "IRI-based" : "24",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "55",
-    "id" : "166",
+    "range" : "166",
+    "id" : "165",
     "label" : {
       "IRI-based" : "27",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "95",
+    "range" : "96",
     "id" : "167",
     "label" : {
       "IRI-based" : "26",
@@ -2562,7 +2575,7 @@
     }
   }, {
     "domain" : "160",
-    "range" : "70",
+    "range" : "72",
     "id" : "168",
     "label" : {
       "IRI-based" : "21",
@@ -2570,7 +2583,7 @@
     }
   }, {
     "domain" : "160",
-    "range" : "68",
+    "range" : "65",
     "id" : "169",
     "label" : {
       "IRI-based" : "20",
@@ -2578,7 +2591,7 @@
     }
   }, {
     "domain" : "160",
-    "range" : "57",
+    "range" : "44",
     "id" : "170",
     "label" : {
       "IRI-based" : "23",
@@ -2594,83 +2607,88 @@
     }
   }, {
     "domain" : "160",
-    "range" : "87",
-    "id" : "174",
+    "range" : "119",
+    "id" : "173",
     "label" : {
       "IRI-based" : "18",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "117",
-    "id" : "175",
+    "range" : "29",
+    "id" : "174",
     "label" : {
       "IRI-based" : "17",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "45",
-    "id" : "176",
+    "range" : "87",
+    "id" : "175",
     "label" : {
       "IRI-based" : "19",
       "undefined" : "is a"
     }
   }, {
-    "range" : "34",
-    "domain" : "119",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "177"
+    "range" : "35",
+    "domain" : "151",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "176"
   }, {
     "domain" : "160",
-    "range" : "82",
-    "id" : "178",
+    "range" : "139",
+    "id" : "177",
     "label" : {
       "IRI-based" : "14",
       "undefined" : "is a"
     }
   }, {
-    "range" : "13",
-    "domain" : "180",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "179"
+    "range" : "35",
+    "domain" : "120",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "178"
   }, {
     "domain" : "160",
-    "range" : "101",
-    "id" : "181",
+    "range" : "55",
+    "id" : "179",
     "label" : {
       "IRI-based" : "13",
       "undefined" : "is a"
     }
   }, {
-    "range" : "13",
-    "domain" : "183",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "182"
+    "range" : "16",
+    "domain" : "181",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "180"
   }, {
     "domain" : "160",
-    "range" : "26",
-    "id" : "184",
+    "range" : "135",
+    "id" : "182",
     "label" : {
       "IRI-based" : "16",
       "undefined" : "is a"
     }
   }, {
-    "range" : "13",
-    "domain" : "173",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "185"
+    "range" : "16",
+    "domain" : "184",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "183"
   }, {
     "domain" : "160",
-    "range" : "134",
-    "id" : "186",
+    "range" : "82",
+    "id" : "185",
     "label" : {
       "IRI-based" : "15",
       "undefined" : "is a"
     }
   }, {
+    "range" : "16",
+    "domain" : "166",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "186"
+  }, {
     "domain" : "160",
-    "range" : "78",
+    "range" : "140",
     "id" : "187",
     "label" : {
       "IRI-based" : "10",
@@ -2694,21 +2712,21 @@
     }
   }, {
     "domain" : "160",
-    "range" : "77",
+    "range" : "78",
     "id" : "190",
     "label" : {
       "IRI-based" : "50",
       "undefined" : "is a"
     }
   }, {
-    "range" : "34",
-    "domain" : "95",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "35",
+    "domain" : "87",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "191"
   }, {
-    "range" : "34",
-    "domain" : "151",
-    "attributes" : [ "object", "anonymous" ],
+    "range" : "35",
+    "domain" : "96",
+    "attributes" : [ "anonymous", "object" ],
     "id" : "192"
   }, {
     "domain" : "160",
@@ -2720,143 +2738,154 @@
     }
   }, {
     "domain" : "160",
-    "range" : "135",
+    "range" : "136",
     "id" : "194",
     "label" : {
       "IRI-based" : "51",
       "undefined" : "is a"
     }
   }, {
-    "domain" : "160",
+    "iri" : "https://w3id.org/rec/core/hasType",
+    "baseIri" : "https://w3id.org/rec/core",
     "range" : "196",
-    "id" : "195",
+    "label" : {
+      "IRI-based" : "hasType"
+    },
+    "domain" : "196",
+    "subproperty" : [ "197" ],
+    "attributes" : [ "object", "external" ],
+    "id" : "195"
+  }, {
+    "domain" : "160",
+    "range" : "199",
+    "id" : "198",
     "label" : {
       "IRI-based" : "47",
       "undefined" : "is a"
     }
   }, {
     "range" : "63",
-    "domain" : "162",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "197"
+    "domain" : "201",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "200"
   }, {
     "domain" : "160",
     "range" : "151",
-    "id" : "198",
+    "id" : "202",
     "label" : {
       "IRI-based" : "46",
       "undefined" : "is a"
     }
   }, {
     "range" : "63",
-    "domain" : "62",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "199"
+    "domain" : "204",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "203"
   }, {
     "domain" : "160",
-    "range" : "92",
-    "id" : "200",
+    "range" : "94",
+    "id" : "205",
     "label" : {
       "IRI-based" : "49",
       "undefined" : "is a"
     }
   }, {
     "range" : "63",
-    "domain" : "155",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "201"
+    "domain" : "62",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "206"
   }, {
     "domain" : "160",
-    "range" : "13",
-    "id" : "202",
+    "range" : "16",
+    "id" : "207",
     "label" : {
       "IRI-based" : "48",
       "undefined" : "is a"
     }
   }, {
-    "range" : "86",
-    "domain" : "85",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "203"
+    "range" : "63",
+    "domain" : "155",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "208"
   }, {
     "domain" : "160",
-    "range" : "86",
-    "id" : "204",
+    "range" : "137",
+    "id" : "209",
     "label" : {
       "IRI-based" : "43",
       "undefined" : "is a"
     }
   }, {
     "range" : "86",
-    "domain" : "206",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "205"
+    "domain" : "85",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "210"
   }, {
     "domain" : "160",
-    "range" : "66",
-    "id" : "207",
+    "range" : "86",
+    "id" : "211",
     "label" : {
       "IRI-based" : "42",
       "undefined" : "is a"
     }
   }, {
-    "range" : "34",
-    "domain" : "153",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "208"
+    "range" : "86",
+    "domain" : "213",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "212"
   }, {
     "domain" : "160",
-    "range" : "75",
-    "id" : "209",
+    "range" : "123",
+    "id" : "214",
     "label" : {
       "IRI-based" : "45",
       "undefined" : "is a"
     }
   }, {
-    "range" : "34",
-    "domain" : "33",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "210"
+    "range" : "35",
+    "domain" : "153",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "215"
   }, {
     "domain" : "160",
-    "range" : "136",
-    "id" : "211",
+    "range" : "76",
+    "id" : "216",
     "label" : {
       "IRI-based" : "44",
       "undefined" : "is a"
     }
   }, {
-    "range" : "34",
-    "domain" : "87",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "212"
+    "range" : "35",
+    "domain" : "34",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "217"
+  }, {
+    "range" : "84",
+    "domain" : "154",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "218"
   }, {
     "range" : "172",
     "domain" : "160",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "213"
-  }, {
-    "range" : "9",
-    "domain" : "196",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "214"
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "219"
   }, {
     "domain" : "160",
-    "range" : "81",
-    "id" : "215",
+    "range" : "66",
+    "id" : "220",
     "label" : {
       "IRI-based" : "41",
       "undefined" : "is a"
     }
   }, {
-    "range" : "63",
-    "domain" : "217",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "216"
+    "range" : "12",
+    "domain" : "199",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "221"
   }, {
     "domain" : "160",
-    "range" : "65",
-    "id" : "218",
+    "range" : "81",
+    "id" : "222",
     "label" : {
       "IRI-based" : "40",
       "undefined" : "is a"
@@ -2869,202 +2898,179 @@
       "IRI-based" : "roomType",
       "en" : "room type"
     },
+    "superproperty" : [ "195" ],
     "domain" : "6",
     "attributes" : [ "object", "deprecated" ],
-    "id" : "219"
+    "id" : "197"
   }, {
     "domain" : "160",
-    "range" : "97",
-    "id" : "220",
+    "range" : "70",
+    "id" : "223",
     "label" : {
       "IRI-based" : "39",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "14",
-    "id" : "221",
+    "range" : "80",
+    "id" : "224",
     "label" : {
       "IRI-based" : "36",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "9",
-    "id" : "222",
+    "range" : "12",
+    "id" : "225",
     "label" : {
       "IRI-based" : "35",
       "undefined" : "is a"
     }
   }, {
     "range" : "6",
-    "domain" : "89",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "223"
+    "domain" : "88",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "226"
   }, {
     "domain" : "160",
-    "range" : "130",
-    "id" : "224",
+    "range" : "79",
+    "id" : "227",
     "label" : {
       "IRI-based" : "38",
       "undefined" : "is a"
     }
   }, {
-    "range" : "56",
-    "domain" : "55",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "225"
+    "range" : "6",
+    "domain" : "89",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "228"
   }, {
     "domain" : "160",
-    "range" : "79",
-    "id" : "226",
+    "range" : "132",
+    "id" : "229",
     "label" : {
       "IRI-based" : "37",
       "undefined" : "is a"
     }
   }, {
     "range" : "56",
-    "domain" : "139",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "227"
+    "domain" : "55",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "230"
   }, {
     "domain" : "160",
-    "range" : "206",
-    "id" : "228",
+    "range" : "125",
+    "id" : "231",
     "label" : {
       "IRI-based" : "32",
       "undefined" : "is a"
     }
   }, {
     "range" : "56",
-    "domain" : "140",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "229"
+    "domain" : "139",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "232"
   }, {
     "domain" : "160",
-    "range" : "89",
-    "id" : "230",
+    "range" : "120",
+    "id" : "233",
     "label" : {
       "IRI-based" : "31",
       "undefined" : "is a"
     }
   }, {
-    "range" : "52",
-    "domain" : "51",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "231"
+    "range" : "56",
+    "domain" : "140",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "234"
   }, {
     "domain" : "160",
-    "range" : "34",
-    "id" : "232",
+    "range" : "35",
+    "id" : "235",
     "label" : {
       "IRI-based" : "34",
       "undefined" : "is a"
     }
   }, {
-    "range" : "84",
-    "domain" : "83",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "233"
+    "range" : "52",
+    "domain" : "51",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "236"
   }, {
     "domain" : "160",
     "range" : "51",
-    "id" : "234",
+    "id" : "237",
     "label" : {
       "IRI-based" : "33",
       "undefined" : "is a"
     }
   }, {
     "range" : "84",
-    "domain" : "154",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "235"
+    "domain" : "83",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "238"
   }, {
     "domain" : "160",
-    "range" : "43",
-    "id" : "236",
+    "range" : "130",
+    "id" : "239",
     "label" : {
       "IRI-based" : "72",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "63",
-    "id" : "237",
+    "range" : "117",
+    "id" : "240",
     "label" : {
       "IRI-based" : "71",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "173",
-    "id" : "238",
+    "range" : "103",
+    "id" : "241",
     "label" : {
       "IRI-based" : "74",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "109",
-    "id" : "239",
+    "range" : "57",
+    "id" : "242",
     "label" : {
       "IRI-based" : "73",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "35",
-    "id" : "240",
+    "range" : "154",
+    "id" : "243",
     "label" : {
       "IRI-based" : "70",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "128",
-    "id" : "241",
+    "range" : "83",
+    "id" : "244",
     "label" : {
       "IRI-based" : "69",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "115",
-    "id" : "242",
+    "range" : "128",
+    "id" : "245",
     "label" : {
       "IRI-based" : "68",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "126",
-    "id" : "243",
-    "label" : {
-      "IRI-based" : "65",
-      "undefined" : "is a"
-    }
-  }, {
-    "domain" : "160",
-    "range" : "140",
-    "id" : "244",
-    "label" : {
-      "IRI-based" : "64",
-      "undefined" : "is a"
-    }
-  }, {
-    "domain" : "160",
-    "range" : "154",
-    "id" : "245",
-    "label" : {
-      "IRI-based" : "67",
-      "undefined" : "is a"
-    }
-  }, {
-    "domain" : "160",
-    "range" : "83",
+    "range" : "184",
     "id" : "246",
     "label" : {
-      "IRI-based" : "66",
+      "IRI-based" : "65",
       "undefined" : "is a"
     }
   }, {
@@ -3072,15 +3078,15 @@
     "range" : "85",
     "id" : "247",
     "label" : {
-      "IRI-based" : "61",
+      "IRI-based" : "64",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "121",
+    "range" : "5",
     "id" : "248",
     "label" : {
-      "IRI-based" : "60",
+      "IRI-based" : "67",
       "undefined" : "is a"
     }
   }, {
@@ -3088,69 +3094,93 @@
     "range" : "10",
     "id" : "249",
     "label" : {
+      "IRI-based" : "66",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "160",
+    "range" : "105",
+    "id" : "250",
+    "label" : {
+      "IRI-based" : "61",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "160",
+    "range" : "27",
+    "id" : "251",
+    "label" : {
+      "IRI-based" : "60",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "160",
+    "range" : "213",
+    "id" : "252",
+    "label" : {
       "IRI-based" : "63",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "183",
-    "id" : "250",
+    "range" : "134",
+    "id" : "253",
     "label" : {
       "IRI-based" : "62",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "133",
-    "id" : "251",
+    "range" : "50",
+    "id" : "254",
     "label" : {
       "IRI-based" : "58",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "27",
-    "id" : "252",
+    "range" : "45",
+    "id" : "255",
     "label" : {
       "IRI-based" : "57",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "33",
-    "id" : "253",
+    "range" : "63",
+    "id" : "256",
     "label" : {
       "IRI-based" : "59",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "18",
-    "id" : "254",
+    "range" : "77",
+    "id" : "257",
     "label" : {
       "IRI-based" : "54",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "76",
-    "id" : "255",
+    "range" : "204",
+    "id" : "258",
     "label" : {
       "IRI-based" : "53",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "50",
-    "id" : "256",
+    "range" : "74",
+    "id" : "259",
     "label" : {
       "IRI-based" : "56",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "5",
-    "id" : "257",
+    "range" : "73",
+    "id" : "260",
     "label" : {
       "IRI-based" : "55",
       "undefined" : "is a"
@@ -3158,74 +3188,74 @@
   }, {
     "range" : "66",
     "domain" : "78",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "258"
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "261"
   }, {
-    "range" : "66",
+    "range" : "76",
     "domain" : "77",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "259"
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "262"
   }, {
     "range" : "66",
     "domain" : "80",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "260"
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "263"
   }, {
     "range" : "66",
     "domain" : "79",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "261"
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "264"
   }, {
     "range" : "54",
-    "domain" : "60",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "262"
-  }, {
-    "range" : "75",
-    "domain" : "76",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "263"
+    "domain" : "59",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "265"
   }, {
     "range" : "54",
     "domain" : "61",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "264"
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "266"
+  }, {
+    "range" : "54",
+    "domain" : "60",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "267"
   }, {
     "domain" : "160",
     "range" : "42",
-    "id" : "265",
+    "id" : "268",
     "label" : {
       "IRI-based" : "2",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "44",
-    "id" : "266",
+    "range" : "201",
+    "id" : "269",
     "label" : {
       "IRI-based" : "3",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "217",
-    "id" : "267",
+    "range" : "108",
+    "id" : "270",
     "label" : {
       "IRI-based" : "4",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "16",
-    "id" : "268",
+    "range" : "17",
+    "id" : "271",
     "label" : {
       "IRI-based" : "5",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "180",
-    "id" : "269",
+    "range" : "181",
+    "id" : "272",
     "label" : {
       "IRI-based" : "6",
       "undefined" : "is a"
@@ -3233,138 +3263,133 @@
   }, {
     "domain" : "160",
     "range" : "155",
-    "id" : "270",
+    "id" : "273",
     "label" : {
       "IRI-based" : "7",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "99",
-    "id" : "271",
+    "range" : "101",
+    "id" : "274",
     "label" : {
       "IRI-based" : "8",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "137",
-    "id" : "272",
+    "range" : "138",
+    "id" : "275",
     "label" : {
       "IRI-based" : "9",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "74",
-    "id" : "273",
+    "range" : "75",
+    "id" : "276",
     "label" : {
       "IRI-based" : "0",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "80",
-    "id" : "274",
+    "range" : "68",
+    "id" : "277",
     "label" : {
       "IRI-based" : "1",
       "undefined" : "is a"
     }
   }, {
-    "range" : "54",
-    "domain" : "53",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "275"
-  }, {
     "range" : "42",
     "domain" : "45",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "276"
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "278"
   }, {
-    "range" : "54",
-    "domain" : "59",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "277"
+    "range" : "42",
+    "domain" : "44",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "279"
   }, {
     "range" : "54",
     "domain" : "58",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "278"
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "280"
   }, {
-    "range" : "33",
-    "domain" : "35",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "279"
+    "range" : "54",
+    "domain" : "53",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "281"
   }, {
     "domain" : "160",
-    "range" : "73",
-    "id" : "280",
+    "range" : "14",
+    "id" : "282",
     "label" : {
       "IRI-based" : "82",
       "undefined" : "is a"
     }
   }, {
     "range" : "42",
-    "domain" : "44",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "281"
-  }, {
-    "range" : "42",
     "domain" : "43",
-    "attributes" : [ "object", "anonymous" ],
-    "id" : "282"
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "283"
+  }, {
+    "range" : "34",
+    "domain" : "36",
+    "attributes" : [ "anonymous", "object" ],
+    "id" : "284"
   }, {
     "domain" : "160",
-    "range" : "103",
-    "id" : "283",
+    "range" : "153",
+    "id" : "285",
     "label" : {
       "IRI-based" : "81",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "20",
-    "id" : "284",
+    "range" : "26",
+    "id" : "286",
     "label" : {
       "IRI-based" : "80",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "123",
-    "id" : "285",
+    "range" : "36",
+    "id" : "287",
     "label" : {
       "IRI-based" : "79",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "139",
-    "id" : "286",
+    "range" : "43",
+    "id" : "288",
     "label" : {
       "IRI-based" : "76",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "119",
-    "id" : "287",
+    "range" : "34",
+    "id" : "289",
     "label" : {
       "IRI-based" : "75",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "153",
-    "id" : "288",
+    "range" : "91",
+    "id" : "290",
     "label" : {
       "IRI-based" : "78",
       "undefined" : "is a"
     }
   }, {
     "domain" : "160",
-    "range" : "72",
-    "id" : "289",
+    "range" : "111",
+    "id" : "291",
     "label" : {
       "IRI-based" : "77",
       "undefined" : "is a"

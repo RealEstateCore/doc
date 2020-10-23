@@ -31,6 +31,16 @@
       "coversRequirements" : [ {
         "identifier" : "coversRequirements",
         "language" : "en",
+        "value" : "Who is leasing Building 7?",
+        "type" : "label"
+      }, {
+        "identifier" : "coversRequirements",
+        "language" : "en",
+        "value" : "What purpose is Building 7 leased for?",
+        "type" : "label"
+      }, {
+        "identifier" : "coversRequirements",
+        "language" : "en",
         "value" : "When does the lease on Building 7 run out?",
         "type" : "label"
       }, {
@@ -41,17 +51,7 @@
       }, {
         "identifier" : "coversRequirements",
         "language" : "en",
-        "value" : "What purpose is Building 7 leased for?",
-        "type" : "label"
-      }, {
-        "identifier" : "coversRequirements",
-        "language" : "en",
         "value" : "Who owns Building 7?",
-        "type" : "label"
-      }, {
-        "identifier" : "coversRequirements",
-        "language" : "en",
-        "value" : "Who is leasing Building 7?",
         "type" : "label"
       } ],
       "license" : [ {
@@ -77,16 +77,16 @@
         "value" : "lease",
         "type" : "label"
       } ],
-      "modified" : [ {
-        "identifier" : "modified",
-        "language" : "undefined",
-        "value" : "2020-06-23",
-        "type" : "label"
-      } ],
       "publisher" : [ {
         "identifier" : "publisher",
         "language" : "undefined",
         "value" : "RealEstateCore Consortium",
+        "type" : "label"
+      } ],
+      "modified" : [ {
+        "identifier" : "modified",
+        "language" : "undefined",
+        "value" : "2020-06-23",
         "type" : "label"
       } ],
       "versionInfo" : [ {
@@ -597,7 +597,7 @@
     },
     "superproperty" : [ "6" ],
     "domain" : "4",
-    "attributes" : [ "object", "deprecated" ],
+    "attributes" : [ "deprecated", "object" ],
     "id" : "3"
   }, {
     "iri" : "https://w3id.org/rec/core/hasPart",
@@ -608,7 +608,7 @@
     },
     "domain" : "1",
     "subproperty" : [ "8" ],
-    "attributes" : [ "object", "external" ],
+    "attributes" : [ "external", "object" ],
     "id" : "7"
   }, {
     "iri" : "https://w3id.org/rec/lease/leaseStart",
@@ -705,7 +705,7 @@
     "id" : "42"
   }, {
     "domain" : "40",
-    "range" : "21",
+    "range" : "26",
     "id" : "46",
     "label" : {
       "IRI-based" : "10",
@@ -723,11 +723,11 @@
     "comment" : {
       "en" : "The agent (organization or person) leasing out some leasable object, i.e., the owner of the asset."
     },
-    "attributes" : [ "object", "deprecated" ],
+    "attributes" : [ "deprecated", "object" ],
     "id" : "47"
   }, {
     "domain" : "40",
-    "range" : "35",
+    "range" : "21",
     "id" : "49",
     "label" : {
       "IRI-based" : "12",
@@ -743,7 +743,7 @@
     },
     "superproperty" : [ "8" ],
     "domain" : "5",
-    "attributes" : [ "object", "deprecated" ],
+    "attributes" : [ "deprecated", "object" ],
     "id" : "50"
   }, {
     "domain" : "40",
@@ -763,7 +763,7 @@
     },
     "superproperty" : [ "8" ],
     "domain" : "5",
-    "attributes" : [ "object", "deprecated" ],
+    "attributes" : [ "deprecated", "object" ],
     "id" : "52"
   }, {
     "iri" : "https://w3id.org/rec/lease/premisesType",
@@ -774,7 +774,7 @@
       "en" : "premises type"
     },
     "domain" : "5",
-    "attributes" : [ "object", "deprecated" ],
+    "attributes" : [ "deprecated", "object" ],
     "id" : "53"
   }, {
     "domain" : "40",
@@ -798,7 +798,7 @@
     "comment" : {
       "en" : "Parthood traversal property linking Premises to their constituent Buildings or Rooms."
     },
-    "attributes" : [ "object", "deprecated" ],
+    "attributes" : [ "deprecated", "object" ],
     "id" : "8"
   }, {
     "domain" : "40",
@@ -853,11 +853,11 @@
     "comment" : {
       "en" : "Property that models Premises (leasable parts of real estate) parthood, i.e., that certain buildings and/or rooms are part of a defined Premise (which can in turn by governed by a Lease through a LeaseContract)"
     },
-    "attributes" : [ "object", "deprecated" ],
+    "attributes" : [ "deprecated", "object" ],
     "id" : "6"
   }, {
     "domain" : "40",
-    "range" : "15",
+    "range" : "35",
     "id" : "61",
     "label" : {
       "IRI-based" : "8",
@@ -865,7 +865,7 @@
     }
   }, {
     "domain" : "40",
-    "range" : "26",
+    "range" : "15",
     "id" : "62",
     "label" : {
       "IRI-based" : "9",
@@ -883,7 +883,7 @@
     "comment" : {
       "en" : "A lease is regulated by some contract entered into by the leasor and leasees."
     },
-    "attributes" : [ "object", "deprecated" ],
+    "attributes" : [ "deprecated", "object" ],
     "id" : "63"
   }, {
     "iri" : "https://w3id.org/rec/lease/buildingIsPartOfPremises",
@@ -895,7 +895,7 @@
     },
     "superproperty" : [ "6" ],
     "domain" : "43",
-    "attributes" : [ "object", "deprecated" ],
+    "attributes" : [ "deprecated", "object" ],
     "id" : "60"
   }, {
     "iri" : "https://w3id.org/rec/lease/leasee",
@@ -909,7 +909,7 @@
     "comment" : {
       "en" : "The agent (organization or person) leasing some leasable object, i.e., the user of the asset."
     },
-    "attributes" : [ "object", "deprecated" ],
+    "attributes" : [ "deprecated", "object" ],
     "id" : "64"
   }, {
     "iri" : "https://w3id.org/rec/lease/leaseOf",
@@ -923,7 +923,7 @@
     "comment" : {
       "en" : "The object (e.g., property, equipment, etc) that this a lease of."
     },
-    "attributes" : [ "object", "deprecated" ],
+    "attributes" : [ "deprecated", "object" ],
     "id" : "65"
   } ]
 }

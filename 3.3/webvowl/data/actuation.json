@@ -34,12 +34,12 @@
       "creator" : [ {
         "identifier" : "creator",
         "language" : "undefined",
-        "value" : "Per Karlberg",
+        "value" : "Karl Hammar",
         "type" : "label"
       }, {
         "identifier" : "creator",
         "language" : "undefined",
-        "value" : "Karl Hammar",
+        "value" : "Per Karlberg",
         "type" : "label"
       } ],
       "preferredNamespacePrefix" : [ {
@@ -60,16 +60,16 @@
         "value" : "2020-06-23",
         "type" : "label"
       } ],
-      "versionInfo" : [ {
-        "identifier" : "versionInfo",
-        "language" : "undefined",
-        "value" : "3.3",
-        "type" : "label"
-      } ],
       "preferredNamespaceUri" : [ {
         "identifier" : "preferredNamespaceUri",
         "language" : "undefined",
         "value" : "https://w3id.org/rec/actuation/3.3/",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "3.3",
         "type" : "label"
       } ],
       "title" : [ {
@@ -655,7 +655,7 @@
   }, {
     "range" : "5",
     "domain" : "4",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "3"
   }, {
     "iri" : "https://w3id.org/rec/actuation/actuationPayload",
@@ -693,32 +693,32 @@
     },
     "cardinality" : "1",
     "domain" : "13",
-    "attributes" : [ "object", "functional" ],
+    "attributes" : [ "functional", "object" ],
     "id" : "12"
   }, {
     "range" : "17",
     "domain" : "16",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "15"
   }, {
     "range" : "4",
     "domain" : "13",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "19"
   }, {
     "range" : "4",
     "domain" : "14",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "20"
   }, {
     "range" : "23",
     "domain" : "22",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "21"
   }, {
     "range" : "4",
     "domain" : "25",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "24"
   }, {
     "iri" : "https://w3id.org/rec/actuation/requestingAgent",
@@ -744,17 +744,17 @@
       "en" : "generated command"
     },
     "domain" : "14",
-    "attributes" : [ "object", "inverse functional" ],
+    "attributes" : [ "inverse functional", "object" ],
     "id" : "29"
   }, {
     "range" : "4",
     "domain" : "32",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "31"
   }, {
     "range" : "18",
     "domain" : "16",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "35"
   }, {
     "iri" : "https://w3id.org/rec/actuation/keyMandatory",
@@ -781,7 +781,7 @@
     },
     "maxCardinality" : "1",
     "domain" : "25",
-    "attributes" : [ "object", "functional" ],
+    "attributes" : [ "functional", "object" ],
     "id" : "39"
   }, {
     "iri" : "https://w3id.org/rec/actuation/responseCode",
@@ -872,7 +872,7 @@
     "comment" : {
       "en" : "The agent that initiated actuation, i.e., that created an actuation request (and consequently, was the original source also of subsequent generated actuation commands)."
     },
-    "attributes" : [ "object", "allValues" ],
+    "attributes" : [ "allValues", "object" ],
     "id" : "56"
   }, {
     "iri" : "https://w3id.org/rec/actuation/targetActuator",
@@ -883,7 +883,7 @@
       "en" : "target actuator"
     },
     "domain" : "14",
-    "attributes" : [ "object", "allValues" ],
+    "attributes" : [ "allValues", "object" ],
     "id" : "57"
   }, {
     "iri" : "https://w3id.org/rec/actuation/responseCodeInteger",
@@ -919,7 +919,7 @@
       "en" : "target actuator"
     },
     "domain" : "25",
-    "attributes" : [ "object", "allValues" ],
+    "attributes" : [ "allValues", "object" ],
     "id" : "62"
   }, {
     "iri" : "https://w3id.org/rec/actuation/requestingAgent",
@@ -933,7 +933,7 @@
     "comment" : {
       "en" : "The agent that initiated actuation, i.e., that created an actuation request (and consequently, was the original source also of subsequent generated actuation commands)."
     },
-    "attributes" : [ "object", "allValues" ],
+    "attributes" : [ "allValues", "object" ],
     "id" : "63"
   }, {
     "iri" : "https://w3id.org/rec/actuation/hasActuationInterface",
@@ -946,7 +946,7 @@
     },
     "domain" : "2",
     "subproperty" : [ "55" ],
-    "attributes" : [ "object", "someValues" ],
+    "attributes" : [ "someValues", "object" ],
     "id" : "64"
   }, {
     "iri" : "https://w3id.org/rec/actuation/valueRestriction",
@@ -961,7 +961,7 @@
     "comment" : {
       "en" : "Deprecated in favour of the definitions provided in the new dataschemas module."
     },
-    "attributes" : [ "object", "deprecated", "functional" ],
+    "attributes" : [ "deprecated", "functional", "object" ],
     "id" : "65"
   }, {
     "iri" : "https://w3id.org/rec/actuation/responseToCommand",
@@ -973,7 +973,7 @@
     },
     "cardinality" : "1",
     "domain" : "32",
-    "attributes" : [ "object", "functional" ],
+    "attributes" : [ "functional", "object" ],
     "id" : "40"
   }, {
     "iri" : "https://w3id.org/rec/actuation/targetInterface",
@@ -985,7 +985,7 @@
     },
     "maxCardinality" : "1",
     "domain" : "14",
-    "attributes" : [ "object", "functional" ],
+    "attributes" : [ "functional", "object" ],
     "id" : "66"
   }, {
     "iri" : "https://w3id.org/rec/actuation/actuationPayload",
@@ -1011,7 +1011,7 @@
     },
     "superproperty" : [ "45" ],
     "domain" : "16",
-    "attributes" : [ "object", "inverse functional" ],
+    "attributes" : [ "inverse functional", "object" ],
     "id" : "46"
   }, {
     "iri" : "https://w3id.org/rec/actuation/generatedCommandResponse",
@@ -1039,7 +1039,7 @@
     },
     "superproperty" : [ "54" ],
     "domain" : "2",
-    "attributes" : [ "object", "functional" ],
+    "attributes" : [ "functional", "object" ],
     "id" : "55"
   }, {
     "iri" : "https://w3id.org/rec/actuation/keyString",
@@ -1066,7 +1066,7 @@
     },
     "maxCardinality" : "1",
     "domain" : "14",
-    "attributes" : [ "object", "functional" ],
+    "attributes" : [ "functional", "object" ],
     "id" : "71"
   }, {
     "iri" : "https://w3id.org/rec/actuation/valueRestrictionValues",
@@ -1105,7 +1105,7 @@
     "comment" : {
       "en" : "Deprecated in favour of core:dataSchema."
     },
-    "attributes" : [ "object", "deprecated" ],
+    "attributes" : [ "deprecated", "object" ],
     "id" : "74"
   }, {
     "iri" : "https://w3id.org/rec/actuation/valueDatatype",
@@ -1124,12 +1124,12 @@
   }, {
     "range" : "53",
     "domain" : "48",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "76"
   }, {
     "range" : "53",
     "domain" : "10",
-    "attributes" : [ "object", "anonymous" ],
+    "attributes" : [ "anonymous", "object" ],
     "id" : "77"
   }, {
     "iri" : "https://w3id.org/rec/actuation/wasGeneratedFromRequest",
@@ -1141,7 +1141,7 @@
     },
     "cardinality" : "1",
     "domain" : "25",
-    "attributes" : [ "object", "functional" ],
+    "attributes" : [ "functional", "object" ],
     "id" : "30"
   } ]
 }
