@@ -81,12 +81,6 @@ GeoSPARQL is Copyright (c) 2012 Open Geospatial Consortium, Inc. All Rights Rese
     
 
 
-    <!-- http://www.w3.org/2001/XMLSchema#duration -->
-
-    <rdfs:Datatype rdf:about="http://www.w3.org/2001/XMLSchema#duration"/>
-    
-
-
     <!-- 
     ///////////////////////////////////////////////////////////////////////////////////////
     //
@@ -1498,7 +1492,7 @@ GeoSPARQL is Copyright (c) 2012 Open Geospatial Consortium, Inc. All Rights Rese
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/rec/core/hasValue"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Measurement unit: PPM.</rdfs:comment>
@@ -1514,7 +1508,7 @@ GeoSPARQL is Copyright (c) 2012 Open Geospatial Consortium, Inc. All Rights Rese
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/rec/core/hasValue"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Unit: PPM.</rdfs:comment>
@@ -1635,6 +1629,12 @@ Deprecated in favour of core:Asset (the hardware), core:LogicalDevice (the softw
 
     <owl:Class rdf:about="https://w3id.org/rec/core/ElectricalEnergySensor">
         <rdfs:subClassOf rdf:resource="https://w3id.org/rec/core/EnergySensor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/rec/core/hasValue"/>
+                <owl:allValuesFrom rdf:resource="http://qudt.org/vocab/unit/KiloW-HR"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Electrical energy sensor</rdfs:label>
     </owl:Class>
     
@@ -1653,12 +1653,6 @@ Deprecated in favour of core:Asset (the hardware), core:LogicalDevice (the softw
 
     <owl:Class rdf:about="https://w3id.org/rec/core/EnergySensor">
         <rdfs:subClassOf rdf:resource="https://w3id.org/rec/core/Sensor"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/rec/core/hasValue"/>
-                <owl:allValuesFrom rdf:resource="http://qudt.org/vocab/unit/KiloW-HR"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Energy sensor</rdfs:label>
     </owl:Class>
     
@@ -2471,7 +2465,7 @@ Describes the type of values that can be observed by sensors or set by actuators
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/rec/core/hasValue"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:comment xml:lang="en">Measurement unit: PPM.</rdfs:comment>
