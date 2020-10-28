@@ -2508,6 +2508,12 @@ Describes the type of values that can be observed by sensors or set by actuators
 
     <owl:Class rdf:about="https://w3id.org/rec/core/ThermalEnergySensor">
         <rdfs:subClassOf rdf:resource="https://w3id.org/rec/core/EnergySensor"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/rec/core/hasValue"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Thermal energy sensor</rdfs:label>
     </owl:Class>
     
