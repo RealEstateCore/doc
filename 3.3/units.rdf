@@ -188,7 +188,7 @@
     <!-- http://qudt.org/vocab/unit/A -->
 
     <rdfs:Datatype rdf:about="http://qudt.org/vocab/unit/A">
-        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
     </rdfs:Datatype>
     
 
@@ -196,7 +196,7 @@
     <!-- http://qudt.org/vocab/unit/CentiM -->
 
     <rdfs:Datatype rdf:about="http://qudt.org/vocab/unit/CentiM">
-        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
     </rdfs:Datatype>
     
 
@@ -244,7 +244,7 @@
     <!-- http://qudt.org/vocab/unit/KiloGM-PER-HR -->
 
     <rdfs:Datatype rdf:about="http://qudt.org/vocab/unit/KiloGM-PER-HR">
-        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
     </rdfs:Datatype>
     
 
@@ -252,7 +252,7 @@
     <!-- http://qudt.org/vocab/unit/KiloPA -->
 
     <rdfs:Datatype rdf:about="http://qudt.org/vocab/unit/KiloPA">
-        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
     </rdfs:Datatype>
     
 
@@ -260,7 +260,7 @@
     <!-- http://qudt.org/vocab/unit/KiloW -->
 
     <rdfs:Datatype rdf:about="http://qudt.org/vocab/unit/KiloW">
-        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
     </rdfs:Datatype>
     
 
@@ -268,7 +268,7 @@
     <!-- http://qudt.org/vocab/unit/KiloW-HR -->
 
     <rdfs:Datatype rdf:about="http://qudt.org/vocab/unit/KiloW-HR">
-        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
     </rdfs:Datatype>
     
 
@@ -340,7 +340,7 @@
     <!-- http://qudt.org/vocab/unit/REV-PER-MIN -->
 
     <rdfs:Datatype rdf:about="http://qudt.org/vocab/unit/REV-PER-MIN">
-        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
     </rdfs:Datatype>
     
 
@@ -348,7 +348,7 @@
     <!-- http://qudt.org/vocab/unit/V -->
 
     <rdfs:Datatype rdf:about="http://qudt.org/vocab/unit/V">
-        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
     </rdfs:Datatype>
     
 
