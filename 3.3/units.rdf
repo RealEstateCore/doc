@@ -348,7 +348,7 @@
     <!-- http://qudt.org/vocab/unit/V -->
 
     <rdfs:Datatype rdf:about="http://qudt.org/vocab/unit/V">
-        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <owl:equivalentClass rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
     </rdfs:Datatype>
     
 
@@ -36805,8 +36805,8 @@ The abvolt is another option for a unit of voltage in the cgs system.</terms:des
         <terms:description rdf:datatype="http://qudt.org/schema/qudt/LatexString">The  \(\textit{ampere}\), often shortened to \(\textit{amp}\), is the SI unit of electric current and is one of the seven SI base units.
 \(\text{A}\ \equiv\ \text{amp (or ampere)}\ \equiv\ \frac{\text{C}}{\text{s}}\ \equiv\ \frac{\text{coulomb}}{\text{second}}\ \equiv\ \frac{\text{J}}{\text{Wb}}\ \equiv\ \frac{\text{joule}}{\text{weber}}\)
 Note that SI supports only the use of symbols and deprecates the use of any abbreviations for units.</terms:description>
-        <qudt:ucumCode>A</qudt:ucumCode>
         <rdfs:label>Ampere</rdfs:label>
+        <qudt:ucumCode>A</qudt:ucumCode>
         <skos:altLabel>amp</skos:altLabel>
         <qudt:informativeReference rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://en.wikipedia.org/wiki/Ampere?oldid=494026699</qudt:informativeReference>
         <rdfs:isDefinedBy rdf:resource="http://qudt.org/2.1/vocab/unit"/>
@@ -36827,16 +36827,16 @@ Note that SI supports only the use of symbols and deprecates the use of any abbr
         <rdfs:isDefinedBy rdf:resource="http://qudt.org/2.1/vocab/unit"/>
     </rdf:Description>
     <rdf:Description rdf:about="http://qudt.org/vocab/unit/DEG_C">
-        <rdfs:isDefinedBy rdf:resource="http://qudt.org/2.1/vocab/unit"/>
         <qudt:guidance rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">&lt;p&gt;See NIST section &lt;a href=&quot;http://physics.nist.gov/Pubs/SP811/sec06.html#6.2.8&quot;&gt;SP811 section 6.2.8&lt;/a&gt;&lt;/p&gt;</qudt:guidance>
+        <rdfs:isDefinedBy rdf:resource="http://qudt.org/2.1/vocab/unit"/>
         <qudt:guidance rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">&lt;p&gt;See NIST section &lt;a href=&quot;http://physics.nist.gov/Pubs/SP811/sec04.html#4.2.1.1&quot;&gt;SP811 section 4.2.1.1&lt;/a&gt;&lt;/p&gt;</qudt:guidance>
-        <rdfs:label>Degree Celsius</rdfs:label>
         <qudt:dbpediaMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://dbpedia.org/resource/Celsius</qudt:dbpediaMatch>
+        <rdfs:label>Degree Celsius</rdfs:label>
         <qudt:expression rdf:datatype="http://qudt.org/schema/qudt/LatexString">\(degC\)</qudt:expression>
         <qudt:latexDefinition rdf:datatype="http://qudt.org/schema/qudt/LatexString">\(\,^{\circ}{\rm C}\)</qudt:latexDefinition>
+        <skos:altLabel>degree-centigrade</skos:altLabel>
         <qudt:informativeReference rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://en.wikipedia.org/wiki/Celsius?oldid=494152178</qudt:informativeReference>
         <qudt:ucumCode>Cel</qudt:ucumCode>
-        <skos:altLabel>degree-centigrade</skos:altLabel>
         <terms:description rdf:datatype="http://qudt.org/schema/qudt/LatexString">\(\textit{Celsius}\), also known as centigrade, is a scale and unit of measurement for temperature. It can refer to a specific temperature on the Celsius scale as well as a unit to indicate a temperature interval, a difference between two temperatures or an uncertainty. This definition fixes the magnitude of both the degree Celsius and the kelvin as precisely 1 part in 273.16 (approximately 0.00366) of the difference between absolute zero and the triple point of water. Thus, it sets the magnitude of one degree Celsius and that of one kelvin as exactly the same. Additionally, it establishes the difference between the two scales&apos; null points as being precisely \(273.15\,^{\circ}{\rm C}\).&lt;/p&gt;</terms:description>
     </rdf:Description>
     <rdf:Description rdf:about="http://qudt.org/vocab/unit/HP">
@@ -36867,8 +36867,8 @@ Note that SI supports only the use of symbols and deprecates the use of any abbr
         <qudt:ucumCode>kg/h</qudt:ucumCode>
         <rdfs:isDefinedBy rdf:resource="http://qudt.org/2.1/vocab/unit"/>
         <qudt:ucumCode>kg.h-1</qudt:ucumCode>
-        <qudt:expression rdf:datatype="http://qudt.org/schema/qudt/LatexString">\(kg/h\)</qudt:expression>
         <terms:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">Kilogram Per Hour (kg/h) is a unit in the category of Mass flow rate. It is also known as kilogram/hour. Kilogram Per Hour (kg/h) has a dimension of MT-1 where M is mass, and T is time. It can be converted to the corresponding standard SI unit kg/s by multiplying its value by a factor of 0.000277777777778.</terms:description>
+        <qudt:expression rdf:datatype="http://qudt.org/schema/qudt/LatexString">\(kg/h\)</qudt:expression>
         <rdfs:label>Kilogram per Hour</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://qudt.org/vocab/unit/KiloPA">
@@ -36888,8 +36888,8 @@ Note that SI supports only the use of symbols and deprecates the use of any abbr
         <qudt:dbpediaMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://dbpedia.org/resource/Kilowatt_hour</qudt:dbpediaMatch>
         <rdfs:isDefinedBy rdf:resource="http://qudt.org/2.1/vocab/unit"/>
         <terms:description rdf:datatype="http://qudt.org/schema/qudt/LatexString">The kilowatt hour, or kilowatt-hour, (symbol \(kW \cdot h\), \(kW h\) or \(kWh\)) is a unit of energy equal to 1000 watt hours or 3.6 megajoules. For constant power, energy in watt hours is the product of power in watts and time in hours. The kilowatt hour is most commonly known as a billing unit for energy delivered to consumers by electric utilities.</terms:description>
-        <qudt:expression rdf:datatype="http://qudt.org/schema/qudt/LatexString">\(kW-h\)</qudt:expression>
         <qudt:informativeReference rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://en.wikipedia.org/wiki/Kilowatt_hour?oldid=494927235</qudt:informativeReference>
+        <qudt:expression rdf:datatype="http://qudt.org/schema/qudt/LatexString">\(kW-h\)</qudt:expression>
         <rdfs:label>Kilowatthour</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://qudt.org/vocab/unit/L">
@@ -36910,11 +36910,11 @@ Note that SI supports only the use of symbols and deprecates the use of any abbr
     </rdf:Description>
     <rdf:Description rdf:about="http://qudt.org/vocab/unit/LUX">
         <qudt:informativeReference rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://en.wikipedia.org/wiki/Lux?oldid=494700274</qudt:informativeReference>
-        <rdfs:isDefinedBy rdf:resource="http://qudt.org/2.1/vocab/unit"/>
         <qudt:dbpediaMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://dbpedia.org/resource/Lux</qudt:dbpediaMatch>
+        <rdfs:isDefinedBy rdf:resource="http://qudt.org/2.1/vocab/unit"/>
         <terms:description rdf:datatype="http://www.w3.org/1999/02/22-rdf-syntax-ns#HTML">The SI unit for measuring the illumination (illuminance) of a surface. One lux is defined as an illumination of one lumen per square meter or 0.0001 phot. In considering the various light units, it&apos;s useful to think about light originating at a point and shining upon a surface. The intensity of the light source is measured in candelas; the total light flux in transit is measured in lumens (1 lumen = 1 candelau00b7steradian); and the amount of light received per unit of surface area is measured in lux (1 lux = 1 lumen/square meter). One lux is equal to approximately 0.09290 foot candle.</terms:description>
-        <qudt:ucumCode>lx</qudt:ucumCode>
         <rdfs:label>Lux</rdfs:label>
+        <qudt:ucumCode>lx</qudt:ucumCode>
     </rdf:Description>
     <rdf:Description rdf:about="http://qudt.org/vocab/unit/M">
         <qudt:ucumCode>m</qudt:ucumCode>
@@ -36940,8 +36940,8 @@ The official SI symbolic abbreviation is mu00b7s-1, or equivalently either m/s.<
         <rdfs:label>Minute</rdfs:label>
     </rdf:Description>
     <rdf:Description rdf:about="http://qudt.org/vocab/unit/MilliM">
-        <qudt:ucumCode>mm</qudt:ucumCode>
         <qudt:dbpediaMatch rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://dbpedia.org/resource/Millimetre</qudt:dbpediaMatch>
+        <qudt:ucumCode>mm</qudt:ucumCode>
         <qudt:expression rdf:datatype="http://qudt.org/schema/qudt/LatexString">\(mm\)</qudt:expression>
         <rdfs:isDefinedBy rdf:resource="http://qudt.org/2.1/vocab/unit"/>
         <qudt:informativeReference rdf:datatype="http://www.w3.org/2001/XMLSchema#anyURI">http://en.wikipedia.org/wiki/Millimetre?oldid=493032457</qudt:informativeReference>

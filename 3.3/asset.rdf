@@ -1483,7 +1483,7 @@
     <!-- https://w3id.org/rec/asset/netSensibleCoolingCapacity -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/rec/asset/netSensibleCoolingCapacity">
-        <rdfs:range rdf:resource="http://qudt.org/vocab/unit/W"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:label xml:lang="en">net sensible cooling capacity</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -1492,7 +1492,7 @@
     <!-- https://w3id.org/rec/asset/netSensibleHeatingCapacity -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/rec/asset/netSensibleHeatingCapacity">
-        <rdfs:range rdf:resource="http://qudt.org/vocab/unit/W"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:label xml:lang="en">net sensible heating capacity</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -1510,7 +1510,7 @@
     <!-- https://w3id.org/rec/asset/nominalCoolingCapacity -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/rec/asset/nominalCoolingCapacity">
-        <rdfs:range rdf:resource="http://qudt.org/vocab/unit/W"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:label xml:lang="en">nominal cooling capacity</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -1519,7 +1519,7 @@
     <!-- https://w3id.org/rec/asset/nominalHeatingCapacity -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/rec/asset/nominalHeatingCapacity">
-        <rdfs:range rdf:resource="http://qudt.org/vocab/unit/W"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
         <rdfs:label xml:lang="en">nominal heating capacity</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -1765,7 +1765,6 @@
     <!-- https://w3id.org/rec/asset/powerInput -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/rec/asset/powerInput">
-        <rdfs:range rdf:resource="http://qudt.org/vocab/unit/W"/>
         <rdfs:label xml:lang="en">power input</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -1774,7 +1773,6 @@
     <!-- https://w3id.org/rec/asset/powerOutput -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/rec/asset/powerOutput">
-        <rdfs:range rdf:resource="http://qudt.org/vocab/unit/W"/>
         <rdfs:label xml:lang="en">power output</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -1907,7 +1905,7 @@
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/rec/asset/primePower">
         <rdfs:domain rdf:resource="https://w3id.org/rec/asset/Generator"/>
-        <rdfs:range rdf:resource="http://qudt.org/vocab/unit/W"/>
+        <rdfs:range rdf:resource="http://qudt.org/vocab/unit/KiloW"/>
         <rdfs:label xml:lang="en">prime power rating</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -2086,7 +2084,7 @@
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/rec/asset/standbyPower">
         <rdfs:domain rdf:resource="https://w3id.org/rec/asset/Generator"/>
-        <rdfs:range rdf:resource="http://qudt.org/vocab/unit/W"/>
+        <rdfs:range rdf:resource="http://qudt.org/vocab/unit/KiloW"/>
         <rdfs:label xml:lang="en">standby power rating</rdfs:label>
     </owl:DatatypeProperty>
     
@@ -2742,13 +2740,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/rec/asset/netSensibleCoolingCapacity"/>
-                <owl:allValuesFrom rdf:resource="http://qudt.org/vocab/unit/W"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/rec/asset/nominalCoolingCapacity"/>
-                <owl:allValuesFrom rdf:resource="http://qudt.org/vocab/unit/W"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3204,7 +3202,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/rec/asset/powerOutput"/>
-                <owl:allValuesFrom rdf:resource="http://qudt.org/vocab/unit/W"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3383,13 +3381,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/rec/asset/netSensibleCoolingCapacity"/>
-                <owl:allValuesFrom rdf:resource="http://qudt.org/vocab/unit/W"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/rec/asset/nominalCoolingCapacity"/>
-                <owl:allValuesFrom rdf:resource="http://qudt.org/vocab/unit/W"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3483,25 +3481,25 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/rec/asset/netSensibleCoolingCapacity"/>
-                <owl:allValuesFrom rdf:resource="http://qudt.org/vocab/unit/W"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/rec/asset/netSensibleHeatingCapacity"/>
-                <owl:allValuesFrom rdf:resource="http://qudt.org/vocab/unit/W"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/rec/asset/nominalCoolingCapacity"/>
-                <owl:allValuesFrom rdf:resource="http://qudt.org/vocab/unit/W"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/rec/asset/nominalHeatingCapacity"/>
-                <owl:allValuesFrom rdf:resource="http://qudt.org/vocab/unit/W"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -3610,7 +3608,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/rec/asset/nominalCoolingCapacity"/>
-                <owl:allValuesFrom rdf:resource="http://qudt.org/vocab/unit/W"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Cooling tower</rdfs:label>
@@ -4406,7 +4404,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/rec/asset/exportPower"/>
-                <owl:allValuesFrom rdf:resource="http://qudt.org/vocab/unit/KiloW"/>
+                <owl:allValuesFrom rdf:resource="http://qudt.org/vocab/unit/W"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4418,7 +4416,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/rec/asset/importPower"/>
-                <owl:allValuesFrom rdf:resource="http://qudt.org/vocab/unit/KiloW"/>
+                <owl:allValuesFrom rdf:resource="http://qudt.org/vocab/unit/W"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4430,7 +4428,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/rec/asset/netPower"/>
-                <owl:allValuesFrom rdf:resource="http://qudt.org/vocab/unit/KiloW"/>
+                <owl:allValuesFrom rdf:resource="http://qudt.org/vocab/unit/W"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -4768,13 +4766,13 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/rec/asset/netSensibleCoolingCapacity"/>
-                <owl:allValuesFrom rdf:resource="http://qudt.org/vocab/unit/W"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/rec/asset/nominalCoolingCapacity"/>
-                <owl:allValuesFrom rdf:resource="http://qudt.org/vocab/unit/W"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -5323,7 +5321,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/rec/asset/powerInput"/>
-                <owl:allValuesFrom rdf:resource="http://qudt.org/vocab/unit/W"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Gas water heater with tank</rdfs:label>
@@ -5338,7 +5336,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/rec/asset/powerInput"/>
-                <owl:allValuesFrom rdf:resource="http://qudt.org/vocab/unit/W"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Gas tank-less water heater</rdfs:label>
@@ -5420,7 +5418,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/rec/asset/primePower"/>
-                <owl:allValuesFrom rdf:resource="http://qudt.org/vocab/unit/W"/>
+                <owl:allValuesFrom rdf:resource="http://qudt.org/vocab/unit/KiloW"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -5432,7 +5430,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/rec/asset/standbyPower"/>
-                <owl:allValuesFrom rdf:resource="http://qudt.org/vocab/unit/W"/>
+                <owl:allValuesFrom rdf:resource="http://qudt.org/vocab/unit/KiloW"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -7588,7 +7586,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/rec/asset/powerOutput"/>
-                <owl:allValuesFrom rdf:resource="http://qudt.org/vocab/unit/W"/>
+                <owl:allValuesFrom rdf:resource="http://qudt.org/vocab/unit/KiloW"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
@@ -7661,7 +7659,7 @@
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/rec/asset/nominalHeatingCapacity"/>
-                <owl:allValuesFrom rdf:resource="http://qudt.org/vocab/unit/W"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#float"/>
             </owl:Restriction>
         </rdfs:subClassOf>
         <rdfs:subClassOf>
