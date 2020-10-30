@@ -46,6 +46,7 @@
     <!-- https://w3id.org/rec/asset/rackBottomPosition -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/rec/asset/rackBottomPosition">
+        <rdfs:label xml:lang="en">rack bottom position (RU)</rdfs:label>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
         <rdfs:domain rdf:resource="https://w3id.org/rec/asset/mountedInRack"/>
     </owl:AnnotationProperty>
@@ -55,6 +56,7 @@
     <!-- https://w3id.org/rec/asset/rackTopPosition -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/rec/asset/rackTopPosition">
+        <rdfs:label xml:lang="en">rack top position (RU)</rdfs:label>
         <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
         <rdfs:domain rdf:resource="https://w3id.org/rec/asset/mountedInRack"/>
     </owl:AnnotationProperty>
@@ -64,6 +66,7 @@
     <!-- https://w3id.org/rec/asset/substance -->
 
     <owl:AnnotationProperty rdf:about="https://w3id.org/rec/asset/substance">
+        <rdfs:label xml:lang="en">substance</rdfs:label>
         <rdfs:range rdf:resource="https://w3id.org/rec/asset/EquipmentFeedSubstance"/>
         <rdfs:domain rdf:resource="https://w3id.org/rec/asset/feeds"/>
         <rdfs:domain rdf:resource="https://w3id.org/rec/asset/isFedBy"/>
@@ -5595,34 +5598,7 @@
 
     <owl:Class rdf:about="https://w3id.org/rec/asset/HVACHeatTracing">
         <rdfs:subClassOf rdf:resource="https://w3id.org/rec/asset/HVACEquipment"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/rec/asset/powerDensity"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/rec/asset/type"/>
-                <owl:allValuesFrom>
-                    <rdfs:Datatype>
-                        <owl:oneOf>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                <rdf:first>ConstantWattage</rdf:first>
-                                <rdf:rest>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                        <rdf:first>SelfRegulating</rdf:first>
-                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                    </rdf:Description>
-                                </rdf:rest>
-                            </rdf:Description>
-                        </owl:oneOf>
-                    </rdfs:Datatype>
-                </owl:allValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
+        <rdfs:subClassOf rdf:resource="https://w3id.org/rec/asset/HeatTracing"/>
         <rdfs:label xml:lang="en">HVAC heat tracing</rdfs:label>
     </owl:Class>
     
@@ -5830,16 +5806,47 @@
     
 
 
+    <!-- https://w3id.org/rec/asset/HeatTracing -->
+
+    <owl:Class rdf:about="https://w3id.org/rec/asset/HeatTracing">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/rec/asset/Component"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/rec/asset/powerDensity"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/rec/asset/type"/>
+                <owl:allValuesFrom>
+                    <rdfs:Datatype>
+                        <owl:oneOf>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>ConstantWattage</rdf:first>
+                                <rdf:rest>
+                                    <rdf:Description>
+                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                        <rdf:first>SelfRegulating</rdf:first>
+                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                                    </rdf:Description>
+                                </rdf:rest>
+                            </rdf:Description>
+                        </owl:oneOf>
+                    </rdfs:Datatype>
+                </owl:allValuesFrom>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="en">Heat tracing</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- https://w3id.org/rec/asset/HotWaterUnitHeater -->
 
     <owl:Class rdf:about="https://w3id.org/rec/asset/HotWaterUnitHeater">
         <rdfs:subClassOf rdf:resource="https://w3id.org/rec/asset/UnitHeater"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/rec/asset/condensate"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="https://w3id.org/rec/asset/flowCapacity"/>
@@ -6363,35 +6370,8 @@
     <!-- https://w3id.org/rec/asset/PlumbingHeatTracing -->
 
     <owl:Class rdf:about="https://w3id.org/rec/asset/PlumbingHeatTracing">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/rec/asset/HeatTracing"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/rec/asset/PlumbingEquipment"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/rec/asset/powerDensity"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/rec/asset/type"/>
-                <owl:allValuesFrom>
-                    <rdfs:Datatype>
-                        <owl:oneOf>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                <rdf:first>ConstantWattage</rdf:first>
-                                <rdf:rest>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                        <rdf:first>SelfRegulating</rdf:first>
-                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                    </rdf:Description>
-                                </rdf:rest>
-                            </rdf:Description>
-                        </owl:oneOf>
-                    </rdfs:Datatype>
-                </owl:allValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Plumbing heat tracing</rdfs:label>
     </owl:Class>
     
@@ -6836,35 +6816,8 @@
     <!-- https://w3id.org/rec/asset/SprinklerHeatTracing -->
 
     <owl:Class rdf:about="https://w3id.org/rec/asset/SprinklerHeatTracing">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/rec/asset/HeatTracing"/>
         <rdfs:subClassOf rdf:resource="https://w3id.org/rec/asset/SprinklerEquipment"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/rec/asset/powerDensity"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/rec/asset/type"/>
-                <owl:allValuesFrom>
-                    <rdfs:Datatype>
-                        <owl:oneOf>
-                            <rdf:Description>
-                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                <rdf:first>ConstantWattage</rdf:first>
-                                <rdf:rest>
-                                    <rdf:Description>
-                                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
-                                        <rdf:first>SelfRegulating</rdf:first>
-                                        <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-                                    </rdf:Description>
-                                </rdf:rest>
-                            </rdf:Description>
-                        </owl:oneOf>
-                    </rdfs:Datatype>
-                </owl:allValuesFrom>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Sprinkler heat tracing</rdfs:label>
     </owl:Class>
     
@@ -6994,6 +6947,12 @@
 
     <owl:Class rdf:about="https://w3id.org/rec/asset/SteamUnitHeater">
         <rdfs:subClassOf rdf:resource="https://w3id.org/rec/asset/UnitHeater"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/rec/asset/condensate"/>
+                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#int"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Steam unit heater</rdfs:label>
     </owl:Class>
     
