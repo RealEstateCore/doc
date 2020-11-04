@@ -86,7 +86,6 @@
     <!-- https://w3id.org/rec/agents/familyName -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/rec/agents/familyName">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/rec/agents/name"/>
         <rdfs:domain rdf:resource="https://w3id.org/rec/agents/Person"/>
         <rdfs:comment xml:lang="en">A person&apos;s family name.</rdfs:comment>
         <rdfs:label xml:lang="en">family name</rdfs:label>
@@ -97,7 +96,6 @@
     <!-- https://w3id.org/rec/agents/firstName -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/rec/agents/firstName">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/rec/agents/name"/>
         <rdfs:domain rdf:resource="https://w3id.org/rec/agents/Person"/>
         <rdfs:comment xml:lang="en">A person&apos;s first name (if they have one; this varies across cultural contexts).</rdfs:comment>
         <rdfs:label xml:lang="en">first name</rdfs:label>
@@ -119,7 +117,6 @@
     <!-- https://w3id.org/rec/agents/givenName -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/rec/agents/givenName">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/rec/agents/name"/>
         <rdfs:domain rdf:resource="https://w3id.org/rec/agents/Person"/>
         <rdfs:comment xml:lang="en">A person&apos;s personal, individual name.</rdfs:comment>
         <rdfs:label xml:lang="en">given name</rdfs:label>
@@ -141,7 +138,6 @@
     <!-- https://w3id.org/rec/agents/lastName -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/rec/agents/lastName">
-        <rdfs:subPropertyOf rdf:resource="https://w3id.org/rec/agents/name"/>
         <rdfs:domain rdf:resource="https://w3id.org/rec/agents/Person"/>
         <rdfs:comment xml:lang="en">A person&apos;s last name (if they have one; this varies across cultural contexts).</rdfs:comment>
         <rdfs:label xml:lang="en">last name</rdfs:label>
@@ -163,8 +159,11 @@
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/rec/agents/name">
         <rdfs:domain rdf:resource="https://w3id.org/rec/core/Agent"/>
-        <rdfs:comment xml:lang="en">A name for some Agent.</rdfs:comment>
+        <rdfs:comment xml:lang="en">A name for some Agent.
+
+Deprecated in favour of rdfs:label and more specific properties (:givenName, :familyName, etc.)</rdfs:comment>
         <rdfs:label xml:lang="en">name</rdfs:label>
+        <owl:deprecated rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</owl:deprecated>
     </owl:DatatypeProperty>
     
 
