@@ -40,11 +40,11 @@ for inputFile in ontologyFiles:
         outputHtmlFileName = f"{ontologyPath}/{moduleName}.html"
         subprocess.run([pylodePath, "-i", inputFilePath, "-o", outputHtmlFileName])
 
-        # 2. Merge into temp full graph (excluding lfr module)
+        # 2. Merge into temp full graph (excluding lfr and lease modules)
         moduleGraph = Graph()
         moduleGraph.parse(inputFilePath)
         moduleOntologyUris = list(moduleGraph.subjects(RDF.type, OWL.Ontology))
-        if not inputFile.startswith("lfr"):
+        if not (inputFile.startswith("lfr") or inputFile.startswith("lease")):
             for (s, p, o) in moduleGraph:
                 if not s in moduleOntologyUris:
                     unionedOntology.add((s, p, o))
