@@ -1,0 +1,3444 @@
+{
+  "_comment" : "Created with OWL2VOWL (version 0.3.7), http://vowl.visualdataweb.org",
+  "header" : {
+    "languages" : [ "en", "undefined" ],
+    "baseIris" : [ "http://www.w3.org/1999/02/22-rdf-syntax-ns", "https://w3id.org/rec/building", "http://www.w3.org/2000/01/rdf-schema", "http://www.w3.org/2001/XMLSchema", "https://w3id.org/rec/core" ],
+    "prefixList" : {
+      "owl" : "http://www.w3.org/2002/07/owl#",
+      "rdf" : "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+      "vann" : "http://purl.org/vocab/vann/",
+      "dcterms" : "http://purl.org/dc/terms/",
+      "cpannotationschema" : "http://www.ontologydesignpatterns.org/schemas/cpannotationschema.owl#",
+      "xsd" : "http://www.w3.org/2001/XMLSchema#",
+      "dc" : "http://purl.org/dc/elements/1.1/",
+      "cc" : "http://creativecommons.org/ns#",
+      "xml" : "http://www.w3.org/XML/1998/namespace",
+      "o2o" : "https://karlhammar.com/owl2oas/o2o.owl#",
+      "rdfs" : "http://www.w3.org/2000/01/rdf-schema#"
+    },
+    "title" : {
+      "undefined" : "RealEstateCore Building Module"
+    },
+    "iri" : "https://w3id.org/rec/building/",
+    "version" : "3.3",
+    "author" : [ "Erik Wallin" ],
+    "description" : {
+      "en" : "This REC module covers different types of building components and rooms."
+    },
+    "other" : {
+      "coversRequirements" : [ {
+        "identifier" : "coversRequirements",
+        "language" : "en",
+        "value" : "How many entrances are there to Building 7?",
+        "type" : "label"
+      }, {
+        "identifier" : "coversRequirements",
+        "language" : "en",
+        "value" : "Which facade- or roof-mounted sensors are installed in Building 7?",
+        "type" : "label"
+      }, {
+        "identifier" : "coversRequirements",
+        "language" : "en",
+        "value" : "What equipment is mounted in server rooms in Building 7?",
+        "type" : "label"
+      }, {
+        "identifier" : "coversRequirements",
+        "language" : "en",
+        "value" : "Are there any labs in Building 7?",
+        "type" : "label"
+      }, {
+        "identifier" : "coversRequirements",
+        "language" : "en",
+        "value" : "How many of each type of room does Building 7 contain?",
+        "type" : "label"
+      } ],
+      "license" : [ {
+        "identifier" : "license",
+        "language" : "undefined",
+        "value" : "https://opensource.org/licenses/MIT",
+        "type" : "iri"
+      } ],
+      "creator" : [ {
+        "identifier" : "creator",
+        "language" : "undefined",
+        "value" : "Erik Wallin",
+        "type" : "label"
+      } ],
+      "contributor" : [ {
+        "identifier" : "contributor",
+        "language" : "undefined",
+        "value" : "Karl Hammar",
+        "type" : "label"
+      } ],
+      "preferredNamespacePrefix" : [ {
+        "identifier" : "preferredNamespacePrefix",
+        "language" : "undefined",
+        "value" : "building",
+        "type" : "label"
+      } ],
+      "modified" : [ {
+        "identifier" : "modified",
+        "language" : "undefined",
+        "value" : "2020-06-23",
+        "type" : "label"
+      } ],
+      "publisher" : [ {
+        "identifier" : "publisher",
+        "language" : "undefined",
+        "value" : "RealEstateCore Consortium",
+        "type" : "label"
+      } ],
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "undefined",
+        "value" : "3.3",
+        "type" : "label"
+      } ],
+      "preferredNamespaceUri" : [ {
+        "identifier" : "preferredNamespaceUri",
+        "language" : "undefined",
+        "value" : "https://w3id.org/rec/building/3.3/",
+        "type" : "label"
+      } ],
+      "title" : [ {
+        "identifier" : "title",
+        "language" : "undefined",
+        "value" : "RealEstateCore Building Module",
+        "type" : "label"
+      } ],
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "undefined",
+        "value" : "https://w3id.org/rec/",
+        "type" : "iri"
+      } ]
+    }
+  },
+  "namespace" : [ ],
+  "class" : [ {
+    "id" : "5",
+    "type" : "owl:Class"
+  }, {
+    "id" : "11",
+    "type" : "owl:Class"
+  }, {
+    "id" : "15",
+    "type" : "owl:Class"
+  }, {
+    "id" : "18",
+    "type" : "owl:Class"
+  }, {
+    "id" : "20",
+    "type" : "owl:Class"
+  }, {
+    "id" : "21",
+    "type" : "owl:Class"
+  }, {
+    "id" : "36",
+    "type" : "owl:Class"
+  }, {
+    "id" : "44",
+    "type" : "owl:Class"
+  }, {
+    "id" : "52",
+    "type" : "owl:Class"
+  }, {
+    "id" : "53",
+    "type" : "owl:Class"
+  }, {
+    "id" : "13",
+    "type" : "owl:Class"
+  }, {
+    "id" : "55",
+    "type" : "owl:Class"
+  }, {
+    "id" : "57",
+    "type" : "owl:Class"
+  }, {
+    "id" : "47",
+    "type" : "owl:Class"
+  }, {
+    "id" : "59",
+    "type" : "owl:Class"
+  }, {
+    "id" : "56",
+    "type" : "owl:Class"
+  }, {
+    "id" : "64",
+    "type" : "owl:Class"
+  }, {
+    "id" : "62",
+    "type" : "owl:Class"
+  }, {
+    "id" : "74",
+    "type" : "owl:Class"
+  }, {
+    "id" : "75",
+    "type" : "owl:Class"
+  }, {
+    "id" : "76",
+    "type" : "owl:Class"
+  }, {
+    "id" : "77",
+    "type" : "owl:Class"
+  }, {
+    "id" : "78",
+    "type" : "owl:Class"
+  }, {
+    "id" : "79",
+    "type" : "owl:Class"
+  }, {
+    "id" : "28",
+    "type" : "owl:Class"
+  }, {
+    "id" : "82",
+    "type" : "owl:Class"
+  }, {
+    "id" : "83",
+    "type" : "owl:Class"
+  }, {
+    "id" : "84",
+    "type" : "owl:Class"
+  }, {
+    "id" : "86",
+    "type" : "owl:Class"
+  }, {
+    "id" : "88",
+    "type" : "owl:Class"
+  }, {
+    "id" : "89",
+    "type" : "owl:Class"
+  }, {
+    "id" : "90",
+    "type" : "owl:Class"
+  }, {
+    "id" : "27",
+    "type" : "owl:Class"
+  }, {
+    "id" : "97",
+    "type" : "owl:Class"
+  }, {
+    "id" : "25",
+    "type" : "owl:Class"
+  }, {
+    "id" : "35",
+    "type" : "owl:Class"
+  }, {
+    "id" : "4",
+    "type" : "owl:Class"
+  }, {
+    "id" : "30",
+    "type" : "owl:Class"
+  }, {
+    "id" : "80",
+    "type" : "owl:Class"
+  }, {
+    "id" : "33",
+    "type" : "owl:Class"
+  }, {
+    "id" : "61",
+    "type" : "owl:Class"
+  }, {
+    "id" : "63",
+    "type" : "owl:Class"
+  }, {
+    "id" : "73",
+    "type" : "owl:Class"
+  }, {
+    "id" : "116",
+    "type" : "owl:Class"
+  }, {
+    "id" : "8",
+    "type" : "owl:Class"
+  }, {
+    "id" : "2",
+    "type" : "owl:Class"
+  }, {
+    "id" : "10",
+    "type" : "owl:Class"
+  }, {
+    "id" : "121",
+    "type" : "owl:Class"
+  }, {
+    "id" : "49",
+    "type" : "owl:Class"
+  }, {
+    "id" : "6",
+    "type" : "owl:Class"
+  }, {
+    "id" : "38",
+    "type" : "owl:Class"
+  }, {
+    "id" : "58",
+    "type" : "owl:Class"
+  }, {
+    "id" : "54",
+    "type" : "owl:Class"
+  }, {
+    "id" : "139",
+    "type" : "owl:Class"
+  }, {
+    "id" : "127",
+    "type" : "owl:Class"
+  }, {
+    "id" : "118",
+    "type" : "owl:Class"
+  }, {
+    "id" : "125",
+    "type" : "owl:Class"
+  }, {
+    "id" : "112",
+    "type" : "owl:Class"
+  }, {
+    "id" : "153",
+    "type" : "owl:Class"
+  }, {
+    "id" : "71",
+    "type" : "owl:Class"
+  }, {
+    "id" : "115",
+    "type" : "owl:Class"
+  }, {
+    "id" : "155",
+    "type" : "owl:Class"
+  }, {
+    "id" : "85",
+    "type" : "owl:Class"
+  }, {
+    "id" : "157",
+    "type" : "owl:Class"
+  }, {
+    "id" : "40",
+    "type" : "owl:Class"
+  }, {
+    "id" : "156",
+    "type" : "owl:Class"
+  }, {
+    "id" : "130",
+    "type" : "owl:Class"
+  }, {
+    "id" : "42",
+    "type" : "owl:Class"
+  }, {
+    "id" : "32",
+    "type" : "owl:Class"
+  }, {
+    "id" : "110",
+    "type" : "owl:Class"
+  }, {
+    "id" : "173",
+    "type" : "owl:Class"
+  }, {
+    "id" : "92",
+    "type" : "owl:Class"
+  }, {
+    "id" : "174",
+    "type" : "owl:Class"
+  }, {
+    "id" : "107",
+    "type" : "owl:Class"
+  }, {
+    "id" : "95",
+    "type" : "owl:Class"
+  }, {
+    "id" : "69",
+    "type" : "owl:Class"
+  }, {
+    "id" : "51",
+    "type" : "owl:Class"
+  }, {
+    "id" : "137",
+    "type" : "owl:Class"
+  }, {
+    "id" : "140",
+    "type" : "owl:Class"
+  }, {
+    "id" : "221",
+    "type" : "owl:Class"
+  }, {
+    "id" : "100",
+    "type" : "owl:Class"
+  }, {
+    "id" : "103",
+    "type" : "owl:Class"
+  }, {
+    "id" : "162",
+    "type" : "owl:Class"
+  }, {
+    "id" : "198",
+    "type" : "owl:Class"
+  }, {
+    "id" : "17",
+    "type" : "owl:Class"
+  }, {
+    "id" : "67",
+    "type" : "owl:Class"
+  }, {
+    "id" : "65",
+    "type" : "owl:Class"
+  }, {
+    "id" : "87",
+    "type" : "owl:Class"
+  }, {
+    "id" : "187",
+    "type" : "owl:Class"
+  }, {
+    "id" : "23",
+    "type" : "owl:Class"
+  }, {
+    "id" : "133",
+    "type" : "owl:Class"
+  }, {
+    "id" : "1",
+    "type" : "owl:Class"
+  }, {
+    "id" : "37",
+    "type" : "owl:Class"
+  }, {
+    "id" : "123",
+    "type" : "owl:Class"
+  }, {
+    "id" : "190",
+    "type" : "owl:Class"
+  }, {
+    "id" : "210",
+    "type" : "owl:Class"
+  }, {
+    "id" : "46",
+    "type" : "owl:Class"
+  }, {
+    "id" : "207",
+    "type" : "owl:Class"
+  }, {
+    "id" : "45",
+    "type" : "owl:Class"
+  }, {
+    "id" : "81",
+    "type" : "owl:Class"
+  }, {
+    "id" : "136",
+    "type" : "owl:Class"
+  }, {
+    "id" : "138",
+    "type" : "owl:Class"
+  }, {
+    "id" : "141",
+    "type" : "owl:Class"
+  }, {
+    "id" : "142",
+    "type" : "owl:Class"
+  }, {
+    "id" : "135",
+    "type" : "owl:Class"
+  }, {
+    "id" : "201",
+    "type" : "owl:Thing"
+  }, {
+    "id" : "105",
+    "type" : "owl:Class"
+  }, {
+    "id" : "60",
+    "type" : "owl:Class"
+  } ],
+  "classAttribute" : [ {
+    "iri" : "https://w3id.org/rec/building/Atrium",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Atrium",
+      "en" : "Atrium"
+    },
+    "id" : "5",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/WasteManagementRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "Recycling room",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "WasteManagementRoom",
+      "en" : "WasteManagementRoom"
+    },
+    "id" : "11",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/Stairwell",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Stairwell",
+      "en" : "Stairwell"
+    },
+    "id" : "15",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/CloakRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CloakRoom",
+      "en" : "CloakRoom"
+    },
+    "id" : "18",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/VirtualBuildingComponent",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "VirtualBuildingComponent",
+      "en" : "Virtual building component"
+    },
+    "comment" : {
+      "en" : "A non-physical component. Belongs to a Building . One Building may have zero, one, or many Virtual components. E.g a temperature value from an external service for the area of a building."
+    },
+    "id" : "20",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/ServiceShaft",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ServiceShaft",
+      "en" : "ServiceShaft"
+    },
+    "id" : "21",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/CableRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CableRoom",
+      "en" : "Cable room"
+    },
+    "subClasses" : [ "38" ],
+    "id" : "36",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/Office",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Office",
+      "en" : "Office"
+    },
+    "subClasses" : [ "45", "46", "47" ],
+    "id" : "44",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/StaffRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "StaffRoom",
+      "en" : "StaffRoom"
+    },
+    "comment" : {
+      "en" : "Room for staff to take breaks."
+    },
+    "id" : "52",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/FittingRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FittingRoom",
+      "en" : "FittingRoom"
+    },
+    "id" : "53",
+    "superClasses" : [ "54" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/Slab",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Slab",
+      "en" : "Slab"
+    },
+    "id" : "13",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/VirtualBuilding",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "VirtualBuilding",
+      "en" : "Virtual building"
+    },
+    "comment" : {
+      "en" : "A non-physical Building. Belongs to a RealEstate."
+    },
+    "id" : "55",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/ParkingSlotWarm",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ParkingSlotWarm",
+      "en" : "ParkingSlotWarm"
+    },
+    "id" : "57",
+    "superClasses" : [ "58" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/PhoneBooth",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PhoneBooth",
+      "en" : "PhoneBooth"
+    },
+    "id" : "47",
+    "superClasses" : [ "44" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/RecordingRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RecordingRoom",
+      "en" : "RecordingRoom"
+    },
+    "comment" : {
+      "en" : "Room for making audio and/or video recordings. A.ka. studio."
+    },
+    "id" : "59",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/core/Building",
+    "baseIri" : "https://w3id.org/rec/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Building"
+    },
+    "subClasses" : [ "55", "60", "61", "62", "63" ],
+    "attributes" : [ "external" ],
+    "id" : "56"
+  }, {
+    "iri" : "https://w3id.org/rec/building/ShowerRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ShowerRoom",
+      "en" : "ShowerRoom"
+    },
+    "id" : "64",
+    "superClasses" : [ "65" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/Hospital",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hospital",
+      "en" : "Hospital"
+    },
+    "id" : "62",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/ElevatorShaft",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ElevatorShaft",
+      "en" : "ElevatorShaft"
+    },
+    "id" : "74",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/Kitchenette",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Kitchenette",
+      "en" : "Kitechenette"
+    },
+    "id" : "75",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/Pantry",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pantry",
+      "en" : "Pantry"
+    },
+    "id" : "76",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/ConferenceRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ConferenceRoom",
+      "en" : "ConferenceRoom"
+    },
+    "id" : "77",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/ElevatorRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ElevatorRoom",
+      "en" : "ElevatorRoom"
+    },
+    "id" : "78",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/TreatmentRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TreatmentRoom",
+      "en" : "TreatmentRoom"
+    },
+    "subClasses" : [ "80" ],
+    "comment" : {
+      "en" : "For e.g. medical or other treatment or consultation."
+    },
+    "id" : "79",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/FoodHandlingRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "FoodHandlingRoom",
+      "en" : "FoodHandlingRoom"
+    },
+    "subClasses" : [ "75", "81", "76", "69", "67", "71", "73", "27", "30" ],
+    "id" : "28",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/Cinema",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cinema",
+      "en" : "Cinema"
+    },
+    "id" : "82",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/RestingRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RestingRoom",
+      "en" : "RestingRoom"
+    },
+    "id" : "83",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/MainEntrance",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MainEntrance",
+      "en" : "MainEntrance"
+    },
+    "id" : "84",
+    "superClasses" : [ "85" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/ShelterRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ShelterRoom",
+      "en" : "ShelterRoom"
+    },
+    "id" : "86",
+    "superClasses" : [ "87" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/ClimateControlRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ClimateControlRoom",
+      "en" : "ClimateControlRoom"
+    },
+    "id" : "88",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/SecurityRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SecurityRoom",
+      "en" : "Security room"
+    },
+    "id" : "89",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/LoadingReceivingRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LoadingReceivingRoom",
+      "en" : "Loading/receiving room"
+    },
+    "id" : "90",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/CoffeeRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CoffeeRoom",
+      "en" : "CoffeeRoom"
+    },
+    "comment" : {
+      "en" : "Deprecated in favour of building:CafeteriaRoom"
+    },
+    "attributes" : [ "deprecated" ],
+    "id" : "27",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/Cabinet",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Cabinet",
+      "en" : "Cabinet"
+    },
+    "id" : "97",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/Floor",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Floor",
+      "en" : "Floor"
+    },
+    "id" : "25",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/LaboratoryWet",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LaboratoryWet",
+      "en" : "LaboratoryWet"
+    },
+    "comment" : {
+      "en" : "A LaboratoryWet is a type of laboratory where it is necessary to handle various types of chemicals and potential \"wet\" hazards, so the room has to be carefully designed, constructed, and controlled to avoid spillage and contamination."
+    },
+    "id" : "35",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/Facade",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Facade",
+      "en" : "Facade"
+    },
+    "id" : "4",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/DishingRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DishingRoom",
+      "en" : "DishingRoom"
+    },
+    "id" : "30",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/TreatmentWaitingRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TreatmentWaitingRoom",
+      "en" : "TreatmentWaitingRoom"
+    },
+    "id" : "80",
+    "superClasses" : [ "79" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/Laboratory",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Laboratory",
+      "en" : "Laboratory"
+    },
+    "subClasses" : [ "32", "35" ],
+    "id" : "33",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/ShoppingMall",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ShoppingMall",
+      "en" : "Shopping mall"
+    },
+    "id" : "61",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/Stadium",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Stadium",
+      "en" : "Stadium"
+    },
+    "id" : "63",
+    "superClasses" : [ "56" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/DiningRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DiningRoom",
+      "en" : "DiningRoom"
+    },
+    "id" : "73",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/RecreationalRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RecreationalRoom",
+      "en" : "RecreationalRoom"
+    },
+    "id" : "116",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/Wall",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Wall",
+      "en" : "Wall"
+    },
+    "subClasses" : [ "40" ],
+    "id" : "8",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/rec/core/BuildingComponent",
+    "baseIri" : "https://w3id.org/rec/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BuildingComponent"
+    },
+    "subClasses" : [ "42", "20", "49", "51", "23", "25", "1", "4", "8", "10", "13" ],
+    "attributes" : [ "external" ],
+    "id" : "2"
+  }, {
+    "iri" : "https://w3id.org/rec/building/Storey",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "annotations" : {
+      "endpoint" : [ {
+        "identifier" : "endpoint",
+        "language" : "undefined",
+        "value" : "storey",
+        "type" : "label"
+      } ],
+      "included" : [ {
+        "identifier" : "included",
+        "language" : "undefined",
+        "value" : "true",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "Storey",
+      "en" : "Storey"
+    },
+    "comment" : {
+      "en" : "The level of storey, a.k.a. floorplan.\n\nDeprecated in favour of core:Level"
+    },
+    "attributes" : [ "deprecated" ],
+    "id" : "10",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/ElectricityRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ElectricityRoom",
+      "en" : "ElectricityRoom"
+    },
+    "id" : "121",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/Balcony",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Balcony",
+      "en" : "Balcony"
+    },
+    "id" : "49",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/rec/core/Room",
+    "baseIri" : "https://w3id.org/rec/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Room"
+    },
+    "subClasses" : [ "5", "17", "11", "136", "15", "74", "18", "137", "65", "58", "138", "87", "54", "139", "140", "77", "78", "127", "21", "130", "79", "133", "135", "118", "37", "33", "123", "125", "28", "110", "112", "44", "115", "52", "100", "82", "103", "105", "107", "92", "83", "95", "85", "116", "59", "89", "90" ],
+    "attributes" : [ "external" ],
+    "id" : "6"
+  }, {
+    "iri" : "https://w3id.org/rec/building/TelecommunicationRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "TelecommunicationRoom",
+      "en" : "TelecommunicationRoom"
+    },
+    "id" : "38",
+    "superClasses" : [ "36" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/Garage",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Garage",
+      "en" : "Garage"
+    },
+    "subClasses" : [ "57", "141", "142" ],
+    "id" : "58",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/RetailRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RetailRoom",
+      "en" : "RetailRoom"
+    },
+    "subClasses" : [ "53" ],
+    "id" : "54",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/Workshop",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Workshop",
+      "en" : "Workshop"
+    },
+    "id" : "139",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/Auditorium",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Auditorium",
+      "en" : "Auditorium"
+    },
+    "id" : "127",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/CopyingRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CopyingRoom",
+      "en" : "CopyingRoom"
+    },
+    "id" : "118",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/Library",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Library",
+      "en" : "Library"
+    },
+    "id" : "125",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/ExhibitionRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ExhibitionRoom",
+      "en" : "ExhibitionRoom"
+    },
+    "id" : "112",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/DataServerRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DataServerRoom",
+      "en" : "DataServerRoom"
+    },
+    "id" : "153",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/CookingRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CookingRoom",
+      "en" : "CookingRoom"
+    },
+    "id" : "71",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/MothersRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MothersRoom",
+      "en" : "Mothers' room"
+    },
+    "id" : "115",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/SprinklerRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SprinklerRoom",
+      "en" : "Sprinkler room"
+    },
+    "id" : "155",
+    "superClasses" : [ "37" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/Entrance",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Entrance",
+      "en" : "Entrance"
+    },
+    "subClasses" : [ "84", "156" ],
+    "id" : "85",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/Toilet",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Toilet",
+      "en" : "Toilet"
+    },
+    "id" : "157",
+    "superClasses" : [ "65" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/WallInner",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "WallInner",
+      "en" : "Inner wall"
+    },
+    "id" : "40",
+    "superClasses" : [ "8" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/ServiceEntrance",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ServiceEntrance",
+      "en" : "ServiceEntrance"
+    },
+    "id" : "156",
+    "superClasses" : [ "85" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/Bedroom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bedroom",
+      "en" : "Bedroom"
+    },
+    "id" : "130",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/StoreyLevel",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "annotations" : {
+      "versionInfo" : [ {
+        "identifier" : "versionInfo",
+        "language" : "en",
+        "value" : "Deprecated in favour of :Storey",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "StoreyLevel",
+      "en" : "Storey level"
+    },
+    "comment" : {
+      "en" : "The level of storey, a.k.a. floorplan"
+    },
+    "attributes" : [ "deprecated" ],
+    "id" : "42",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/LaboratoryDry",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LaboratoryDry",
+      "en" : "LaboratoryDry"
+    },
+    "comment" : {
+      "en" : "A LaboratoryDry is a laboratory where computational or applied mathematical analyses are done on a computer-generated model to simulate a phenomenon in the physical realm."
+    },
+    "id" : "32",
+    "superClasses" : [ "33" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/Bathroom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Bathroom",
+      "en" : "Bathroom"
+    },
+    "id" : "110",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/core/Type",
+    "baseIri" : "https://w3id.org/rec/core",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Type"
+    },
+    "subClasses" : [ "162" ],
+    "attributes" : [ "external" ],
+    "id" : "173"
+  }, {
+    "iri" : "https://w3id.org/rec/building/MultiPurposeRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MultiPurposeRoom",
+      "en" : "Multi-purpose room"
+    },
+    "id" : "92",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/Classroom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Classroom",
+      "en" : "Classroom"
+    },
+    "id" : "174",
+    "superClasses" : [ "136" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/LaundryRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LaundryRoom",
+      "en" : "LaundryRoom"
+    },
+    "id" : "107",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/ConversationRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ConversationRoom",
+      "en" : "ConversationRoom"
+    },
+    "id" : "95",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/CafeteriaRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CafeteriaRoom",
+      "en" : "CafeteriaRoom"
+    },
+    "id" : "69",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/RoofInner",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RoofInner",
+      "en" : "Roof, inner"
+    },
+    "id" : "51",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/MeditationRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MeditationRoom",
+      "en" : "Meditation room"
+    },
+    "id" : "137",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/Reception",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Reception",
+      "en" : "Reception"
+    },
+    "id" : "140",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/ShelterGasLock",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ShelterGasLock",
+      "en" : "ShelterGasLock"
+    },
+    "id" : "221",
+    "superClasses" : [ "87" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/Storage",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Storage",
+      "en" : "Storage"
+    },
+    "id" : "100",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/Hallway",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Hallway",
+      "en" : "Hallway"
+    },
+    "id" : "103",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/RoomType",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 83,
+    "annotations" : {
+      "endpoint" : [ {
+        "identifier" : "endpoint",
+        "language" : "undefined",
+        "value" : "roomtype",
+        "type" : "label"
+      } ],
+      "included" : [ {
+        "identifier" : "included",
+        "language" : "undefined",
+        "value" : "true",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "RoomType",
+      "en" : "Room type"
+    },
+    "individuals" : [ {
+      "iri" : "https://w3id.org/rec/building/FoodStorageRefrigeratorRoom",
+      "baseIri" : "https://w3id.org/rec/building",
+      "labels" : {
+        "IRI-based" : "FoodStorageRefrigeratorRoom"
+      }
+    }, {
+      "iri" : "https://w3id.org/rec/building/StudyRoom",
+      "baseIri" : "https://w3id.org/rec/building",
+      "labels" : {
+        "IRI-based" : "StudyRoom"
+      }
+    }, {
+      "iri" : "https://w3id.org/rec/building/FoodStorageFreezerRoom",
+      "baseIri" : "https://w3id.org/rec/building",
+      "labels" : {
+        "IRI-based" : "FoodStorageFreezerRoom"
+      }
+    }, {
+      "iri" : "https://w3id.org/rec/building/BankVault",
+      "baseIri" : "https://w3id.org/rec/building",
+      "labels" : {
+        "IRI-based" : "BankVault"
+      }
+    }, {
+      "iri" : "https://w3id.org/rec/building/DeliRoom",
+      "baseIri" : "https://w3id.org/rec/building",
+      "labels" : {
+        "IRI-based" : "DeliRoom"
+      }
+    }, {
+      "iri" : "https://w3id.org/rec/building/FoodStorageRoom",
+      "baseIri" : "https://w3id.org/rec/building",
+      "labels" : {
+        "IRI-based" : "FoodStorageRoom"
+      }
+    }, {
+      "iri" : "https://w3id.org/rec/building/Vault",
+      "baseIri" : "https://w3id.org/rec/building",
+      "labels" : {
+        "IRI-based" : "Vault"
+      }
+    } ],
+    "comment" : {
+      "en" : "Deprecated in favour of traditional rdf:type-based typing, using core:Room subclasses."
+    },
+    "attributes" : [ "deprecated" ],
+    "id" : "162",
+    "superClasses" : [ "173" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/DisabledToilet",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "annotations" : {
+      "seeAlso" : [ {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "RWC",
+        "type" : "label"
+      }, {
+        "identifier" : "seeAlso",
+        "language" : "en",
+        "value" : "HWC",
+        "type" : "label"
+      } ]
+    },
+    "label" : {
+      "IRI-based" : "DisabledToilet",
+      "en" : "DisabledToilet"
+    },
+    "id" : "198",
+    "superClasses" : [ "65" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/BackOffice",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BackOffice",
+      "en" : "BackOffice"
+    },
+    "subClasses" : [ "207" ],
+    "id" : "17",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/Pentry",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Pentry",
+      "en" : "Pentry"
+    },
+    "comment" : {
+      "en" : "Deprecated in favour of building:Pantry"
+    },
+    "attributes" : [ "deprecated" ],
+    "id" : "67",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/PersonalHygiene",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "PersonalHygiene",
+      "en" : "PersonalHygiene"
+    },
+    "subClasses" : [ "210", "198", "64", "157" ],
+    "id" : "65",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/Shelter",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Shelter",
+      "en" : "Shelter"
+    },
+    "subClasses" : [ "86", "221" ],
+    "id" : "87",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/GroupRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "GroupRoom",
+      "en" : "GroupRoom"
+    },
+    "id" : "187",
+    "superClasses" : [ "136" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/RoofOuter",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "RoofOuter",
+      "en" : "Roof, outer"
+    },
+    "id" : "23",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/ExerciseRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ExerciseRoom",
+      "en" : "ExerciseRoom"
+    },
+    "id" : "133",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/Terrace",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Terrace",
+      "en" : "Terrace"
+    },
+    "id" : "1",
+    "superClasses" : [ "2" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/UtilitiesRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "UtilitiesRoom",
+      "en" : "UtilitiesRoom"
+    },
+    "subClasses" : [ "155", "36", "88", "97", "153", "121" ],
+    "id" : "37",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/CleaningRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "CleaningRoom",
+      "en" : "CleaningRoom"
+    },
+    "id" : "123",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/SmallStudyRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "SmallStudyRoom",
+      "en" : "SmallStudyRoom"
+    },
+    "id" : "190",
+    "superClasses" : [ "136" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/Sauna",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Sauna",
+      "en" : "Sauna"
+    },
+    "id" : "210",
+    "superClasses" : [ "65" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/OfficeLandscape",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OfficeLandscape",
+      "en" : "OfficeLandscape"
+    },
+    "id" : "46",
+    "superClasses" : [ "44" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/MailRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "MailRoom",
+      "en" : "Mail room"
+    },
+    "id" : "207",
+    "superClasses" : [ "17" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/OfficeRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "OfficeRoom",
+      "en" : "OfficeRoom"
+    },
+    "id" : "45",
+    "superClasses" : [ "44" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/BarRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BarRoom",
+      "en" : "BarRoom"
+    },
+    "id" : "81",
+    "superClasses" : [ "28" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/EducationalRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "EducationalRoom",
+      "en" : "EducationalRoom"
+    },
+    "subClasses" : [ "187", "190", "174" ],
+    "id" : "136",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/LivingRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "LivingRoom",
+      "en" : "LivingRoom"
+    },
+    "id" : "138",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/ParkingSlotCold",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "ParkingSlotCold",
+      "en" : "ParkingSlotCold"
+    },
+    "id" : "141",
+    "superClasses" : [ "58" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/BicycleGarage",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "BicycleGarage",
+      "en" : "BicycleGarage"
+    },
+    "id" : "142",
+    "superClasses" : [ "58" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/Theater",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "Theater",
+      "en" : "Theater"
+    },
+    "id" : "135",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "http://www.w3.org/2002/07/owl#Thing",
+    "baseIri" : "http://owl2vowl.de",
+    "id" : "201",
+    "label" : {
+      "undefined" : "Thing"
+    }
+  }, {
+    "iri" : "https://w3id.org/rec/building/DressingRoom",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "DressingRoom",
+      "en" : "DressingRoom"
+    },
+    "id" : "105",
+    "superClasses" : [ "6" ]
+  }, {
+    "iri" : "https://w3id.org/rec/building/School",
+    "baseIri" : "https://w3id.org/rec/building",
+    "instances" : 0,
+    "label" : {
+      "IRI-based" : "School",
+      "en" : "School"
+    },
+    "id" : "60",
+    "superClasses" : [ "56" ]
+  } ],
+  "property" : [ {
+    "id" : "0",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "3",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "7",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "9",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "12",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "14",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "16",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "19",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "22",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "24",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "26",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "29",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "31",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "34",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "39",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "41",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "43",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "48",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "50",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "66",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "68",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "70",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "72",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "91",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "93",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "94",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "96",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "98",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "99",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "101",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "102",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "104",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "106",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "108",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "109",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "111",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "113",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "114",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "117",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "119",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "120",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "122",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "124",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "126",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "128",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "129",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "131",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "132",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "134",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "143",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "144",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "145",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "146",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "147",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "148",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "149",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "150",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "151",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "152",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "154",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "158",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "159",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "160",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "161",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "163",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "164",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "165",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "166",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "167",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "168",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "169",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "170",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "171",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "172",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "175",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "176",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "177",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "178",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "179",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "180",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "181",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "182",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "183",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "184",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "185",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "186",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "188",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "189",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "191",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "192",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "193",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "194",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "195",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "196",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "197",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "199",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "200",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "203",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "204",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "205",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "206",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "208",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "209",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "211",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "212",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "213",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "214",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "215",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "216",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "217",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "218",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "219",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "220",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "222",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "223",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "224",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "225",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "226",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "202",
+    "type" : "owl:objectProperty"
+  }, {
+    "id" : "227",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "228",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "229",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "230",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "231",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "232",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "233",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "234",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "235",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "236",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "237",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "238",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "239",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "240",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "241",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "242",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "243",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "244",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "245",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "246",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "247",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "248",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "249",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "250",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "251",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "252",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "253",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "254",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "255",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "256",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "257",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "258",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "259",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "260",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "261",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "262",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "263",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "264",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "265",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "266",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "267",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "268",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "269",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "270",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "271",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "272",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "273",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "274",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "275",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "276",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "277",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "278",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "279",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "280",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "281",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "282",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "283",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "284",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "285",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "286",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "287",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "288",
+    "type" : "rdfs:SubClassOf"
+  }, {
+    "id" : "289",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "290",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "291",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "292",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "293",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "294",
+    "type" : "rdf:Property"
+  }, {
+    "id" : "295",
+    "type" : "rdf:Property"
+  } ],
+  "propertyAttribute" : [ {
+    "range" : "2",
+    "domain" : "1",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "0"
+  }, {
+    "range" : "2",
+    "domain" : "4",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "3"
+  }, {
+    "range" : "2",
+    "domain" : "8",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "7"
+  }, {
+    "range" : "2",
+    "domain" : "10",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "9"
+  }, {
+    "range" : "2",
+    "domain" : "13",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "12"
+  }, {
+    "range" : "6",
+    "domain" : "5",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "14"
+  }, {
+    "range" : "6",
+    "domain" : "17",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "16"
+  }, {
+    "range" : "6",
+    "domain" : "11",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "19"
+  }, {
+    "range" : "2",
+    "domain" : "23",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "22"
+  }, {
+    "range" : "2",
+    "domain" : "25",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "24"
+  }, {
+    "range" : "28",
+    "domain" : "27",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "26"
+  }, {
+    "range" : "28",
+    "domain" : "30",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "29"
+  }, {
+    "range" : "33",
+    "domain" : "32",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "31"
+  }, {
+    "range" : "33",
+    "domain" : "35",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "34"
+  }, {
+    "range" : "8",
+    "domain" : "40",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "39"
+  }, {
+    "range" : "2",
+    "domain" : "42",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "41"
+  }, {
+    "range" : "2",
+    "domain" : "20",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "43"
+  }, {
+    "range" : "2",
+    "domain" : "49",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "48"
+  }, {
+    "range" : "2",
+    "domain" : "51",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "50"
+  }, {
+    "range" : "28",
+    "domain" : "67",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "66"
+  }, {
+    "range" : "28",
+    "domain" : "69",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "68"
+  }, {
+    "range" : "28",
+    "domain" : "71",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "70"
+  }, {
+    "range" : "28",
+    "domain" : "73",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "72"
+  }, {
+    "range" : "6",
+    "domain" : "92",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "91"
+  }, {
+    "range" : "6",
+    "domain" : "83",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "93"
+  }, {
+    "range" : "6",
+    "domain" : "95",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "94"
+  }, {
+    "range" : "6",
+    "domain" : "85",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "96"
+  }, {
+    "range" : "6",
+    "domain" : "52",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "98"
+  }, {
+    "range" : "6",
+    "domain" : "100",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "99"
+  }, {
+    "range" : "6",
+    "domain" : "82",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "101"
+  }, {
+    "range" : "6",
+    "domain" : "103",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "102"
+  }, {
+    "range" : "6",
+    "domain" : "105",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "104"
+  }, {
+    "range" : "6",
+    "domain" : "107",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "106"
+  }, {
+    "range" : "6",
+    "domain" : "28",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "108"
+  }, {
+    "range" : "6",
+    "domain" : "110",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "109"
+  }, {
+    "range" : "6",
+    "domain" : "112",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "111"
+  }, {
+    "range" : "6",
+    "domain" : "44",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "113"
+  }, {
+    "range" : "6",
+    "domain" : "115",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "114"
+  }, {
+    "range" : "6",
+    "domain" : "118",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "117"
+  }, {
+    "range" : "6",
+    "domain" : "37",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "119"
+  }, {
+    "range" : "6",
+    "domain" : "33",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "120"
+  }, {
+    "range" : "6",
+    "domain" : "123",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "122"
+  }, {
+    "range" : "6",
+    "domain" : "125",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "124"
+  }, {
+    "range" : "6",
+    "domain" : "127",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "126"
+  }, {
+    "range" : "6",
+    "domain" : "21",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "128"
+  }, {
+    "range" : "6",
+    "domain" : "130",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "129"
+  }, {
+    "range" : "6",
+    "domain" : "79",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "131"
+  }, {
+    "range" : "6",
+    "domain" : "133",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "132"
+  }, {
+    "range" : "6",
+    "domain" : "135",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "134"
+  }, {
+    "range" : "6",
+    "domain" : "139",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "143"
+  }, {
+    "range" : "6",
+    "domain" : "140",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "144"
+  }, {
+    "range" : "6",
+    "domain" : "77",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "145"
+  }, {
+    "range" : "6",
+    "domain" : "78",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "146"
+  }, {
+    "range" : "6",
+    "domain" : "18",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "147"
+  }, {
+    "range" : "6",
+    "domain" : "137",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "148"
+  }, {
+    "range" : "6",
+    "domain" : "65",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "149"
+  }, {
+    "range" : "6",
+    "domain" : "58",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "150"
+  }, {
+    "range" : "6",
+    "domain" : "138",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "151"
+  }, {
+    "range" : "6",
+    "domain" : "87",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "152"
+  }, {
+    "range" : "6",
+    "domain" : "54",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "154"
+  }, {
+    "range" : "6",
+    "domain" : "136",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "158"
+  }, {
+    "range" : "6",
+    "domain" : "15",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "159"
+  }, {
+    "range" : "6",
+    "domain" : "74",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "160"
+  }, {
+    "domain" : "162",
+    "range" : "95",
+    "id" : "161",
+    "label" : {
+      "IRI-based" : "30",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "33",
+    "id" : "163",
+    "label" : {
+      "IRI-based" : "29",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "58",
+    "id" : "164",
+    "label" : {
+      "IRI-based" : "28",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "103",
+    "id" : "165",
+    "label" : {
+      "IRI-based" : "25",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "116",
+    "id" : "166",
+    "label" : {
+      "IRI-based" : "24",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "112",
+    "id" : "167",
+    "label" : {
+      "IRI-based" : "27",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "97",
+    "id" : "168",
+    "label" : {
+      "IRI-based" : "26",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "54",
+    "id" : "169",
+    "label" : {
+      "IRI-based" : "21",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "30",
+    "id" : "170",
+    "label" : {
+      "IRI-based" : "20",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "123",
+    "id" : "171",
+    "label" : {
+      "IRI-based" : "23",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "59",
+    "id" : "172",
+    "label" : {
+      "IRI-based" : "22",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "88",
+    "id" : "175",
+    "label" : {
+      "IRI-based" : "18",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "35",
+    "id" : "176",
+    "label" : {
+      "IRI-based" : "17",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "73",
+    "id" : "177",
+    "label" : {
+      "IRI-based" : "19",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "37",
+    "domain" : "88",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "178"
+  }, {
+    "domain" : "162",
+    "range" : "57",
+    "id" : "179",
+    "label" : {
+      "IRI-based" : "14",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "37",
+    "domain" : "97",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "180"
+  }, {
+    "domain" : "162",
+    "range" : "89",
+    "id" : "181",
+    "label" : {
+      "IRI-based" : "13",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "37",
+    "domain" : "153",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "182"
+  }, {
+    "domain" : "162",
+    "range" : "138",
+    "id" : "183",
+    "label" : {
+      "IRI-based" : "16",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "37",
+    "domain" : "121",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "184"
+  }, {
+    "domain" : "162",
+    "range" : "83",
+    "id" : "185",
+    "label" : {
+      "IRI-based" : "15",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "136",
+    "domain" : "187",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "186"
+  }, {
+    "domain" : "162",
+    "range" : "107",
+    "id" : "188",
+    "label" : {
+      "IRI-based" : "10",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "136",
+    "domain" : "190",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "189"
+  }, {
+    "range" : "136",
+    "domain" : "174",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "191"
+  }, {
+    "domain" : "162",
+    "range" : "85",
+    "id" : "192",
+    "label" : {
+      "IRI-based" : "12",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "45",
+    "id" : "193",
+    "label" : {
+      "IRI-based" : "11",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "64",
+    "id" : "194",
+    "label" : {
+      "IRI-based" : "50",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "37",
+    "domain" : "155",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "195"
+  }, {
+    "range" : "37",
+    "domain" : "36",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "196"
+  }, {
+    "domain" : "162",
+    "range" : "198",
+    "id" : "197",
+    "label" : {
+      "IRI-based" : "52",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "100",
+    "id" : "199",
+    "label" : {
+      "IRI-based" : "51",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "https://w3id.org/rec/core/hasType",
+    "baseIri" : "https://w3id.org/rec/core",
+    "range" : "201",
+    "label" : {
+      "IRI-based" : "hasType"
+    },
+    "domain" : "201",
+    "subproperty" : [ "202" ],
+    "attributes" : [ "external", "object" ],
+    "id" : "200"
+  }, {
+    "domain" : "162",
+    "range" : "105",
+    "id" : "203",
+    "label" : {
+      "IRI-based" : "47",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "173",
+    "domain" : "162",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "204"
+  }, {
+    "domain" : "162",
+    "range" : "136",
+    "id" : "205",
+    "label" : {
+      "IRI-based" : "46",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "17",
+    "domain" : "207",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "206"
+  }, {
+    "domain" : "162",
+    "range" : "139",
+    "id" : "208",
+    "label" : {
+      "IRI-based" : "49",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "65",
+    "domain" : "210",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "209"
+  }, {
+    "domain" : "162",
+    "range" : "81",
+    "id" : "211",
+    "label" : {
+      "IRI-based" : "48",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "65",
+    "domain" : "198",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "212"
+  }, {
+    "domain" : "162",
+    "range" : "79",
+    "id" : "213",
+    "label" : {
+      "IRI-based" : "43",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "65",
+    "domain" : "64",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "214"
+  }, {
+    "domain" : "162",
+    "range" : "140",
+    "id" : "215",
+    "label" : {
+      "IRI-based" : "42",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "65",
+    "domain" : "157",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "216"
+  }, {
+    "domain" : "162",
+    "range" : "207",
+    "id" : "217",
+    "label" : {
+      "IRI-based" : "45",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "87",
+    "domain" : "86",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "218"
+  }, {
+    "domain" : "162",
+    "range" : "153",
+    "id" : "219",
+    "label" : {
+      "IRI-based" : "44",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "87",
+    "domain" : "221",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "220"
+  }, {
+    "range" : "54",
+    "domain" : "53",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "222"
+  }, {
+    "range" : "85",
+    "domain" : "84",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "223"
+  }, {
+    "domain" : "162",
+    "range" : "87",
+    "id" : "224",
+    "label" : {
+      "IRI-based" : "41",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "85",
+    "domain" : "156",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "225"
+  }, {
+    "domain" : "162",
+    "range" : "28",
+    "id" : "226",
+    "label" : {
+      "IRI-based" : "40",
+      "undefined" : "is a"
+    }
+  }, {
+    "iri" : "https://w3id.org/rec/building/roomType",
+    "baseIri" : "https://w3id.org/rec/building",
+    "range" : "162",
+    "label" : {
+      "IRI-based" : "roomType",
+      "en" : "room type"
+    },
+    "superproperty" : [ "200" ],
+    "domain" : "6",
+    "attributes" : [ "deprecated", "object" ],
+    "id" : "202"
+  }, {
+    "domain" : "162",
+    "range" : "130",
+    "id" : "227",
+    "label" : {
+      "IRI-based" : "39",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "67",
+    "id" : "228",
+    "label" : {
+      "IRI-based" : "36",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "17",
+    "id" : "229",
+    "label" : {
+      "IRI-based" : "35",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "6",
+    "domain" : "116",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "230"
+  }, {
+    "domain" : "162",
+    "range" : "27",
+    "id" : "231",
+    "label" : {
+      "IRI-based" : "38",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "6",
+    "domain" : "59",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "232"
+  }, {
+    "domain" : "162",
+    "range" : "118",
+    "id" : "233",
+    "label" : {
+      "IRI-based" : "37",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "6",
+    "domain" : "89",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "234"
+  }, {
+    "domain" : "162",
+    "range" : "221",
+    "id" : "235",
+    "label" : {
+      "IRI-based" : "32",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "6",
+    "domain" : "90",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "236"
+  }, {
+    "domain" : "162",
+    "range" : "90",
+    "id" : "237",
+    "label" : {
+      "IRI-based" : "31",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "58",
+    "domain" : "57",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "238"
+  }, {
+    "domain" : "162",
+    "range" : "37",
+    "id" : "239",
+    "label" : {
+      "IRI-based" : "34",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "58",
+    "domain" : "141",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "240"
+  }, {
+    "domain" : "162",
+    "range" : "53",
+    "id" : "241",
+    "label" : {
+      "IRI-based" : "33",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "58",
+    "domain" : "142",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "242"
+  }, {
+    "domain" : "162",
+    "range" : "36",
+    "id" : "243",
+    "label" : {
+      "IRI-based" : "72",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "82",
+    "id" : "244",
+    "label" : {
+      "IRI-based" : "71",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "115",
+    "id" : "245",
+    "label" : {
+      "IRI-based" : "74",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "92",
+    "id" : "246",
+    "label" : {
+      "IRI-based" : "73",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "38",
+    "id" : "247",
+    "label" : {
+      "IRI-based" : "70",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "32",
+    "id" : "248",
+    "label" : {
+      "IRI-based" : "69",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "135",
+    "id" : "249",
+    "label" : {
+      "IRI-based" : "68",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "84",
+    "id" : "250",
+    "label" : {
+      "IRI-based" : "65",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "133",
+    "id" : "251",
+    "label" : {
+      "IRI-based" : "64",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "157",
+    "id" : "252",
+    "label" : {
+      "IRI-based" : "67",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "156",
+    "id" : "253",
+    "label" : {
+      "IRI-based" : "66",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "190",
+    "id" : "254",
+    "label" : {
+      "IRI-based" : "61",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "86",
+    "id" : "255",
+    "label" : {
+      "IRI-based" : "60",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "142",
+    "id" : "256",
+    "label" : {
+      "IRI-based" : "63",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "11",
+    "id" : "257",
+    "label" : {
+      "IRI-based" : "62",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "137",
+    "id" : "258",
+    "label" : {
+      "IRI-based" : "58",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "65",
+    "id" : "259",
+    "label" : {
+      "IRI-based" : "57",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "110",
+    "id" : "260",
+    "label" : {
+      "IRI-based" : "59",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "74",
+    "id" : "261",
+    "label" : {
+      "IRI-based" : "54",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "80",
+    "id" : "262",
+    "label" : {
+      "IRI-based" : "53",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "52",
+    "id" : "263",
+    "label" : {
+      "IRI-based" : "56",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "47",
+    "id" : "264",
+    "label" : {
+      "IRI-based" : "55",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "28",
+    "domain" : "75",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "265"
+  }, {
+    "range" : "79",
+    "domain" : "80",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "266"
+  }, {
+    "range" : "28",
+    "domain" : "76",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "267"
+  }, {
+    "range" : "28",
+    "domain" : "81",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "268"
+  }, {
+    "range" : "56",
+    "domain" : "61",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "269"
+  }, {
+    "range" : "56",
+    "domain" : "63",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "270"
+  }, {
+    "range" : "56",
+    "domain" : "62",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "271"
+  }, {
+    "domain" : "162",
+    "range" : "44",
+    "id" : "272",
+    "label" : {
+      "IRI-based" : "2",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "46",
+    "id" : "273",
+    "label" : {
+      "IRI-based" : "3",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "210",
+    "id" : "274",
+    "label" : {
+      "IRI-based" : "4",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "18",
+    "id" : "275",
+    "label" : {
+      "IRI-based" : "5",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "187",
+    "id" : "276",
+    "label" : {
+      "IRI-based" : "6",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "5",
+    "id" : "277",
+    "label" : {
+      "IRI-based" : "7",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "127",
+    "id" : "278",
+    "label" : {
+      "IRI-based" : "8",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "69",
+    "id" : "279",
+    "label" : {
+      "IRI-based" : "9",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "78",
+    "id" : "280",
+    "label" : {
+      "IRI-based" : "0",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "71",
+    "id" : "281",
+    "label" : {
+      "IRI-based" : "1",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "44",
+    "domain" : "47",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "282"
+  }, {
+    "range" : "44",
+    "domain" : "46",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "283"
+  }, {
+    "range" : "56",
+    "domain" : "60",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "284"
+  }, {
+    "range" : "56",
+    "domain" : "55",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "285"
+  }, {
+    "domain" : "162",
+    "range" : "77",
+    "id" : "286",
+    "label" : {
+      "IRI-based" : "82",
+      "undefined" : "is a"
+    }
+  }, {
+    "range" : "44",
+    "domain" : "45",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "287"
+  }, {
+    "range" : "36",
+    "domain" : "38",
+    "attributes" : [ "object", "anonymous" ],
+    "id" : "288"
+  }, {
+    "domain" : "162",
+    "range" : "15",
+    "id" : "289",
+    "label" : {
+      "IRI-based" : "81",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "21",
+    "id" : "290",
+    "label" : {
+      "IRI-based" : "80",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "155",
+    "id" : "291",
+    "label" : {
+      "IRI-based" : "79",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "121",
+    "id" : "292",
+    "label" : {
+      "IRI-based" : "76",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "174",
+    "id" : "293",
+    "label" : {
+      "IRI-based" : "75",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "125",
+    "id" : "294",
+    "label" : {
+      "IRI-based" : "78",
+      "undefined" : "is a"
+    }
+  }, {
+    "domain" : "162",
+    "range" : "141",
+    "id" : "295",
+    "label" : {
+      "IRI-based" : "77",
+      "undefined" : "is a"
+    }
+  } ]
+}
