@@ -357,6 +357,31 @@ Deprecated in favour of core:observes</rdfs:comment>
     
 
 
+    <!-- https://w3id.org/rec/device/capabilityLimit -->
+
+    <owl:DatatypeProperty rdf:about="https://w3id.org/rec/device/capabilityLimit">
+        <rdfs:domain rdf:resource="https://w3id.org/rec/device/CapabilityTagSet"/>
+        <rdfs:range>
+            <rdfs:Datatype>
+                <owl:oneOf>
+                    <rdf:Description>
+                        <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                        <rdf:first>Maximum</rdf:first>
+                        <rdf:rest>
+                            <rdf:Description>
+                                <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+                                <rdf:first>Minimum</rdf:first>
+                                <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+                            </rdf:Description>
+                        </rdf:rest>
+                    </rdf:Description>
+                </owl:oneOf>
+            </rdfs:Datatype>
+        </rdfs:range>
+    </owl:DatatypeProperty>
+    
+
+
     <!-- https://w3id.org/rec/device/hasActuationCommandTime -->
 
     <owl:DatatypeProperty rdf:about="https://w3id.org/rec/device/hasActuationCommandTime">
@@ -1084,6 +1109,19 @@ Deprecated in favour of core:hasProcessedTime.</rdfs:comment>
     
 
 
+    <!-- https://w3id.org/rec/core/Capability -->
+
+    <rdf:Description rdf:about="https://w3id.org/rec/core/Capability">
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/rec/core/tags"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/rec/device/CapabilityTagSet"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+    </rdf:Description>
+    
+
+
     <!-- https://w3id.org/rec/device/AbsenceActuator -->
 
     <owl:Class rdf:about="https://w3id.org/rec/device/AbsenceActuator">
@@ -1526,12 +1564,6 @@ Deprecated in favour of core:hasProcessedTime.</rdfs:comment>
 
     <owl:Class rdf:about="https://w3id.org/rec/device/BinarySensor">
         <rdfs:subClassOf rdf:resource="https://w3id.org/rec/device/StateSensor"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="https://w3id.org/rec/core/lastValue"/>
-                <owl:allValuesFrom rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <rdfs:label xml:lang="en">Binary sensor</rdfs:label>
     </owl:Class>
     
@@ -1568,7 +1600,7 @@ Deprecated in favour of core:hasProcessedTime.</rdfs:comment>
 
     <owl:Class rdf:about="https://w3id.org/rec/device/CH2OAirQualitySensor">
         <rdfs:subClassOf rdf:resource="https://w3id.org/rec/device/AirQualitySensor"/>
-        <rdfs:label xml:lang="en">CH2O (formaldehyde) air quality sensor</rdfs:label>
+        <rdfs:label xml:lang="en">C o air quality sensor</rdfs:label>
     </owl:Class>
     
 
@@ -1586,7 +1618,7 @@ Deprecated in favour of core:hasProcessedTime.</rdfs:comment>
 
     <owl:Class rdf:about="https://w3id.org/rec/device/CO2AirQualitySensor">
         <rdfs:subClassOf rdf:resource="https://w3id.org/rec/device/AirQualitySensor"/>
-        <rdfs:label xml:lang="en">CO2 (carbon dioxide) air quality sensor</rdfs:label>
+        <rdfs:label xml:lang="en">C air quality sensor</rdfs:label>
     </owl:Class>
     
 
@@ -1604,7 +1636,7 @@ Deprecated in favour of core:hasProcessedTime.</rdfs:comment>
 
     <owl:Class rdf:about="https://w3id.org/rec/device/COAirQualitySensor">
         <rdfs:subClassOf rdf:resource="https://w3id.org/rec/device/AirQualitySensor"/>
-        <rdfs:label xml:lang="en">CO (carbon monoxide) air quality sensor</rdfs:label>
+        <rdfs:label xml:lang="en">CO air quality sensor</rdfs:label>
     </owl:Class>
     
 
@@ -1614,6 +1646,17 @@ Deprecated in favour of core:hasProcessedTime.</rdfs:comment>
     <owl:Class rdf:about="https://w3id.org/rec/device/COAirQualitySetpoint">
         <rdfs:subClassOf rdf:resource="https://w3id.org/rec/device/AirQualitySetpoint"/>
         <rdfs:label xml:lang="en">CO air quality setpoint</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/rec/device/CapabilityTagSet -->
+
+    <owl:Class rdf:about="https://w3id.org/rec/device/CapabilityTagSet">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/rec/core/TagSet"/>
+        <rdfs:comment xml:lang="en">Encapuslates a set of tags that may be applicable to Capability instances.</rdfs:comment>
+        <rdfs:label xml:lang="en">Capability tag set</rdfs:label>
+        <metadata:dtdlType>component</metadata:dtdlType>
     </owl:Class>
     
 
@@ -3232,7 +3275,7 @@ Deprecated in favour of the core:Equipment hierarchy.</rdfs:comment>
 
     <owl:Class rdf:about="https://w3id.org/rec/device/NO2AirQualitySensor">
         <rdfs:subClassOf rdf:resource="https://w3id.org/rec/device/AirQualitySensor"/>
-        <rdfs:label xml:lang="en">NO2 (nitrogen dioxide) air quality sensor</rdfs:label>
+        <rdfs:label xml:lang="en">N air quality sensor</rdfs:label>
     </owl:Class>
     
 
@@ -3250,7 +3293,7 @@ Deprecated in favour of the core:Equipment hierarchy.</rdfs:comment>
 
     <owl:Class rdf:about="https://w3id.org/rec/device/NOxAirQualitySensor">
         <rdfs:subClassOf rdf:resource="https://w3id.org/rec/device/AirQualitySensor"/>
-        <rdfs:label xml:lang="en">NOx (nitrogen oxide) air quality sensor</rdfs:label>
+        <rdfs:label xml:lang="en">N ox air quality sensor</rdfs:label>
     </owl:Class>
     
 
@@ -3349,7 +3392,7 @@ Deprecated in favour of the core:Equipment hierarchy.</rdfs:comment>
 
     <owl:Class rdf:about="https://w3id.org/rec/device/O2AirQualitySensor">
         <rdfs:subClassOf rdf:resource="https://w3id.org/rec/device/AirQualitySensor"/>
-        <rdfs:label xml:lang="en">O2 (oxygen) air quality sensor</rdfs:label>
+        <rdfs:label xml:lang="en">Air quality sensor</rdfs:label>
     </owl:Class>
     
 
@@ -3367,7 +3410,7 @@ Deprecated in favour of the core:Equipment hierarchy.</rdfs:comment>
 
     <owl:Class rdf:about="https://w3id.org/rec/device/O3AirQualitySensor">
         <rdfs:subClassOf rdf:resource="https://w3id.org/rec/device/AirQualitySensor"/>
-        <rdfs:label xml:lang="en">O3 (ozone) air quality sensor</rdfs:label>
+        <rdfs:label xml:lang="en">Air quality sensor</rdfs:label>
     </owl:Class>
     
 
@@ -3757,7 +3800,7 @@ Deprecated in favour of core:Observation.</rdfs:comment>
 
     <owl:Class rdf:about="https://w3id.org/rec/device/PM001AirQualitySensor">
         <rdfs:subClassOf rdf:resource="https://w3id.org/rec/device/AirQualitySensor"/>
-        <rdfs:label xml:lang="en">PM0.1 air quality sensor</rdfs:label>
+        <rdfs:label xml:lang="en">P air quality sensor</rdfs:label>
     </owl:Class>
     
 
@@ -3775,7 +3818,7 @@ Deprecated in favour of core:Observation.</rdfs:comment>
 
     <owl:Class rdf:about="https://w3id.org/rec/device/PM010AirQualitySensor">
         <rdfs:subClassOf rdf:resource="https://w3id.org/rec/device/AirQualitySensor"/>
-        <rdfs:label xml:lang="en">PM1.0 air quality sensor</rdfs:label>
+        <rdfs:label xml:lang="en">P air quality sensor</rdfs:label>
     </owl:Class>
     
 
@@ -3793,7 +3836,7 @@ Deprecated in favour of core:Observation.</rdfs:comment>
 
     <owl:Class rdf:about="https://w3id.org/rec/device/PM025AirQualitySensor">
         <rdfs:subClassOf rdf:resource="https://w3id.org/rec/device/AirQualitySensor"/>
-        <rdfs:label xml:lang="en">PM2.5 air quality sensor</rdfs:label>
+        <rdfs:label xml:lang="en">P air quality sensor</rdfs:label>
     </owl:Class>
     
 
@@ -3811,7 +3854,7 @@ Deprecated in favour of core:Observation.</rdfs:comment>
 
     <owl:Class rdf:about="https://w3id.org/rec/device/PM10AirQualitySensor">
         <rdfs:subClassOf rdf:resource="https://w3id.org/rec/device/AirQualitySensor"/>
-        <rdfs:label xml:lang="en">PM10 air quality sensor</rdfs:label>
+        <rdfs:label xml:lang="en">P air quality sensor</rdfs:label>
     </owl:Class>
     
 
@@ -3829,7 +3872,7 @@ Deprecated in favour of core:Observation.</rdfs:comment>
 
     <owl:Class rdf:about="https://w3id.org/rec/device/PbAirQualitySensor">
         <rdfs:subClassOf rdf:resource="https://w3id.org/rec/device/AirQualitySensor"/>
-        <rdfs:label xml:lang="en">Pb (lead) air quality sensor</rdfs:label>
+        <rdfs:label xml:lang="en">Pb air quality sensor</rdfs:label>
     </owl:Class>
     
 
@@ -4260,7 +4303,7 @@ Deprecated in favor of device:position and device:substance.</rdfs:comment>
 
     <owl:Class rdf:about="https://w3id.org/rec/device/SO2AirQualitySensor">
         <rdfs:subClassOf rdf:resource="https://w3id.org/rec/device/AirQualitySensor"/>
-        <rdfs:label xml:lang="en">SO2 (sulfur dioxide) air quality sensor</rdfs:label>
+        <rdfs:label xml:lang="en">S air quality sensor</rdfs:label>
     </owl:Class>
     
 
@@ -4404,11 +4447,11 @@ Deprecated in favour of core:Sensor.</rdfs:comment>
     
 
 
-    <!-- https://w3id.org/rec/device/SpecificEnthalpySensor -->
+    <!-- https://w3id.org/rec/device/SpecificEnthalpySensorSensor -->
 
-    <owl:Class rdf:about="https://w3id.org/rec/device/SpecificEnthalpySensor">
+    <owl:Class rdf:about="https://w3id.org/rec/device/SpecificEnthalpySensorSensor">
         <rdfs:subClassOf rdf:resource="https://w3id.org/rec/device/EnthalpySensor"/>
-        <rdfs:label xml:lang="en">Specific enthalpy sensor</rdfs:label>
+        <rdfs:label xml:lang="en">Specific enthalpy sensor sensor</rdfs:label>
     </owl:Class>
     
 
@@ -4606,7 +4649,7 @@ Deprecated in favour of core:Sensor.</rdfs:comment>
 
     <owl:Class rdf:about="https://w3id.org/rec/device/TVOCAirQualitySensor">
         <rdfs:subClassOf rdf:resource="https://w3id.org/rec/device/AirQualitySensor"/>
-        <rdfs:label xml:lang="en">TVOC (Total Volatile Organic Compound) air quality sensor</rdfs:label>
+        <rdfs:label xml:lang="en">TVOC air quality sensor</rdfs:label>
     </owl:Class>
     
 
