@@ -10,4 +10,4 @@ Note that superseeded bugfix releases (e.g., 3.1.x) are not linked or recommende
 * [v3.1](3.1/)
 * [v3.1.3](3.1.3/)
 * [v3.2](3.2/)
-* [v3.3 (BETA)](3.3/)
+* [v3.3](3.3/)
