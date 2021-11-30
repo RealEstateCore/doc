@@ -45,16 +45,16 @@
         "value" : "example",
         "type" : "label"
       } ],
-      "modified" : [ {
-        "identifier" : "modified",
-        "language" : "undefined",
-        "value" : "2020-06-23",
-        "type" : "label"
-      } ],
       "publisher" : [ {
         "identifier" : "publisher",
         "language" : "undefined",
         "value" : "RealEstateCore Consortium",
+        "type" : "label"
+      } ],
+      "modified" : [ {
+        "identifier" : "modified",
+        "language" : "undefined",
+        "value" : "2020-06-23",
         "type" : "label"
       } ],
       "preferredNamespaceUri" : [ {
@@ -141,12 +141,12 @@
         "hasActuationInterface" : [ {
           "identifier" : "hasActuationInterface",
           "language" : "undefined",
-          "value" : "https://w3id.org/rec/example/HueBulbLightColorInterface",
+          "value" : "https://w3id.org/rec/example/HueBulbBrightnessInterface",
           "type" : "iri"
         }, {
           "identifier" : "hasActuationInterface",
           "language" : "undefined",
-          "value" : "https://w3id.org/rec/example/HueBulbBrightnessInterface",
+          "value" : "https://w3id.org/rec/example/HueBulbLightColorInterface",
           "type" : "iri"
         } ],
         "locatedIn" : [ {
@@ -430,17 +430,17 @@
         "includes" : [ {
           "identifier" : "includes",
           "language" : "undefined",
+          "value" : "https://w3id.org/rec/example/Ulvsnaes2_Garage",
+          "type" : "iri"
+        }, {
+          "identifier" : "includes",
+          "language" : "undefined",
           "value" : "https://w3id.org/rec/example/Ulvsnaes2_MainHouse",
           "type" : "iri"
         }, {
           "identifier" : "includes",
           "language" : "undefined",
           "value" : "https://w3id.org/rec/example/Ulvsnaes2_StorageBuilding",
-          "type" : "iri"
-        }, {
-          "identifier" : "includes",
-          "language" : "undefined",
-          "value" : "https://w3id.org/rec/example/Ulvsnaes2_Garage",
           "type" : "iri"
         } ]
       },
@@ -519,17 +519,17 @@
         }, {
           "identifier" : "hasPart",
           "language" : "undefined",
-          "value" : "https://w3id.org/rec/example/Ulvsnaes2_MainHouse_Entrance",
-          "type" : "iri"
-        }, {
-          "identifier" : "hasPart",
-          "language" : "undefined",
           "value" : "https://w3id.org/rec/example/Ulvsnaes2_MainHouse_Office",
           "type" : "iri"
         }, {
           "identifier" : "hasPart",
           "language" : "undefined",
           "value" : "https://w3id.org/rec/example/Ulvsnaes2_MainHouse_DiningRoom",
+          "type" : "iri"
+        }, {
+          "identifier" : "hasPart",
+          "language" : "undefined",
+          "value" : "https://w3id.org/rec/example/Ulvsnaes2_MainHouse_Entrance",
           "type" : "iri"
         } ],
         "isPartOf" : [ {
@@ -669,12 +669,12 @@
         "hasPart" : [ {
           "identifier" : "hasPart",
           "language" : "undefined",
-          "value" : "https://w3id.org/rec/example/Ulvsnaes2_MainHouse_GroundFloor",
+          "value" : "https://w3id.org/rec/example/Ulvsnaes2_MainHouse_SecondFloor",
           "type" : "iri"
         }, {
           "identifier" : "hasPart",
           "language" : "undefined",
-          "value" : "https://w3id.org/rec/example/Ulvsnaes2_MainHouse_SecondFloor",
+          "value" : "https://w3id.org/rec/example/Ulvsnaes2_MainHouse_GroundFloor",
           "type" : "iri"
         } ],
         "includedIn" : [ {
@@ -718,12 +718,12 @@
         "hasCapability" : [ {
           "identifier" : "hasCapability",
           "language" : "undefined",
-          "value" : "https://w3id.org/rec/example/HueMotionSensor1_Thermometer",
+          "value" : "https://w3id.org/rec/example/HueMotionSensor1_MotionDetector",
           "type" : "iri"
         }, {
           "identifier" : "hasCapability",
           "language" : "undefined",
-          "value" : "https://w3id.org/rec/example/HueMotionSensor1_MotionDetector",
+          "value" : "https://w3id.org/rec/example/HueMotionSensor1_Thermometer",
           "type" : "iri"
         }, {
           "identifier" : "hasCapability",

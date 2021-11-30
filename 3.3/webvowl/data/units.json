@@ -100,7 +100,7 @@
     "id" : "2",
     "type" : "rdfs:Literal"
   }, {
-    "id" : "25",
+    "id" : "24",
     "type" : "rdfs:Literal"
   }, {
     "id" : "45",
@@ -162,17 +162,17 @@
         "undefined" : "The millimetre (International spelling as used by the International Bureau of Weights and Measures) or millimeter (American spelling) (SI unit symbol mm) is a unit of length in the metric system, equal to one thousandth of a metre, which is the SI base unit of length. It is equal to 1000 micrometres or 1000000 nanometres. A millimetre is equal to exactly 5/127 (approximately 0.039370) of an inch."
       },
       "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/unit",
-          "type" : "iri"
-        } ],
         "expression" : [ {
           "identifier" : "expression",
           "language" : "undefined",
           "value" : "\\(mm\\)",
           "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/unit",
+          "type" : "iri"
         } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
@@ -312,16 +312,16 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "informativeReference" : [ {
-          "identifier" : "informativeReference",
-          "language" : "undefined",
-          "value" : "http://en.wikipedia.org/wiki/Byte?oldid=493588918",
-          "type" : "label"
-        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
           "value" : "By",
+          "type" : "label"
+        } ],
+        "informativeReference" : [ {
+          "identifier" : "informativeReference",
+          "language" : "undefined",
+          "value" : "http://en.wikipedia.org/wiki/Byte?oldid=493588918",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -348,16 +348,16 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "informativeReference" : [ {
-          "identifier" : "informativeReference",
-          "language" : "undefined",
-          "value" : "http://en.wikipedia.org/wiki/Nanosecond?oldid=919778950",
-          "type" : "label"
-        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
           "value" : "ns",
+          "type" : "label"
+        } ],
+        "informativeReference" : [ {
+          "identifier" : "informativeReference",
+          "language" : "undefined",
+          "value" : "http://en.wikipedia.org/wiki/Nanosecond?oldid=919778950",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -517,16 +517,16 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "ucumCode" : [ {
-          "identifier" : "ucumCode",
-          "language" : "undefined",
-          "value" : "[HP]",
-          "type" : "label"
-        } ],
         "informativeReference" : [ {
           "identifier" : "informativeReference",
           "language" : "undefined",
           "value" : "http://en.wikipedia.org/wiki/Horsepower?oldid=495510329",
+          "type" : "label"
+        } ],
+        "ucumCode" : [ {
+          "identifier" : "ucumCode",
+          "language" : "undefined",
+          "value" : "[HP]",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -553,16 +553,16 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "ucumCode" : [ {
-          "identifier" : "ucumCode",
-          "language" : "undefined",
-          "value" : "h",
-          "type" : "label"
-        } ],
         "informativeReference" : [ {
           "identifier" : "informativeReference",
           "language" : "undefined",
           "value" : "http://en.wikipedia.org/wiki/Hour?oldid=495040268",
+          "type" : "label"
+        } ],
+        "ucumCode" : [ {
+          "identifier" : "ucumCode",
+          "language" : "undefined",
+          "value" : "h",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -703,6 +703,12 @@
           "value" : "\\(km/hr\\)",
           "type" : "label"
         } ],
+        "informativeReference" : [ {
+          "identifier" : "informativeReference",
+          "language" : "undefined",
+          "value" : "http://en.wikipedia.org/wiki/Kilometres_per_hour?oldid=487674812",
+          "type" : "label"
+        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
@@ -712,12 +718,6 @@
           "identifier" : "ucumCode",
           "language" : "undefined",
           "value" : "km.h-1",
-          "type" : "label"
-        } ],
-        "informativeReference" : [ {
-          "identifier" : "informativeReference",
-          "language" : "undefined",
-          "value" : "http://en.wikipedia.org/wiki/Kilometres_per_hour?oldid=487674812",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -744,16 +744,16 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "informativeReference" : [ {
-          "identifier" : "informativeReference",
-          "language" : "undefined",
-          "value" : "http://en.wikipedia.org/wiki/Bit?oldid=495288173",
-          "type" : "label"
-        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
           "value" : "bit",
+          "type" : "label"
+        } ],
+        "informativeReference" : [ {
+          "identifier" : "informativeReference",
+          "language" : "undefined",
+          "value" : "http://en.wikipedia.org/wiki/Bit?oldid=495288173",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -798,16 +798,16 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "informativeReference" : [ {
-          "identifier" : "informativeReference",
-          "language" : "undefined",
-          "value" : "http://en.wikipedia.org/wiki/Hectare?oldid=494256954",
-          "type" : "label"
-        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
           "value" : "har",
+          "type" : "label"
+        } ],
+        "informativeReference" : [ {
+          "identifier" : "informativeReference",
+          "language" : "undefined",
+          "value" : "http://en.wikipedia.org/wiki/Hectare?oldid=494256954",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -917,12 +917,12 @@
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "m3.h-1",
+          "value" : "m3/h",
           "type" : "label"
         }, {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "m3/h",
+          "value" : "m3.h-1",
           "type" : "label"
         } ]
       },
@@ -1003,17 +1003,17 @@
         "undefined" : "The cubic foot is an Imperial and US customary unit of volume, used in the United States and the United Kingdom. It is defined as the volume of a cube with sides of one foot (0.3048 m) in length. To calculate cubic feet multiply length X width X height. "
       },
       "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/unit",
-          "type" : "iri"
-        } ],
         "expression" : [ {
           "identifier" : "expression",
           "language" : "undefined",
           "value" : "\\(ft^{3}\\)",
           "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/unit",
+          "type" : "iri"
         } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
@@ -1038,17 +1038,17 @@
         "undefined" : "The square foot (plural square feet; abbreviated \\(ft^2\\) or \\(sq \\, ft\\)) is an imperial unit and U.S. customary unit of area, used mainly in the United States, Canada, United Kingdom, Hong Kong, Bangladesh, India, Pakistan and Afghanistan. It is defined as the area of a square with sides of 1 foot in length."
       },
       "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/unit",
-          "type" : "iri"
-        } ],
         "expression" : [ {
           "identifier" : "expression",
           "language" : "undefined",
           "value" : "\\(ft^{2}\\)",
           "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/unit",
+          "type" : "iri"
         } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
@@ -1118,6 +1118,21 @@
         "undefined" : "Kilovolt"
       }
     }, {
+      "iri" : "http://qudt.org/vocab/unit/MilliOHM",
+      "baseIri" : "http://qudt.org/vocab/unit",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/unit",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "MilliOHM",
+        "undefined" : "Milliohm"
+      }
+    }, {
       "iri" : "http://qudt.org/vocab/unit/MicroFARAD",
       "baseIri" : "http://qudt.org/vocab/unit",
       "description" : {
@@ -1136,21 +1151,6 @@
         "undefined" : "microfarad"
       }
     }, {
-      "iri" : "http://qudt.org/vocab/unit/MilliOHM",
-      "baseIri" : "http://qudt.org/vocab/unit",
-      "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/unit",
-          "type" : "iri"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "MilliOHM",
-        "undefined" : "Milliohm"
-      }
-    }, {
       "iri" : "http://qudt.org/vocab/unit/ARCSEC",
       "baseIri" : "http://qudt.org/vocab/unit",
       "description" : {
@@ -1163,16 +1163,16 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "ucumCode" : [ {
-          "identifier" : "ucumCode",
-          "language" : "undefined",
-          "value" : "''",
-          "type" : "label"
-        } ],
         "informativeReference" : [ {
           "identifier" : "informativeReference",
           "language" : "undefined",
           "value" : "http://en.wikipedia.org/wiki/Minute_of_arc#Symbols.2C_abbreviations_and_subdivisions",
+          "type" : "label"
+        } ],
+        "ucumCode" : [ {
+          "identifier" : "ucumCode",
+          "language" : "undefined",
+          "value" : "''",
           "type" : "label"
         } ]
       },
@@ -1277,17 +1277,17 @@
         "undefined" : "\"Pound per Cubic Foot\" is an Imperial unit for  'Density' expressed as \\(lb/ft^{3}\\)."
       },
       "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/unit",
-          "type" : "iri"
-        } ],
         "expression" : [ {
           "identifier" : "expression",
           "language" : "undefined",
           "value" : "\\(lb/ft^{3}\\)",
           "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/unit",
+          "type" : "iri"
         } ]
       },
       "labels" : {
@@ -1396,27 +1396,27 @@
         "undefined" : "\\(\\textit{Degree per Second Squared}\\) is an Imperial unit for \\(\\textit{Angular Acceleration}\\) expressed as \\(deg/s^2\\)."
       },
       "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/unit",
-          "type" : "iri"
-        } ],
         "expression" : [ {
           "identifier" : "expression",
           "language" : "undefined",
           "value" : "\\(deg/s^2\\)",
           "type" : "label"
         } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/unit",
+          "type" : "iri"
+        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "deg/s2",
+          "value" : "deg.s-2",
           "type" : "label"
         }, {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "deg.s-2",
+          "value" : "deg/s2",
           "type" : "label"
         } ]
       },
@@ -1482,12 +1482,12 @@
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "L/h",
+          "value" : "L.h-1",
           "type" : "label"
         }, {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "L.h-1",
+          "value" : "L/h",
           "type" : "label"
         } ]
       },
@@ -1577,21 +1577,21 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "informativeReference" : [ {
-          "identifier" : "informativeReference",
-          "language" : "undefined",
-          "value" : "http://www.simetric.co.uk/siderived.htm",
-          "type" : "label"
-        }, {
-          "identifier" : "informativeReference",
-          "language" : "undefined",
-          "value" : "http://en.wikipedia.org/wiki/Candela?oldid=484253082",
-          "type" : "label"
-        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
           "value" : "cd",
+          "type" : "label"
+        } ],
+        "informativeReference" : [ {
+          "identifier" : "informativeReference",
+          "language" : "undefined",
+          "value" : "http://en.wikipedia.org/wiki/Candela?oldid=484253082",
+          "type" : "label"
+        }, {
+          "identifier" : "informativeReference",
+          "language" : "undefined",
+          "value" : "http://www.simetric.co.uk/siderived.htm",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -1612,17 +1612,17 @@
         "undefined" : "A metric measure of volume or capacity equal to a cube 1 millimeter on each edge"
       },
       "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/unit",
-          "type" : "iri"
-        } ],
         "expression" : [ {
           "identifier" : "expression",
           "language" : "undefined",
           "value" : "\\(mm^{3}\\)",
           "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/unit",
+          "type" : "iri"
         } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
@@ -1723,16 +1723,16 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "informativeReference" : [ {
-          "identifier" : "informativeReference",
-          "language" : "undefined",
-          "value" : "http://en.wikipedia.org/wiki/Decibel?oldid=495380648",
-          "type" : "label"
-        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
           "value" : "dB",
+          "type" : "label"
+        } ],
+        "informativeReference" : [ {
+          "identifier" : "informativeReference",
+          "language" : "undefined",
+          "value" : "http://en.wikipedia.org/wiki/Decibel?oldid=495380648",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -1810,6 +1810,12 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
+        "informativeReference" : [ {
+          "identifier" : "informativeReference",
+          "language" : "undefined",
+          "value" : "http://en.wikipedia.org/wiki/Litre?oldid=494846400",
+          "type" : "label"
+        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
@@ -1825,12 +1831,6 @@
           "identifier" : "altLabel",
           "language" : "undefined",
           "value" : "litre",
-          "type" : "label"
-        } ],
-        "informativeReference" : [ {
-          "identifier" : "informativeReference",
-          "language" : "undefined",
-          "value" : "http://en.wikipedia.org/wiki/Litre?oldid=494846400",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -1857,16 +1857,16 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "informativeReference" : [ {
-          "identifier" : "informativeReference",
-          "language" : "undefined",
-          "value" : "http://en.wikipedia.org/wiki/Metre?oldid=495145797",
-          "type" : "label"
-        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
           "value" : "m",
+          "type" : "label"
+        } ],
+        "informativeReference" : [ {
+          "identifier" : "informativeReference",
+          "language" : "undefined",
+          "value" : "http://en.wikipedia.org/wiki/Metre?oldid=495145797",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -1893,16 +1893,16 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "informativeReference" : [ {
-          "identifier" : "informativeReference",
-          "language" : "undefined",
-          "value" : "http://en.wikipedia.org/wiki/Newton?oldid=488427661",
-          "type" : "label"
-        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
           "value" : "N",
+          "type" : "label"
+        } ],
+        "informativeReference" : [ {
+          "identifier" : "informativeReference",
+          "language" : "undefined",
+          "value" : "http://en.wikipedia.org/wiki/Newton?oldid=488427661",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -1977,17 +1977,17 @@
         "informativeReference" : [ {
           "identifier" : "informativeReference",
           "language" : "undefined",
-          "value" : "http://www.oxfordreference.com/view/10.1093/acref/9780198605225.001.0001/acref-9780198605225-e-1406?rskey=AzXBLd",
-          "type" : "label"
-        }, {
-          "identifier" : "informativeReference",
-          "language" : "undefined",
           "value" : "http://en.wikipedia.org/wiki/Tesla_(unit)",
           "type" : "label"
         }, {
           "identifier" : "informativeReference",
           "language" : "undefined",
           "value" : "http://en.wikipedia.org/wiki/Tesla?oldid=481198244",
+          "type" : "label"
+        }, {
+          "identifier" : "informativeReference",
+          "language" : "undefined",
+          "value" : "http://www.oxfordreference.com/view/10.1093/acref/9780198605225.001.0001/acref-9780198605225-e-1406?rskey=AzXBLd",
           "type" : "label"
         } ],
         "ucumCode" : [ {
@@ -2074,16 +2074,16 @@
           "value" : "W",
           "type" : "label"
         } ],
-        "dbpediaMatch" : [ {
-          "identifier" : "dbpediaMatch",
-          "language" : "undefined",
-          "value" : "http://dbpedia.org/resource/Watt",
-          "type" : "label"
-        } ],
         "latexDefinition" : [ {
           "identifier" : "latexDefinition",
           "language" : "undefined",
           "value" : "\\(\\text{W}\\ \\equiv\\ \\text{watt}\\ \\equiv\\ \\frac{\\text{J}}{\\text{s}}\\ \\equiv\\ \\frac{\\text{joule}}{\\text{second}}\\ \\equiv\\ \\frac{\\text{N.m}}{\\text{s}}\\ \\equiv\\ \\frac{\\text{newton.metre}}{\\text{second}}\\ \\equiv\\ \\text{V.A}\\ \\equiv\\ \\text{volt.amp}\\ \\equiv\\ \\Omega\\text{.A}^{2}\\ \\equiv\\ \\text{ohm.amp}^{2}\\)",
+          "type" : "label"
+        } ],
+        "dbpediaMatch" : [ {
+          "identifier" : "dbpediaMatch",
+          "language" : "undefined",
+          "value" : "http://dbpedia.org/resource/Watt",
           "type" : "label"
         } ]
       },
@@ -2253,27 +2253,27 @@
         "undefined" : "The square yard is an imperial/US customary unit of area, formerly used in most of the English-speaking world but now generally replaced by the square metre outside of the U.S. , Canada and the U.K. It is defined as the area of a square with sides of one yard in length. (Gaj in Hindi)."
       },
       "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/unit",
-          "type" : "iri"
-        } ],
         "expression" : [ {
           "identifier" : "expression",
           "language" : "undefined",
           "value" : "\\(yd^2\\)",
           "type" : "label"
         } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/unit",
+          "type" : "iri"
+        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "[syd_i]",
+          "value" : "[yd_i]2",
           "type" : "label"
         }, {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "[yd_i]2",
+          "value" : "[syd_i]",
           "type" : "label"
         } ]
       },
@@ -2312,17 +2312,17 @@
         "undefined" : "\"Revolution per Minute\" is a unit for  'Angular Velocity' expressed as \\(rev/min\\)."
       },
       "annotations" : {
-        "expression" : [ {
-          "identifier" : "expression",
-          "language" : "undefined",
-          "value" : "\\(rev/min\\)",
-          "type" : "label"
-        } ],
         "isDefinedBy" : [ {
           "identifier" : "isDefinedBy",
           "language" : "undefined",
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
+        } ],
+        "expression" : [ {
+          "identifier" : "expression",
+          "language" : "undefined",
+          "value" : "\\(rev/min\\)",
+          "type" : "label"
         } ]
       },
       "labels" : {
@@ -2342,16 +2342,16 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "informativeReference" : [ {
-          "identifier" : "informativeReference",
-          "language" : "undefined",
-          "value" : "http://en.wikipedia.org/wiki/Inch_of_mercury?oldid=486634645",
-          "type" : "label"
-        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
           "value" : "[in_i'Hg]",
+          "type" : "label"
+        } ],
+        "informativeReference" : [ {
+          "identifier" : "informativeReference",
+          "language" : "undefined",
+          "value" : "http://en.wikipedia.org/wiki/Inch_of_mercury?oldid=486634645",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -2432,17 +2432,17 @@
         "undefined" : "Radian Per Minute (rad/min) is a unit in the category of Angular velocity. It is also known as radians per minute, radian/minute. Radian Per Minute (rad/min) has a dimension of aT-1 where T is time. It can be converted to the corresponding standard SI unit rad/s by multiplying its value by a factor of 0.0166666666667. "
       },
       "annotations" : {
-        "expression" : [ {
-          "identifier" : "expression",
-          "language" : "undefined",
-          "value" : "\\(rad/m\\)",
-          "type" : "label"
-        } ],
         "isDefinedBy" : [ {
           "identifier" : "isDefinedBy",
           "language" : "undefined",
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
+        } ],
+        "expression" : [ {
+          "identifier" : "expression",
+          "language" : "undefined",
+          "value" : "\\(rad/m\\)",
+          "type" : "label"
         } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
@@ -2473,27 +2473,27 @@
         "undefined" : "\"Radian per Second\" is the SI unit of rotational speed (angular velocity), and, also the unit of angular frequency. The radian per second is defined as the change in the orientation of an object, in radians, every second."
       },
       "annotations" : {
-        "expression" : [ {
-          "identifier" : "expression",
-          "language" : "undefined",
-          "value" : "\\(rad/s\\)",
-          "type" : "label"
-        } ],
         "isDefinedBy" : [ {
           "identifier" : "isDefinedBy",
           "language" : "undefined",
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
+        "expression" : [ {
+          "identifier" : "expression",
+          "language" : "undefined",
+          "value" : "\\(rad/s\\)",
+          "type" : "label"
+        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "rad/s",
+          "value" : "rad.s-1",
           "type" : "label"
         }, {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "rad.s-1",
+          "value" : "rad/s",
           "type" : "label"
         } ]
       },
@@ -2580,12 +2580,12 @@
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "deg.s-1",
+          "value" : "deg/s",
           "type" : "label"
         }, {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "deg/s",
+          "value" : "deg.s-1",
           "type" : "label"
         } ]
       },
@@ -2615,12 +2615,12 @@
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "deg.min-1",
+          "value" : "deg/min",
           "type" : "label"
         }, {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "deg/min",
+          "value" : "deg.min-1",
           "type" : "label"
         } ]
       },
@@ -2686,12 +2686,12 @@
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "m3.s-1",
+          "value" : "m3/s",
           "type" : "label"
         }, {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "m3/s",
+          "value" : "m3.s-1",
           "type" : "label"
         } ]
       },
@@ -2785,16 +2785,16 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "ucumCode" : [ {
-          "identifier" : "ucumCode",
-          "language" : "undefined",
-          "value" : "Wb",
-          "type" : "label"
-        } ],
         "informativeReference" : [ {
           "identifier" : "informativeReference",
           "language" : "undefined",
           "value" : "http://en.wikipedia.org/wiki/Weber?oldid=491210387",
+          "type" : "label"
+        } ],
+        "ucumCode" : [ {
+          "identifier" : "ucumCode",
+          "language" : "undefined",
+          "value" : "Wb",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -2869,21 +2869,21 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "informativeReference" : [ {
-          "identifier" : "informativeReference",
-          "language" : "undefined",
-          "value" : "http://physics.nist.gov/cuu/Constants/bibliography.html",
-          "type" : "label"
-        }, {
-          "identifier" : "informativeReference",
-          "language" : "undefined",
-          "value" : "http://en.wikipedia.org/wiki/Electron_volt?oldid=344021738",
-          "type" : "label"
-        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
           "value" : "eV",
+          "type" : "label"
+        } ],
+        "informativeReference" : [ {
+          "identifier" : "informativeReference",
+          "language" : "undefined",
+          "value" : "http://en.wikipedia.org/wiki/Electron_volt?oldid=344021738",
+          "type" : "label"
+        }, {
+          "identifier" : "informativeReference",
+          "language" : "undefined",
+          "value" : "http://physics.nist.gov/cuu/Constants/bibliography.html",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -2947,17 +2947,17 @@
         "undefined" : "\"Revolution per Hour\" is a unit for  'Angular Velocity' expressed as \\(rev/h\\)."
       },
       "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/unit",
-          "type" : "iri"
-        } ],
         "expression" : [ {
           "identifier" : "expression",
           "language" : "undefined",
           "value" : "\\(rev/h\\)",
           "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/unit",
+          "type" : "iri"
         } ]
       },
       "labels" : {
@@ -2998,16 +2998,16 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "informativeReference" : [ {
-          "identifier" : "informativeReference",
-          "language" : "undefined",
-          "value" : "http://www.oxfordreference.com/view/10.1093/acref/9780198605225.001.0001/acref-9780198605225-e-331",
-          "type" : "label"
-        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
           "value" : "deg",
+          "type" : "label"
+        } ],
+        "informativeReference" : [ {
+          "identifier" : "informativeReference",
+          "language" : "undefined",
+          "value" : "http://www.oxfordreference.com/view/10.1093/acref/9780198605225.001.0001/acref-9780198605225-e-331",
           "type" : "label"
         } ]
       },
@@ -3028,16 +3028,16 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "ucumCode" : [ {
-          "identifier" : "ucumCode",
-          "language" : "undefined",
-          "value" : "Pa",
-          "type" : "label"
-        } ],
         "informativeReference" : [ {
           "identifier" : "informativeReference",
           "language" : "undefined",
           "value" : "http://en.wikipedia.org/wiki/Pascal?oldid=492989202",
+          "type" : "label"
+        } ],
+        "ucumCode" : [ {
+          "identifier" : "ucumCode",
+          "language" : "undefined",
+          "value" : "Pa",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -3064,12 +3064,6 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "ucumCode" : [ {
-          "identifier" : "ucumCode",
-          "language" : "undefined",
-          "value" : "bar",
-          "type" : "label"
-        } ],
         "informativeReference" : [ {
           "identifier" : "informativeReference",
           "language" : "undefined",
@@ -3079,6 +3073,12 @@
           "identifier" : "informativeReference",
           "language" : "undefined",
           "value" : "http://en.wikipedia.org/wiki/Bar_(unit)",
+          "type" : "label"
+        } ],
+        "ucumCode" : [ {
+          "identifier" : "ucumCode",
+          "language" : "undefined",
+          "value" : "bar",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -3099,17 +3099,17 @@
         "undefined" : "Metre per hour is a metric unit of both speed (scalar) and velocity (Vector (geometry)). Its symbol is m/h or mu00b7h-1 (not to be confused with the imperial unit symbol mph. By definition, an object travelling at a speed of 1 m/h for an hour would move 1 metre."
       },
       "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/unit",
-          "type" : "iri"
-        } ],
         "expression" : [ {
           "identifier" : "expression",
           "language" : "undefined",
           "value" : "\\(m/h\\)",
           "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/unit",
+          "type" : "iri"
         } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
@@ -3140,16 +3140,16 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "ucumCode" : [ {
-          "identifier" : "ucumCode",
-          "language" : "undefined",
-          "value" : "ms",
-          "type" : "label"
-        } ],
         "informativeReference" : [ {
           "identifier" : "informativeReference",
           "language" : "undefined",
           "value" : "http://en.wikipedia.org/wiki/Millisecond?oldid=495102042",
+          "type" : "label"
+        } ],
+        "ucumCode" : [ {
+          "identifier" : "ucumCode",
+          "language" : "undefined",
+          "value" : "ms",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -3206,17 +3206,17 @@
         "undefined" : "\"Watt per Square Meter} is a unit of irradiance defined as the power received per area. This is a unit in the category of Energy flux. It is also known as watts per square meter, watt per square metre, watts per square metre, watt/square meter, watt/square metre. This unit is commonly used in the SI unit system. Watt Per Square Meter (\\(W/m^2\\)) has a dimension of \\(MT^{-3\"\\) where M is mass, and T is time. This unit is the standard SI unit in this category."
       },
       "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/unit",
-          "type" : "iri"
-        } ],
         "expression" : [ {
           "identifier" : "expression",
           "language" : "undefined",
           "value" : "\\(W/m^2\\)",
           "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/unit",
+          "type" : "iri"
         } ],
         "informativeReference" : [ {
           "identifier" : "informativeReference",
@@ -3260,16 +3260,16 @@
           "value" : "<p>See NIST section <a href=\"http://physics.nist.gov/Pubs/SP811/sec07.html#7.10\">SP811 section7.10</a></p>",
           "type" : "label"
         } ],
-        "informativeReference" : [ {
-          "identifier" : "informativeReference",
-          "language" : "undefined",
-          "value" : "http://en.wikipedia.org/wiki/Radian?oldid=492309312",
-          "type" : "label"
-        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
           "value" : "rad",
+          "type" : "label"
+        } ],
+        "informativeReference" : [ {
+          "identifier" : "informativeReference",
+          "language" : "undefined",
+          "value" : "http://en.wikipedia.org/wiki/Radian?oldid=492309312",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -3299,16 +3299,16 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "informativeReference" : [ {
-          "identifier" : "informativeReference",
-          "language" : "undefined",
-          "value" : "http://en.wikipedia.org/wiki/Percentage?oldid=495284540",
-          "type" : "label"
-        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
           "value" : "%",
+          "type" : "label"
+        } ],
+        "informativeReference" : [ {
+          "identifier" : "informativeReference",
+          "language" : "undefined",
+          "value" : "http://en.wikipedia.org/wiki/Percentage?oldid=495284540",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -3341,16 +3341,16 @@
           "value" : "[acr_br]",
           "type" : "label"
         } ],
-        "informativeReference" : [ {
-          "identifier" : "informativeReference",
-          "language" : "undefined",
-          "value" : "http://en.wikipedia.org/wiki/Acre?oldid=495387342",
-          "type" : "label"
-        } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "undefined",
           "value" : "acre",
+          "type" : "label"
+        } ],
+        "informativeReference" : [ {
+          "identifier" : "informativeReference",
+          "language" : "undefined",
+          "value" : "http://en.wikipedia.org/wiki/Acre?oldid=495387342",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -3416,16 +3416,16 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "ucumCode" : [ {
-          "identifier" : "ucumCode",
-          "language" : "undefined",
-          "value" : "kg",
-          "type" : "label"
-        } ],
         "informativeReference" : [ {
           "identifier" : "informativeReference",
           "language" : "undefined",
           "value" : "http://en.wikipedia.org/wiki/Kilogram?oldid=493633626",
+          "type" : "label"
+        } ],
+        "ucumCode" : [ {
+          "identifier" : "ucumCode",
+          "language" : "undefined",
+          "value" : "kg",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -3446,27 +3446,27 @@
         "undefined" : "Kilogram Per Second (kg/s) is a unit in the category of Mass flow rate. It is also known as kilogram/second, kilograms per second. This unit is commonly used in the SI unit system. Kilogram Per Second (kg/s) has a dimension of \\(MT^{-1}\\) where M is mass, and T is time. This unit is the standard SI unit in this category."
       },
       "annotations" : {
-        "expression" : [ {
-          "identifier" : "expression",
-          "language" : "undefined",
-          "value" : "\\(kg/s\\)",
-          "type" : "label"
-        } ],
         "isDefinedBy" : [ {
           "identifier" : "isDefinedBy",
           "language" : "undefined",
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
+        "expression" : [ {
+          "identifier" : "expression",
+          "language" : "undefined",
+          "value" : "\\(kg/s\\)",
+          "type" : "label"
+        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "kg/s",
+          "value" : "kg.s-1",
           "type" : "label"
         }, {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "kg.s-1",
+          "value" : "kg/s",
           "type" : "label"
         } ]
       },
@@ -3528,7 +3528,7 @@
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "[mi_i]2",
+          "value" : "[smi_us]",
           "type" : "label"
         }, {
           "identifier" : "ucumCode",
@@ -3538,7 +3538,7 @@
         }, {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "[smi_us]",
+          "value" : "[mi_i]2",
           "type" : "label"
         } ]
       },
@@ -3712,16 +3712,16 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "informativeReference" : [ {
-          "identifier" : "informativeReference",
-          "language" : "undefined",
-          "value" : "http://en.wikipedia.org/wiki/Coulomb?oldid=491815163",
-          "type" : "label"
-        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
           "value" : "C",
+          "type" : "label"
+        } ],
+        "informativeReference" : [ {
+          "identifier" : "informativeReference",
+          "language" : "undefined",
+          "value" : "http://en.wikipedia.org/wiki/Coulomb?oldid=491815163",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -3748,16 +3748,16 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "ucumCode" : [ {
-          "identifier" : "ucumCode",
-          "language" : "undefined",
-          "value" : "H",
-          "type" : "label"
-        } ],
         "informativeReference" : [ {
           "identifier" : "informativeReference",
           "language" : "undefined",
           "value" : "http://en.wikipedia.org/wiki/Henry?oldid=491435978",
+          "type" : "label"
+        } ],
+        "ucumCode" : [ {
+          "identifier" : "ucumCode",
+          "language" : "undefined",
+          "value" : "H",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -3871,12 +3871,12 @@
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "rad.s-2",
+          "value" : "rad/s2",
           "type" : "label"
         }, {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "rad/s2",
+          "value" : "rad.s-2",
           "type" : "label"
         } ]
       },
@@ -3936,16 +3936,16 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "ucumCode" : [ {
-          "identifier" : "ucumCode",
-          "language" : "undefined",
-          "value" : "s",
-          "type" : "label"
-        } ],
         "informativeReference" : [ {
           "identifier" : "informativeReference",
           "language" : "undefined",
           "value" : "http://en.wikipedia.org/wiki/Second?oldid=495241006",
+          "type" : "label"
+        } ],
+        "ucumCode" : [ {
+          "identifier" : "ucumCode",
+          "language" : "undefined",
+          "value" : "s",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -4020,6 +4020,21 @@
         "undefined" : "astronomical-unit"
       }
     }, {
+      "iri" : "http://qudt.org/vocab/unit/KiloOHM",
+      "baseIri" : "http://qudt.org/vocab/unit",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/unit",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "KiloOHM",
+        "undefined" : "Kiloohm"
+      }
+    }, {
       "iri" : "http://qudt.org/vocab/unit/PicoC",
       "baseIri" : "http://qudt.org/vocab/unit",
       "description" : {
@@ -4042,21 +4057,6 @@
       "labels" : {
         "IRI-based" : "PicoC",
         "undefined" : "PicoCoulomb"
-      }
-    }, {
-      "iri" : "http://qudt.org/vocab/unit/KiloOHM",
-      "baseIri" : "http://qudt.org/vocab/unit",
-      "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/unit",
-          "type" : "iri"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "KiloOHM",
-        "undefined" : "Kiloohm"
       }
     }, {
       "iri" : "http://qudt.org/vocab/unit/MebiBIT",
@@ -4143,12 +4143,6 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "informativeReference" : [ {
-          "identifier" : "informativeReference",
-          "language" : "undefined",
-          "value" : "http://en.wikipedia.org/wiki/Knot?oldid=495066194",
-          "type" : "label"
-        } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "undefined",
@@ -4164,6 +4158,12 @@
           "identifier" : "ucumCode",
           "language" : "undefined",
           "value" : "[kn_i]",
+          "type" : "label"
+        } ],
+        "informativeReference" : [ {
+          "identifier" : "informativeReference",
+          "language" : "undefined",
+          "value" : "http://en.wikipedia.org/wiki/Knot?oldid=495066194",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -4190,17 +4190,17 @@
         "undefined" : "The \\(\\textit{meter per second squared}\\) is the unit of acceleration in the International System of Units (SI). As a derived unit it is composed from the SI base units of length, the metre, and the standard unit of time, the second. Its symbol is written in several forms as \\(m/s^2\\), or \\(m s^{-2}\\). As acceleration, the unit is interpreted physically as change in velocity or speed per time interval, that is, \\(\\textit{metre per second per second}\\)."
       },
       "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/unit",
-          "type" : "iri"
-        } ],
         "expression" : [ {
           "identifier" : "expression",
           "language" : "undefined",
           "value" : "\\(m/s^2\\)",
           "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/unit",
+          "type" : "iri"
         } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
@@ -4231,16 +4231,16 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "undefined",
-          "value" : "Queen Anne's wine gallon",
-          "type" : "label"
-        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
           "value" : "[gal_us]",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "undefined",
+          "value" : "Queen Anne's wine gallon",
           "type" : "label"
         } ]
       },
@@ -4282,21 +4282,21 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "informativeReference" : [ {
-          "identifier" : "informativeReference",
-          "language" : "undefined",
-          "value" : "http://en.wikipedia.org/wiki/Miles_per_hour?oldid=482840548",
-          "type" : "label"
-        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "[mi_i].h-1",
+          "value" : "[mi_i]/h",
           "type" : "label"
         }, {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "[mi_i]/h",
+          "value" : "[mi_i].h-1",
+          "type" : "label"
+        } ],
+        "informativeReference" : [ {
+          "identifier" : "informativeReference",
+          "language" : "undefined",
+          "value" : "http://en.wikipedia.org/wiki/Miles_per_hour?oldid=482840548",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -4341,45 +4341,45 @@
         "undefined" : "Degree Fahrenheit"
       }
     }, {
-      "iri" : "http://qudt.org/vocab/unit/KibiBYTE",
-      "baseIri" : "http://qudt.org/vocab/unit",
-      "labels" : {
-        "IRI-based" : "KibiBYTE"
-      }
-    }, {
       "iri" : "http://qudt.org/vocab/unit/M-PER-SEC",
       "baseIri" : "http://qudt.org/vocab/unit",
       "description" : {
         "undefined" : "Metre per second is an SI derived unit of both speed (scalar) and velocity (vector quantity which specifies both magnitude and a specific direction), defined by distance in metres divided by time in seconds.\nThe official SI symbolic abbreviation is mu00b7s-1, or equivalently either m/s."
       },
       "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/unit",
-          "type" : "iri"
-        } ],
         "expression" : [ {
           "identifier" : "expression",
           "language" : "undefined",
           "value" : "\\(m/s\\)",
           "type" : "label"
         } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/unit",
+          "type" : "iri"
+        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "m/s",
+          "value" : "m.s-1",
           "type" : "label"
         }, {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "m.s-1",
+          "value" : "m/s",
           "type" : "label"
         } ]
       },
       "labels" : {
         "IRI-based" : "M-PER-SEC",
         "undefined" : "Meter per Second"
+      }
+    }, {
+      "iri" : "http://qudt.org/vocab/unit/KibiBYTE",
+      "baseIri" : "http://qudt.org/vocab/unit",
+      "labels" : {
+        "IRI-based" : "KibiBYTE"
       }
     }, {
       "iri" : "http://qudt.org/vocab/unit/OZ_VOL_UK",
@@ -4490,16 +4490,16 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "ucumCode" : [ {
-          "identifier" : "ucumCode",
-          "language" : "undefined",
-          "value" : "d",
-          "type" : "label"
-        } ],
         "informativeReference" : [ {
           "identifier" : "informativeReference",
           "language" : "undefined",
           "value" : "http://en.wikipedia.org/wiki/Day?oldid=494970012",
+          "type" : "label"
+        } ],
+        "ucumCode" : [ {
+          "identifier" : "ucumCode",
+          "language" : "undefined",
+          "value" : "d",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -4535,18 +4535,12 @@
         "guidance" : [ {
           "identifier" : "guidance",
           "language" : "undefined",
-          "value" : "<p>See NIST section <a href=\"http://physics.nist.gov/Pubs/SP811/sec04.html#4.2.1.1\">SP811 section 4.2.1.1</a></p>",
+          "value" : "<p>See NIST section <a href=\"http://physics.nist.gov/Pubs/SP811/sec06.html#6.2.8\">SP811 section 6.2.8</a></p>",
           "type" : "label"
         }, {
           "identifier" : "guidance",
           "language" : "undefined",
-          "value" : "<p>See NIST section <a href=\"http://physics.nist.gov/Pubs/SP811/sec06.html#6.2.8\">SP811 section 6.2.8</a></p>",
-          "type" : "label"
-        } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "undefined",
-          "value" : "degree-centigrade",
+          "value" : "<p>See NIST section <a href=\"http://physics.nist.gov/Pubs/SP811/sec04.html#4.2.1.1\">SP811 section 4.2.1.1</a></p>",
           "type" : "label"
         } ],
         "ucumCode" : [ {
@@ -4559,6 +4553,12 @@
           "identifier" : "informativeReference",
           "language" : "undefined",
           "value" : "http://en.wikipedia.org/wiki/Celsius?oldid=494152178",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "undefined",
+          "value" : "degree-centigrade",
           "type" : "label"
         } ],
         "latexDefinition" : [ {
@@ -4585,17 +4585,17 @@
         "undefined" : "The S I unit of area is the square metre."
       },
       "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/unit",
-          "type" : "iri"
-        } ],
         "expression" : [ {
           "identifier" : "expression",
           "language" : "undefined",
           "value" : "\\(sq-m\\)",
           "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/unit",
+          "type" : "iri"
         } ],
         "informativeReference" : [ {
           "identifier" : "informativeReference",
@@ -4669,27 +4669,27 @@
         "undefined" : "\"Kilometer per Second\" is a C.G.S System unit for  'Linear Velocity' expressed as \\(km/s\\)."
       },
       "annotations" : {
-        "expression" : [ {
-          "identifier" : "expression",
-          "language" : "undefined",
-          "value" : "\\(km/s\\)",
-          "type" : "label"
-        } ],
         "isDefinedBy" : [ {
           "identifier" : "isDefinedBy",
           "language" : "undefined",
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
+        "expression" : [ {
+          "identifier" : "expression",
+          "language" : "undefined",
+          "value" : "\\(km/s\\)",
+          "type" : "label"
+        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "km.s-1",
+          "value" : "km/s",
           "type" : "label"
         }, {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "km/s",
+          "value" : "km.s-1",
           "type" : "label"
         } ]
       },
@@ -4704,27 +4704,27 @@
         "undefined" : "\\(\\textit{Centimeter per Second Squared}\\) is a C.G.S System unit for  \\(\\textit{Linear Acceleration}\\) expressed as \\(cm/s^2\\)."
       },
       "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/unit",
-          "type" : "iri"
-        } ],
         "expression" : [ {
           "identifier" : "expression",
           "language" : "undefined",
           "value" : "\\(cm/s^2\\)",
           "type" : "label"
         } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/unit",
+          "type" : "iri"
+        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "cm.s-2",
+          "value" : "cm/s2",
           "type" : "label"
         }, {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "cm/s2",
+          "value" : "cm.s-2",
           "type" : "label"
         } ]
       },
@@ -4769,27 +4769,27 @@
         "undefined" : "Kilogram per cubic metre is an SI derived unit of density, defined by mass in kilograms divided by volume in cubic metres. The official SI symbolic abbreviation is \\(kg \\cdot m^{-3}\\), or equivalently either \\(kg/m^3\\)."
       },
       "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/unit",
-          "type" : "iri"
-        } ],
         "expression" : [ {
           "identifier" : "expression",
           "language" : "undefined",
           "value" : "\\(kg/m^3\\)",
           "type" : "label"
         } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/unit",
+          "type" : "iri"
+        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "kg.m-3",
+          "value" : "kg/m3",
           "type" : "label"
         }, {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "kg/m3",
+          "value" : "kg.m-3",
           "type" : "label"
         } ]
       },
@@ -4993,12 +4993,12 @@
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "cm/s",
+          "value" : "cm.s-1",
           "type" : "label"
         }, {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "cm.s-1",
+          "value" : "cm/s",
           "type" : "label"
         } ],
         "latexDefinition" : [ {
@@ -5148,17 +5148,17 @@
         "undefined" : "A unit of area equal to that of a square, of sides 1cm"
       },
       "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/unit",
-          "type" : "iri"
-        } ],
         "expression" : [ {
           "identifier" : "expression",
           "language" : "undefined",
           "value" : "\\(sqcm\\)",
           "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/unit",
+          "type" : "iri"
         } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
@@ -5178,27 +5178,27 @@
         "undefined" : "A square inch is a unit of area, equal to the area of a square with sides of one inch. The following symbols are used to denote square inches: square in, sq inches, sq inch, sq in inches/-2, inch/-2, in/-2, inches^2, \\(inch^2\\), \\(in^2\\), \\(inches^2\\), \\(inch^2\\), \\(in^2\\) or in some cases \\(\"^2\\). The square inch is a common unit of measurement in the United States and the United Kingdom."
       },
       "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/unit",
-          "type" : "iri"
-        } ],
         "expression" : [ {
           "identifier" : "expression",
           "language" : "undefined",
           "value" : "\\(in^{2}\\)",
           "type" : "label"
         } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/unit",
+          "type" : "iri"
+        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "[in_i]2",
+          "value" : "[sin_i]",
           "type" : "label"
         }, {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "[sin_i]",
+          "value" : "[in_i]2",
           "type" : "label"
         } ]
       },
@@ -5228,17 +5228,17 @@
         "undefined" : "The cubic inch is a unit of measurement for volume in the Imperial units and United States customary units systems. It is the volume of a cube with each of its three sides being one inch long. The cubic inch and the cubic foot are still used as units of volume in the United States, although the common SI units of volume, the liter, milliliter, and cubic meter, are continually replacing them, especially in manufacturing and high technology. One cubic foot is equal to exactly 1728 cubic inches."
       },
       "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/unit",
-          "type" : "iri"
-        } ],
         "expression" : [ {
           "identifier" : "expression",
           "language" : "undefined",
           "value" : "\\(in^{3}\\)",
           "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/unit",
+          "type" : "iri"
         } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
@@ -5257,12 +5257,6 @@
         "undefined" : "Cubic Inch"
       }
     }, {
-      "iri" : "http://qudt.org/vocab/unit/ZebiBIT",
-      "baseIri" : "http://qudt.org/vocab/unit",
-      "labels" : {
-        "IRI-based" : "ZebiBIT"
-      }
-    }, {
       "iri" : "http://qudt.org/vocab/unit/BIT-PER-SEC",
       "baseIri" : "http://qudt.org/vocab/unit",
       "description" : {
@@ -5275,22 +5269,28 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "ucumCode" : [ {
-          "identifier" : "ucumCode",
-          "language" : "undefined",
-          "value" : "Bd",
-          "type" : "label"
-        } ],
         "informativeReference" : [ {
           "identifier" : "informativeReference",
           "language" : "undefined",
           "value" : "http://en.wikipedia.org/wiki/Data_rate_units#Kilobyte_per_second",
+          "type" : "label"
+        } ],
+        "ucumCode" : [ {
+          "identifier" : "ucumCode",
+          "language" : "undefined",
+          "value" : "Bd",
           "type" : "label"
         } ]
       },
       "labels" : {
         "IRI-based" : "BIT-PER-SEC",
         "undefined" : "Bit per Second"
+      }
+    }, {
+      "iri" : "http://qudt.org/vocab/unit/ZebiBIT",
+      "baseIri" : "http://qudt.org/vocab/unit",
+      "labels" : {
+        "IRI-based" : "ZebiBIT"
       }
     } ],
     "subClasses" : [ "4", "5" ],
@@ -5313,17 +5313,17 @@
         "undefined" : "A metric measure of volume or capacity equal to a cube 1 millimeter on each edge"
       },
       "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/unit",
-          "type" : "iri"
-        } ],
         "expression" : [ {
           "identifier" : "expression",
           "language" : "undefined",
           "value" : "\\(mm^{3}\\)",
           "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/unit",
+          "type" : "iri"
         } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
@@ -5379,17 +5379,17 @@
         "undefined" : "The millimetre (International spelling as used by the International Bureau of Weights and Measures) or millimeter (American spelling) (SI unit symbol mm) is a unit of length in the metric system, equal to one thousandth of a metre, which is the SI base unit of length. It is equal to 1000 micrometres or 1000000 nanometres. A millimetre is equal to exactly 5/127 (approximately 0.039370) of an inch."
       },
       "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/unit",
-          "type" : "iri"
-        } ],
         "expression" : [ {
           "identifier" : "expression",
           "language" : "undefined",
           "value" : "\\(mm\\)",
           "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/unit",
+          "type" : "iri"
         } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
@@ -5421,17 +5421,17 @@
         "undefined" : "The \\(\\textit{meter per second squared}\\) is the unit of acceleration in the International System of Units (SI). As a derived unit it is composed from the SI base units of length, the metre, and the standard unit of time, the second. Its symbol is written in several forms as \\(m/s^2\\), or \\(m s^{-2}\\). As acceleration, the unit is interpreted physically as change in velocity or speed per time interval, that is, \\(\\textit{metre per second per second}\\)."
       },
       "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/unit",
-          "type" : "iri"
-        } ],
         "expression" : [ {
           "identifier" : "expression",
           "language" : "undefined",
           "value" : "\\(m/s^2\\)",
           "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/unit",
+          "type" : "iri"
         } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
@@ -5486,16 +5486,16 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "informativeReference" : [ {
-          "identifier" : "informativeReference",
-          "language" : "undefined",
-          "value" : "http://en.wikipedia.org/wiki/Byte?oldid=493588918",
-          "type" : "label"
-        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
           "value" : "By",
+          "type" : "label"
+        } ],
+        "informativeReference" : [ {
+          "identifier" : "informativeReference",
+          "language" : "undefined",
+          "value" : "http://en.wikipedia.org/wiki/Byte?oldid=493588918",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -5522,16 +5522,16 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "informativeReference" : [ {
-          "identifier" : "informativeReference",
-          "language" : "undefined",
-          "value" : "http://en.wikipedia.org/wiki/Nanosecond?oldid=919778950",
-          "type" : "label"
-        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
           "value" : "ns",
+          "type" : "label"
+        } ],
+        "informativeReference" : [ {
+          "identifier" : "informativeReference",
+          "language" : "undefined",
+          "value" : "http://en.wikipedia.org/wiki/Nanosecond?oldid=919778950",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -5588,16 +5588,16 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "informativeReference" : [ {
-          "identifier" : "informativeReference",
-          "language" : "undefined",
-          "value" : "http://en.wikipedia.org/wiki/Newton?oldid=488427661",
-          "type" : "label"
-        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
           "value" : "N",
+          "type" : "label"
+        } ],
+        "informativeReference" : [ {
+          "identifier" : "informativeReference",
+          "language" : "undefined",
+          "value" : "http://en.wikipedia.org/wiki/Newton?oldid=488427661",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -5651,17 +5651,17 @@
         "informativeReference" : [ {
           "identifier" : "informativeReference",
           "language" : "undefined",
-          "value" : "http://www.oxfordreference.com/view/10.1093/acref/9780198605225.001.0001/acref-9780198605225-e-1406?rskey=AzXBLd",
-          "type" : "label"
-        }, {
-          "identifier" : "informativeReference",
-          "language" : "undefined",
           "value" : "http://en.wikipedia.org/wiki/Tesla_(unit)",
           "type" : "label"
         }, {
           "identifier" : "informativeReference",
           "language" : "undefined",
           "value" : "http://en.wikipedia.org/wiki/Tesla?oldid=481198244",
+          "type" : "label"
+        }, {
+          "identifier" : "informativeReference",
+          "language" : "undefined",
+          "value" : "http://www.oxfordreference.com/view/10.1093/acref/9780198605225.001.0001/acref-9780198605225-e-1406?rskey=AzXBLd",
           "type" : "label"
         } ],
         "ucumCode" : [ {
@@ -5706,27 +5706,27 @@
         "undefined" : "Metre per second is an SI derived unit of both speed (scalar) and velocity (vector quantity which specifies both magnitude and a specific direction), defined by distance in metres divided by time in seconds.\nThe official SI symbolic abbreviation is mu00b7s-1, or equivalently either m/s."
       },
       "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/unit",
-          "type" : "iri"
-        } ],
         "expression" : [ {
           "identifier" : "expression",
           "language" : "undefined",
           "value" : "\\(m/s\\)",
           "type" : "label"
         } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/unit",
+          "type" : "iri"
+        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "m/s",
+          "value" : "m.s-1",
           "type" : "label"
         }, {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "m.s-1",
+          "value" : "m/s",
           "type" : "label"
         } ]
       },
@@ -5801,16 +5801,16 @@
           "value" : "W",
           "type" : "label"
         } ],
-        "dbpediaMatch" : [ {
-          "identifier" : "dbpediaMatch",
-          "language" : "undefined",
-          "value" : "http://dbpedia.org/resource/Watt",
-          "type" : "label"
-        } ],
         "latexDefinition" : [ {
           "identifier" : "latexDefinition",
           "language" : "undefined",
           "value" : "\\(\\text{W}\\ \\equiv\\ \\text{watt}\\ \\equiv\\ \\frac{\\text{J}}{\\text{s}}\\ \\equiv\\ \\frac{\\text{joule}}{\\text{second}}\\ \\equiv\\ \\frac{\\text{N.m}}{\\text{s}}\\ \\equiv\\ \\frac{\\text{newton.metre}}{\\text{second}}\\ \\equiv\\ \\text{V.A}\\ \\equiv\\ \\text{volt.amp}\\ \\equiv\\ \\Omega\\text{.A}^{2}\\ \\equiv\\ \\text{ohm.amp}^{2}\\)",
+          "type" : "label"
+        } ],
+        "dbpediaMatch" : [ {
+          "identifier" : "dbpediaMatch",
+          "language" : "undefined",
+          "value" : "http://dbpedia.org/resource/Watt",
           "type" : "label"
         } ]
       },
@@ -5977,18 +5977,12 @@
         "guidance" : [ {
           "identifier" : "guidance",
           "language" : "undefined",
-          "value" : "<p>See NIST section <a href=\"http://physics.nist.gov/Pubs/SP811/sec04.html#4.2.1.1\">SP811 section 4.2.1.1</a></p>",
+          "value" : "<p>See NIST section <a href=\"http://physics.nist.gov/Pubs/SP811/sec06.html#6.2.8\">SP811 section 6.2.8</a></p>",
           "type" : "label"
         }, {
           "identifier" : "guidance",
           "language" : "undefined",
-          "value" : "<p>See NIST section <a href=\"http://physics.nist.gov/Pubs/SP811/sec06.html#6.2.8\">SP811 section 6.2.8</a></p>",
-          "type" : "label"
-        } ],
-        "altLabel" : [ {
-          "identifier" : "altLabel",
-          "language" : "undefined",
-          "value" : "degree-centigrade",
+          "value" : "<p>See NIST section <a href=\"http://physics.nist.gov/Pubs/SP811/sec04.html#4.2.1.1\">SP811 section 4.2.1.1</a></p>",
           "type" : "label"
         } ],
         "ucumCode" : [ {
@@ -6001,6 +5995,12 @@
           "identifier" : "informativeReference",
           "language" : "undefined",
           "value" : "http://en.wikipedia.org/wiki/Celsius?oldid=494152178",
+          "type" : "label"
+        } ],
+        "altLabel" : [ {
+          "identifier" : "altLabel",
+          "language" : "undefined",
+          "value" : "degree-centigrade",
           "type" : "label"
         } ],
         "latexDefinition" : [ {
@@ -6027,17 +6027,17 @@
         "undefined" : "The S I unit of area is the square metre."
       },
       "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/unit",
-          "type" : "iri"
-        } ],
         "expression" : [ {
           "identifier" : "expression",
           "language" : "undefined",
           "value" : "\\(sq-m\\)",
           "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/unit",
+          "type" : "iri"
         } ],
         "informativeReference" : [ {
           "identifier" : "informativeReference",
@@ -6069,27 +6069,27 @@
         "undefined" : "The square yard is an imperial/US customary unit of area, formerly used in most of the English-speaking world but now generally replaced by the square metre outside of the U.S. , Canada and the U.K. It is defined as the area of a square with sides of one yard in length. (Gaj in Hindi)."
       },
       "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/unit",
-          "type" : "iri"
-        } ],
         "expression" : [ {
           "identifier" : "expression",
           "language" : "undefined",
           "value" : "\\(yd^2\\)",
           "type" : "label"
         } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/unit",
+          "type" : "iri"
+        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "[syd_i]",
+          "value" : "[yd_i]2",
           "type" : "label"
         }, {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "[yd_i]2",
+          "value" : "[syd_i]",
           "type" : "label"
         } ]
       },
@@ -6170,17 +6170,17 @@
         "undefined" : "\"Revolution per Minute\" is a unit for  'Angular Velocity' expressed as \\(rev/min\\)."
       },
       "annotations" : {
-        "expression" : [ {
-          "identifier" : "expression",
-          "language" : "undefined",
-          "value" : "\\(rev/min\\)",
-          "type" : "label"
-        } ],
         "isDefinedBy" : [ {
           "identifier" : "isDefinedBy",
           "language" : "undefined",
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
+        } ],
+        "expression" : [ {
+          "identifier" : "expression",
+          "language" : "undefined",
+          "value" : "\\(rev/min\\)",
+          "type" : "label"
         } ]
       },
       "labels" : {
@@ -6200,16 +6200,16 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "ucumCode" : [ {
-          "identifier" : "ucumCode",
-          "language" : "undefined",
-          "value" : "Pa",
-          "type" : "label"
-        } ],
         "informativeReference" : [ {
           "identifier" : "informativeReference",
           "language" : "undefined",
           "value" : "http://en.wikipedia.org/wiki/Pascal?oldid=492989202",
+          "type" : "label"
+        } ],
+        "ucumCode" : [ {
+          "identifier" : "ucumCode",
+          "language" : "undefined",
+          "value" : "Pa",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -6230,17 +6230,17 @@
         "undefined" : "Metre per hour is a metric unit of both speed (scalar) and velocity (Vector (geometry)). Its symbol is m/h or mu00b7h-1 (not to be confused with the imperial unit symbol mph. By definition, an object travelling at a speed of 1 m/h for an hour would move 1 metre."
       },
       "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/unit",
-          "type" : "iri"
-        } ],
         "expression" : [ {
           "identifier" : "expression",
           "language" : "undefined",
           "value" : "\\(m/h\\)",
           "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/unit",
+          "type" : "iri"
         } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
@@ -6307,16 +6307,16 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "ucumCode" : [ {
-          "identifier" : "ucumCode",
-          "language" : "undefined",
-          "value" : "ms",
-          "type" : "label"
-        } ],
         "informativeReference" : [ {
           "identifier" : "informativeReference",
           "language" : "undefined",
           "value" : "http://en.wikipedia.org/wiki/Millisecond?oldid=495102042",
+          "type" : "label"
+        } ],
+        "ucumCode" : [ {
+          "identifier" : "ucumCode",
+          "language" : "undefined",
+          "value" : "ms",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -6337,27 +6337,27 @@
         "undefined" : "\\(\\textit{Centimeter per Second Squared}\\) is a C.G.S System unit for  \\(\\textit{Linear Acceleration}\\) expressed as \\(cm/s^2\\)."
       },
       "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/unit",
-          "type" : "iri"
-        } ],
         "expression" : [ {
           "identifier" : "expression",
           "language" : "undefined",
           "value" : "\\(cm/s^2\\)",
           "type" : "label"
         } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/unit",
+          "type" : "iri"
+        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "cm.s-2",
+          "value" : "cm/s2",
           "type" : "label"
         }, {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "cm/s2",
+          "value" : "cm.s-2",
           "type" : "label"
         } ]
       },
@@ -6450,17 +6450,17 @@
         "undefined" : "\"Watt per Square Meter} is a unit of irradiance defined as the power received per area. This is a unit in the category of Energy flux. It is also known as watts per square meter, watt per square metre, watts per square metre, watt/square meter, watt/square metre. This unit is commonly used in the SI unit system. Watt Per Square Meter (\\(W/m^2\\)) has a dimension of \\(MT^{-3\"\\) where M is mass, and T is time. This unit is the standard SI unit in this category."
       },
       "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/unit",
-          "type" : "iri"
-        } ],
         "expression" : [ {
           "identifier" : "expression",
           "language" : "undefined",
           "value" : "\\(W/m^2\\)",
           "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/unit",
+          "type" : "iri"
         } ],
         "informativeReference" : [ {
           "identifier" : "informativeReference",
@@ -6474,68 +6474,33 @@
         "undefined" : "Watt per Square Meter"
       }
     }, {
-      "iri" : "http://qudt.org/vocab/unit/KiloGM-PER-M3",
-      "baseIri" : "http://qudt.org/vocab/unit",
-      "description" : {
-        "undefined" : "Kilogram per cubic metre is an SI derived unit of density, defined by mass in kilograms divided by volume in cubic metres. The official SI symbolic abbreviation is \\(kg \\cdot m^{-3}\\), or equivalently either \\(kg/m^3\\)."
-      },
-      "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/unit",
-          "type" : "iri"
-        } ],
-        "expression" : [ {
-          "identifier" : "expression",
-          "language" : "undefined",
-          "value" : "\\(kg/m^3\\)",
-          "type" : "label"
-        } ],
-        "ucumCode" : [ {
-          "identifier" : "ucumCode",
-          "language" : "undefined",
-          "value" : "kg.m-3",
-          "type" : "label"
-        }, {
-          "identifier" : "ucumCode",
-          "language" : "undefined",
-          "value" : "kg/m3",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "KiloGM-PER-M3",
-        "undefined" : "Kilogram per Cubic Meter"
-      }
-    }, {
       "iri" : "http://qudt.org/vocab/unit/RAD-PER-SEC",
       "baseIri" : "http://qudt.org/vocab/unit",
       "description" : {
         "undefined" : "\"Radian per Second\" is the SI unit of rotational speed (angular velocity), and, also the unit of angular frequency. The radian per second is defined as the change in the orientation of an object, in radians, every second."
       },
       "annotations" : {
-        "expression" : [ {
-          "identifier" : "expression",
-          "language" : "undefined",
-          "value" : "\\(rad/s\\)",
-          "type" : "label"
-        } ],
         "isDefinedBy" : [ {
           "identifier" : "isDefinedBy",
           "language" : "undefined",
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
+        "expression" : [ {
+          "identifier" : "expression",
+          "language" : "undefined",
+          "value" : "\\(rad/s\\)",
+          "type" : "label"
+        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "rad/s",
+          "value" : "rad.s-1",
           "type" : "label"
         }, {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "rad.s-1",
+          "value" : "rad/s",
           "type" : "label"
         } ]
       },
@@ -6544,49 +6509,39 @@
         "undefined" : "radian per second"
       }
     }, {
-      "iri" : "http://qudt.org/vocab/unit/RAD",
+      "iri" : "http://qudt.org/vocab/unit/KiloGM-PER-M3",
       "baseIri" : "http://qudt.org/vocab/unit",
       "description" : {
-        "undefined" : "The radian is the standard unit of angular measure, used in many areas of mathematics. It describes the plane angle subtended by a circular arc as the length of the arc divided by the radius of the arc. In the absence of any symbol radians are assumed, and when degrees are meant the symbol \\(^{\\ circ}\\) is used. "
+        "undefined" : "Kilogram per cubic metre is an SI derived unit of density, defined by mass in kilograms divided by volume in cubic metres. The official SI symbolic abbreviation is \\(kg \\cdot m^{-3}\\), or equivalently either \\(kg/m^3\\)."
       },
       "annotations" : {
+        "expression" : [ {
+          "identifier" : "expression",
+          "language" : "undefined",
+          "value" : "\\(kg/m^3\\)",
+          "type" : "label"
+        } ],
         "isDefinedBy" : [ {
           "identifier" : "isDefinedBy",
           "language" : "undefined",
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "guidance" : [ {
-          "identifier" : "guidance",
-          "language" : "undefined",
-          "value" : "<p>See NIST section <a href=\"http://physics.nist.gov/Pubs/SP811/sec07.html#7.10\">SP811 section7.10</a></p>",
-          "type" : "label"
-        } ],
-        "informativeReference" : [ {
-          "identifier" : "informativeReference",
-          "language" : "undefined",
-          "value" : "http://en.wikipedia.org/wiki/Radian?oldid=492309312",
-          "type" : "label"
-        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "rad",
+          "value" : "kg/m3",
           "type" : "label"
-        } ],
-        "dbpediaMatch" : [ {
-          "identifier" : "dbpediaMatch",
+        }, {
+          "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "http://dbpedia.org/resource/Radian",
+          "value" : "kg.m-3",
           "type" : "label"
         } ]
       },
-      "comment" : {
-        "undefined" : "The radian and steradian are special names for the number one that may be used to convey information about the quantity concerned. In practice the symbols rad and sr are used where appropriate, but the symbol for the derived unit one is generally omitted in specifying the values of dimensionless quantities."
-      },
       "labels" : {
-        "IRI-based" : "RAD",
-        "undefined" : "Radian"
+        "IRI-based" : "KiloGM-PER-M3",
+        "undefined" : "Kilogram per Cubic Meter"
       }
     }, {
       "iri" : "http://qudt.org/vocab/unit/MicroC",
@@ -6611,6 +6566,51 @@
       "labels" : {
         "IRI-based" : "MicroC",
         "undefined" : "MicroCoulomb"
+      }
+    }, {
+      "iri" : "http://qudt.org/vocab/unit/RAD",
+      "baseIri" : "http://qudt.org/vocab/unit",
+      "description" : {
+        "undefined" : "The radian is the standard unit of angular measure, used in many areas of mathematics. It describes the plane angle subtended by a circular arc as the length of the arc divided by the radius of the arc. In the absence of any symbol radians are assumed, and when degrees are meant the symbol \\(^{\\ circ}\\) is used. "
+      },
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/unit",
+          "type" : "iri"
+        } ],
+        "guidance" : [ {
+          "identifier" : "guidance",
+          "language" : "undefined",
+          "value" : "<p>See NIST section <a href=\"http://physics.nist.gov/Pubs/SP811/sec07.html#7.10\">SP811 section7.10</a></p>",
+          "type" : "label"
+        } ],
+        "ucumCode" : [ {
+          "identifier" : "ucumCode",
+          "language" : "undefined",
+          "value" : "rad",
+          "type" : "label"
+        } ],
+        "informativeReference" : [ {
+          "identifier" : "informativeReference",
+          "language" : "undefined",
+          "value" : "http://en.wikipedia.org/wiki/Radian?oldid=492309312",
+          "type" : "label"
+        } ],
+        "dbpediaMatch" : [ {
+          "identifier" : "dbpediaMatch",
+          "language" : "undefined",
+          "value" : "http://dbpedia.org/resource/Radian",
+          "type" : "label"
+        } ]
+      },
+      "comment" : {
+        "undefined" : "The radian and steradian are special names for the number one that may be used to convey information about the quantity concerned. In practice the symbols rad and sr are used where appropriate, but the symbol for the derived unit one is generally omitted in specifying the values of dimensionless quantities."
+      },
+      "labels" : {
+        "IRI-based" : "RAD",
+        "undefined" : "Radian"
       }
     }, {
       "iri" : "http://qudt.org/vocab/unit/DEG-PER-HR",
@@ -6701,16 +6701,16 @@
           "value" : "[acr_br]",
           "type" : "label"
         } ],
-        "informativeReference" : [ {
-          "identifier" : "informativeReference",
-          "language" : "undefined",
-          "value" : "http://en.wikipedia.org/wiki/Acre?oldid=495387342",
-          "type" : "label"
-        } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "undefined",
           "value" : "acre",
+          "type" : "label"
+        } ],
+        "informativeReference" : [ {
+          "identifier" : "informativeReference",
+          "language" : "undefined",
+          "value" : "http://en.wikipedia.org/wiki/Acre?oldid=495387342",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -6746,12 +6746,12 @@
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "m3.h-1",
+          "value" : "m3/h",
           "type" : "label"
         }, {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "m3/h",
+          "value" : "m3.h-1",
           "type" : "label"
         } ]
       },
@@ -6802,17 +6802,17 @@
         "undefined" : "The cubic foot is an Imperial and US customary unit of volume, used in the United States and the United Kingdom. It is defined as the volume of a cube with sides of one foot (0.3048 m) in length. To calculate cubic feet multiply length X width X height. "
       },
       "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/unit",
-          "type" : "iri"
-        } ],
         "expression" : [ {
           "identifier" : "expression",
           "language" : "undefined",
           "value" : "\\(ft^{3}\\)",
           "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/unit",
+          "type" : "iri"
         } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
@@ -6867,17 +6867,17 @@
         "undefined" : "The square foot (plural square feet; abbreviated \\(ft^2\\) or \\(sq \\, ft\\)) is an imperial unit and U.S. customary unit of area, used mainly in the United States, Canada, United Kingdom, Hong Kong, Bangladesh, India, Pakistan and Afghanistan. It is defined as the area of a square with sides of 1 foot in length."
       },
       "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/unit",
-          "type" : "iri"
-        } ],
         "expression" : [ {
           "identifier" : "expression",
           "language" : "undefined",
           "value" : "\\(ft^{2}\\)",
           "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/unit",
+          "type" : "iri"
         } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
@@ -6941,12 +6941,12 @@
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "cm/s",
+          "value" : "cm.s-1",
           "type" : "label"
         }, {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "cm.s-1",
+          "value" : "cm/s",
           "type" : "label"
         } ],
         "latexDefinition" : [ {
@@ -7009,16 +7009,16 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "ucumCode" : [ {
-          "identifier" : "ucumCode",
-          "language" : "undefined",
-          "value" : "''",
-          "type" : "label"
-        } ],
         "informativeReference" : [ {
           "identifier" : "informativeReference",
           "language" : "undefined",
           "value" : "http://en.wikipedia.org/wiki/Minute_of_arc#Symbols.2C_abbreviations_and_subdivisions",
+          "type" : "label"
+        } ],
+        "ucumCode" : [ {
+          "identifier" : "ucumCode",
+          "language" : "undefined",
+          "value" : "''",
           "type" : "label"
         } ]
       },
@@ -7108,12 +7108,12 @@
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "deg.s-1",
+          "value" : "deg/s",
           "type" : "label"
         }, {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "deg/s",
+          "value" : "deg.s-1",
           "type" : "label"
         } ]
       },
@@ -7128,27 +7128,27 @@
         "undefined" : "Kilogram Per Second (kg/s) is a unit in the category of Mass flow rate. It is also known as kilogram/second, kilograms per second. This unit is commonly used in the SI unit system. Kilogram Per Second (kg/s) has a dimension of \\(MT^{-1}\\) where M is mass, and T is time. This unit is the standard SI unit in this category."
       },
       "annotations" : {
-        "expression" : [ {
-          "identifier" : "expression",
-          "language" : "undefined",
-          "value" : "\\(kg/s\\)",
-          "type" : "label"
-        } ],
         "isDefinedBy" : [ {
           "identifier" : "isDefinedBy",
           "language" : "undefined",
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
+        "expression" : [ {
+          "identifier" : "expression",
+          "language" : "undefined",
+          "value" : "\\(kg/s\\)",
+          "type" : "label"
+        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "kg/s",
+          "value" : "kg.s-1",
           "type" : "label"
         }, {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "kg.s-1",
+          "value" : "kg/s",
           "type" : "label"
         } ]
       },
@@ -7280,7 +7280,7 @@
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "[mi_i]2",
+          "value" : "[smi_us]",
           "type" : "label"
         }, {
           "identifier" : "ucumCode",
@@ -7290,7 +7290,7 @@
         }, {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "[smi_us]",
+          "value" : "[mi_i]2",
           "type" : "label"
         } ]
       },
@@ -7344,12 +7344,12 @@
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "m3.s-1",
+          "value" : "m3/s",
           "type" : "label"
         }, {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "m3/s",
+          "value" : "m3.s-1",
           "type" : "label"
         } ]
       },
@@ -7370,16 +7370,16 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "informativeReference" : [ {
-          "identifier" : "informativeReference",
-          "language" : "undefined",
-          "value" : "http://en.wikipedia.org/wiki/Coulomb?oldid=491815163",
-          "type" : "label"
-        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
           "value" : "C",
+          "type" : "label"
+        } ],
+        "informativeReference" : [ {
+          "identifier" : "informativeReference",
+          "language" : "undefined",
+          "value" : "http://en.wikipedia.org/wiki/Coulomb?oldid=491815163",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -7400,27 +7400,27 @@
         "undefined" : "\\(\\textit{Degree per Second Squared}\\) is an Imperial unit for \\(\\textit{Angular Acceleration}\\) expressed as \\(deg/s^2\\)."
       },
       "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/unit",
-          "type" : "iri"
-        } ],
         "expression" : [ {
           "identifier" : "expression",
           "language" : "undefined",
           "value" : "\\(deg/s^2\\)",
           "type" : "label"
         } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/unit",
+          "type" : "iri"
+        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "deg/s2",
+          "value" : "deg.s-2",
           "type" : "label"
         }, {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "deg.s-2",
+          "value" : "deg/s2",
           "type" : "label"
         } ]
       },
@@ -7441,16 +7441,16 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "ucumCode" : [ {
-          "identifier" : "ucumCode",
-          "language" : "undefined",
-          "value" : "H",
-          "type" : "label"
-        } ],
         "informativeReference" : [ {
           "identifier" : "informativeReference",
           "language" : "undefined",
           "value" : "http://en.wikipedia.org/wiki/Henry?oldid=491435978",
+          "type" : "label"
+        } ],
+        "ucumCode" : [ {
+          "identifier" : "ucumCode",
+          "language" : "undefined",
+          "value" : "H",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -7501,17 +7501,17 @@
         "undefined" : "A unit of area equal to that of a square, of sides 1cm"
       },
       "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/unit",
-          "type" : "iri"
-        } ],
         "expression" : [ {
           "identifier" : "expression",
           "language" : "undefined",
           "value" : "\\(sqcm\\)",
           "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/unit",
+          "type" : "iri"
         } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
@@ -7579,16 +7579,16 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "ucumCode" : [ {
-          "identifier" : "ucumCode",
-          "language" : "undefined",
-          "value" : "Wb",
-          "type" : "label"
-        } ],
         "informativeReference" : [ {
           "identifier" : "informativeReference",
           "language" : "undefined",
           "value" : "http://en.wikipedia.org/wiki/Weber?oldid=491210387",
+          "type" : "label"
+        } ],
+        "ucumCode" : [ {
+          "identifier" : "ucumCode",
+          "language" : "undefined",
+          "value" : "Wb",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -7624,12 +7624,12 @@
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "rad.s-2",
+          "value" : "rad/s2",
           "type" : "label"
         }, {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "rad/s2",
+          "value" : "rad.s-2",
           "type" : "label"
         } ]
       },
@@ -7668,27 +7668,27 @@
         "undefined" : "A square inch is a unit of area, equal to the area of a square with sides of one inch. The following symbols are used to denote square inches: square in, sq inches, sq inch, sq in inches/-2, inch/-2, in/-2, inches^2, \\(inch^2\\), \\(in^2\\), \\(inches^2\\), \\(inch^2\\), \\(in^2\\) or in some cases \\(\"^2\\). The square inch is a common unit of measurement in the United States and the United Kingdom."
       },
       "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/unit",
-          "type" : "iri"
-        } ],
         "expression" : [ {
           "identifier" : "expression",
           "language" : "undefined",
           "value" : "\\(in^{2}\\)",
           "type" : "label"
         } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/unit",
+          "type" : "iri"
+        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "[in_i]2",
+          "value" : "[sin_i]",
           "type" : "label"
         }, {
           "identifier" : "ucumCode",
           "language" : "undefined",
-          "value" : "[sin_i]",
+          "value" : "[in_i]2",
           "type" : "label"
         } ]
       },
@@ -7703,17 +7703,17 @@
         "undefined" : "The cubic inch is a unit of measurement for volume in the Imperial units and United States customary units systems. It is the volume of a cube with each of its three sides being one inch long. The cubic inch and the cubic foot are still used as units of volume in the United States, although the common SI units of volume, the liter, milliliter, and cubic meter, are continually replacing them, especially in manufacturing and high technology. One cubic foot is equal to exactly 1728 cubic inches."
       },
       "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/unit",
-          "type" : "iri"
-        } ],
         "expression" : [ {
           "identifier" : "expression",
           "language" : "undefined",
           "value" : "\\(in^{3}\\)",
           "type" : "label"
+        } ],
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/unit",
+          "type" : "iri"
         } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
@@ -7744,16 +7744,16 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "ucumCode" : [ {
-          "identifier" : "ucumCode",
-          "language" : "undefined",
-          "value" : "Bd",
-          "type" : "label"
-        } ],
         "informativeReference" : [ {
           "identifier" : "informativeReference",
           "language" : "undefined",
           "value" : "http://en.wikipedia.org/wiki/Data_rate_units#Kilobyte_per_second",
+          "type" : "label"
+        } ],
+        "ucumCode" : [ {
+          "identifier" : "ucumCode",
+          "language" : "undefined",
+          "value" : "Bd",
           "type" : "label"
         } ]
       },
@@ -7863,16 +7863,16 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "informativeReference" : [ {
-          "identifier" : "informativeReference",
-          "language" : "undefined",
-          "value" : "http://en.wikipedia.org/wiki/Decibel?oldid=495380648",
-          "type" : "label"
-        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
           "value" : "dB",
+          "type" : "label"
+        } ],
+        "informativeReference" : [ {
+          "identifier" : "informativeReference",
+          "language" : "undefined",
+          "value" : "http://en.wikipedia.org/wiki/Decibel?oldid=495380648",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -8024,16 +8024,16 @@
           "value" : "http://qudt.org/2.1/vocab/unit",
           "type" : "iri"
         } ],
-        "informativeReference" : [ {
-          "identifier" : "informativeReference",
-          "language" : "undefined",
-          "value" : "http://en.wikipedia.org/wiki/Decibel?oldid=495380648",
-          "type" : "label"
-        } ],
         "ucumCode" : [ {
           "identifier" : "ucumCode",
           "language" : "undefined",
           "value" : "dB",
+          "type" : "label"
+        } ],
+        "informativeReference" : [ {
+          "identifier" : "informativeReference",
+          "language" : "undefined",
+          "value" : "http://en.wikipedia.org/wiki/Decibel?oldid=495380648",
           "type" : "label"
         } ],
         "dbpediaMatch" : [ {
@@ -8137,16 +8137,16 @@
           "value" : "http://www.iso.org/iso/catalogue_detail?csnumber=31890",
           "type" : "label"
         } ],
-        "informativeReference" : [ {
-          "identifier" : "informativeReference",
-          "language" : "undefined",
-          "value" : "http://en.wikipedia.org/wiki/Relative_humidity",
-          "type" : "label"
-        } ],
         "altLabel" : [ {
           "identifier" : "altLabel",
           "language" : "undefined",
           "value" : "RH",
+          "type" : "label"
+        } ],
+        "informativeReference" : [ {
+          "identifier" : "informativeReference",
+          "language" : "undefined",
+          "value" : "http://en.wikipedia.org/wiki/Relative_humidity",
           "type" : "label"
         } ],
         "latexDefinition" : [ {
@@ -8159,27 +8159,6 @@
       "labels" : {
         "IRI-based" : "RelativeHumidity",
         "undefined" : "Relative Humidity"
-      }
-    }, {
-      "iri" : "http://qudt.org/vocab/quantitykind/Area",
-      "baseIri" : "http://qudt.org/vocab/quantitykind",
-      "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/quantitykind",
-          "type" : "iri"
-        } ],
-        "dbpediaMatch" : [ {
-          "identifier" : "dbpediaMatch",
-          "language" : "undefined",
-          "value" : "http://dbpedia.org/resource/Area",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "Area",
-        "undefined" : "Area"
       }
     }, {
       "iri" : "http://qudt.org/vocab/quantitykind/DataRate",
@@ -8201,6 +8180,27 @@
       "labels" : {
         "IRI-based" : "DataRate",
         "undefined" : "Data Rate"
+      }
+    }, {
+      "iri" : "http://qudt.org/vocab/quantitykind/Area",
+      "baseIri" : "http://qudt.org/vocab/quantitykind",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/quantitykind",
+          "type" : "iri"
+        } ],
+        "dbpediaMatch" : [ {
+          "identifier" : "dbpediaMatch",
+          "language" : "undefined",
+          "value" : "http://dbpedia.org/resource/Area",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Area",
+        "undefined" : "Area"
       }
     }, {
       "iri" : "http://qudt.org/vocab/quantitykind/AngularAcceleration",
@@ -8233,27 +8233,27 @@
         "undefined" : "\"Power Factor\", under periodic conditions, is the ratio of the absolute value of the active power \\(P\\) to the apparent power \\(S\\)."
       },
       "annotations" : {
-        "expression" : [ {
-          "identifier" : "expression",
-          "language" : "undefined",
-          "value" : "\\(power-factor\\)",
-          "type" : "label"
-        } ],
         "isDefinedBy" : [ {
           "identifier" : "isDefinedBy",
           "language" : "undefined",
           "value" : "http://qudt.org/2.1/vocab/quantitykind",
           "type" : "iri"
         } ],
+        "expression" : [ {
+          "identifier" : "expression",
+          "language" : "undefined",
+          "value" : "\\(power-factor\\)",
+          "type" : "label"
+        } ],
         "informativeReference" : [ {
           "identifier" : "informativeReference",
           "language" : "undefined",
-          "value" : "http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=31891",
+          "value" : "http://www.electropedia.org/iev/iev.nsf/display?openform&ievref=131-11-46",
           "type" : "label"
         }, {
           "identifier" : "informativeReference",
           "language" : "undefined",
-          "value" : "http://www.electropedia.org/iev/iev.nsf/display?openform&ievref=131-11-46",
+          "value" : "http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=31891",
           "type" : "label"
         } ],
         "latexDefinition" : [ {
@@ -8378,6 +8378,36 @@
         "undefined" : "Magnetic flux density"
       }
     }, {
+      "iri" : "http://qudt.org/vocab/quantitykind/Voltage",
+      "baseIri" : "http://qudt.org/vocab/quantitykind",
+      "description" : {
+        "undefined" : "\\(\\textit{Voltage}\\), also referred to as \\(\\textit{Electric Tension}\\), is the difference between electrical potentials of two points. For an electric field within a medium, \\(U_{ab} = - \\int_{r_a}^{r_b} E . {dr}\\), where \\(E\\) is electric field strength.\nFor an irrotational electric field, the voltage is independent of the path between the two points \\(a\\) and \\(b\\)."
+      },
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/quantitykind",
+          "type" : "iri"
+        } ],
+        "informativeReference" : [ {
+          "identifier" : "informativeReference",
+          "language" : "undefined",
+          "value" : "http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=31891",
+          "type" : "label"
+        } ],
+        "latexDefinition" : [ {
+          "identifier" : "latexDefinition",
+          "language" : "undefined",
+          "value" : "\\(U_{ab} = V_a - V_b\\), where \\(V_a\\) and \\(V_b\\) are electric potentials at points \\(a\\) and \\(b\\), respectively.",
+          "type" : "label"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Voltage",
+        "undefined" : "Voltage"
+      }
+    }, {
       "iri" : "http://qudt.org/vocab/quantitykind/ElectricCharge",
       "baseIri" : "http://qudt.org/vocab/quantitykind",
       "description" : {
@@ -8422,36 +8452,6 @@
       "labels" : {
         "IRI-based" : "ElectricCharge",
         "undefined" : "Electric Charge"
-      }
-    }, {
-      "iri" : "http://qudt.org/vocab/quantitykind/Voltage",
-      "baseIri" : "http://qudt.org/vocab/quantitykind",
-      "description" : {
-        "undefined" : "\\(\\textit{Voltage}\\), also referred to as \\(\\textit{Electric Tension}\\), is the difference between electrical potentials of two points. For an electric field within a medium, \\(U_{ab} = - \\int_{r_a}^{r_b} E . {dr}\\), where \\(E\\) is electric field strength.\nFor an irrotational electric field, the voltage is independent of the path between the two points \\(a\\) and \\(b\\)."
-      },
-      "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/quantitykind",
-          "type" : "iri"
-        } ],
-        "informativeReference" : [ {
-          "identifier" : "informativeReference",
-          "language" : "undefined",
-          "value" : "http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=31891",
-          "type" : "label"
-        } ],
-        "latexDefinition" : [ {
-          "identifier" : "latexDefinition",
-          "language" : "undefined",
-          "value" : "\\(U_{ab} = V_a - V_b\\), where \\(V_a\\) and \\(V_b\\) are electric potentials at points \\(a\\) and \\(b\\), respectively.",
-          "type" : "label"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "Voltage",
-        "undefined" : "Voltage"
       }
     }, {
       "iri" : "http://qudt.org/vocab/quantitykind/Time",
@@ -8527,16 +8527,16 @@
           "value" : "http://en.wikipedia.org/wiki/Torque",
           "type" : "label"
         } ],
-        "latexDefinition" : [ {
-          "identifier" : "latexDefinition",
-          "language" : "undefined",
-          "value" : "\\(\\tau = M \\cdot e_Q\\), where \\(M\\) is the momentof force and \\(e_Q\\) is a unit vector directed along a \\(Q-axis\\) with respect to which the torque is considered.",
-          "type" : "label"
-        } ],
         "dbpediaMatch" : [ {
           "identifier" : "dbpediaMatch",
           "language" : "undefined",
           "value" : "http://dbpedia.org/resource/Torque",
+          "type" : "label"
+        } ],
+        "latexDefinition" : [ {
+          "identifier" : "latexDefinition",
+          "language" : "undefined",
+          "value" : "\\(\\tau = M \\cdot e_Q\\), where \\(M\\) is the momentof force and \\(e_Q\\) is a unit vector directed along a \\(Q-axis\\) with respect to which the torque is considered.",
           "type" : "label"
         } ]
       },
@@ -8676,16 +8676,16 @@
           "value" : "http://en.wikipedia.org/wiki/Force",
           "type" : "label"
         } ],
-        "latexDefinition" : [ {
-          "identifier" : "latexDefinition",
-          "language" : "undefined",
-          "value" : "\\(F = \\frac{dp}{dt}\\), where \\(F\\) is the resultant force acting on a body, \\(p\\) is momentum of a body, and \\(t\\) is time.",
-          "type" : "label"
-        } ],
         "dbpediaMatch" : [ {
           "identifier" : "dbpediaMatch",
           "language" : "undefined",
           "value" : "http://dbpedia.org/resource/Force",
+          "type" : "label"
+        } ],
+        "latexDefinition" : [ {
+          "identifier" : "latexDefinition",
+          "language" : "undefined",
+          "value" : "\\(F = \\frac{dp}{dt}\\), where \\(F\\) is the resultant force acting on a body, \\(p\\) is momentum of a body, and \\(t\\) is time.",
           "type" : "label"
         } ]
       },
@@ -8727,39 +8727,39 @@
       "iri" : "http://qudt.org/vocab/quantitykind/MagneticFlux",
       "baseIri" : "http://qudt.org/vocab/quantitykind",
       "annotations" : {
-        "expression" : [ {
-          "identifier" : "expression",
-          "language" : "undefined",
-          "value" : "\\(magnetic-flux\\)",
-          "type" : "label"
-        } ],
         "isDefinedBy" : [ {
           "identifier" : "isDefinedBy",
           "language" : "undefined",
           "value" : "http://qudt.org/2.1/vocab/quantitykind",
           "type" : "iri"
         } ],
-        "informativeReference" : [ {
-          "identifier" : "informativeReference",
+        "expression" : [ {
+          "identifier" : "expression",
           "language" : "undefined",
-          "value" : "http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=31891",
+          "value" : "\\(magnetic-flux\\)",
           "type" : "label"
-        }, {
+        } ],
+        "informativeReference" : [ {
           "identifier" : "informativeReference",
           "language" : "undefined",
           "value" : "http://www.oxfordreference.com/view/10.1093/acref/9780199233991.001.0001/acref-9780199233991-e-1800",
           "type" : "label"
-        } ],
-        "dbpediaMatch" : [ {
-          "identifier" : "dbpediaMatch",
+        }, {
+          "identifier" : "informativeReference",
           "language" : "undefined",
-          "value" : "http://dbpedia.org/resource/Magnetic_flux",
+          "value" : "http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=31891",
           "type" : "label"
         } ],
         "latexDefinition" : [ {
           "identifier" : "latexDefinition",
           "language" : "undefined",
           "value" : "\\(\\Phi = \\int_S B \\cdot e_n d A\\), over a surface \\(S\\), where \\(B\\) is magnetic flux density and \\(e_n dA\\) is the vector surface element.",
+          "type" : "label"
+        } ],
+        "dbpediaMatch" : [ {
+          "identifier" : "dbpediaMatch",
+          "language" : "undefined",
+          "value" : "http://dbpedia.org/resource/Magnetic_flux",
           "type" : "label"
         } ]
       },
@@ -8822,16 +8822,16 @@
           "value" : "http://qudt.org/2.1/vocab/quantitykind",
           "type" : "iri"
         } ],
-        "dbpediaMatch" : [ {
-          "identifier" : "dbpediaMatch",
-          "language" : "undefined",
-          "value" : "http://dbpedia.org/resource/Luminance",
-          "type" : "label"
-        } ],
         "latexDefinition" : [ {
           "identifier" : "latexDefinition",
           "language" : "undefined",
           "value" : "\\(L_v = \\frac{dI_v}{dA}\\), where \\(dI_v\\) is the luminous intensity of an element of the surface with the area \\(dA\\) of the orthogonal projection of this element on a plane perpendicular to the given direction.",
+          "type" : "label"
+        } ],
+        "dbpediaMatch" : [ {
+          "identifier" : "dbpediaMatch",
+          "language" : "undefined",
+          "value" : "http://dbpedia.org/resource/Luminance",
           "type" : "label"
         } ]
       },
@@ -8942,6 +8942,50 @@
         "undefined" : "Efficiency"
       }
     }, {
+      "iri" : "http://qudt.org/vocab/quantitykind/Resistance",
+      "baseIri" : "http://qudt.org/vocab/quantitykind",
+      "annotations" : {
+        "isDefinedBy" : [ {
+          "identifier" : "isDefinedBy",
+          "language" : "undefined",
+          "value" : "http://qudt.org/2.1/vocab/quantitykind",
+          "type" : "iri"
+        } ],
+        "informativeReference" : [ {
+          "identifier" : "informativeReference",
+          "language" : "undefined",
+          "value" : "http://www.electropedia.org/iev/iev.nsf/display?openform&ievref=131-12-45",
+          "type" : "label"
+        }, {
+          "identifier" : "informativeReference",
+          "language" : "undefined",
+          "value" : "http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=31891",
+          "type" : "label"
+        } ],
+        "dbpediaMatch" : [ {
+          "identifier" : "dbpediaMatch",
+          "language" : "undefined",
+          "value" : "http://dbpedia.org/resource/Resistance",
+          "type" : "label"
+        } ],
+        "latexDefinition" : [ {
+          "identifier" : "latexDefinition",
+          "language" : "undefined",
+          "value" : "\\(R = \\frac{u}{i}\\), where \\(u\\) is instantaneous voltage and \\(i\\) is instantaneous electric current.",
+          "type" : "label"
+        } ],
+        "seeAlso" : [ {
+          "identifier" : "seeAlso",
+          "language" : "undefined",
+          "value" : "http://qudt.org/vocab/quantitykind/ElectricCurrent",
+          "type" : "iri"
+        } ]
+      },
+      "labels" : {
+        "IRI-based" : "Resistance",
+        "undefined" : "Resistance"
+      }
+    }, {
       "iri" : "http://qudt.org/vocab/quantitykind/Energy",
       "baseIri" : "http://qudt.org/vocab/quantitykind",
       "annotations" : {
@@ -8967,50 +9011,6 @@
       "labels" : {
         "IRI-based" : "Energy",
         "undefined" : "Energy"
-      }
-    }, {
-      "iri" : "http://qudt.org/vocab/quantitykind/Resistance",
-      "baseIri" : "http://qudt.org/vocab/quantitykind",
-      "annotations" : {
-        "isDefinedBy" : [ {
-          "identifier" : "isDefinedBy",
-          "language" : "undefined",
-          "value" : "http://qudt.org/2.1/vocab/quantitykind",
-          "type" : "iri"
-        } ],
-        "informativeReference" : [ {
-          "identifier" : "informativeReference",
-          "language" : "undefined",
-          "value" : "http://www.electropedia.org/iev/iev.nsf/display?openform&ievref=131-12-45",
-          "type" : "label"
-        }, {
-          "identifier" : "informativeReference",
-          "language" : "undefined",
-          "value" : "http://www.iso.org/iso/home/store/catalogue_tc/catalogue_detail.htm?csnumber=31891",
-          "type" : "label"
-        } ],
-        "latexDefinition" : [ {
-          "identifier" : "latexDefinition",
-          "language" : "undefined",
-          "value" : "\\(R = \\frac{u}{i}\\), where \\(u\\) is instantaneous voltage and \\(i\\) is instantaneous electric current.",
-          "type" : "label"
-        } ],
-        "dbpediaMatch" : [ {
-          "identifier" : "dbpediaMatch",
-          "language" : "undefined",
-          "value" : "http://dbpedia.org/resource/Resistance",
-          "type" : "label"
-        } ],
-        "seeAlso" : [ {
-          "identifier" : "seeAlso",
-          "language" : "undefined",
-          "value" : "http://qudt.org/vocab/quantitykind/ElectricCurrent",
-          "type" : "iri"
-        } ]
-      },
-      "labels" : {
-        "IRI-based" : "Resistance",
-        "undefined" : "Resistance"
       }
     }, {
       "iri" : "http://qudt.org/vocab/quantitykind/AngularVelocity",
@@ -9390,7 +9390,7 @@
     }
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "25",
+    "id" : "24",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -9458,10 +9458,10 @@
     "type" : "owl:objectProperty"
   }, {
     "id" : "23",
-    "type" : "owl:objectProperty"
-  }, {
-    "id" : "24",
     "type" : "owl:datatypeProperty"
+  }, {
+    "id" : "25",
+    "type" : "owl:objectProperty"
   }, {
     "id" : "26",
     "type" : "owl:objectProperty"
@@ -9547,22 +9547,22 @@
       "undefined" : "symbol"
     },
     "domain" : "1",
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "0"
   }, {
     "range" : "3",
     "domain" : "4",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "7"
   }, {
     "range" : "5",
     "domain" : "6",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "9"
   }, {
     "range" : "3",
     "domain" : "5",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "10"
   }, {
     "iri" : "http://qudt.org/schema/qudt/unit",
@@ -9597,6 +9597,16 @@
     "attributes" : [ "object", "external" ],
     "id" : "22"
   }, {
+    "iri" : "http://qudt.org/schema/qudt/baseImperialUnitDimensions",
+    "baseIri" : "http://qudt.org/schema/qudt",
+    "range" : "24",
+    "label" : {
+      "IRI-based" : "baseImperialUnitDimensions"
+    },
+    "domain" : "1",
+    "attributes" : [ "datatype", "external" ],
+    "id" : "23"
+  }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#closeMatch",
     "baseIri" : "http://www.w3.org/2004/02/skos/core",
     "range" : "1",
@@ -9605,17 +9615,7 @@
     },
     "domain" : "1",
     "attributes" : [ "object", "external" ],
-    "id" : "23"
-  }, {
-    "iri" : "http://qudt.org/schema/qudt/baseImperialUnitDimensions",
-    "baseIri" : "http://qudt.org/schema/qudt",
-    "range" : "25",
-    "label" : {
-      "IRI-based" : "baseImperialUnitDimensions"
-    },
-    "domain" : "1",
-    "attributes" : [ "external", "datatype" ],
-    "id" : "24"
+    "id" : "25"
   }, {
     "iri" : "http://qudt.org/schema/qudt/applicableSIUnit",
     "baseIri" : "http://qudt.org/schema/qudt",
@@ -9634,7 +9634,7 @@
       "IRI-based" : "baseISOUnitDimensions"
     },
     "domain" : "1",
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "27"
   }, {
     "iri" : "http://qudt.org/schema/qudt/baseSIUnitDimensions",
@@ -9644,7 +9644,7 @@
       "IRI-based" : "baseSIUnitDimensions"
     },
     "domain" : "1",
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "29"
   }, {
     "iri" : "http://qudt.org/schema/qudt/baseUSCustomaryUnitDimensions",
@@ -9654,7 +9654,7 @@
       "IRI-based" : "baseUSCustomaryUnitDimensions"
     },
     "domain" : "1",
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "31"
   }, {
     "iri" : "http://qudt.org/schema/qudt/baseUnitDimensions",
@@ -9664,7 +9664,7 @@
       "IRI-based" : "baseUnitDimensions"
     },
     "domain" : "1",
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "32"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#exactMatch",
@@ -9684,7 +9684,7 @@
       "IRI-based" : "conversionMultiplier"
     },
     "domain" : "1",
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "34"
   }, {
     "iri" : "http://qudt.org/schema/qudt/baseCGSUnitDimensions",
@@ -9694,7 +9694,7 @@
       "IRI-based" : "baseCGSUnitDimensions"
     },
     "domain" : "1",
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "36"
   }, {
     "iri" : "http://qudt.org/schema/qudt/uneceCommonCode",
@@ -9704,7 +9704,7 @@
       "IRI-based" : "uneceCommonCode"
     },
     "domain" : "1",
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "37"
   }, {
     "iri" : "http://www.w3.org/ns/prov#wasDerivedFrom",
@@ -9724,7 +9724,7 @@
       "IRI-based" : "id"
     },
     "domain" : "1",
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "39"
   }, {
     "iri" : "http://qudt.org/schema/qudt/siUnitsExpression",
@@ -9734,7 +9734,7 @@
       "IRI-based" : "siUnitsExpression"
     },
     "domain" : "1",
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "40"
   }, {
     "iri" : "http://www.w3.org/2004/02/skos/core#broader",
@@ -9764,7 +9764,7 @@
       "IRI-based" : "conversionOffset"
     },
     "domain" : "1",
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "43"
   }, {
     "iri" : "http://qudt.org/schema/qudt/plainTextDescription",
@@ -9774,7 +9774,7 @@
       "IRI-based" : "plainTextDescription"
     },
     "domain" : "1",
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "44"
   }, {
     "iri" : "http://qudt.org/schema/qudt/applicableImperialUnit",
@@ -9822,7 +9822,7 @@
       "undefined" : "has quantity kind"
     },
     "domain" : "3",
-    "attributes" : [ "allValues", "object", "external" ],
+    "attributes" : [ "object", "allValues", "external" ],
     "id" : "50"
   }, {
     "iri" : "http://qudt.org/schema/qudt/conversionCoefficient",
@@ -9832,7 +9832,7 @@
       "IRI-based" : "conversionCoefficient"
     },
     "domain" : "1",
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "52"
   }, {
     "iri" : "http://qudt.org/schema/qudt/latexSymbol",
@@ -9842,7 +9842,7 @@
       "IRI-based" : "latexSymbol"
     },
     "domain" : "1",
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "53"
   }, {
     "iri" : "http://qudt.org/schema/qudt/applicableUnit",
@@ -9862,7 +9862,7 @@
       "IRI-based" : "iec61360Code"
     },
     "domain" : "1",
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "55"
   }, {
     "iri" : "http://qudt.org/schema/qudt/abbreviation",
@@ -9884,7 +9884,7 @@
     "comment" : {
       "undefined" : "An abbreviation for a unit is a short ASCII string that is used in place of the full name for the unit in contexts where non-ASCII characters would be problematic, or where using the abbreviation will enhance readability. When a power of abase unit needs to be expressed, such as squares this can be done using abbreviations rather than symbols. For example, \"sq ft\" means \"square foot\", and \"cu ft\" means \"cubic foot\"."
     },
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "56"
   }, {
     "iri" : "http://qudt.org/schema/qudt/url",
@@ -9894,7 +9894,7 @@
       "IRI-based" : "url"
     },
     "domain" : "1",
-    "attributes" : [ "external", "datatype" ],
+    "attributes" : [ "datatype", "external" ],
     "id" : "57"
   } ]
 }

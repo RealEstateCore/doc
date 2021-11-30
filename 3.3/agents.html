@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <title>RealEstateCore Agents Module</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC40lEQVRYhe2UT0hUQRzHp6Iss1B3VZKIDbbdfW9mnoi4f3zzjkJQeOgS0SEIb1EWBGGlLLu460zQPQM1unUIIjA6rfpm6ZAhHjoIRVQUFUlEbG+euTsdXG1d3VL3bVD4g+9h+L35fT/8fvN7ADgY9aHY5fpIvK82HO9ysu66wxWOzbkjcekKx0a2ALYA/n2AGi3a6ArFezcidziecQygNhhrcUficjP6PwBqtGijKxy/thnVBePHywYoDsFhl53GV8SEcsTx4usCMLUewTVpc23BNvEzm6Neyf1+KcG2vwqwUjgrOJq2JmHftwmkVBRGTvncFodnbI7vChO/FRznCmHsNM7aHM9Yk7Df5iqsLMw9sMNOK2g+jS4IEz0UJv4iuJZb2RltWnB4UZqH6ioGAgAAGe5vtiZhtzDx7OoRadLmeM7m6IRjhnLMW2Vx1bA5GhAmnhIcz6/xNj4Ujsky8UspwfayjDPjsF2Y6L7N8Vzx/BfP+KPg6LbgSqd8DnfJW2CnbaLhfH5ephpqygJYvQU4Z3P82TLRsDDhUTnmrSq+Y3N0Mg+Xldy/zwEAnLMWZ3pHpNExmfLs/t0dOdVcbT0JeKxUwFP2VljjqiE47Jp53LTXNxhsUZjerTByXWX6VZWRs/4bIQ2ACv+UAomgDzLCISNZxAxZKMhIDjLy1JfsaK+I+eGBUBNk5E2x8RogX/PdcDZUqieWTSh5D6nOVKqfhoycUmlHFFIyu5RXqf7AcQDISCpv/tqbMBqK883RtmpISRoxQyJKPgGn3wNk5NEigDFa6hslqV/Kj+FdBQD0bshIDlKSLlVcoWQo36UhR80BAMB73lulMn0EMpJTqD6qJiOt3mho/8GbkT2BZNgDB/V+RI0fkOrT3kRIVQbaDizJm2hdNbINBxwk5xAj3yEjuV9rZ1iIkgxixkLBA83mz8uCjLwoGwAx0vOnFSy5mtR4VTaAQvVORMnwZgSpzkrV/QmdE2tKe46+MQAAAABJRU5ErkJggg==">
+    <link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABhklEQVQ4jbWPzStEURjG3yQLirlGKUnKFO45Z+SjmXvnnmthQcpCoVhYmD/AwmJiI3OvZuZc2U3UlKU0/gAslMw9JgvhHxAr2fko7r0jHSsl+TgbTz2Lt5731/MASEiJW9ONml2QyX6rsGalmnT74v8BDf12hxJfpV8d1uwNKUBYszabdFv84L8B9X0rESVmmUup2fme0cVhJWaZHw4NWL1Sew
+EAfDe6H3Dy6Ll456WEJsRZS630MwCAOI20ei5OBpxse5zcBZw8eS4uPpfIuDiCainIg9umBCU0GZzgLZ9Hn31OgoATL+CkLDGB5H1OKj4nFd/FBxUXJ0UZNb4edw/6nLyJXaj5FeCVyPLNIVmYK8TG1IwWb16L1gEACAFV90ftoT8bdOX0EeyY99gxBXZMgRz6qGb1KantAACI0UvE6F5XJqEjpsdURouI0Vt5gGOUkUNnPu7ObGIIMfNaGqDmjDRi9FZldF1lRgYzeqUyeoiY4ag5Iy3RgOYRM8+/M2bG8efsO4hGrpmJseyMAAAAAElFTkSuQmCC">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     
     <style>
@@ -132,8 +135,8 @@
         .sup-ap,
         .sup-p,
         .sup-ni,
-        .sup-cp,
-        .sup-cl {
+        .sup-con,
+        .sup-col {
             cursor:help;
             margin-left: 3px;
         }
@@ -166,11 +169,11 @@
             color:brown;
         }
 
-        .sup-cp {
+        .sup-con {
             color:orange;
         }
 
-        .sup-cl {
+        .sup-col {
             color:darkred;
         }
 
@@ -210,7 +213,7 @@
 <body>
   <div id="pylode">made by <a href="http://github.com/rdflib/pyLODE">
     <span style="color:#329545;">p</span><span style="color:#f9cb33;">y</span>LODE</a>
-    <span style="font-size:smaller;">2.8.4</span>
+    <span style="font-size:smaller;">2.12.0</span>
   </div>
   <h1>RealEstateCore Agents Module</h1>
 <section id="metadata">
@@ -231,7 +234,7 @@
         <dt>Version Information</dt>
         <dd>3.3</dd>
         <dt>Version URI</dt>
-        <dd><a href="https://w3id.org/rec/agents/3.3/">https://w3id.org/rec/agents/3.3/</a></dd>
+        <dd><a href="https://w3id.org/rec/agents/3.3/">agents:</a></dd>
         <dt>Imports</dt>
         <dd>
             <a href="https://w3id.org/rec/core/3.3/">https://w3id.org/rec/core/3.3/</a><br/>
@@ -265,14 +268,17 @@
   <section id="classes">
     <h2>Classes <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
     <ul class="hlist">
-        <li><a href="#Company">Company</a></li>
-        <li><a href="#Department">Department</a></li>
-        <li><a href="#Group">Group</a></li>
-        <li><a href="#Organization">Organization</a></li>
-        <li><a href="#Person">Person</a></li>
+      <li><a href="https://w3id.org/rec/agents/Company">Company</a></li>
+      <li><a href="https://w3id.org/rec/agents/Department">Department</a></li>
+      <li><a href="https://w3id.org/rec/agents/Group">Group</a></li>
+      <li><a href="https://w3id.org/rec/agents/Organization">Organization</a></li>
+      <li><a href="https://w3id.org/rec/agents/Person">Person</a></li>
     </ul>
     <div class="entity class" id="Company">
-        <h3>Company<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          Company<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Company" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -287,7 +293,10 @@
         </table>
     </div>
     <div class="entity class" id="Department">
-        <h3>Department<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          Department<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Department" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -302,7 +311,10 @@
         </table>
     </div>
     <div class="entity class" id="Group">
-        <h3>Group<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          Group<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Group" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -323,7 +335,10 @@
         </table>
     </div>
     <div class="entity class" id="Organization">
-        <h3>Organization<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          Organization<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Organization" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -344,9 +359,9 @@
             <tr>
                 <th>Restrictions</th>
                 <td>
+                    <a href="https://w3id.org/rec/core/isPartOf">core:isPartOf</a> <span class="cardinality">only</span> <a href="https://w3id.org/rec/agents/Organization">Organization</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/agents/hasMember">hasMember</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/agents/Person">Person</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/hasPart">core:hasPart</a> <span class="cardinality">only</span> <a href="https://w3id.org/rec/agents/Organization">Organization</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/core/isPartOf">core:isPartOf</a> <span class="cardinality">only</span> <a href="https://w3id.org/rec/agents/Organization">Organization</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
@@ -359,8 +374,8 @@
             <tr>
                 <th>In domain of</th>
                 <td>
-                    <a href="https://w3id.org/rec/agents/logo">logo</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                     <a href="https://w3id.org/rec/agents/hasMember">hasMember</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/agents/logo">logo</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                 </td>
             </tr>
             <tr>
@@ -372,7 +387,10 @@
         </table>
     </div>
     <div class="entity class" id="Person">
-        <h3>Person<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          Person<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Person" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -399,13 +417,13 @@
             <tr>
                 <th>In domain of</th>
                 <td>
-                    <a href="https://w3id.org/rec/agents/lastName">lastName</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
-                    <a href="https://w3id.org/rec/agents/isMemberOf">isMemberOf</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/agents/familyName">familyName</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/rec/agents/gender">gender</a><sup class="sup-fp" title="functional property">fp</sup><br/>
                     <a href="https://w3id.org/rec/agents/image">image</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                     <a href="https://w3id.org/rec/agents/givenName">givenName</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
-                    <a href="https://w3id.org/rec/agents/gender">gender</a><sup class="sup-fp" title="functional property">fp</sup><br/>
-                    <a href="https://w3id.org/rec/agents/familyName">familyName</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/rec/agents/isMemberOf">isMemberOf</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/agents/firstName">firstName</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/rec/agents/lastName">lastName</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                 </td>
             </tr>
             <tr>
@@ -424,7 +442,9 @@
         <li><a href="#ismemberof">is member of</a></li>
     </ul>
     <div class="entity property" id="hasmember">
-        <h3>has member<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>has member<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#hasmember" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -433,7 +453,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    Indicates the individual Persons that are members of an Organization. For member Organizations, use hasPart.
+                    <p>Indicates the individual Persons that are members of an Organization. For member Organizations, use hasPart.</p>
                 </td>
             </tr>
             <tr>
@@ -451,7 +471,9 @@
         </table>
     </div>
     <div class="entity property" id="ismemberof">
-        <h3>is member of<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>is member of<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#ismemberof" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -460,7 +482,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    Indicates the Organization(s) that this Person is a member of.
+                    <p>Indicates the Organization(s) that this Person is a member of.</p>
                 </td>
             </tr>
             <tr>
@@ -485,7 +507,9 @@
         <li><a href="#gender">gender</a></li>
     </ul>
     <div class="entity property" id="gender">
-        <h3>gender<sup title="functional property" class="sup-fp">fp</sup></h3>
+        <h3>gender<sup title="functional property" class="sup-fp">fp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#gender" title="fragment link to here">#</a>&nbsp;<a href="#functionalproperties" title="Functional Properties Index">FPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -494,7 +518,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    A gender designation for a Person.
+                    <p>A gender designation for a Person.</p>
                 </td>
             </tr>
             <tr>
@@ -519,7 +543,9 @@
         <li><a href="#name">name</a></li>
     </ul>
     <div class="entity property" id="familyname">
-        <h3>family name<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <h3>family name<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#familyname" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -528,7 +554,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    A person's family name.
+                    <p>A person's family name.</p>
                 </td>
             </tr>
             <tr>
@@ -546,7 +572,9 @@
         </table>
     </div>
     <div class="entity property" id="firstname">
-        <h3>first name<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <h3>first name<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#firstname" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -555,7 +583,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    A person's first name (if they have one; this varies across cultural contexts).
+                    <p>A person's first name (if they have one; this varies across cultural contexts).</p>
                 </td>
             </tr>
             <tr>
@@ -573,7 +601,9 @@
         </table>
     </div>
     <div class="entity property" id="givenname">
-        <h3>given name<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <h3>given name<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#givenname" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -582,7 +612,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    A person's personal, individual name.
+                    <p>A person's personal, individual name.</p>
                 </td>
             </tr>
             <tr>
@@ -600,7 +630,9 @@
         </table>
     </div>
     <div class="entity property" id="image">
-        <h3>image<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <h3>image<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#image" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -609,7 +641,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    URL link to an image that represents the person.
+                    <p>URL link to an image that represents the person.</p>
                 </td>
             </tr>
             <tr>
@@ -627,7 +659,9 @@
         </table>
     </div>
     <div class="entity property" id="lastname">
-        <h3>last name<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <h3>last name<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#lastname" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -636,7 +670,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    A person's last name (if they have one; this varies across cultural contexts).
+                    <p>A person's last name (if they have one; this varies across cultural contexts).</p>
                 </td>
             </tr>
             <tr>
@@ -654,7 +688,9 @@
         </table>
     </div>
     <div class="entity property" id="logo">
-        <h3>logo<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <h3>logo<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#logo" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -663,7 +699,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    URL link to an image/logo that represents the organization.
+                    <p>URL link to an image/logo that represents the organization.</p>
                 </td>
             </tr>
             <tr>
@@ -675,7 +711,9 @@
         </table>
     </div>
     <div class="entity property" id="name">
-        <h3>name<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <h3>name<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#name" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -684,7 +722,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    A name for some Agent.
+                    <p>A name for some Agent.</p>
                 </td>
             </tr>
             <tr>
@@ -698,15 +736,11 @@
 </section>
 
   
-  <section id="namedindividuals">
-    <h2>Named Individuals <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
-    <ul class="hlist">
-    </ul>
-</section>
-  
   <section id="namespaces">
     <h2>Namespaces <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
     <dl>
+        <dt>default (agents)</dt>
+        <dd><code>https://w3id.org/rec/agents/3.3/</code></dd>
         <dt>:</dt>
         <dd><code>https://w3id.org/rec/agents/</code></dd>
         <dt>cc</dt>
@@ -721,6 +755,8 @@
         <dd><code>http://purl.org/dc/elements/1.1/</code></dd>
         <dt>dcterms</dt>
         <dd><code>http://purl.org/dc/terms/</code></dd>
+        <dt>foaf</dt>
+        <dd><code>http://xmlns.com/foaf/0.1/</code></dd>
         <dt>metadata</dt>
         <dd><code>https://w3id.org/rec/metadata/</code></dd>
         <dt>o2o</dt>
@@ -736,7 +772,7 @@
         <dt>rdfs</dt>
         <dd><code>http://www.w3.org/2000/01/rdf-schema#</code></dd>
         <dt>sdo</dt>
-        <dd><code>https://schema.org/</code></dd>
+        <dd><code>http://schema.org/</code></dd>
         <dt>skos</dt>
         <dd><code>http://www.w3.org/2004/02/skos/core#</code></dd>
         <dt>vaem</dt>

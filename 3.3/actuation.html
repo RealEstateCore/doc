@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <title>RealEstateCore Actuation Module</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC40lEQVRYhe2UT0hUQRzHp6Iss1B3VZKIDbbdfW9mnoi4f3zzjkJQeOgS0SEIb1EWBGGlLLu460zQPQM1unUIIjA6rfpm6ZAhHjoIRVQUFUlEbG+euTsdXG1d3VL3bVD4g+9h+L35fT/8fvN7ADgY9aHY5fpIvK82HO9ysu66wxWOzbkjcekKx0a2ALYA/n2AGi3a6ArFezcidziecQygNhhrcUficjP6PwBqtGijKxy/thnVBePHywYoDsFhl53GV8SEcsTx4usCMLUewTVpc23BNvEzm6Neyf1+KcG2vwqwUjgrOJq2JmHftwmkVBRGTvncFodnbI7vChO/FRznCmHsNM7aHM9Yk7Df5iqsLMw9sMNOK2g+jS4IEz0UJv4iuJZb2RltWnB4UZqH6ioGAgAAGe5vtiZhtzDx7OoRadLmeM7m6IRjhnLMW2Vx1bA5GhAmnhIcz6/xNj4Ujsky8UspwfayjDPjsF2Y6L7N8Vzx/BfP+KPg6LbgSqd8DnfJW2CnbaLhfH5ephpqygJYvQU4Z3P82TLRsDDhUTnmrSq+Y3N0Mg+Xldy/zwEAnLMWZ3pHpNExmfLs/t0dOdVcbT0JeKxUwFP2VljjqiE47Jp53LTXNxhsUZjerTByXWX6VZWRs/4bIQ2ACv+UAomgDzLCISNZxAxZKMhIDjLy1JfsaK+I+eGBUBNk5E2x8RogX/PdcDZUqieWTSh5D6nOVKqfhoycUmlHFFIyu5RXqf7AcQDISCpv/tqbMBqK883RtmpISRoxQyJKPgGn3wNk5NEigDFa6hslqV/Kj+FdBQD0bshIDlKSLlVcoWQo36UhR80BAMB73lulMn0EMpJTqD6qJiOt3mho/8GbkT2BZNgDB/V+RI0fkOrT3kRIVQbaDizJm2hdNbINBxwk5xAj3yEjuV9rZ1iIkgxixkLBA83mz8uCjLwoGwAx0vOnFSy5mtR4VTaAQvVORMnwZgSpzkrV/QmdE2tKe46+MQAAAABJRU5ErkJggg==">
+    <link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABhklEQVQ4jbWPzStEURjG3yQLirlGKUnKFO45Z+SjmXvnnmthQcpCoVhYmD/AwmJiI3OvZuZc2U3UlKU0/gAslMw9JgvhHxAr2fko7r0jHSsl+TgbTz2Lt5731/MASEiJW9ONml2QyX6rsGalmnT74v8BDf12hxJfpV8d1uwNKUBYszabdFv84L8B9X0rESVmmUup2fme0cVhJWaZHw4NWL1Sew
+EAfDe6H3Dy6Ll456WEJsRZS630MwCAOI20ei5OBpxse5zcBZw8eS4uPpfIuDiCainIg9umBCU0GZzgLZ9Hn31OgoATL+CkLDGB5H1OKj4nFd/FBxUXJ0UZNb4edw/6nLyJXaj5FeCVyPLNIVmYK8TG1IwWb16L1gEACAFV90ftoT8bdOX0EeyY99gxBXZMgRz6qGb1KantAACI0UvE6F5XJqEjpsdURouI0Vt5gGOUkUNnPu7ObGIIMfNaGqDmjDRi9FZldF1lRgYzeqUyeoiY4ag5Iy3RgOYRM8+/M2bG8efsO4hGrpmJseyMAAAAAElFTkSuQmCC">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     
     <style>
@@ -132,8 +135,8 @@
         .sup-ap,
         .sup-p,
         .sup-ni,
-        .sup-cp,
-        .sup-cl {
+        .sup-con,
+        .sup-col {
             cursor:help;
             margin-left: 3px;
         }
@@ -166,11 +169,11 @@
             color:brown;
         }
 
-        .sup-cp {
+        .sup-con {
             color:orange;
         }
 
-        .sup-cl {
+        .sup-col {
             color:darkred;
         }
 
@@ -210,7 +213,7 @@
 <body>
   <div id="pylode">made by <a href="http://github.com/rdflib/pyLODE">
     <span style="color:#329545;">p</span><span style="color:#f9cb33;">y</span>LODE</a>
-    <span style="font-size:smaller;">2.8.4</span>
+    <span style="font-size:smaller;">2.12.0</span>
   </div>
   <h1>RealEstateCore Actuation Module</h1>
 <section id="metadata">
@@ -232,7 +235,7 @@
         <dt>Version Information</dt>
         <dd>3.3</dd>
         <dt>Version URI</dt>
-        <dd><a href="https://w3id.org/rec/actuation/3.3/">https://w3id.org/rec/actuation/3.3/</a></dd>
+        <dd><a href="https://w3id.org/rec/actuation/3.3/">actuation:</a></dd>
         <dt>Imports</dt>
         <dd>
             <a href="https://w3id.org/rec/device/3.3/">https://w3id.org/rec/device/3.3/</a><br/>
@@ -266,18 +269,21 @@
   <section id="classes">
     <h2>Classes <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
     <ul class="hlist">
-        <li><a href="#Actuationcommand">Actuation command</a></li>
-        <li><a href="#Actuationcommandresponse">Actuation command response</a></li>
-        <li><a href="#Actuationevent">Actuation event</a></li>
-        <li><a href="#Actuationinterface">Actuation interface</a></li>
-        <li><a href="#Actuationrequest">Actuation request</a></li>
-        <li><a href="#Actuationrequestresponse">Actuation request response</a></li>
-        <li><a href="#Key-Valuedefinition">Key-Value definition</a></li>
-        <li><a href="#Responsecode">Response code</a></li>
-        <li><a href="#Valuerestriction">Value restriction</a></li>
+      <li><a href="https://w3id.org/rec/actuation/ActuationCommand">ActuationCommand</a></li>
+      <li><a href="https://w3id.org/rec/actuation/ActuationCommandResponse">ActuationCommandResponse</a></li>
+      <li><a href="https://w3id.org/rec/actuation/ActuationEvent">ActuationEvent</a></li>
+      <li><a href="https://w3id.org/rec/actuation/ActuationInterface">ActuationInterface</a></li>
+      <li><a href="https://w3id.org/rec/actuation/ActuationRequest">ActuationRequest</a></li>
+      <li><a href="https://w3id.org/rec/actuation/ActuationRequestResponse">ActuationRequestResponse</a></li>
+      <li><a href="https://w3id.org/rec/actuation/KeyValueDefinition">KeyValueDefinition</a></li>
+      <li><a href="https://w3id.org/rec/actuation/ResponseCode">ResponseCode</a></li>
+      <li><a href="https://w3id.org/rec/actuation/ValueRestriction">ValueRestriction</a></li>
     </ul>
     <div class="entity class" id="Actuationcommand">
-        <h3>Actuation command<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          Actuation command<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Actuationcommand" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -298,13 +304,13 @@
             <tr>
                 <th>Restrictions</th>
                 <td>
-                    <a href="https://w3id.org/rec/actuation/targetActuator">targetActuator</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Actuator">https://w3id.org/rec/core/Actuator</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/actuation/hasCommandResponse">hasCommandResponse</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">max</span> 1<br/>
-                    <a href="https://w3id.org/rec/actuation/requestingAgent">requestingAgent</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Agent">https://w3id.org/rec/core/Agent</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/actuation/actuationPayload">actuationPayload</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">only</span> <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/actuation/requestingAgent">requestingAgent</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">exactly</span> 1 <a href="https://w3id.org/rec/core/Agent">https://w3id.org/rec/core/Agent</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/actuation/actuationPayload">actuationPayload</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">exactly</span> 1<br/>
+                    <a href="https://w3id.org/rec/actuation/actuationPayload">actuationPayload</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">only</span> <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/actuation/hasCommandResponse">hasCommandResponse</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">max</span> 1<br/>
+                    <a href="https://w3id.org/rec/actuation/targetActuator">targetActuator</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Actuator">https://w3id.org/rec/core/Actuator</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/actuation/wasGeneratedFromRequest">wasGeneratedFromRequest</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">exactly</span> 1<br/>
+                    <a href="https://w3id.org/rec/actuation/requestingAgent">requestingAgent</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Agent">https://w3id.org/rec/core/Agent</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
@@ -317,14 +323,17 @@
             <tr>
                 <th>In range of</th>
                 <td>
-                    <a href="https://w3id.org/rec/actuation/generatedCommand">generatedCommand</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/actuation/responseToCommand">responseToCommand</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/actuation/generatedCommand">generatedCommand</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
         </table>
     </div>
     <div class="entity class" id="Actuationcommandresponse">
-        <h3>Actuation command response<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          Actuation command response<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Actuationcommandresponse" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -359,14 +368,17 @@
             <tr>
                 <th>In range of</th>
                 <td>
-                    <a href="https://w3id.org/rec/actuation/generatedCommandResponse">generatedCommandResponse</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/actuation/hasCommandResponse">hasCommandResponse</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/actuation/generatedCommandResponse">generatedCommandResponse</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
         </table>
     </div>
     <div class="entity class" id="Actuationevent">
-        <h3>Actuation event<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          Actuation event<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Actuationevent" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -387,16 +399,19 @@
             <tr>
                 <th>Sub-classes</th>
                 <td>
+                    <a href="https://w3id.org/rec/actuation/ActuationRequest">ActuationRequest</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/actuation/ActuationCommand">ActuationCommand</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/actuation/ActuationCommandResponse">ActuationCommandResponse</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/actuation/ActuationRequest">ActuationRequest</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/actuation/ActuationRequestResponse">ActuationRequestResponse</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
     </div>
     <div class="entity class" id="Actuationinterface">
-        <h3>Actuation interface<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          Actuation interface<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Actuationinterface" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -417,30 +432,33 @@
             <tr>
                 <th>Restrictions</th>
                 <td>
-                    <a href="https://w3id.org/rec/core/dataSchema">https://w3id.org/rec/core/dataSchema</a> <span class="cardinality">exactly</span> 1 <a href="https://w3id.org/rec/core/DataSchema">https://w3id.org/rec/core/DataSchema</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/actuation/payloadKeyValueDefinition">payloadKeyValueDefinition</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">min</span> 1<br/>
+                    <a href="https://w3id.org/rec/core/dataSchema">https://w3id.org/rec/core/dataSchema</a> <span class="cardinality">exactly</span> 1 <a href="https://w3id.org/rec/core/DataSchema">https://w3id.org/rec/core/DataSchema</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>In domain of</th>
                 <td>
-                    <a href="https://w3id.org/rec/actuation/isDefaultActuationInterfaceOf">isDefaultActuationInterfaceOf</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/actuation/isActuationInterfaceOf">isActuationInterfaceOf</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/actuation/payloadKeyValueDefinition">payloadKeyValueDefinition</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/actuation/isDefaultActuationInterfaceOf">isDefaultActuationInterfaceOf</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>In range of</th>
                 <td>
-                    <a href="https://w3id.org/rec/actuation/hasDefaultActuationInterface">hasDefaultActuationInterface</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/actuation/targetInterface">targetInterface</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/actuation/hasDefaultActuationInterface">hasDefaultActuationInterface</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/actuation/hasActuationInterface">hasActuationInterface</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
         </table>
     </div>
     <div class="entity class" id="Actuationrequest">
-        <h3>Actuation request<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          Actuation request<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Actuationrequest" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -461,22 +479,22 @@
             <tr>
                 <th>Restrictions</th>
                 <td>
-                    <a href="https://w3id.org/rec/actuation/requestingAgent">requestingAgent</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Agent">https://w3id.org/rec/core/Agent</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/actuation/targetActuator">targetActuator</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Actuator">https://w3id.org/rec/core/Actuator</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/actuation/hasRequestResponse">hasRequestResponse</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">max</span> 1<br/>
-                    <a href="https://w3id.org/rec/actuation/actuationPayload">actuationPayload</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">only</span> <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/actuation/actuationPayload">actuationPayload</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">exactly</span> 1<br/>
-                    <a href="https://w3id.org/rec/actuation/targetActuator">targetActuator</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">min</span> 1 <a href="https://w3id.org/rec/core/Actuator">https://w3id.org/rec/core/Actuator</a><sup class="sup-c" title="class">c</sup><br/>
-                    <a href="https://w3id.org/rec/actuation/requestingAgent">requestingAgent</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">exactly</span> 1 <a href="https://w3id.org/rec/core/Agent">https://w3id.org/rec/core/Agent</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/actuation/targetInterface">targetInterface</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">max</span> 1<br/>
+                    <a href="https://w3id.org/rec/actuation/targetActuator">targetActuator</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Actuator">https://w3id.org/rec/core/Actuator</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/actuation/targetActuator">targetActuator</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">min</span> 1 <a href="https://w3id.org/rec/core/Actuator">https://w3id.org/rec/core/Actuator</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/actuation/requestingAgent">requestingAgent</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Agent">https://w3id.org/rec/core/Agent</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/actuation/requestingAgent">requestingAgent</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">exactly</span> 1 <a href="https://w3id.org/rec/core/Agent">https://w3id.org/rec/core/Agent</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/actuation/actuationPayload">actuationPayload</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">exactly</span> 1<br/>
+                    <a href="https://w3id.org/rec/actuation/actuationPayload">actuationPayload</a><sup class="sup-dp" title="datatype property">dp</sup> <span class="cardinality">only</span> <a href="http://www.w3.org/2001/XMLSchema#string">xsd:string</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
                 <th>In domain of</th>
                 <td>
-                    <a href="https://w3id.org/rec/actuation/generatedCommand">generatedCommand</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="https://w3id.org/rec/actuation/targetInterface">targetInterface</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/actuation/hasRequestResponse">hasRequestResponse</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/actuation/targetInterface">targetInterface</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/actuation/generatedCommand">generatedCommand</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
             <tr>
@@ -489,7 +507,10 @@
         </table>
     </div>
     <div class="entity class" id="Actuationrequestresponse">
-        <h3>Actuation request response<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          Actuation request response<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Actuationrequestresponse" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -520,9 +541,9 @@
                 <th>In domain of</th>
                 <td>
                     <a href="https://w3id.org/rec/actuation/actuationObservedBy">actuationObservedBy</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="https://w3id.org/rec/actuation/responseToRequest">responseToRequest</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/actuation/generatedCommandResponse">generatedCommandResponse</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/actuation/requestAccepted">requestAccepted</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/rec/actuation/responseToRequest">responseToRequest</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
             <tr>
@@ -534,7 +555,10 @@
         </table>
     </div>
     <div class="entity class" id="Key-Valuedefinition">
-        <h3>Key-Value definition<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          Key-Value definition<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Key-Valuedefinition" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -556,19 +580,19 @@
             <tr>
                 <th>Restrictions</th>
                 <td>
-                    <a href="https://w3id.org/rec/actuation/keyString">keyString</a><sup class="sup-fp" title="functional property">fp</sup> <span class="cardinality">exactly</span> 1<br/>
-                    <a href="https://w3id.org/rec/actuation/valueDatatype">valueDatatype</a><sup class="sup-fp" title="functional property">fp</sup> <span class="cardinality">exactly</span> 1<br/>
                     <a href="https://w3id.org/rec/actuation/valueRestriction">valueRestriction</a><sup class="sup-op" title="object property">op</sup> <span class="cardinality">max</span> 1<br/>
+                    <a href="https://w3id.org/rec/actuation/valueDatatype">valueDatatype</a><sup class="sup-fp" title="functional property">fp</sup> <span class="cardinality">exactly</span> 1<br/>
                     <a href="https://w3id.org/rec/actuation/keyMandatory">keyMandatory</a><sup class="sup-fp" title="functional property">fp</sup> <span class="cardinality">exactly</span> 1<br/>
+                    <a href="https://w3id.org/rec/actuation/keyString">keyString</a><sup class="sup-fp" title="functional property">fp</sup> <span class="cardinality">exactly</span> 1<br/>
                 </td>
             </tr>
             <tr>
                 <th>In domain of</th>
                 <td>
+                    <a href="https://w3id.org/rec/actuation/valueRestriction">valueRestriction</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/actuation/valueDatatype">valueDatatype</a><sup class="sup-fp" title="functional property">fp</sup><br/>
                     <a href="https://w3id.org/rec/actuation/keyString">keyString</a><sup class="sup-fp" title="functional property">fp</sup><br/>
                     <a href="https://w3id.org/rec/actuation/keyMandatory">keyMandatory</a><sup class="sup-fp" title="functional property">fp</sup><br/>
-                    <a href="https://w3id.org/rec/actuation/valueDatatype">valueDatatype</a><sup class="sup-fp" title="functional property">fp</sup><br/>
-                    <a href="https://w3id.org/rec/actuation/valueRestriction">valueRestriction</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
             <tr>
@@ -580,7 +604,10 @@
         </table>
     </div>
     <div class="entity class" id="Responsecode">
-        <h3>Response code<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          Response code<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Responsecode" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -614,7 +641,10 @@
         </table>
     </div>
     <div class="entity class" id="Valuerestriction">
-        <h3>Value restriction<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          Value restriction<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Valuerestriction" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -636,8 +666,8 @@
             <tr>
                 <th>In domain of</th>
                 <td>
-                    <a href="https://w3id.org/rec/actuation/valueRestrictionType">valueRestrictionType</a><sup class="sup-fp" title="functional property">fp</sup><br/>
                     <a href="https://w3id.org/rec/actuation/valueRestrictionValues">valueRestrictionValues</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/rec/actuation/valueRestrictionType">valueRestrictionType</a><sup class="sup-fp" title="functional property">fp</sup><br/>
                     <a href="https://w3id.org/rec/actuation/valueRestrictionResolution">valueRestrictionResolution</a><sup class="sup-fp" title="functional property">fp</sup><br/>
                 </td>
             </tr>
@@ -673,7 +703,9 @@
         <li><a href="#wasgeneratedfromrequest">was generated from request</a></li>
     </ul>
     <div class="entity property" id="actuationobservedby">
-        <h3>actuation observed by<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>actuation observed by<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#actuationobservedby" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -682,7 +714,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    (Optional) reference to any sensors that are configured/designed to observe the actuators that were acted upon by the execution of the actuation request.
+                    <p>(Optional) reference to any sensors that are configured/designed to observe the actuators that were acted upon by the execution of the actuation request.</p>
                 </td>
             </tr>
             <tr>
@@ -700,7 +732,9 @@
         </table>
     </div>
     <div class="entity property" id="generatedcommand">
-        <h3>generated command<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>generated command<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#generatedcommand" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -727,7 +761,9 @@
         </table>
     </div>
     <div class="entity property" id="generatedcommandresponse">
-        <h3>generated command response<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>generated command response<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#generatedcommandresponse" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -736,7 +772,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    Reference to the response(s) to the subsystem commands that were generated by the platform to execute this actuation.
+                    <p>Reference to the response(s) to the subsystem commands that were generated by the platform to execute this actuation.</p>
                 </td>
             </tr>
             <tr>
@@ -754,7 +790,9 @@
         </table>
     </div>
     <div class="entity property" id="hasactuationinterface">
-        <h3>has actuation interface<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>has actuation interface<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#hasactuationinterface" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -781,7 +819,9 @@
         </table>
     </div>
     <div class="entity property" id="hascommandresponse">
-        <h3>has command response<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>has command response<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#hascommandresponse" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -808,7 +848,9 @@
         </table>
     </div>
     <div class="entity property" id="hasdefaultactuationinterface">
-        <h3>has default actuation interface<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>has default actuation interface<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#hasdefaultactuationinterface" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -841,7 +883,9 @@
         </table>
     </div>
     <div class="entity property" id="hasrequestresponse">
-        <h3>has request response<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>has request response<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#hasrequestresponse" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -868,7 +912,9 @@
         </table>
     </div>
     <div class="entity property" id="isactuationinterfaceof">
-        <h3>is actuation interface of<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>is actuation interface of<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#isactuationinterfaceof" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -883,7 +929,9 @@
         </table>
     </div>
     <div class="entity property" id="isdefaultactuationinterfaceof">
-        <h3>is default actuation interface of<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>is default actuation interface of<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#isdefaultactuationinterfaceof" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -904,7 +952,9 @@
         </table>
     </div>
     <div class="entity property" id="payloadKey-Valuedefinition">
-        <h3>payload Key-Value definition<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>payload Key-Value definition<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#payloadKey-Valuedefinition" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -913,7 +963,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    Deprecated in favour of core:dataSchema.
+                    <p>Deprecated in favour of core:dataSchema.</p>
                 </td>
             </tr>
             <tr>
@@ -931,7 +981,9 @@
         </table>
     </div>
     <div class="entity property" id="requestingagent">
-        <h3>requesting agent<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>requesting agent<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#requestingagent" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -940,7 +992,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    The agent that initiated actuation, i.e., that created an actuation request (and consequently, was the original source also of subsequent generated actuation commands).
+                    <p>The agent that initiated actuation, i.e., that created an actuation request (and consequently, was the original source also of subsequent generated actuation commands).</p>
                 </td>
             </tr>
             <tr>
@@ -952,7 +1004,9 @@
         </table>
     </div>
     <div class="entity property" id="responsecode">
-        <h3>response code<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>response code<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#responsecode" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -973,7 +1027,9 @@
         </table>
     </div>
     <div class="entity property" id="responsetocommand">
-        <h3>response to command<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>response to command<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#responsetocommand" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -994,7 +1050,9 @@
         </table>
     </div>
     <div class="entity property" id="responsetorequest">
-        <h3>response to request<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>response to request<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#responsetorequest" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -1015,7 +1073,9 @@
         </table>
     </div>
     <div class="entity property" id="targetactuator">
-        <h3>target actuator<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>target actuator<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#targetactuator" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -1030,7 +1090,9 @@
         </table>
     </div>
     <div class="entity property" id="targetinterface">
-        <h3>target interface<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>target interface<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#targetinterface" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -1051,7 +1113,9 @@
         </table>
     </div>
     <div class="entity property" id="valuerestriction">
-        <h3>value restriction<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>value restriction<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#valuerestriction" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -1060,7 +1124,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    Deprecated in favour of the definitions provided in the new dataschemas module.
+                    <p>Deprecated in favour of the definitions provided in the new dataschemas module.</p>
                 </td>
             </tr>
             <tr>
@@ -1078,7 +1142,9 @@
         </table>
     </div>
     <div class="entity property" id="wasgeneratedfromrequest">
-        <h3>was generated from request<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>was generated from request<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#wasgeneratedfromrequest" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -1110,7 +1176,9 @@
         <li><a href="#valueRestrictionType">valueRestrictionType</a></li>
     </ul>
     <div class="entity property" id="keyMandatory">
-        <h3>keyMandatory<sup title="functional property" class="sup-fp">fp</sup></h3>
+        <h3>keyMandatory<sup title="functional property" class="sup-fp">fp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#keyMandatory" title="fragment link to here">#</a>&nbsp;<a href="#functionalproperties" title="Functional Properties Index">FPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -1119,7 +1187,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    Deprecated in favour of the definitions provided in the new dataschemas module.
+                    <p>Deprecated in favour of the definitions provided in the new dataschemas module.</p>
                 </td>
             </tr>
             <tr>
@@ -1137,7 +1205,9 @@
         </table>
     </div>
     <div class="entity property" id="keyString">
-        <h3>keyString<sup title="functional property" class="sup-fp">fp</sup></h3>
+        <h3>keyString<sup title="functional property" class="sup-fp">fp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#keyString" title="fragment link to here">#</a>&nbsp;<a href="#functionalproperties" title="Functional Properties Index">FPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -1146,7 +1216,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    Deprecated in favour of the definitions provided in the new dataschemas module.
+                    <p>Deprecated in favour of the definitions provided in the new dataschemas module.</p>
                 </td>
             </tr>
             <tr>
@@ -1164,7 +1234,9 @@
         </table>
     </div>
     <div class="entity property" id="valueDatatype">
-        <h3>valueDatatype<sup title="functional property" class="sup-fp">fp</sup></h3>
+        <h3>valueDatatype<sup title="functional property" class="sup-fp">fp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#valueDatatype" title="fragment link to here">#</a>&nbsp;<a href="#functionalproperties" title="Functional Properties Index">FPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -1173,7 +1245,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    Deprecated in favour of the definitions provided in the new dataschemas module.
+                    <p>Deprecated in favour of the definitions provided in the new dataschemas module.</p>
                 </td>
             </tr>
             <tr>
@@ -1185,7 +1257,9 @@
         </table>
     </div>
     <div class="entity property" id="valueRestrictionResolution">
-        <h3>valueRestrictionResolution<sup title="functional property" class="sup-fp">fp</sup></h3>
+        <h3>valueRestrictionResolution<sup title="functional property" class="sup-fp">fp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#valueRestrictionResolution" title="fragment link to here">#</a>&nbsp;<a href="#functionalproperties" title="Functional Properties Index">FPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -1194,7 +1268,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    Deprecated in favour of the definitions provided in the new dataschemas module.
+                    <p>Deprecated in favour of the definitions provided in the new dataschemas module.</p>
                 </td>
             </tr>
             <tr>
@@ -1212,7 +1286,9 @@
         </table>
     </div>
     <div class="entity property" id="valueRestrictionType">
-        <h3>valueRestrictionType<sup title="functional property" class="sup-fp">fp</sup></h3>
+        <h3>valueRestrictionType<sup title="functional property" class="sup-fp">fp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#valueRestrictionType" title="fragment link to here">#</a>&nbsp;<a href="#functionalproperties" title="Functional Properties Index">FPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -1221,7 +1297,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    Deprecated in favour of the definitions provided in the new dataschemas module.
+                    <p>Deprecated in favour of the definitions provided in the new dataschemas module.</p>
                 </td>
             </tr>
             <tr>
@@ -1244,7 +1320,9 @@
         <li><a href="#valueRestrictionValues">valueRestrictionValues</a></li>
     </ul>
     <div class="entity property" id="actuationpayload">
-        <h3>actuation payload<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <h3>actuation payload<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#actuationpayload" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -1253,7 +1331,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    The payload to be passed on to some actuation interface and finally actuator.
+                    <p>The payload to be passed on to some actuation interface and finally actuator.</p>
                 </td>
             </tr>
             <tr>
@@ -1265,7 +1343,9 @@
         </table>
     </div>
     <div class="entity property" id="requestAccepted">
-        <h3>requestAccepted<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <h3>requestAccepted<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#requestAccepted" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -1286,7 +1366,9 @@
         </table>
     </div>
     <div class="entity property" id="responsecodeasinteger">
-        <h3>response code as integer<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <h3>response code as integer<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#responsecodeasinteger" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -1307,7 +1389,9 @@
         </table>
     </div>
     <div class="entity property" id="responsecodeasstring">
-        <h3>response code as string<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <h3>response code as string<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#responsecodeasstring" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -1328,7 +1412,9 @@
         </table>
     </div>
     <div class="entity property" id="valueRestrictionValues">
-        <h3>valueRestrictionValues<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <h3>valueRestrictionValues<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#valueRestrictionValues" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -1337,7 +1423,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    Deprecated in favour of the definitions provided in the new dataschemas module.
+                    <p>Deprecated in favour of the definitions provided in the new dataschemas module.</p>
                 </td>
             </tr>
             <tr>
@@ -1351,15 +1437,11 @@
 </section>
 
   
-  <section id="namedindividuals">
-    <h2>Named Individuals <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
-    <ul class="hlist">
-    </ul>
-</section>
-  
   <section id="namespaces">
     <h2>Namespaces <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
     <dl>
+        <dt>default (actuation)</dt>
+        <dd><code>https://w3id.org/rec/actuation/3.3/</code></dd>
         <dt>:</dt>
         <dd><code>https://w3id.org/rec/actuation/</code></dd>
         <dt>cc</dt>
@@ -1385,7 +1467,7 @@
         <dt>rdfs</dt>
         <dd><code>http://www.w3.org/2000/01/rdf-schema#</code></dd>
         <dt>sdo</dt>
-        <dd><code>https://schema.org/</code></dd>
+        <dd><code>http://schema.org/</code></dd>
         <dt>skos</dt>
         <dd><code>http://www.w3.org/2004/02/skos/core#</code></dd>
         <dt>terms</dt>

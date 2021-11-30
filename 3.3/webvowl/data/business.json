@@ -279,17 +279,17 @@
   }, {
     "range" : "8",
     "domain" : "3",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "7"
   }, {
     "range" : "11",
     "domain" : "10",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "9"
   }, {
     "range" : "1",
     "domain" : "0",
-    "attributes" : [ "anonymous", "object" ],
+    "attributes" : [ "object", "anonymous" ],
     "id" : "12"
   }, {
     "iri" : "https://w3id.org/rec/business/leasor",
@@ -341,7 +341,7 @@
       "IRI-based" : "includes"
     },
     "domain" : "0",
-    "attributes" : [ "someValues", "external", "object" ],
+    "attributes" : [ "external", "object", "someValues" ],
     "id" : "17"
   }, {
     "iri" : "https://w3id.org/rec/core/includes",
@@ -351,7 +351,7 @@
       "IRI-based" : "includes"
     },
     "domain" : "0",
-    "attributes" : [ "allValues", "external", "object" ],
+    "attributes" : [ "external", "object", "allValues" ],
     "id" : "19"
   }, {
     "iri" : "https://w3id.org/rec/business/leaseEnd",

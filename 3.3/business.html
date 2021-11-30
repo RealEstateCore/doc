@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <title>RealEstateCore Business Module</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC40lEQVRYhe2UT0hUQRzHp6Iss1B3VZKIDbbdfW9mnoi4f3zzjkJQeOgS0SEIb1EWBGGlLLu460zQPQM1unUIIjA6rfpm6ZAhHjoIRVQUFUlEbG+euTsdXG1d3VL3bVD4g+9h+L35fT/8fvN7ADgY9aHY5fpIvK82HO9ysu66wxWOzbkjcekKx0a2ALYA/n2AGi3a6ArFezcidziecQygNhhrcUficjP6PwBqtGijKxy/thnVBePHywYoDsFhl53GV8SEcsTx4usCMLUewTVpc23BNvEzm6Neyf1+KcG2vwqwUjgrOJq2JmHftwmkVBRGTvncFodnbI7vChO/FRznCmHsNM7aHM9Yk7Df5iqsLMw9sMNOK2g+jS4IEz0UJv4iuJZb2RltWnB4UZqH6ioGAgAAGe5vtiZhtzDx7OoRadLmeM7m6IRjhnLMW2Vx1bA5GhAmnhIcz6/xNj4Ujsky8UspwfayjDPjsF2Y6L7N8Vzx/BfP+KPg6LbgSqd8DnfJW2CnbaLhfH5ephpqygJYvQU4Z3P82TLRsDDhUTnmrSq+Y3N0Mg+Xldy/zwEAnLMWZ3pHpNExmfLs/t0dOdVcbT0JeKxUwFP2VljjqiE47Jp53LTXNxhsUZjerTByXWX6VZWRs/4bIQ2ACv+UAomgDzLCISNZxAxZKMhIDjLy1JfsaK+I+eGBUBNk5E2x8RogX/PdcDZUqieWTSh5D6nOVKqfhoycUmlHFFIyu5RXqf7AcQDISCpv/tqbMBqK883RtmpISRoxQyJKPgGn3wNk5NEigDFa6hslqV/Kj+FdBQD0bshIDlKSLlVcoWQo36UhR80BAMB73lulMn0EMpJTqD6qJiOt3mho/8GbkT2BZNgDB/V+RI0fkOrT3kRIVQbaDizJm2hdNbINBxwk5xAj3yEjuV9rZ1iIkgxixkLBA83mz8uCjLwoGwAx0vOnFSy5mtR4VTaAQvVORMnwZgSpzkrV/QmdE2tKe46+MQAAAABJRU5ErkJggg==">
+    <link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABhklEQVQ4jbWPzStEURjG3yQLirlGKUnKFO45Z+SjmXvnnmthQcpCoVhYmD/AwmJiI3OvZuZc2U3UlKU0/gAslMw9JgvhHxAr2fko7r0jHSsl+TgbTz2Lt5731/MASEiJW9ONml2QyX6rsGalmnT74v8BDf12hxJfpV8d1uwNKUBYszabdFv84L8B9X0rESVmmUup2fme0cVhJWaZHw4NWL1Sew
+EAfDe6H3Dy6Ll456WEJsRZS630MwCAOI20ei5OBpxse5zcBZw8eS4uPpfIuDiCainIg9umBCU0GZzgLZ9Hn31OgoATL+CkLDGB5H1OKj4nFd/FBxUXJ0UZNb4edw/6nLyJXaj5FeCVyPLNIVmYK8TG1IwWb16L1gEACAFV90ftoT8bdOX0EeyY99gxBXZMgRz6qGb1KantAACI0UvE6F5XJqEjpsdURouI0Vt5gGOUkUNnPu7ObGIIMfNaGqDmjDRi9FZldF1lRgYzeqUyeoiY4ag5Iy3RgOYRM8+/M2bG8efsO4hGrpmJseyMAAAAAElFTkSuQmCC">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     
     <style>
@@ -132,8 +135,8 @@
         .sup-ap,
         .sup-p,
         .sup-ni,
-        .sup-cp,
-        .sup-cl {
+        .sup-con,
+        .sup-col {
             cursor:help;
             margin-left: 3px;
         }
@@ -166,11 +169,11 @@
             color:brown;
         }
 
-        .sup-cp {
+        .sup-con {
             color:orange;
         }
 
-        .sup-cl {
+        .sup-col {
             color:darkred;
         }
 
@@ -210,7 +213,7 @@
 <body>
   <div id="pylode">made by <a href="http://github.com/rdflib/pyLODE">
     <span style="color:#329545;">p</span><span style="color:#f9cb33;">y</span>LODE</a>
-    <span style="font-size:smaller;">2.8.4</span>
+    <span style="font-size:smaller;">2.12.0</span>
   </div>
   <h1>RealEstateCore Business Module</h1>
 <section id="metadata">
@@ -230,7 +233,7 @@
         <dt><a class="proplink" href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/modified">Modified</a></dt>
         <dd>2020-08-12</dd>
         <dt>Version URI</dt>
-        <dd><a href="https://w3id.org/rec/business/3.3/">https://w3id.org/rec/business/3.3/</a></dd>
+        <dd><a href="https://w3id.org/rec/business/3.3/">business:</a></dd>
         <dt>Imports</dt>
         <dd>
             <a href="https://w3id.org/rec/agents/3.3/">https://w3id.org/rec/agents/3.3/</a><br/>
@@ -264,13 +267,16 @@
   <section id="classes">
     <h2>Classes <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
     <ul class="hlist">
-        <li><a href="#Lease">Lease</a></li>
-        <li><a href="#Leasecontract">Lease contract</a></li>
-        <li><a href="#Role">Role</a></li>
-        <li><a href="#Tenantunit">Tenant unit</a></li>
+      <li><a href="https://w3id.org/rec/business/Lease">Lease</a></li>
+      <li><a href="https://w3id.org/rec/business/LeaseContract">LeaseContract</a></li>
+      <li><a href="https://w3id.org/rec/business/Role">Role</a></li>
+      <li><a href="https://w3id.org/rec/business/TenantUnit">TenantUnit</a></li>
     </ul>
     <div class="entity class" id="Lease">
-        <h3>Lease<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          Lease<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Lease" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -286,17 +292,20 @@
                 <th>In domain of</th>
                 <td>
                     <a href="https://w3id.org/rec/business/leasor">leasor</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="https://w3id.org/rec/business/regulatedBy">regulatedBy</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="https://w3id.org/rec/business/leasee">leasee</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/business/leaseStart">leaseStart</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
-                    <a href="https://w3id.org/rec/business/leaseOf">leaseOf</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/business/leasee">leasee</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/business/regulatedBy">regulatedBy</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/business/leaseEnd">leaseEnd</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/rec/business/leaseOf">leaseOf</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
         </table>
     </div>
     <div class="entity class" id="Leasecontract">
-        <h3>Lease contract<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          Lease contract<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Leasecontract" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -323,7 +332,10 @@
         </table>
     </div>
     <div class="entity class" id="Role">
-        <h3>Role<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          Role<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Role" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -338,7 +350,10 @@
         </table>
     </div>
     <div class="entity class" id="Tenantunit">
-        <h3>Tenant unit<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          Tenant unit<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Tenantunit" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -359,8 +374,8 @@
             <tr>
                 <th>Restrictions</th>
                 <td>
-                    <a href="https://w3id.org/rec/core/includes">https://w3id.org/rec/core/includes</a> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Space">https://w3id.org/rec/core/Space</a><sup class="sup-c" title="class">c</sup><br/>
                     <a href="https://w3id.org/rec/core/includes">https://w3id.org/rec/core/includes</a> <span class="cardinality">some</span> <a href="https://w3id.org/rec/core/Space">https://w3id.org/rec/core/Space</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="https://w3id.org/rec/core/includes">https://w3id.org/rec/core/includes</a> <span class="cardinality">only</span> <a href="https://w3id.org/rec/core/Space">https://w3id.org/rec/core/Space</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
         </table>
@@ -376,7 +391,9 @@
         <li><a href="#regulatedby">regulated by</a></li>
     </ul>
     <div class="entity property" id="hasrole">
-        <h3>has role<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>has role<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#hasrole" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -385,7 +402,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    A role that is held by some agent (e.g., a Person could hold a Sales Representative role, or an organization could hold a Maintenance Responsibility role).
+                    <p>A role that is held by some agent (e.g., a Person could hold a Sales Representative role, or an organization could hold a Maintenance Responsibility role).</p>
                 </td>
             </tr>
             <tr>
@@ -403,7 +420,9 @@
         </table>
     </div>
     <div class="entity property" id="leaseof">
-        <h3>lease of<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>lease of<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#leaseof" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -412,7 +431,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    The object (e.g., property, equipment, etc) that this a lease of.
+                    <p>The object (e.g., property, equipment, etc) that this a lease of.</p>
                 </td>
             </tr>
             <tr>
@@ -424,7 +443,9 @@
         </table>
     </div>
     <div class="entity property" id="leasee">
-        <h3>leasee<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>leasee<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#leasee" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -433,7 +454,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    The agent leasing some leasable object, i.e., the user of the asset.
+                    <p>The agent leasing some leasable object, i.e., the user of the asset.</p>
                 </td>
             </tr>
             <tr>
@@ -451,7 +472,9 @@
         </table>
     </div>
     <div class="entity property" id="leasor">
-        <h3>leasor<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>leasor<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#leasor" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -460,7 +483,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    The agent leasing out some leasable object, i.e., the owner of the asset.
+                    <p>The agent leasing out some leasable object, i.e., the owner of the asset.</p>
                 </td>
             </tr>
             <tr>
@@ -478,7 +501,9 @@
         </table>
     </div>
     <div class="entity property" id="regulatedby">
-        <h3>regulated by<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>regulated by<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#regulatedby" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -487,7 +512,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    A lease is regulated by some contract entered into by the leasor and leasees.
+                    <p>A lease is regulated by some contract entered into by the leasor and leasees.</p>
                 </td>
             </tr>
             <tr>
@@ -513,7 +538,9 @@
         <li><a href="#leasestart">lease start</a></li>
     </ul>
     <div class="entity property" id="leaseend">
-        <h3>lease end<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <h3>lease end<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#leaseend" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -522,7 +549,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    Time at which a lease arrangement ends.
+                    <p>Time at which a lease arrangement ends.</p>
                 </td>
             </tr>
             <tr>
@@ -540,7 +567,9 @@
         </table>
     </div>
     <div class="entity property" id="leasestart">
-        <h3>lease start<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <h3>lease start<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#leasestart" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -549,7 +578,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    Time at which a lease arrangement begins.
+                    <p>Time at which a lease arrangement begins.</p>
                 </td>
             </tr>
             <tr>
@@ -569,15 +598,11 @@
 </section>
 
   
-  <section id="namedindividuals">
-    <h2>Named Individuals <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
-    <ul class="hlist">
-    </ul>
-</section>
-  
   <section id="namespaces">
     <h2>Namespaces <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
     <dl>
+        <dt>default (business)</dt>
+        <dd><code>https://w3id.org/rec/business/3.3/</code></dd>
         <dt>:</dt>
         <dd><code>https://w3id.org/rec/business/</code></dd>
         <dt>cc</dt>
@@ -605,7 +630,7 @@
         <dt>rdfs</dt>
         <dd><code>http://www.w3.org/2000/01/rdf-schema#</code></dd>
         <dt>sdo</dt>
-        <dd><code>https://schema.org/</code></dd>
+        <dd><code>http://schema.org/</code></dd>
         <dt>skos</dt>
         <dd><code>http://www.w3.org/2004/02/skos/core#</code></dd>
         <dt>vaem</dt>

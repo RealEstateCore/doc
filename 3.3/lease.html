@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <title>RealEstateCore Lease Module</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC40lEQVRYhe2UT0hUQRzHp6Iss1B3VZKIDbbdfW9mnoi4f3zzjkJQeOgS0SEIb1EWBGGlLLu460zQPQM1unUIIjA6rfpm6ZAhHjoIRVQUFUlEbG+euTsdXG1d3VL3bVD4g+9h+L35fT/8fvN7ADgY9aHY5fpIvK82HO9ysu66wxWOzbkjcekKx0a2ALYA/n2AGi3a6ArFezcidziecQygNhhrcUficjP6PwBqtGijKxy/thnVBePHywYoDsFhl53GV8SEcsTx4usCMLUewTVpc23BNvEzm6Neyf1+KcG2vwqwUjgrOJq2JmHftwmkVBRGTvncFodnbI7vChO/FRznCmHsNM7aHM9Yk7Df5iqsLMw9sMNOK2g+jS4IEz0UJv4iuJZb2RltWnB4UZqH6ioGAgAAGe5vtiZhtzDx7OoRadLmeM7m6IRjhnLMW2Vx1bA5GhAmnhIcz6/xNj4Ujsky8UspwfayjDPjsF2Y6L7N8Vzx/BfP+KPg6LbgSqd8DnfJW2CnbaLhfH5ephpqygJYvQU4Z3P82TLRsDDhUTnmrSq+Y3N0Mg+Xldy/zwEAnLMWZ3pHpNExmfLs/t0dOdVcbT0JeKxUwFP2VljjqiE47Jp53LTXNxhsUZjerTByXWX6VZWRs/4bIQ2ACv+UAomgDzLCISNZxAxZKMhIDjLy1JfsaK+I+eGBUBNk5E2x8RogX/PdcDZUqieWTSh5D6nOVKqfhoycUmlHFFIyu5RXqf7AcQDISCpv/tqbMBqK883RtmpISRoxQyJKPgGn3wNk5NEigDFa6hslqV/Kj+FdBQD0bshIDlKSLlVcoWQo36UhR80BAMB73lulMn0EMpJTqD6qJiOt3mho/8GbkT2BZNgDB/V+RI0fkOrT3kRIVQbaDizJm2hdNbINBxwk5xAj3yEjuV9rZ1iIkgxixkLBA83mz8uCjLwoGwAx0vOnFSy5mtR4VTaAQvVORMnwZgSpzkrV/QmdE2tKe46+MQAAAABJRU5ErkJggg==">
+    <link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABhklEQVQ4jbWPzStEURjG3yQLirlGKUnKFO45Z+SjmXvnnmthQcpCoVhYmD/AwmJiI3OvZuZc2U3UlKU0/gAslMw9JgvhHxAr2fko7r0jHSsl+TgbTz2Lt5731/MASEiJW9ONml2QyX6rsGalmnT74v8BDf12hxJfpV8d1uwNKUBYszabdFv84L8B9X0rESVmmUup2fme0cVhJWaZHw4NWL1Sew
+EAfDe6H3Dy6Ll456WEJsRZS630MwCAOI20ei5OBpxse5zcBZw8eS4uPpfIuDiCainIg9umBCU0GZzgLZ9Hn31OgoATL+CkLDGB5H1OKj4nFd/FBxUXJ0UZNb4edw/6nLyJXaj5FeCVyPLNIVmYK8TG1IwWb16L1gEACAFV90ftoT8bdOX0EeyY99gxBXZMgRz6qGb1KantAACI0UvE6F5XJqEjpsdURouI0Vt5gGOUkUNnPu7ObGIIMfNaGqDmjDRi9FZldF1lRgYzeqUyeoiY4ag5Iy3RgOYRM8+/M2bG8efsO4hGrpmJseyMAAAAAElFTkSuQmCC">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     
     <style>
@@ -132,8 +135,8 @@
         .sup-ap,
         .sup-p,
         .sup-ni,
-        .sup-cp,
-        .sup-cl {
+        .sup-con,
+        .sup-col {
             cursor:help;
             margin-left: 3px;
         }
@@ -166,11 +169,11 @@
             color:brown;
         }
 
-        .sup-cp {
+        .sup-con {
             color:orange;
         }
 
-        .sup-cl {
+        .sup-col {
             color:darkred;
         }
 
@@ -210,7 +213,7 @@
 <body>
   <div id="pylode">made by <a href="http://github.com/rdflib/pyLODE">
     <span style="color:#329545;">p</span><span style="color:#f9cb33;">y</span>LODE</a>
-    <span style="font-size:smaller;">2.8.4</span>
+    <span style="font-size:smaller;">2.12.0</span>
   </div>
   <h1>RealEstateCore Lease Module</h1>
 <section id="metadata">
@@ -232,7 +235,7 @@
         <dt>Version Information</dt>
         <dd>3.3</dd>
         <dt>Version URI</dt>
-        <dd><a href="https://w3id.org/rec/lease/3.3/">https://w3id.org/rec/lease/3.3/</a></dd>
+        <dd><a href="https://w3id.org/rec/lease/3.3/">lease:</a></dd>
         <dt>Imports</dt>
         <dd>
             <a href="https://w3id.org/rec/core/3.3/">https://w3id.org/rec/core/3.3/</a><br/>
@@ -266,25 +269,28 @@
   <section id="classes">
     <h2>Classes <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
     <ul class="hlist">
-        <li><a href="#CoffeePremises">CoffeePremises</a></li>
-        <li><a href="#Educationalpremises">Educational premises</a></li>
-        <li><a href="#Garagepremises">Garage premises</a></li>
-        <li><a href="#Hotelpremises">Hotel premises</a></li>
-        <li><a href="#Laboratorypremises">Laboratory premises</a></li>
-        <li><a href="#Leasable">Leasable</a></li>
-        <li><a href="#Lease">Lease</a></li>
-        <li><a href="#Leasecontract">Lease contract</a></li>
-        <li><a href="#Lightindustrypremises">Light industry premises</a></li>
-        <li><a href="#Officepremises">Office premises</a></li>
-        <li><a href="#Premises">Premises</a></li>
-        <li><a href="#Premisestype">Premises type</a></li>
-        <li><a href="#Residentialpremises">Residential premises</a></li>
-        <li><a href="#Restaurantpremises">Restaurant premises</a></li>
-        <li><a href="#Retailpremises">Retail premises</a></li>
-        <li><a href="#Storagepremises">Storage premises</a></li>
+      <li><a href="https://w3id.org/rec/lease/CoffeePremises">CoffeePremises</a></li>
+      <li><a href="https://w3id.org/rec/lease/EducationalPremises">EducationalPremises</a></li>
+      <li><a href="https://w3id.org/rec/lease/GaragePremises">GaragePremises</a></li>
+      <li><a href="https://w3id.org/rec/lease/HotelPremises">HotelPremises</a></li>
+      <li><a href="https://w3id.org/rec/lease/LaboratoryPremises">LaboratoryPremises</a></li>
+      <li><a href="https://w3id.org/rec/lease/Leasable">Leasable</a></li>
+      <li><a href="https://w3id.org/rec/lease/Lease">Lease</a></li>
+      <li><a href="https://w3id.org/rec/lease/LeaseContract">LeaseContract</a></li>
+      <li><a href="https://w3id.org/rec/lease/LightIndustryPremises">LightIndustryPremises</a></li>
+      <li><a href="https://w3id.org/rec/lease/OfficePremises">OfficePremises</a></li>
+      <li><a href="https://w3id.org/rec/lease/Premises">Premises</a></li>
+      <li><a href="https://w3id.org/rec/lease/PremisesType">PremisesType</a></li>
+      <li><a href="https://w3id.org/rec/lease/ResidentialPremises">ResidentialPremises</a></li>
+      <li><a href="https://w3id.org/rec/lease/RestaurantPremises">RestaurantPremises</a></li>
+      <li><a href="https://w3id.org/rec/lease/RetailPremises">RetailPremises</a></li>
+      <li><a href="https://w3id.org/rec/lease/StoragePremises">StoragePremises</a></li>
     </ul>
     <div class="entity class" id="CoffeePremises">
-        <h3>CoffeePremises<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          CoffeePremises<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#CoffeePremises" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -299,7 +305,10 @@
         </table>
     </div>
     <div class="entity class" id="Educationalpremises">
-        <h3>Educational premises<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          Educational premises<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Educationalpremises" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -314,7 +323,10 @@
         </table>
     </div>
     <div class="entity class" id="Garagepremises">
-        <h3>Garage premises<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          Garage premises<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Garagepremises" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -329,7 +341,10 @@
         </table>
     </div>
     <div class="entity class" id="Hotelpremises">
-        <h3>Hotel premises<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          Hotel premises<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Hotelpremises" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -344,7 +359,10 @@
         </table>
     </div>
     <div class="entity class" id="Laboratorypremises">
-        <h3>Laboratory premises<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          Laboratory premises<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Laboratorypremises" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -359,7 +377,10 @@
         </table>
     </div>
     <div class="entity class" id="Leasable">
-        <h3>Leasable<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          Leasable<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Leasable" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -380,7 +401,10 @@
         </table>
     </div>
     <div class="entity class" id="Lease">
-        <h3>Lease<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          Lease<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Lease" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -395,10 +419,10 @@
             <tr>
                 <th>In domain of</th>
                 <td>
-                    <a href="https://w3id.org/rec/lease/leasee">leasee</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="https://w3id.org/rec/lease/regulatedBy">regulatedBy</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/lease/leaseStart">leaseStart</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/rec/lease/regulatedBy">regulatedBy</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/lease/leasor">leasor</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/lease/leasee">leasee</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/lease/leaseEnd">leaseEnd</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                     <a href="https://w3id.org/rec/lease/leaseOf">leaseOf</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
@@ -406,7 +430,10 @@
         </table>
     </div>
     <div class="entity class" id="Leasecontract">
-        <h3>Lease contract<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          Lease contract<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Leasecontract" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -427,7 +454,10 @@
         </table>
     </div>
     <div class="entity class" id="Lightindustrypremises">
-        <h3>Light industry premises<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          Light industry premises<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Lightindustrypremises" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -442,7 +472,10 @@
         </table>
     </div>
     <div class="entity class" id="Officepremises">
-        <h3>Office premises<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          Office premises<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Officepremises" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -457,7 +490,10 @@
         </table>
     </div>
     <div class="entity class" id="Premises">
-        <h3>Premises<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          Premises<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Premises" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -478,10 +514,10 @@
             <tr>
                 <th>In domain of</th>
                 <td>
-                    <a href="https://w3id.org/rec/lease/premisesIncludesBuilding">premisesIncludesBuilding</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="https://w3id.org/rec/lease/premisesIncludes">premisesIncludes</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="https://w3id.org/rec/lease/premisesType">premisesType</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/lease/premisesIncludesRoom">premisesIncludesRoom</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/lease/premisesType">premisesType</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/lease/premisesIncludes">premisesIncludes</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/lease/premisesIncludesBuilding">premisesIncludesBuilding</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
             <tr>
@@ -495,7 +531,10 @@
         </table>
     </div>
     <div class="entity class" id="Premisestype">
-        <h3>Premises type<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          Premises type<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Premisestype" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -507,10 +546,29 @@
                     <a href="https://w3id.org/rec/lease/premisesType">premisesType</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
+            <tr>
+                <th>Members</th>
+                <td>
+                    <a href="https://w3id.org/rec/lease/RetailPremises">RetailPremises</a><br/>
+                    <a href="https://w3id.org/rec/lease/LightIndustryPremises">LightIndustryPremises</a><br/>
+                    <a href="https://w3id.org/rec/lease/StoragePremises">StoragePremises</a><br/>
+                    <a href="https://w3id.org/rec/lease/LaboratoryPremises">LaboratoryPremises</a><br/>
+                    <a href="https://w3id.org/rec/lease/EducationalPremises">EducationalPremises</a><br/>
+                    <a href="https://w3id.org/rec/lease/OfficePremises">OfficePremises</a><br/>
+                    <a href="https://w3id.org/rec/lease/CoffeePremises">CoffeePremises</a><br/>
+                    <a href="https://w3id.org/rec/lease/RestaurantPremises">RestaurantPremises</a><br/>
+                    <a href="https://w3id.org/rec/lease/ResidentialPremises">ResidentialPremises</a><br/>
+                    <a href="https://w3id.org/rec/lease/GaragePremises">GaragePremises</a><br/>
+                    <a href="https://w3id.org/rec/lease/HotelPremises">HotelPremises</a><br/>
+                </td>
+            </tr>
         </table>
     </div>
     <div class="entity class" id="Residentialpremises">
-        <h3>Residential premises<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          Residential premises<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Residentialpremises" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -525,7 +583,10 @@
         </table>
     </div>
     <div class="entity class" id="Restaurantpremises">
-        <h3>Restaurant premises<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          Restaurant premises<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Restaurantpremises" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -540,7 +601,10 @@
         </table>
     </div>
     <div class="entity class" id="Retailpremises">
-        <h3>Retail premises<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          Retail premises<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Retailpremises" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -555,7 +619,10 @@
         </table>
     </div>
     <div class="entity class" id="Storagepremises">
-        <h3>Storage premises<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          Storage premises<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Storagepremises" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -586,7 +653,9 @@
         <li><a href="#roomispartofpremises">room is part of premises</a></li>
     </ul>
     <div class="entity property" id="buildingispartofpremises">
-        <h3>building is part of premises<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>building is part of premises<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#buildingispartofpremises" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -613,7 +682,9 @@
         </table>
     </div>
     <div class="entity property" id="ispartofpremises">
-        <h3>is part of premises<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>is part of premises<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#ispartofpremises" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -622,7 +693,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    Property that models Premises (leasable parts of real estate) parthood, i.e., that certain buildings and/or rooms are part of a defined Premise (which can in turn by governed by a Lease through a LeaseContract)
+                    <p>Property that models Premises (leasable parts of real estate) parthood, i.e., that certain buildings and/or rooms are part of a defined Premise (which can in turn by governed by a Lease through a LeaseContract)</p>
                 </td>
             </tr>
             <tr>
@@ -640,7 +711,9 @@
         </table>
     </div>
     <div class="entity property" id="leaseof">
-        <h3>lease of<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>lease of<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#leaseof" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -649,7 +722,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    The object (e.g., property, equipment, etc) that this a lease of.
+                    <p>The object (e.g., property, equipment, etc) that this a lease of.</p>
                 </td>
             </tr>
             <tr>
@@ -661,7 +734,9 @@
         </table>
     </div>
     <div class="entity property" id="leasee">
-        <h3>leasee<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>leasee<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#leasee" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -670,7 +745,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    The agent (organization or person) leasing some leasable object, i.e., the user of the asset.
+                    <p>The agent (organization or person) leasing some leasable object, i.e., the user of the asset.</p>
                 </td>
             </tr>
             <tr>
@@ -688,7 +763,9 @@
         </table>
     </div>
     <div class="entity property" id="leasor">
-        <h3>leasor<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>leasor<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#leasor" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -697,7 +774,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    The agent (organization or person) leasing out some leasable object, i.e., the owner of the asset.
+                    <p>The agent (organization or person) leasing out some leasable object, i.e., the owner of the asset.</p>
                 </td>
             </tr>
             <tr>
@@ -715,7 +792,9 @@
         </table>
     </div>
     <div class="entity property" id="premisesincludes">
-        <h3>premises includes<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>premises includes<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#premisesincludes" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -724,7 +803,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    Parthood traversal property linking Premises to their constituent Buildings or Rooms.
+                    <p>Parthood traversal property linking Premises to their constituent Buildings or Rooms.</p>
                 </td>
             </tr>
             <tr>
@@ -742,7 +821,9 @@
         </table>
     </div>
     <div class="entity property" id="premisesincludesbuilding">
-        <h3>premises includes building<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>premises includes building<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#premisesincludesbuilding" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -769,7 +850,9 @@
         </table>
     </div>
     <div class="entity property" id="premisesincludesroom">
-        <h3>premises includes room<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>premises includes room<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#premisesincludesroom" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -796,7 +879,9 @@
         </table>
     </div>
     <div class="entity property" id="premisestype">
-        <h3>premises type<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>premises type<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#premisestype" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -817,7 +902,9 @@
         </table>
     </div>
     <div class="entity property" id="regulatedby">
-        <h3>regulated by<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>regulated by<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#regulatedby" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -826,7 +913,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    A lease is regulated by some contract entered into by the leasor and leasees.
+                    <p>A lease is regulated by some contract entered into by the leasor and leasees.</p>
                 </td>
             </tr>
             <tr>
@@ -844,7 +931,9 @@
         </table>
     </div>
     <div class="entity property" id="roomispartofpremises">
-        <h3>room is part of premises<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>room is part of premises<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#roomispartofpremises" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -879,7 +968,9 @@
         <li><a href="#leasestart">lease start</a></li>
     </ul>
     <div class="entity property" id="leaseend">
-        <h3>lease end<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <h3>lease end<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#leaseend" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -888,7 +979,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    Time at which a lease arrangement ends.
+                    <p>Time at which a lease arrangement ends.</p>
                 </td>
             </tr>
             <tr>
@@ -912,7 +1003,9 @@
         </table>
     </div>
     <div class="entity property" id="leasestart">
-        <h3>lease start<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <h3>lease start<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#leasestart" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -921,7 +1014,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    Time at which a lease arrangement begins.
+                    <p>Time at which a lease arrangement begins.</p>
                 </td>
             </tr>
             <tr>
@@ -947,22 +1040,22 @@
 </section>
 
   
-  <section id="namedindividuals">
-    <h2>Named Individuals <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
-    <ul class="hlist">
-        <li><a href="#CoffeePremises">CoffeePremises</a></li>
-        <li><a href="#Educationalpremises">Educational premises</a></li>
-        <li><a href="#Garagepremises">Garage premises</a></li>
-        <li><a href="#Hotelpremises">Hotel premises</a></li>
-        <li><a href="#Laboratorypremises">Laboratory premises</a></li>
-        <li><a href="#Lightindustrypremises">Light industry premises</a></li>
-        <li><a href="#Officepremises">Office premises</a></li>
-        <li><a href="#Residentialpremises">Residential premises</a></li>
-        <li><a href="#Restaurantpremises">Restaurant premises</a></li>
-        <li><a href="#Retailpremises">Retail premises</a></li>
-        <li><a href="#Storagepremises">Storage premises</a></li>
-    </ul>
-    <div class="entity named_individual" id="CoffeePremises">
+    <section id="namedindividuals">
+        <h2>Named Individuals <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
+        <ul class="hlist">
+            <li><a href="#CoffeePremises">CoffeePremises</a></li>
+            <li><a href="#Educationalpremises">Educational premises</a></li>
+            <li><a href="#Garagepremises">Garage premises</a></li>
+            <li><a href="#Hotelpremises">Hotel premises</a></li>
+            <li><a href="#Laboratorypremises">Laboratory premises</a></li>
+            <li><a href="#Lightindustrypremises">Light industry premises</a></li>
+            <li><a href="#Officepremises">Office premises</a></li>
+            <li><a href="#Residentialpremises">Residential premises</a></li>
+            <li><a href="#Restaurantpremises">Restaurant premises</a></li>
+            <li><a href="#Retailpremises">Retail premises</a></li>
+            <li><a href="#Storagepremises">Storage premises</a></li>
+        </ul>
+            <div class="entity named_individual" id="CoffeePremises">
         <h3>CoffeePremises<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -974,15 +1067,15 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
+                <a href="http://www.w3.org/2000/01/rdf-schema#Class">rdfs:Class</a><br/>
                 <a href="https://w3id.org/rec/lease/PremisesType">PremisesType</a><br/>
                 <a href="http://www.w3.org/2002/07/owl#Class">owl:Class</a><br/>
-                <a href="http://www.w3.org/2000/01/rdf-schema#Class">rdfs:Class</a><br/>
             </dd>
         </table>
     </div>
-    <div class="entity named_individual" id="Educationalpremises">
+            <div class="entity named_individual" id="Educationalpremises">
         <h3>Educational premises<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -994,15 +1087,15 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
+                <a href="http://www.w3.org/2000/01/rdf-schema#Class">rdfs:Class</a><br/>
                 <a href="https://w3id.org/rec/lease/PremisesType">PremisesType</a><br/>
                 <a href="http://www.w3.org/2002/07/owl#Class">owl:Class</a><br/>
-                <a href="http://www.w3.org/2000/01/rdf-schema#Class">rdfs:Class</a><br/>
             </dd>
         </table>
     </div>
-    <div class="entity named_individual" id="Garagepremises">
+            <div class="entity named_individual" id="Garagepremises">
         <h3>Garage premises<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -1014,15 +1107,15 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
+                <a href="http://www.w3.org/2000/01/rdf-schema#Class">rdfs:Class</a><br/>
                 <a href="https://w3id.org/rec/lease/PremisesType">PremisesType</a><br/>
                 <a href="http://www.w3.org/2002/07/owl#Class">owl:Class</a><br/>
-                <a href="http://www.w3.org/2000/01/rdf-schema#Class">rdfs:Class</a><br/>
             </dd>
         </table>
     </div>
-    <div class="entity named_individual" id="Hotelpremises">
+            <div class="entity named_individual" id="Hotelpremises">
         <h3>Hotel premises<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -1034,15 +1127,15 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
+                <a href="http://www.w3.org/2000/01/rdf-schema#Class">rdfs:Class</a><br/>
                 <a href="https://w3id.org/rec/lease/PremisesType">PremisesType</a><br/>
                 <a href="http://www.w3.org/2002/07/owl#Class">owl:Class</a><br/>
-                <a href="http://www.w3.org/2000/01/rdf-schema#Class">rdfs:Class</a><br/>
             </dd>
         </table>
     </div>
-    <div class="entity named_individual" id="Laboratorypremises">
+            <div class="entity named_individual" id="Laboratorypremises">
         <h3>Laboratory premises<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -1054,15 +1147,15 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
+                <a href="http://www.w3.org/2000/01/rdf-schema#Class">rdfs:Class</a><br/>
                 <a href="https://w3id.org/rec/lease/PremisesType">PremisesType</a><br/>
                 <a href="http://www.w3.org/2002/07/owl#Class">owl:Class</a><br/>
-                <a href="http://www.w3.org/2000/01/rdf-schema#Class">rdfs:Class</a><br/>
             </dd>
         </table>
     </div>
-    <div class="entity named_individual" id="Lightindustrypremises">
+            <div class="entity named_individual" id="Lightindustrypremises">
         <h3>Light industry premises<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -1074,15 +1167,15 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
+                <a href="http://www.w3.org/2000/01/rdf-schema#Class">rdfs:Class</a><br/>
                 <a href="https://w3id.org/rec/lease/PremisesType">PremisesType</a><br/>
                 <a href="http://www.w3.org/2002/07/owl#Class">owl:Class</a><br/>
-                <a href="http://www.w3.org/2000/01/rdf-schema#Class">rdfs:Class</a><br/>
             </dd>
         </table>
     </div>
-    <div class="entity named_individual" id="Officepremises">
+            <div class="entity named_individual" id="Officepremises">
         <h3>Office premises<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -1094,15 +1187,15 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
+                <a href="http://www.w3.org/2000/01/rdf-schema#Class">rdfs:Class</a><br/>
                 <a href="https://w3id.org/rec/lease/PremisesType">PremisesType</a><br/>
                 <a href="http://www.w3.org/2002/07/owl#Class">owl:Class</a><br/>
-                <a href="http://www.w3.org/2000/01/rdf-schema#Class">rdfs:Class</a><br/>
             </dd>
         </table>
     </div>
-    <div class="entity named_individual" id="Residentialpremises">
+            <div class="entity named_individual" id="Residentialpremises">
         <h3>Residential premises<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -1114,15 +1207,15 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
+                <a href="http://www.w3.org/2000/01/rdf-schema#Class">rdfs:Class</a><br/>
                 <a href="https://w3id.org/rec/lease/PremisesType">PremisesType</a><br/>
                 <a href="http://www.w3.org/2002/07/owl#Class">owl:Class</a><br/>
-                <a href="http://www.w3.org/2000/01/rdf-schema#Class">rdfs:Class</a><br/>
             </dd>
         </table>
     </div>
-    <div class="entity named_individual" id="Restaurantpremises">
+            <div class="entity named_individual" id="Restaurantpremises">
         <h3>Restaurant premises<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -1134,15 +1227,15 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
+                <a href="http://www.w3.org/2000/01/rdf-schema#Class">rdfs:Class</a><br/>
                 <a href="https://w3id.org/rec/lease/PremisesType">PremisesType</a><br/>
                 <a href="http://www.w3.org/2002/07/owl#Class">owl:Class</a><br/>
-                <a href="http://www.w3.org/2000/01/rdf-schema#Class">rdfs:Class</a><br/>
             </dd>
         </table>
     </div>
-    <div class="entity named_individual" id="Retailpremises">
+            <div class="entity named_individual" id="Retailpremises">
         <h3>Retail premises<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -1154,15 +1247,15 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
+                <a href="http://www.w3.org/2000/01/rdf-schema#Class">rdfs:Class</a><br/>
                 <a href="https://w3id.org/rec/lease/PremisesType">PremisesType</a><br/>
                 <a href="http://www.w3.org/2002/07/owl#Class">owl:Class</a><br/>
-                <a href="http://www.w3.org/2000/01/rdf-schema#Class">rdfs:Class</a><br/>
             </dd>
         </table>
     </div>
-    <div class="entity named_individual" id="Storagepremises">
+            <div class="entity named_individual" id="Storagepremises">
         <h3>Storage premises<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -1174,19 +1267,21 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
+                <a href="http://www.w3.org/2000/01/rdf-schema#Class">rdfs:Class</a><br/>
                 <a href="https://w3id.org/rec/lease/PremisesType">PremisesType</a><br/>
                 <a href="http://www.w3.org/2002/07/owl#Class">owl:Class</a><br/>
-                <a href="http://www.w3.org/2000/01/rdf-schema#Class">rdfs:Class</a><br/>
             </dd>
         </table>
     </div>
-</section>
-  
+    </section>
+
   <section id="namespaces">
     <h2>Namespaces <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
     <dl>
+        <dt>default (lease)</dt>
+        <dd><code>https://w3id.org/rec/lease/3.3/</code></dd>
         <dt>:</dt>
         <dd><code>https://w3id.org/rec/lease/</code></dd>
         <dt>cc</dt>
@@ -1210,7 +1305,7 @@
         <dt>rdfs</dt>
         <dd><code>http://www.w3.org/2000/01/rdf-schema#</code></dd>
         <dt>sdo</dt>
-        <dd><code>https://schema.org/</code></dd>
+        <dd><code>http://schema.org/</code></dd>
         <dt>skos</dt>
         <dd><code>http://www.w3.org/2004/02/skos/core#</code></dd>
         <dt>vann</dt>

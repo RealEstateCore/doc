@@ -31,17 +31,17 @@
       "coversRequirements" : [ {
         "identifier" : "coversRequirements",
         "language" : "en",
+        "value" : "What is the RealEstateCore organizational GitHub account ID?",
+        "type" : "label"
+      }, {
+        "identifier" : "coversRequirements",
+        "language" : "en",
         "value" : "What is Karl Hammar's GitHub account ID?",
         "type" : "label"
       }, {
         "identifier" : "coversRequirements",
         "language" : "en",
         "value" : "Who are the members of the RealEstateCore release engineering team?",
-        "type" : "label"
-      }, {
-        "identifier" : "coversRequirements",
-        "language" : "en",
-        "value" : "What is the RealEstateCore organizational GitHub account ID?",
         "type" : "label"
       } ],
       "license" : [ {
@@ -62,16 +62,16 @@
         "value" : "agents",
         "type" : "label"
       } ],
-      "publisher" : [ {
-        "identifier" : "publisher",
-        "language" : "undefined",
-        "value" : "RealEstateCore Consortium",
-        "type" : "label"
-      } ],
       "modified" : [ {
         "identifier" : "modified",
         "language" : "undefined",
         "value" : "2020-06-23",
+        "type" : "label"
+      } ],
+      "publisher" : [ {
+        "identifier" : "publisher",
+        "language" : "undefined",
+        "value" : "RealEstateCore Consortium",
         "type" : "label"
       } ],
       "versionInfo" : [ {
@@ -138,7 +138,7 @@
     "id" : "8",
     "type" : "owl:Class"
   }, {
-    "id" : "17",
+    "id" : "18",
     "type" : "rdfs:Literal"
   }, {
     "id" : "23",
@@ -267,7 +267,7 @@
     "id" : "8"
   }, {
     "iri" : "http://www.w3.org/2000/01/rdf-schema#Literal",
-    "id" : "17",
+    "id" : "18",
     "label" : {
       "IRI-based" : "Literal",
       "undefined" : "Literal"
@@ -297,10 +297,10 @@
     "type" : "owl:datatypeProperty"
   }, {
     "id" : "16",
-    "type" : "owl:datatypeProperty"
-  }, {
-    "id" : "18",
     "type" : "owl:objectProperty"
+  }, {
+    "id" : "17",
+    "type" : "owl:datatypeProperty"
   }, {
     "id" : "19",
     "type" : "owl:datatypeProperty"
@@ -374,7 +374,7 @@
       "IRI-based" : "hasPart"
     },
     "domain" : "6",
-    "attributes" : [ "object", "external", "allValues" ],
+    "attributes" : [ "external", "object", "allValues" ],
     "id" : "7"
   }, {
     "iri" : "https://w3id.org/rec/agents/isMemberOf",
@@ -405,20 +405,6 @@
     "attributes" : [ "datatype" ],
     "id" : "13"
   }, {
-    "iri" : "https://w3id.org/rec/agents/lastName",
-    "baseIri" : "https://w3id.org/rec/agents",
-    "range" : "17",
-    "label" : {
-      "IRI-based" : "lastName",
-      "en" : "last name"
-    },
-    "domain" : "1",
-    "comment" : {
-      "en" : "A person's last name (if they have one; this varies across cultural contexts)."
-    },
-    "attributes" : [ "datatype" ],
-    "id" : "16"
-  }, {
     "iri" : "https://w3id.org/rec/agents/hasMember",
     "baseIri" : "https://w3id.org/rec/agents",
     "range" : "1",
@@ -431,7 +417,21 @@
       "en" : "Indicates the individual Persons that are members of an Organization. For member Organizations, use hasPart."
     },
     "attributes" : [ "object" ],
-    "id" : "18"
+    "id" : "16"
+  }, {
+    "iri" : "https://w3id.org/rec/agents/lastName",
+    "baseIri" : "https://w3id.org/rec/agents",
+    "range" : "18",
+    "label" : {
+      "IRI-based" : "lastName",
+      "en" : "last name"
+    },
+    "domain" : "1",
+    "comment" : {
+      "en" : "A person's last name (if they have one; this varies across cultural contexts)."
+    },
+    "attributes" : [ "datatype" ],
+    "id" : "17"
   }, {
     "iri" : "https://w3id.org/rec/agents/image",
     "baseIri" : "https://w3id.org/rec/agents",
@@ -454,7 +454,7 @@
       "IRI-based" : "isPartOf"
     },
     "domain" : "6",
-    "attributes" : [ "object", "external", "allValues" ],
+    "attributes" : [ "external", "object", "allValues" ],
     "id" : "20"
   }, {
     "iri" : "https://w3id.org/rec/agents/hasMember",

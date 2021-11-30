@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <title>RealEstateCore LFR Module</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC40lEQVRYhe2UT0hUQRzHp6Iss1B3VZKIDbbdfW9mnoi4f3zzjkJQeOgS0SEIb1EWBGGlLLu460zQPQM1unUIIjA6rfpm6ZAhHjoIRVQUFUlEbG+euTsdXG1d3VL3bVD4g+9h+L35fT/8fvN7ADgY9aHY5fpIvK82HO9ysu66wxWOzbkjcekKx0a2ALYA/n2AGi3a6ArFezcidziecQygNhhrcUficjP6PwBqtGijKxy/thnVBePHywYoDsFhl53GV8SEcsTx4usCMLUewTVpc23BNvEzm6Neyf1+KcG2vwqwUjgrOJq2JmHftwmkVBRGTvncFodnbI7vChO/FRznCmHsNM7aHM9Yk7Df5iqsLMw9sMNOK2g+jS4IEz0UJv4iuJZb2RltWnB4UZqH6ioGAgAAGe5vtiZhtzDx7OoRadLmeM7m6IRjhnLMW2Vx1bA5GhAmnhIcz6/xNj4Ujsky8UspwfayjDPjsF2Y6L7N8Vzx/BfP+KPg6LbgSqd8DnfJW2CnbaLhfH5ephpqygJYvQU4Z3P82TLRsDDhUTnmrSq+Y3N0Mg+Xldy/zwEAnLMWZ3pHpNExmfLs/t0dOdVcbT0JeKxUwFP2VljjqiE47Jp53LTXNxhsUZjerTByXWX6VZWRs/4bIQ2ACv+UAomgDzLCISNZxAxZKMhIDjLy1JfsaK+I+eGBUBNk5E2x8RogX/PdcDZUqieWTSh5D6nOVKqfhoycUmlHFFIyu5RXqf7AcQDISCpv/tqbMBqK883RtmpISRoxQyJKPgGn3wNk5NEigDFa6hslqV/Kj+FdBQD0bshIDlKSLlVcoWQo36UhR80BAMB73lulMn0EMpJTqD6qJiOt3mho/8GbkT2BZNgDB/V+RI0fkOrT3kRIVQbaDizJm2hdNbINBxwk5xAj3yEjuV9rZ1iIkgxixkLBA83mz8uCjLwoGwAx0vOnFSy5mtR4VTaAQvVORMnwZgSpzkrV/QmdE2tKe46+MQAAAABJRU5ErkJggg==">
+    <link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABhklEQVQ4jbWPzStEURjG3yQLirlGKUnKFO45Z+SjmXvnnmthQcpCoVhYmD/AwmJiI3OvZuZc2U3UlKU0/gAslMw9JgvhHxAr2fko7r0jHSsl+TgbTz2Lt5731/MASEiJW9ONml2QyX6rsGalmnT74v8BDf12hxJfpV8d1uwNKUBYszabdFv84L8B9X0rESVmmUup2fme0cVhJWaZHw4NWL1Sew
+EAfDe6H3Dy6Ll456WEJsRZS630MwCAOI20ei5OBpxse5zcBZw8eS4uPpfIuDiCainIg9umBCU0GZzgLZ9Hn31OgoATL+CkLDGB5H1OKj4nFd/FBxUXJ0UZNb4edw/6nLyJXaj5FeCVyPLNIVmYK8TG1IwWb16L1gEACAFV90ftoT8bdOX0EeyY99gxBXZMgRz6qGb1KantAACI0UvE6F5XJqEjpsdURouI0Vt5gGOUkUNnPu7ObGIIMfNaGqDmjDRi9FZldF1lRgYzeqUyeoiY4ag5Iy3RgOYRM8+/M2bG8efsO4hGrpmJseyMAAAAAElFTkSuQmCC">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     
     <style>
@@ -132,8 +135,8 @@
         .sup-ap,
         .sup-p,
         .sup-ni,
-        .sup-cp,
-        .sup-cl {
+        .sup-con,
+        .sup-col {
             cursor:help;
             margin-left: 3px;
         }
@@ -166,11 +169,11 @@
             color:brown;
         }
 
-        .sup-cp {
+        .sup-con {
             color:orange;
         }
 
-        .sup-cl {
+        .sup-col {
             color:darkred;
         }
 
@@ -210,7 +213,7 @@
 <body>
   <div id="pylode">made by <a href="http://github.com/rdflib/pyLODE">
     <span style="color:#329545;">p</span><span style="color:#f9cb33;">y</span>LODE</a>
-    <span style="font-size:smaller;">2.8.4</span>
+    <span style="font-size:smaller;">2.12.0</span>
   </div>
   <h1>RealEstateCore LFR Module</h1>
 <section id="metadata">
@@ -235,7 +238,7 @@
         <dt>Version Information</dt>
         <dd>3.3</dd>
         <dt>Version URI</dt>
-        <dd><a href="https://w3id.org/rec/lfr/3.3/">https://w3id.org/rec/lfr/3.3/</a></dd>
+        <dd><a href="https://w3id.org/rec/lfr/3.3/">lfr:</a></dd>
         <dt>Imports</dt>
         <dd>
             <a href="https://w3id.org/rec/core/3.3/">https://w3id.org/rec/core/3.3/</a><br/>
@@ -269,16 +272,19 @@
   <section id="classes">
     <h2>Classes <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
     <ul class="hlist">
-        <li><a href="#Adressplats">Adressplats</a></li>
-        <li><a href="#Apartment">Apartment</a></li>
-        <li><a href="#Cityaddresslocation">City address location</a></li>
-        <li><a href="#Entre">Entre</a></li>
-        <li><a href="#Entretyp">Entretyp</a></li>
-        <li><a href="#Gatuadressplats">Gatuadressplats</a></li>
-        <li><a href="#Metricaladdresslocation">Metrical address location</a></li>
+      <li><a href="https://w3id.org/rec/lfr/LfrAddressLocation">LfrAddressLocation</a></li>
+      <li><a href="https://w3id.org/rec/lfr/LfrApartment">LfrApartment</a></li>
+      <li><a href="https://w3id.org/rec/lfr/LfrCityAddressLocation">LfrCityAddressLocation</a></li>
+      <li><a href="https://w3id.org/rec/lfr/LfrEntrance">LfrEntrance</a></li>
+      <li><a href="https://w3id.org/rec/lfr/LfrEntranceType">LfrEntranceType</a></li>
+      <li><a href="https://w3id.org/rec/lfr/LfrMetricalAddressLocation">LfrMetricalAddressLocation</a></li>
+      <li><a href="https://w3id.org/rec/lfr/LfrStreetAddressLocation">LfrStreetAddressLocation</a></li>
     </ul>
-    <div class="entity class" id="Adressplats">
-        <h3>Adressplats<sup title="class" class="sup-c">c</sup></h3>
+    <div class="entity class" id="Addresslocation">
+        <h3>
+          Address location<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Addresslocation" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -293,7 +299,7 @@
             <tr>
                 <th>Super-classes</th>
                 <td>
-                    <a href="http://www.opengis.net/ont/geosparql#Geometry">http://www.opengis.net/ont/geosparql#Geometry</a><sup class="sup-c" title="class">c</sup><br/>
+                    <a href="http://www.opengis.net/ont/geosparql#Geometry">geosparql:Geometry</a><sup class="sup-c" title="class">c</sup><br/>
                 </td>
             </tr>
             <tr>
@@ -319,7 +325,10 @@
         </table>
     </div>
     <div class="entity class" id="Apartment">
-        <h3>Apartment<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          Apartment<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Apartment" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -341,14 +350,17 @@
                 <th>In domain of</th>
                 <td>
                     <a href="https://w3id.org/rec/lfr/hasLfrEntrance">hasLfrEntrance</a><sup class="sup-op" title="object property">op</sup><br/>
-                    <a href="https://w3id.org/rec/lfr/lfrApartmentArea">lfrApartmentArea</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                     <a href="https://w3id.org/rec/lfr/lfrApartmentNumber">lfrApartmentNumber</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
+                    <a href="https://w3id.org/rec/lfr/lfrApartmentArea">lfrApartmentArea</a><sup class="sup-dp" title="datatype property">dp</sup><br/>
                 </td>
             </tr>
         </table>
     </div>
     <div class="entity class" id="Cityaddresslocation">
-        <h3>City address location<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          City address location<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Cityaddresslocation" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -368,8 +380,11 @@
             </tr>
         </table>
     </div>
-    <div class="entity class" id="Entre">
-        <h3>Entre<sup title="class" class="sup-c">c</sup></h3>
+    <div class="entity class" id="Entrance">
+        <h3>
+          Entrance<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Entrance" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -390,8 +405,8 @@
             <tr>
                 <th>In domain of</th>
                 <td>
-                    <a href="https://w3id.org/rec/lfr/lfrEntranceType">lfrEntranceType</a><sup class="sup-op" title="object property">op</sup><br/>
                     <a href="https://w3id.org/rec/lfr/hasLfrAddressLocation">hasLfrAddressLocation</a><sup class="sup-op" title="object property">op</sup><br/>
+                    <a href="https://w3id.org/rec/lfr/lfrEntranceType">lfrEntranceType</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
             <tr>
@@ -402,8 +417,11 @@
             </tr>
         </table>
     </div>
-    <div class="entity class" id="Entretyp">
-        <h3>Entretyp<sup title="class" class="sup-c">c</sup></h3>
+    <div class="entity class" id="Entrancetype">
+        <h3>
+          Entrance type<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Entrancetype" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -427,10 +445,24 @@
                     <a href="https://w3id.org/rec/lfr/lfrEntranceType">lfrEntranceType</a><sup class="sup-op" title="object property">op</sup><br/>
                 </td>
             </tr>
+            <tr>
+                <th>Members</th>
+                <td>
+                    <a href="https://w3id.org/rec/lfr/LfrResidenceAddress">LfrResidenceAddress</a><br/>
+                    <a href="https://w3id.org/rec/lfr/LfrMissingInformation">LfrMissingInformation</a><br/>
+                    <a href="https://w3id.org/rec/lfr/LfrShopAddress">LfrShopAddress</a><br/>
+                    <a href="https://w3id.org/rec/lfr/LfrDeliveryAddress">LfrDeliveryAddress</a><br/>
+                    <a href="https://w3id.org/rec/lfr/LfrResidenceAddressRegisteredApartment">LfrResidenceAddressRegisteredApartment</a><br/>
+                    <a href="https://w3id.org/rec/lfr/LfrVisitingAddress">LfrVisitingAddress</a><br/>
+                </td>
+            </tr>
         </table>
     </div>
     <div class="entity class" id="Metricaladdresslocation">
-        <h3>Metrical address location<sup title="class" class="sup-c">c</sup></h3>
+        <h3>
+          Metrical address location<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Metricaladdresslocation" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -450,8 +482,11 @@
             </tr>
         </table>
     </div>
-    <div class="entity class" id="Gatuadressplats">
-        <h3>Gatuadressplats<sup title="class" class="sup-c">c</sup></h3>
+    <div class="entity class" id="Streetaddresslocation">
+        <h3>
+          Street address location<sup title="class" class="sup-c">c</sup>
+          <span style="float:right; margin-right:10px; font-size:smaller;"><a href="#Streetaddresslocation" title="fragment link to here">#</a> <a href="#classes" title="Classes Index">Classes</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -476,13 +511,15 @@
     <h2>Object Properties <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
     <ul class="hlist">
         <li><a href="#hasaddresslocation">has address location</a></li>
-        <li><a href="#harentre">har entre</a></li>
+        <li><a href="#hasentrance">has entrance</a></li>
         <li><a href="#entrancetype">entrance type</a></li>
         <li><a href="#addresslocationofentrance">address location of entrance</a></li>
         <li><a href="#addresslocationofrealestate">address location of real estate</a></li>
     </ul>
     <div class="entity property" id="hasaddresslocation">
-        <h3>has address location<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>has address location<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#hasaddresslocation" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -491,13 +528,13 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    Association between an entrance (entre) and its address location (adressplats).
+                    <p>Association between an entrance (entre) and its address location (adressplats).</p>
                 </td>
             </tr>
             <tr>
                 <th>Super-properties</th>
                 <td>
-                    <a href="http://www.opengis.net/ont/geosparql#hasGeometry">http://www.opengis.net/ont/geosparql#hasGeometry</a>
+                    <a href="http://www.opengis.net/ont/geosparql#hasGeometry">geosparql:hasGeometry</a>
                 </td>
             </tr>
             <tr>
@@ -520,8 +557,10 @@
             </tr>
         </table>
     </div>
-    <div class="entity property" id="harentre">
-        <h3>har entre<sup title="object property" class="sup-op">op</sup></h3>
+    <div class="entity property" id="hasentrance">
+        <h3>has entrance<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#hasentrance" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -530,7 +569,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    Association between an apartment (lägenhet) and an entrance (entre).
+                    <p>Association between an apartment (lägenhet) and an entrance (entre).</p>
                 </td>
             </tr>
             <tr>
@@ -554,7 +593,9 @@
         </table>
     </div>
     <div class="entity property" id="entrancetype">
-        <h3>entrance type<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>entrance type<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#entrancetype" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -563,7 +604,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    Representation of the type of entrance (entre). The possible entrance types are modelled as named individuals.
+                    <p>Representation of the type of entrance (entre). The possible entrance types are modelled as named individuals.</p>
                 </td>
             </tr>
             <tr>
@@ -581,7 +622,9 @@
         </table>
     </div>
     <div class="entity property" id="addresslocationofentrance">
-        <h3>address location of entrance<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>address location of entrance<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#addresslocationofentrance" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -590,13 +633,15 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    Association between an address location (adressplats) and its entrance (entre). Inverse to hasLfrAddressLocation and not part of the formal LFR specification.
+                    <p>Association between an address location (adressplats) and its entrance (entre). Inverse to hasLfrAddressLocation and not part of the formal LFR specification.</p>
                 </td>
             </tr>
         </table>
     </div>
     <div class="entity property" id="addresslocationofrealestate">
-        <h3>address location of real estate<sup title="object property" class="sup-op">op</sup></h3>
+        <h3>address location of real estate<sup title="object property" class="sup-op">op</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#addresslocationofrealestate" title="fragment link to here">#</a>&nbsp;<a href="#objectproperties" title="Object Properties Index">OPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -605,7 +650,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    Association between an address location (adressplats) and a real estate (fastighet).
+                    <p>Association between an address location (adressplats) and a real estate (fastighet).</p>
                 </td>
             </tr>
         </table>
@@ -615,25 +660,27 @@
 <section id="datatypeproperties">
     <h2>Datatype Properties <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
     <ul class="hlist">
-        <li><a href="#adressplatsattribut">adressplatsattribut</a></li>
+        <li><a href="#addresslocationattributes">address location attributes</a></li>
         <li><a href="#cityname">city name</a></li>
         <li><a href="#countycode">county code</a></li>
-        <li><a href="#st-koordinat">öst-koordinat</a></li>
-        <li><a href="#metertalsadressomrdesnamn">metertalsadressområdesnamn</a></li>
+        <li><a href="#eastcoordinate">east coordinate</a></li>
+        <li><a href="#metricaladdressname">metrical address name</a></li>
         <li><a href="#municipalitycode">municipality code</a></li>
-        <li><a href="#kommundel">kommundel</a></li>
-        <li><a href="#nord-koordinat">nord-koordinat</a></li>
-        <li><a href="#postnummer">postnummer</a></li>
+        <li><a href="#municipalitypart">municipality part</a></li>
+        <li><a href="#northcoordinate">north coordinate</a></li>
+        <li><a href="#postalcode">postal code</a></li>
         <li><a href="#postallocation">postal location</a></li>
         <li><a href="#streetname">street name</a></li>
         <li><a href="#apartmentarea">apartment area</a></li>
-        <li><a href="#lgenhetsnummer">lägenhetsnummer</a></li>
+        <li><a href="#apartmentnumber">apartment number</a></li>
         <li><a href="#buildingnumber">building number</a></li>
-        <li><a href="#totalbostadsarea">total bostadsarea</a></li>
+        <li><a href="#totalresidencearea">total residence area</a></li>
         <li><a href="#realpropertyregisteruniversaluniqueidentity">real property register universal unique identity</a></li>
     </ul>
-    <div class="entity property" id="adressplatsattribut">
-        <h3>adressplatsattribut<sup title="datatype property" class="sup-dp">dp</sup></h3>
+    <div class="entity property" id="addresslocationattributes">
+        <h3>address location attributes<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#addresslocationattributes" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -642,13 +689,13 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    A number of attributes (fields) related to address location. Together they represent a minimum implementation of the standardized address location (adressplats).
+                    <p>A number of attributes (fields) related to address location. Together they represent a minimum implementation of the standardized address location (adressplats).</p>
                 </td>
             </tr>
             <tr>
                 <th>Super-properties</th>
                 <td>
-                    <a href="http://www.opengis.net/ont/geosparql#hasSerialization">http://www.opengis.net/ont/geosparql#hasSerialization</a>
+                    <a href="http://www.opengis.net/ont/geosparql#hasSerialization">geosparql:hasSerialization</a>
                 </td>
             </tr>
             <tr>
@@ -660,7 +707,9 @@
         </table>
     </div>
     <div class="entity property" id="cityname">
-        <h3>city name<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <h3>city name<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#cityname" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -669,11 +718,9 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    City name.
-
-Note that object type 90A field 15 ("ADRTYP") holds the key to interpretation of this field; value = 3 (~byadressområde) implies a city name (bynamn).
-
-Also note that city name may be different to the postal location.
+                    <p>City name.</p>
+<p>Note that object type 90A field 15 ("ADRTYP") holds the key to interpretation of this field; value = 3 (~byadressområde) implies a city name (bynamn).</p>
+<p>Also note that city name may be different to the postal location.</p>
                 </td>
             </tr>
             <tr>
@@ -697,7 +744,9 @@ Also note that city name may be different to the postal location.
         </table>
     </div>
     <div class="entity property" id="countycode">
-        <h3>county code<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <h3>county code<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#countycode" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -717,8 +766,10 @@ Also note that city name may be different to the postal location.
             </tr>
         </table>
     </div>
-    <div class="entity property" id="st-koordinat">
-        <h3>öst-koordinat<sup title="datatype property" class="sup-dp">dp</sup></h3>
+    <div class="entity property" id="eastcoordinate">
+        <h3>east coordinate<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#eastcoordinate" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -727,9 +778,8 @@ Also note that city name may be different to the postal location.
             <tr>
                 <th>Description</th>
                 <td>
-                    East-west directional coordinate in meters according to SWEREF 99 TM.
-
-Comprises 7 digits followed by optional decimal point and up to three digits (NNNNNNN[.NNN]).
+                    <p>East-west directional coordinate in meters according to SWEREF 99 TM.</p>
+<p>Comprises 7 digits followed by optional decimal point and up to three digits (NNNNNNN[.NNN]).</p>
                 </td>
             </tr>
             <tr>
@@ -740,8 +790,10 @@ Comprises 7 digits followed by optional decimal point and up to three digits (NN
             </tr>
         </table>
     </div>
-    <div class="entity property" id="metertalsadressomrdesnamn">
-        <h3>metertalsadressområdesnamn<sup title="datatype property" class="sup-dp">dp</sup></h3>
+    <div class="entity property" id="metricaladdressname">
+        <h3>metrical address name<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#metricaladdressname" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -750,9 +802,8 @@ Comprises 7 digits followed by optional decimal point and up to three digits (NN
             <tr>
                 <th>Description</th>
                 <td>
-                    Metrical address name.
-
-Note that object type 90A field 15 ("ADRTYP") holds the key to interpretation of this field; value = 2 (~metertalsadressområde) implies a metrical address name.
+                    <p>Metrical address name.</p>
+<p>Note that object type 90A field 15 ("ADRTYP") holds the key to interpretation of this field; value = 2 (~metertalsadressområde) implies a metrical address name.</p>
                 </td>
             </tr>
             <tr>
@@ -776,7 +827,9 @@ Note that object type 90A field 15 ("ADRTYP") holds the key to interpretation of
         </table>
     </div>
     <div class="entity property" id="municipalitycode">
-        <h3>municipality code<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <h3>municipality code<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#municipalitycode" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -796,8 +849,10 @@ Note that object type 90A field 15 ("ADRTYP") holds the key to interpretation of
             </tr>
         </table>
     </div>
-    <div class="entity property" id="kommundel">
-        <h3>kommundel<sup title="datatype property" class="sup-dp">dp</sup></h3>
+    <div class="entity property" id="municipalitypart">
+        <h3>municipality part<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#municipalitypart" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -817,8 +872,10 @@ Note that object type 90A field 15 ("ADRTYP") holds the key to interpretation of
             </tr>
         </table>
     </div>
-    <div class="entity property" id="nord-koordinat">
-        <h3>nord-koordinat<sup title="datatype property" class="sup-dp">dp</sup></h3>
+    <div class="entity property" id="northcoordinate">
+        <h3>north coordinate<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#northcoordinate" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -827,9 +884,8 @@ Note that object type 90A field 15 ("ADRTYP") holds the key to interpretation of
             <tr>
                 <th>Description</th>
                 <td>
-                    North-south directional coordinate in meters according to SWEREF 99 TM.
-
-Comprises 7 digits followed by optional decimal point and up to three digits (NNNNNNN[.NNN]).
+                    <p>North-south directional coordinate in meters according to SWEREF 99 TM.</p>
+<p>Comprises 7 digits followed by optional decimal point and up to three digits (NNNNNNN[.NNN]).</p>
                 </td>
             </tr>
             <tr>
@@ -840,8 +896,10 @@ Comprises 7 digits followed by optional decimal point and up to three digits (NN
             </tr>
         </table>
     </div>
-    <div class="entity property" id="postnummer">
-        <h3>postnummer<sup title="datatype property" class="sup-dp">dp</sup></h3>
+    <div class="entity property" id="postalcode">
+        <h3>postal code<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#postalcode" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -862,7 +920,9 @@ Comprises 7 digits followed by optional decimal point and up to three digits (NN
         </table>
     </div>
     <div class="entity property" id="postallocation">
-        <h3>postal location<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <h3>postal location<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#postallocation" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -883,7 +943,9 @@ Comprises 7 digits followed by optional decimal point and up to three digits (NN
         </table>
     </div>
     <div class="entity property" id="streetname">
-        <h3>street name<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <h3>street name<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#streetname" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -892,9 +954,8 @@ Comprises 7 digits followed by optional decimal point and up to three digits (NN
             <tr>
                 <th>Description</th>
                 <td>
-                    Street name.
-
-Note that object type 90A field 15 ("ADRTYP") holds the key to interpretation of this field; value = 1 (~gatuadressområde) implies a street name.
+                    <p>Street name.</p>
+<p>Note that object type 90A field 15 ("ADRTYP") holds the key to interpretation of this field; value = 1 (~gatuadressområde) implies a street name.</p>
                 </td>
             </tr>
             <tr>
@@ -918,7 +979,9 @@ Note that object type 90A field 15 ("ADRTYP") holds the key to interpretation of
         </table>
     </div>
     <div class="entity property" id="apartmentarea">
-        <h3>apartment area<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <h3>apartment area<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#apartmentarea" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -927,7 +990,7 @@ Note that object type 90A field 15 ("ADRTYP") holds the key to interpretation of
             <tr>
                 <th>Description</th>
                 <td>
-                    The area in square meters (m2) of an apartment (lägenhet).
+                    <p>The area in square meters (m2) of an apartment (lägenhet).</p>
                 </td>
             </tr>
             <tr>
@@ -950,8 +1013,10 @@ Note that object type 90A field 15 ("ADRTYP") holds the key to interpretation of
             </tr>
         </table>
     </div>
-    <div class="entity property" id="lgenhetsnummer">
-        <h3>lägenhetsnummer<sup title="datatype property" class="sup-dp">dp</sup></h3>
+    <div class="entity property" id="apartmentnumber">
+        <h3>apartment number<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#apartmentnumber" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -978,7 +1043,9 @@ Note that object type 90A field 15 ("ADRTYP") holds the key to interpretation of
         </table>
     </div>
     <div class="entity property" id="buildingnumber">
-        <h3>building number<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <h3>building number<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#buildingnumber" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -987,7 +1054,7 @@ Note that object type 90A field 15 ("ADRTYP") holds the key to interpretation of
             <tr>
                 <th>Description</th>
                 <td>
-                    The serial number for all buildings on a property.
+                    <p>The serial number for all buildings on a property.</p>
                 </td>
             </tr>
             <tr>
@@ -1010,8 +1077,10 @@ Note that object type 90A field 15 ("ADRTYP") holds the key to interpretation of
             </tr>
         </table>
     </div>
-    <div class="entity property" id="totalbostadsarea">
-        <h3>total bostadsarea<sup title="datatype property" class="sup-dp">dp</sup></h3>
+    <div class="entity property" id="totalresidencearea">
+        <h3>total residence area<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#totalresidencearea" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -1020,7 +1089,7 @@ Note that object type 90A field 15 ("ADRTYP") holds the key to interpretation of
             <tr>
                 <th>Description</th>
                 <td>
-                    The total area in square meters (m2) of all residences (apartments) in a building.
+                    <p>The total area in square meters (m2) of all residences (apartments) in a building.</p>
                 </td>
             </tr>
             <tr>
@@ -1044,7 +1113,9 @@ Note that object type 90A field 15 ("ADRTYP") holds the key to interpretation of
         </table>
     </div>
     <div class="entity property" id="realpropertyregisteruniversaluniqueidentity">
-        <h3>real property register universal unique identity<sup title="datatype property" class="sup-dp">dp</sup></h3>
+        <h3>real property register universal unique identity<sup title="datatype property" class="sup-dp">dp</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#realpropertyregisteruniversaluniqueidentity" title="fragment link to here">#</a>&nbsp;<a href="#datatypeproperties" title="Datatype Properties Index">DPs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -1053,7 +1124,7 @@ Note that object type 90A field 15 ("ADRTYP") holds the key to interpretation of
             <tr>
                 <th>Description</th>
                 <td>
-                    All objects in the SRPR (Lantmäteriets Fastighetsregister, LFR) has unique identifiers, UUIDs.
+                    <p>All objects in the SRPR (Lantmäteriets Fastighetsregister, LFR) has unique identifiers, UUIDs.</p>
                 </td>
             </tr>
             <tr>
@@ -1079,18 +1150,18 @@ Note that object type 90A field 15 ("ADRTYP") holds the key to interpretation of
 </section>
 
   
-  <section id="namedindividuals">
-    <h2>Named Individuals <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
-    <ul class="hlist">
-        <li><a href="#bostadsadressmedregistreradlgenhet">bostadsadress med registrerad lägenhet</a></li>
-        <li><a href="#leveransadress">leveransadress</a></li>
-        <li><a href="#residenceaddress">residence address</a></li>
-        <li><a href="#shopaddress">shop address</a></li>
-        <li><a href="#uppgiftsaknas">uppgift saknas</a></li>
-        <li><a href="#visitingaddress">visiting address</a></li>
-    </ul>
-    <div class="entity named_individual" id="leveransadress">
-        <h3>leveransadress<sup title="named individual" class="sup-ni">ni</sup></h3>
+    <section id="namedindividuals">
+        <h2>Named Individuals <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
+        <ul class="hlist">
+            <li><a href="#deliveryaddress">delivery address</a></li>
+            <li><a href="#missinginformation">missing information</a></li>
+            <li><a href="#residenceaddress">residence address</a></li>
+            <li><a href="#residenceaddresswithregisteredapartment">residence address with registered apartment</a></li>
+            <li><a href="#shopaddress">shop address</a></li>
+            <li><a href="#visitingaddress">visiting address</a></li>
+        </ul>
+            <div class="entity named_individual" id="deliveryaddress">
+        <h3>delivery address<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -1101,7 +1172,7 @@ Note that object type 90A field 15 ("ADRTYP") holds the key to interpretation of
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
                 <a href="https://w3id.org/rec/lfr/LfrEntranceType">LfrEntranceType</a><br/>
             </dd>
@@ -1119,8 +1190,8 @@ Note that object type 90A field 15 ("ADRTYP") holds the key to interpretation of
             </tr>
         </table>
     </div>
-    <div class="entity named_individual" id="uppgiftsaknas">
-        <h3>uppgift saknas<sup title="named individual" class="sup-ni">ni</sup></h3>
+            <div class="entity named_individual" id="missinginformation">
+        <h3>missing information<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -1131,7 +1202,7 @@ Note that object type 90A field 15 ("ADRTYP") holds the key to interpretation of
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
                 <a href="https://w3id.org/rec/lfr/LfrEntranceType">LfrEntranceType</a><br/>
             </dd>
@@ -1149,7 +1220,7 @@ Note that object type 90A field 15 ("ADRTYP") holds the key to interpretation of
             </tr>
         </table>
     </div>
-    <div class="entity named_individual" id="residenceaddress">
+            <div class="entity named_individual" id="residenceaddress">
         <h3>residence address<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -1161,7 +1232,7 @@ Note that object type 90A field 15 ("ADRTYP") holds the key to interpretation of
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
                 <a href="https://w3id.org/rec/lfr/LfrEntranceType">LfrEntranceType</a><br/>
             </dd>
@@ -1179,8 +1250,8 @@ Note that object type 90A field 15 ("ADRTYP") holds the key to interpretation of
             </tr>
         </table>
     </div>
-    <div class="entity named_individual" id="bostadsadressmedregistreradlgenhet">
-        <h3>bostadsadress med registrerad lägenhet<sup title="named individual" class="sup-ni">ni</sup></h3>
+            <div class="entity named_individual" id="residenceaddresswithregisteredapartment">
+        <h3>residence address with registered apartment<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -1191,7 +1262,7 @@ Note that object type 90A field 15 ("ADRTYP") holds the key to interpretation of
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
                 <a href="https://w3id.org/rec/lfr/LfrEntranceType">LfrEntranceType</a><br/>
             </dd>
@@ -1209,7 +1280,7 @@ Note that object type 90A field 15 ("ADRTYP") holds the key to interpretation of
             </tr>
         </table>
     </div>
-    <div class="entity named_individual" id="shopaddress">
+            <div class="entity named_individual" id="shopaddress">
         <h3>shop address<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -1221,7 +1292,7 @@ Note that object type 90A field 15 ("ADRTYP") holds the key to interpretation of
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
                 <a href="https://w3id.org/rec/lfr/LfrEntranceType">LfrEntranceType</a><br/>
             </dd>
@@ -1239,7 +1310,7 @@ Note that object type 90A field 15 ("ADRTYP") holds the key to interpretation of
             </tr>
         </table>
     </div>
-    <div class="entity named_individual" id="visitingaddress">
+            <div class="entity named_individual" id="visitingaddress">
         <h3>visiting address<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -1251,7 +1322,7 @@ Note that object type 90A field 15 ("ADRTYP") holds the key to interpretation of
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
                 <a href="https://w3id.org/rec/lfr/LfrEntranceType">LfrEntranceType</a><br/>
             </dd>
@@ -1269,11 +1340,13 @@ Note that object type 90A field 15 ("ADRTYP") holds the key to interpretation of
             </tr>
         </table>
     </div>
-</section>
-  
+    </section>
+
   <section id="namespaces">
     <h2>Namespaces <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
     <dl>
+        <dt>default (lfr)</dt>
+        <dd><code>https://w3id.org/rec/lfr/3.3/</code></dd>
         <dt>:</dt>
         <dd><code>https://w3id.org/rec/lfr/</code></dd>
         <dt>cc</dt>
@@ -1284,6 +1357,8 @@ Note that object type 90A field 15 ("ADRTYP") holds the key to interpretation of
         <dd><code>http://purl.org/dc/elements/1.1/</code></dd>
         <dt>dcterms</dt>
         <dd><code>http://purl.org/dc/terms/</code></dd>
+        <dt>geosparql</dt>
+        <dd><code>http://www.opengis.net/ont/geosparql#</code></dd>
         <dt>o2o</dt>
         <dd><code>https://karlhammar.com/owl2oas/o2o.owl#</code></dd>
         <dt>owl</dt>
@@ -1295,7 +1370,7 @@ Note that object type 90A field 15 ("ADRTYP") holds the key to interpretation of
         <dt>rdfs</dt>
         <dd><code>http://www.w3.org/2000/01/rdf-schema#</code></dd>
         <dt>sdo</dt>
-        <dd><code>https://schema.org/</code></dd>
+        <dd><code>http://schema.org/</code></dd>
         <dt>skos</dt>
         <dd><code>http://www.w3.org/2004/02/skos/core#</code></dd>
         <dt>vann</dt>

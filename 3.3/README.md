@@ -4,6 +4,7 @@
 * [Metadata](metadata.html) -- Various annotation properties used to document the entire ontology suite.
 * [Units](units.html) -- Datatypes, measurement units, and quanity kinds used in RealEstateCore (a subset of [QUDT](http://qudt.org))
 * [Core](core.html) -- Collects the top-level classes and properties that span over or are reused within multiple REC modules. Imports the Metadata and Units modules, and is imported by all other specific child modules.
+* [Addessing](addressing.html) -- The addressing module; message semantics for requesting and enacting actuation on building systems.
 * [Actuation](actuation.html) -- The actuation model; message semantics for requesting and enacting actuation on building systems.
 * [Agents](agents.html) -- Basic types of agents (people, organizations, companies, departments).
 * [Analytics](analytics.html) --  A vocabulary for describing prognoses and aggregates, and the processes used to generate these.

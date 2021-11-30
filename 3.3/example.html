@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <title>RealEstateCore Example</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC40lEQVRYhe2UT0hUQRzHp6Iss1B3VZKIDbbdfW9mnoi4f3zzjkJQeOgS0SEIb1EWBGGlLLu460zQPQM1unUIIjA6rfpm6ZAhHjoIRVQUFUlEbG+euTsdXG1d3VL3bVD4g+9h+L35fT/8fvN7ADgY9aHY5fpIvK82HO9ysu66wxWOzbkjcekKx0a2ALYA/n2AGi3a6ArFezcidziecQygNhhrcUficjP6PwBqtGijKxy/thnVBePHywYoDsFhl53GV8SEcsTx4usCMLUewTVpc23BNvEzm6Neyf1+KcG2vwqwUjgrOJq2JmHftwmkVBRGTvncFodnbI7vChO/FRznCmHsNM7aHM9Yk7Df5iqsLMw9sMNOK2g+jS4IEz0UJv4iuJZb2RltWnB4UZqH6ioGAgAAGe5vtiZhtzDx7OoRadLmeM7m6IRjhnLMW2Vx1bA5GhAmnhIcz6/xNj4Ujsky8UspwfayjDPjsF2Y6L7N8Vzx/BfP+KPg6LbgSqd8DnfJW2CnbaLhfH5ephpqygJYvQU4Z3P82TLRsDDhUTnmrSq+Y3N0Mg+Xldy/zwEAnLMWZ3pHpNExmfLs/t0dOdVcbT0JeKxUwFP2VljjqiE47Jp53LTXNxhsUZjerTByXWX6VZWRs/4bIQ2ACv+UAomgDzLCISNZxAxZKMhIDjLy1JfsaK+I+eGBUBNk5E2x8RogX/PdcDZUqieWTSh5D6nOVKqfhoycUmlHFFIyu5RXqf7AcQDISCpv/tqbMBqK883RtmpISRoxQyJKPgGn3wNk5NEigDFa6hslqV/Kj+FdBQD0bshIDlKSLlVcoWQo36UhR80BAMB73lulMn0EMpJTqD6qJiOt3mho/8GbkT2BZNgDB/V+RI0fkOrT3kRIVQbaDizJm2hdNbINBxwk5xAj3yEjuV9rZ1iIkgxixkLBA83mz8uCjLwoGwAx0vOnFSy5mtR4VTaAQvVORMnwZgSpzkrV/QmdE2tKe46+MQAAAABJRU5ErkJggg==">
+    <link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABhklEQVQ4jbWPzStEURjG3yQLirlGKUnKFO45Z+SjmXvnnmthQcpCoVhYmD/AwmJiI3OvZuZc2U3UlKU0/gAslMw9JgvhHxAr2fko7r0jHSsl+TgbTz2Lt5731/MASEiJW9ONml2QyX6rsGalmnT74v8BDf12hxJfpV8d1uwNKUBYszabdFv84L8B9X0rESVmmUup2fme0cVhJWaZHw4NWL1Sew
+EAfDe6H3Dy6Ll456WEJsRZS630MwCAOI20ei5OBpxse5zcBZw8eS4uPpfIuDiCainIg9umBCU0GZzgLZ9Hn31OgoATL+CkLDGB5H1OKj4nFd/FBxUXJ0UZNb4edw/6nLyJXaj5FeCVyPLNIVmYK8TG1IwWb16L1gEACAFV90ftoT8bdOX0EeyY99gxBXZMgRz6qGb1KantAACI0UvE6F5XJqEjpsdURouI0Vt5gGOUkUNnPu7ObGIIMfNaGqDmjDRi9FZldF1lRgYzeqUyeoiY4ag5Iy3RgOYRM8+/M2bG8efsO4hGrpmJseyMAAAAAElFTkSuQmCC">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     
     <style>
@@ -132,8 +135,8 @@
         .sup-ap,
         .sup-p,
         .sup-ni,
-        .sup-cp,
-        .sup-cl {
+        .sup-con,
+        .sup-col {
             cursor:help;
             margin-left: 3px;
         }
@@ -166,11 +169,11 @@
             color:brown;
         }
 
-        .sup-cp {
+        .sup-con {
             color:orange;
         }
 
-        .sup-cl {
+        .sup-col {
             color:darkred;
         }
 
@@ -210,7 +213,7 @@
 <body>
   <div id="pylode">made by <a href="http://github.com/rdflib/pyLODE">
     <span style="color:#329545;">p</span><span style="color:#f9cb33;">y</span>LODE</a>
-    <span style="font-size:smaller;">2.8.4</span>
+    <span style="font-size:smaller;">2.12.0</span>
   </div>
   <h1>RealEstateCore Example</h1>
 <section id="metadata">
@@ -229,7 +232,7 @@
         <dt><a class="proplink" href="https://www.dublincore.org/specifications/dublin-core/dcmi-terms/#http://purl.org/dc/terms/modified">Modified</a></dt>
         <dd>2020-06-23</dd>
         <dt>Version URI</dt>
-        <dd><a href="https://w3id.org/rec/example/3.3/">https://w3id.org/rec/example/3.3/</a></dd>
+        <dd><a href="https://w3id.org/rec/example/3.3/">example:</a></dd>
         <dt>Imports</dt>
         <dd>
             <a href="https://w3id.org/rec/full/3.3/">https://w3id.org/rec/full/3.3/</a><br/>
@@ -263,37 +266,37 @@
     </ul>
 </section>
   
-  <section id="namedindividuals">
-    <h2>Named Individuals <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
-    <ul class="hlist">
-        <li><a href="#BrightnessPercentage">BrightnessPercentage</a></li>
-        <li><a href="#HueBulbBrightnessInterface">HueBulbBrightnessInterface</a></li>
-        <li><a href="#HueBulbLightColorInterface">HueBulbLightColorInterface</a></li>
-        <li><a href="#HueKitchenLight">HueKitchenLight</a></li>
-        <li><a href="#HueMotionSensor1">HueMotionSensor1</a></li>
-        <li><a href="#HueMotionSensor1_LightMeter">HueMotionSensor1_LightMeter</a></li>
-        <li><a href="#HueMotionSensor1_MotionDetector">HueMotionSensor1_MotionDetector</a></li>
-        <li><a href="#HueMotionSensor1_Thermometer">HueMotionSensor1_Thermometer</a></li>
-        <li><a href="#HueMotionSensorLightMeterInterface">HueMotionSensorLightMeterInterface</a></li>
-        <li><a href="#HueMotionSensorMotionDetectorInterface">HueMotionSensorMotionDetectorInterface</a></li>
-        <li><a href="#HueMotionSensorThermometerInterface">HueMotionSensorThermometerInterface</a></li>
-        <li><a href="#LightColorKelvin">LightColorKelvin</a></li>
-        <li><a href="#LuxAsInteger">LuxAsInteger</a></li>
-        <li><a href="#MotionAsBoolean">MotionAsBoolean</a></li>
-        <li><a href="#TemperatureAsFloat">TemperatureAsFloat</a></li>
-        <li><a href="#Ulvsnaes2">Ulvsnaes2</a></li>
-        <li><a href="#Ulvsnaes2_Garage">Ulvsnaes2_Garage</a></li>
-        <li><a href="#Ulvsnaes2_MainHouse">Ulvsnaes2_MainHouse</a></li>
-        <li><a href="#Ulvsnaes2_MainHouse_BlueBedroom">Ulvsnaes2_MainHouse_BlueBedroom</a></li>
-        <li><a href="#Ulvsnaes2_MainHouse_DiningRoom">Ulvsnaes2_MainHouse_DiningRoom</a></li>
-        <li><a href="#Ulvsnaes2_MainHouse_Entrance">Ulvsnaes2_MainHouse_Entrance</a></li>
-        <li><a href="#Ulvsnaes2_MainHouse_GroundFloor">Ulvsnaes2_MainHouse_GroundFloor</a></li>
-        <li><a href="#Ulvsnaes2_MainHouse_Kitchen">Ulvsnaes2_MainHouse_Kitchen</a></li>
-        <li><a href="#Ulvsnaes2_MainHouse_Office">Ulvsnaes2_MainHouse_Office</a></li>
-        <li><a href="#Ulvsnaes2_MainHouse_SecondFloor">Ulvsnaes2_MainHouse_SecondFloor</a></li>
-        <li><a href="#Ulvsnaes2_StorageBuilding">Ulvsnaes2_StorageBuilding</a></li>
-    </ul>
-    <div class="entity named_individual" id="BrightnessPercentage">
+    <section id="namedindividuals">
+        <h2>Named Individuals <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
+        <ul class="hlist">
+            <li><a href="#BrightnessPercentage">BrightnessPercentage</a></li>
+            <li><a href="#HueBulbBrightnessInterface">HueBulbBrightnessInterface</a></li>
+            <li><a href="#HueBulbLightColorInterface">HueBulbLightColorInterface</a></li>
+            <li><a href="#HueKitchenLight">HueKitchenLight</a></li>
+            <li><a href="#HueMotionSensor1">HueMotionSensor1</a></li>
+            <li><a href="#HueMotionSensor1_LightMeter">HueMotionSensor1_LightMeter</a></li>
+            <li><a href="#HueMotionSensor1_MotionDetector">HueMotionSensor1_MotionDetector</a></li>
+            <li><a href="#HueMotionSensor1_Thermometer">HueMotionSensor1_Thermometer</a></li>
+            <li><a href="#HueMotionSensorLightMeterInterface">HueMotionSensorLightMeterInterface</a></li>
+            <li><a href="#HueMotionSensorMotionDetectorInterface">HueMotionSensorMotionDetectorInterface</a></li>
+            <li><a href="#HueMotionSensorThermometerInterface">HueMotionSensorThermometerInterface</a></li>
+            <li><a href="#LightColorKelvin">LightColorKelvin</a></li>
+            <li><a href="#LuxAsInteger">LuxAsInteger</a></li>
+            <li><a href="#MotionAsBoolean">MotionAsBoolean</a></li>
+            <li><a href="#TemperatureAsFloat">TemperatureAsFloat</a></li>
+            <li><a href="#Ulvsnaes2">Ulvsnaes2</a></li>
+            <li><a href="#Ulvsnaes2_Garage">Ulvsnaes2_Garage</a></li>
+            <li><a href="#Ulvsnaes2_MainHouse">Ulvsnaes2_MainHouse</a></li>
+            <li><a href="#Ulvsnaes2_MainHouse_BlueBedroom">Ulvsnaes2_MainHouse_BlueBedroom</a></li>
+            <li><a href="#Ulvsnaes2_MainHouse_DiningRoom">Ulvsnaes2_MainHouse_DiningRoom</a></li>
+            <li><a href="#Ulvsnaes2_MainHouse_Entrance">Ulvsnaes2_MainHouse_Entrance</a></li>
+            <li><a href="#Ulvsnaes2_MainHouse_GroundFloor">Ulvsnaes2_MainHouse_GroundFloor</a></li>
+            <li><a href="#Ulvsnaes2_MainHouse_Kitchen">Ulvsnaes2_MainHouse_Kitchen</a></li>
+            <li><a href="#Ulvsnaes2_MainHouse_Office">Ulvsnaes2_MainHouse_Office</a></li>
+            <li><a href="#Ulvsnaes2_MainHouse_SecondFloor">Ulvsnaes2_MainHouse_SecondFloor</a></li>
+            <li><a href="#Ulvsnaes2_StorageBuilding">Ulvsnaes2_StorageBuilding</a></li>
+        </ul>
+            <div class="entity named_individual" id="BrightnessPercentage">
         <h3>BrightnessPercentage<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -305,13 +308,13 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
                 <a href="https://w3id.org/rec/dataschemas/IntSchema">dataschemas:IntSchema</a><br/>
             </dd>
         </table>
     </div>
-    <div class="entity named_individual" id="HueBulbBrightnessInterface">
+            <div class="entity named_individual" id="HueBulbBrightnessInterface">
         <h3>HueBulbBrightnessInterface<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -323,13 +326,13 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
                 <a href="https://w3id.org/rec/actuation/ActuationInterface">actuation:ActuationInterface</a><br/>
             </dd>
         </table>
     </div>
-    <div class="entity named_individual" id="HueBulbLightColorInterface">
+            <div class="entity named_individual" id="HueBulbLightColorInterface">
         <h3>HueBulbLightColorInterface<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -341,13 +344,13 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
                 <a href="https://w3id.org/rec/actuation/ActuationInterface">actuation:ActuationInterface</a><br/>
             </dd>
         </table>
     </div>
-    <div class="entity named_individual" id="HueKitchenLight">
+            <div class="entity named_individual" id="HueKitchenLight">
         <h3>HueKitchenLight<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -359,13 +362,13 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
                 <a href="https://w3id.org/rec/device/Actuator">device:Actuator</a><br/>
             </dd>
         </table>
     </div>
-    <div class="entity named_individual" id="HueMotionSensor1">
+            <div class="entity named_individual" id="HueMotionSensor1">
         <h3>HueMotionSensor1<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -377,13 +380,13 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
                 <a href="https://w3id.org/rec/asset/SensorEquipment">asset:SensorEquipment</a><br/>
             </dd>
         </table>
     </div>
-    <div class="entity named_individual" id="HueMotionSensor1_LightMeter">
+            <div class="entity named_individual" id="HueMotionSensor1_LightMeter">
         <h3>HueMotionSensor1_LightMeter<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -395,13 +398,13 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
                 <a href="https://w3id.org/rec/core/IlluminanceSensor">core:IlluminanceSensor</a><br/>
             </dd>
         </table>
     </div>
-    <div class="entity named_individual" id="HueMotionSensor1_MotionDetector">
+            <div class="entity named_individual" id="HueMotionSensor1_MotionDetector">
         <h3>HueMotionSensor1_MotionDetector<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -413,13 +416,13 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
                 <a href="https://w3id.org/rec/core/MotionSensor">core:MotionSensor</a><br/>
             </dd>
         </table>
     </div>
-    <div class="entity named_individual" id="HueMotionSensor1_Thermometer">
+            <div class="entity named_individual" id="HueMotionSensor1_Thermometer">
         <h3>HueMotionSensor1_Thermometer<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -431,13 +434,13 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
                 <a href="https://w3id.org/rec/core/AirTemperatureSensor">core:AirTemperatureSensor</a><br/>
             </dd>
         </table>
     </div>
-    <div class="entity named_individual" id="HueMotionSensorLightMeterInterface">
+            <div class="entity named_individual" id="HueMotionSensorLightMeterInterface">
         <h3>HueMotionSensorLightMeterInterface<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -449,13 +452,13 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
                 <a href="https://w3id.org/rec/core/SensorInterface">core:SensorInterface</a><br/>
             </dd>
         </table>
     </div>
-    <div class="entity named_individual" id="HueMotionSensorMotionDetectorInterface">
+            <div class="entity named_individual" id="HueMotionSensorMotionDetectorInterface">
         <h3>HueMotionSensorMotionDetectorInterface<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -467,13 +470,13 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
                 <a href="https://w3id.org/rec/core/SensorInterface">core:SensorInterface</a><br/>
             </dd>
         </table>
     </div>
-    <div class="entity named_individual" id="HueMotionSensorThermometerInterface">
+            <div class="entity named_individual" id="HueMotionSensorThermometerInterface">
         <h3>HueMotionSensorThermometerInterface<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -485,13 +488,13 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
                 <a href="https://w3id.org/rec/core/SensorInterface">core:SensorInterface</a><br/>
             </dd>
         </table>
     </div>
-    <div class="entity named_individual" id="LightColorKelvin">
+            <div class="entity named_individual" id="LightColorKelvin">
         <h3>LightColorKelvin<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -503,13 +506,13 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
                 <a href="https://w3id.org/rec/dataschemas/IntSchema">dataschemas:IntSchema</a><br/>
             </dd>
         </table>
     </div>
-    <div class="entity named_individual" id="LuxAsInteger">
+            <div class="entity named_individual" id="LuxAsInteger">
         <h3>LuxAsInteger<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -521,13 +524,13 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
                 <a href="https://w3id.org/rec/dataschemas/IntSchema">dataschemas:IntSchema</a><br/>
             </dd>
         </table>
     </div>
-    <div class="entity named_individual" id="MotionAsBoolean">
+            <div class="entity named_individual" id="MotionAsBoolean">
         <h3>MotionAsBoolean<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -539,13 +542,13 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
                 <a href="https://w3id.org/rec/dataschemas/BooleanSchema">dataschemas:BooleanSchema</a><br/>
             </dd>
         </table>
     </div>
-    <div class="entity named_individual" id="TemperatureAsFloat">
+            <div class="entity named_individual" id="TemperatureAsFloat">
         <h3>TemperatureAsFloat<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -557,13 +560,13 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
                 <a href="https://w3id.org/rec/dataschemas/FloatSchema">dataschemas:FloatSchema</a><br/>
             </dd>
         </table>
     </div>
-    <div class="entity named_individual" id="Ulvsnaes2">
+            <div class="entity named_individual" id="Ulvsnaes2">
         <h3>Ulvsnaes2<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -575,13 +578,13 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
                 <a href="https://w3id.org/rec/core/RealEstate">core:RealEstate</a><br/>
             </dd>
         </table>
     </div>
-    <div class="entity named_individual" id="Ulvsnaes2_Garage">
+            <div class="entity named_individual" id="Ulvsnaes2_Garage">
         <h3>Ulvsnaes2_Garage<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -593,13 +596,13 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
                 <a href="https://w3id.org/rec/core/Building">core:Building</a><br/>
             </dd>
         </table>
     </div>
-    <div class="entity named_individual" id="Ulvsnaes2_MainHouse">
+            <div class="entity named_individual" id="Ulvsnaes2_MainHouse">
         <h3>Ulvsnaes2_MainHouse<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -611,13 +614,13 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
                 <a href="https://w3id.org/rec/core/Building">core:Building</a><br/>
             </dd>
         </table>
     </div>
-    <div class="entity named_individual" id="Ulvsnaes2_MainHouse_BlueBedroom">
+            <div class="entity named_individual" id="Ulvsnaes2_MainHouse_BlueBedroom">
         <h3>Ulvsnaes2_MainHouse_BlueBedroom<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -629,13 +632,13 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
                 <a href="https://w3id.org/rec/building/Bedroom">building:Bedroom</a><br/>
             </dd>
         </table>
     </div>
-    <div class="entity named_individual" id="Ulvsnaes2_MainHouse_DiningRoom">
+            <div class="entity named_individual" id="Ulvsnaes2_MainHouse_DiningRoom">
         <h3>Ulvsnaes2_MainHouse_DiningRoom<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -647,13 +650,13 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
                 <a href="https://w3id.org/rec/building/DiningRoom">building:DiningRoom</a><br/>
             </dd>
         </table>
     </div>
-    <div class="entity named_individual" id="Ulvsnaes2_MainHouse_Entrance">
+            <div class="entity named_individual" id="Ulvsnaes2_MainHouse_Entrance">
         <h3>Ulvsnaes2_MainHouse_Entrance<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -665,13 +668,13 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
                 <a href="https://w3id.org/rec/building/Entrance">building:Entrance</a><br/>
             </dd>
         </table>
     </div>
-    <div class="entity named_individual" id="Ulvsnaes2_MainHouse_GroundFloor">
+            <div class="entity named_individual" id="Ulvsnaes2_MainHouse_GroundFloor">
         <h3>Ulvsnaes2_MainHouse_GroundFloor<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -683,13 +686,13 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
                 <a href="https://w3id.org/rec/core/Level">core:Level</a><br/>
             </dd>
         </table>
     </div>
-    <div class="entity named_individual" id="Ulvsnaes2_MainHouse_Kitchen">
+            <div class="entity named_individual" id="Ulvsnaes2_MainHouse_Kitchen">
         <h3>Ulvsnaes2_MainHouse_Kitchen<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -701,13 +704,13 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
                 <a href="https://w3id.org/rec/building/FoodHandlingRoom">building:FoodHandlingRoom</a><br/>
             </dd>
         </table>
     </div>
-    <div class="entity named_individual" id="Ulvsnaes2_MainHouse_Office">
+            <div class="entity named_individual" id="Ulvsnaes2_MainHouse_Office">
         <h3>Ulvsnaes2_MainHouse_Office<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -719,13 +722,13 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
                 <a href="https://w3id.org/rec/building/OfficeRoom">building:OfficeRoom</a><br/>
             </dd>
         </table>
     </div>
-    <div class="entity named_individual" id="Ulvsnaes2_MainHouse_SecondFloor">
+            <div class="entity named_individual" id="Ulvsnaes2_MainHouse_SecondFloor">
         <h3>Ulvsnaes2_MainHouse_SecondFloor<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -737,13 +740,13 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
                 <a href="https://w3id.org/rec/core/Level">core:Level</a><br/>
             </dd>
         </table>
     </div>
-    <div class="entity named_individual" id="Ulvsnaes2_StorageBuilding">
+            <div class="entity named_individual" id="Ulvsnaes2_StorageBuilding">
         <h3>Ulvsnaes2_StorageBuilding<sup title="named individual" class="sup-ni">ni</sup></h3>
         <table>
             <tr>
@@ -755,17 +758,19 @@
                   </code>
                 </td>
             </tr>
-            <dt>Classes(s)</dt>
+            <dt>Class(es)</dt>
             <dd>
                 <a href="https://w3id.org/rec/core/Building">core:Building</a><br/>
             </dd>
         </table>
     </div>
-</section>
-  
+    </section>
+
   <section id="namespaces">
     <h2>Namespaces <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
     <dl>
+        <dt>default (example)</dt>
+        <dd><code>https://w3id.org/rec/example/3.3/</code></dd>
         <dt>:</dt>
         <dd><code>https://w3id.org/rec/example/</code></dd>
         <dt>actuation</dt>
@@ -805,7 +810,7 @@
         <dt>rdfs</dt>
         <dd><code>http://www.w3.org/2000/01/rdf-schema#</code></dd>
         <dt>sdo</dt>
-        <dd><code>https://schema.org/</code></dd>
+        <dd><code>http://schema.org/</code></dd>
         <dt>skos</dt>
         <dd><code>http://www.w3.org/2004/02/skos/core#</code></dd>
         <dt>vaem</dt>

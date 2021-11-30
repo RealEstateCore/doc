@@ -2,6 +2,9 @@
 <html lang="en">
 <head>
     <title>RealEstateCore Metadata Module</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAC40lEQVRYhe2UT0hUQRzHp6Iss1B3VZKIDbbdfW9mnoi4f3zzjkJQeOgS0SEIb1EWBGGlLLu460zQPQM1unUIIjA6rfpm6ZAhHjoIRVQUFUlEbG+euTsdXG1d3VL3bVD4g+9h+L35fT/8fvN7ADgY9aHY5fpIvK82HO9ysu66wxWOzbkjcekKx0a2ALYA/n2AGi3a6ArFezcidziecQygNhhrcUficjP6PwBqtGijKxy/thnVBePHywYoDsFhl53GV8SEcsTx4usCMLUewTVpc23BNvEzm6Neyf1+KcG2vwqwUjgrOJq2JmHftwmkVBRGTvncFodnbI7vChO/FRznCmHsNM7aHM9Yk7Df5iqsLMw9sMNOK2g+jS4IEz0UJv4iuJZb2RltWnB4UZqH6ioGAgAAGe5vtiZhtzDx7OoRadLmeM7m6IRjhnLMW2Vx1bA5GhAmnhIcz6/xNj4Ujsky8UspwfayjDPjsF2Y6L7N8Vzx/BfP+KPg6LbgSqd8DnfJW2CnbaLhfH5ephpqygJYvQU4Z3P82TLRsDDhUTnmrSq+Y3N0Mg+Xldy/zwEAnLMWZ3pHpNExmfLs/t0dOdVcbT0JeKxUwFP2VljjqiE47Jp53LTXNxhsUZjerTByXWX6VZWRs/4bIQ2ACv+UAomgDzLCISNZxAxZKMhIDjLy1JfsaK+I+eGBUBNk5E2x8RogX/PdcDZUqieWTSh5D6nOVKqfhoycUmlHFFIyu5RXqf7AcQDISCpv/tqbMBqK883RtmpISRoxQyJKPgGn3wNk5NEigDFa6hslqV/Kj+FdBQD0bshIDlKSLlVcoWQo36UhR80BAMB73lulMn0EMpJTqD6qJiOt3mho/8GbkT2BZNgDB/V+RI0fkOrT3kRIVQbaDizJm2hdNbINBxwk5xAj3yEjuV9rZ1iIkgxixkLBA83mz8uCjLwoGwAx0vOnFSy5mtR4VTaAQvVORMnwZgSpzkrV/QmdE2tKe46+MQAAAABJRU5ErkJggg==">
+    <link rel="icon" type="image/png" sizes="16x16" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABhklEQVQ4jbWPzStEURjG3yQLirlGKUnKFO45Z+SjmXvnnmthQcpCoVhYmD/AwmJiI3OvZuZc2U3UlKU0/gAslMw9JgvhHxAr2fko7r0jHSsl+TgbTz2Lt5731/MASEiJW9ONml2QyX6rsGalmnT74v8BDf12hxJfpV8d1uwNKUBYszabdFv84L8B9X0rESVmmUup2fme0cVhJWaZHw4NWL1Sew
+EAfDe6H3Dy6Ll456WEJsRZS630MwCAOI20ei5OBpxse5zcBZw8eS4uPpfIuDiCainIg9umBCU0GZzgLZ9Hn31OgoATL+CkLDGB5H1OKj4nFd/FBxUXJ0UZNb4edw/6nLyJXaj5FeCVyPLNIVmYK8TG1IwWb16L1gEACAFV90ftoT8bdOX0EeyY99gxBXZMgRz6qGb1KantAACI0UvE6F5XJqEjpsdURouI0Vt5gGOUkUNnPu7ObGIIMfNaGqDmjDRi9FZldF1lRgYzeqUyeoiY4ag5Iy3RgOYRM8+/M2bG8efsO4hGrpmJseyMAAAAAElFTkSuQmCC">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     
     <style>
@@ -132,8 +135,8 @@
         .sup-ap,
         .sup-p,
         .sup-ni,
-        .sup-cp,
-        .sup-cl {
+        .sup-con,
+        .sup-col {
             cursor:help;
             margin-left: 3px;
         }
@@ -166,11 +169,11 @@
             color:brown;
         }
 
-        .sup-cp {
+        .sup-con {
             color:orange;
         }
 
-        .sup-cl {
+        .sup-col {
             color:darkred;
         }
 
@@ -210,7 +213,7 @@
 <body>
   <div id="pylode">made by <a href="http://github.com/rdflib/pyLODE">
     <span style="color:#329545;">p</span><span style="color:#f9cb33;">y</span>LODE</a>
-    <span style="font-size:smaller;">2.8.4</span>
+    <span style="font-size:smaller;">2.12.0</span>
   </div>
   <h1>RealEstateCore Metadata Module</h1>
 <section id="metadata">
@@ -232,7 +235,7 @@
         <dt>Version Information</dt>
         <dd>3.3</dd>
         <dt>Version URI</dt>
-        <dd><a href="https://w3id.org/rec/metadata/3.3/">https://w3id.org/rec/metadata/3.3/</a></dd>
+        <dd><a href="https://w3id.org/rec/metadata/3.3/">metadata:</a></dd>
         <dt>Ontology RDF</dt>
         <dd><a href="metadata.rdf">RDF (xml)</a></dd>
     </dl>
@@ -266,23 +269,23 @@
     <h2>Annotation Properties <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
     <ul class="hlist">
         <li><a href="#haslicense">has license</a></li>
-        <li><a href="#Contributor">Contributor</a></li>
-        <li><a href="#Coverage">Coverage</a></li>
-        <li><a href="#Creator">Creator</a></li>
-        <li><a href="#Date">Date</a></li>
-        <li><a href="#Description">Description</a></li>
-        <li><a href="#Format">Format</a></li>
-        <li><a href="#Identifier">Identifier</a></li>
-        <li><a href="#Language">Language</a></li>
-        <li><a href="#Publisher">Publisher</a></li>
-        <li><a href="#Relation">Relation</a></li>
-        <li><a href="#Rights">Rights</a></li>
-        <li><a href="#Source">Source</a></li>
-        <li><a href="#Subject">Subject</a></li>
-        <li><a href="#Title">Title</a></li>
-        <li><a href="#Type">Type</a></li>
-        <li><a href="#date">Date</a></li>
-        <li><a href="#DateModified">Date Modified</a></li>
+        <li><a href="#contributor">contributor</a></li>
+        <li><a href="#coverage">coverage</a></li>
+        <li><a href="#creator">creator</a></li>
+        <li><a href="#date">date</a></li>
+        <li><a href="#description">description</a></li>
+        <li><a href="#format">format</a></li>
+        <li><a href="#identifier">identifier</a></li>
+        <li><a href="#language">language</a></li>
+        <li><a href="#publisher">publisher</a></li>
+        <li><a href="#relation">relation</a></li>
+        <li><a href="#rights">rights</a></li>
+        <li><a href="#source">source</a></li>
+        <li><a href="#subject">subject</a></li>
+        <li><a href="#title">title</a></li>
+        <li><a href="#type">type</a></li>
+        <li><a href="#date1">date</a></li>
+        <li><a href="#modified">modified</a></li>
         <li><a href="#PreferredNamespacePrefix">Preferred Namespace Prefix</a></li>
         <li><a href="#PreferredNamespaceUri">Preferred Namespace Uri</a></li>
         <li><a href="#coversRequirements">coversRequirements</a></li>
@@ -295,7 +298,9 @@
         <li><a href="#SemanticType">Semantic Type</a></li>
     </ul>
     <div class="entity property" id="haslicense">
-        <h3>has license<sup title="annotation property" class="sup-ap">ap</sup></h3>
+        <h3>has license<sup title="annotation property" class="sup-ap">ap</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#haslicense" title="fragment link to here">#</a>&nbsp;<a href="#annotationproperties" title="Annotation Properties Index">APs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -309,8 +314,10 @@
             </tr>
         </table>
     </div>
-    <div class="entity property" id="Contributor">
-        <h3>Contributor<sup title="annotation property" class="sup-ap">ap</sup></h3>
+    <div class="entity property" id="contributor">
+        <h3>contributor<sup title="annotation property" class="sup-ap">ap</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#contributor" title="fragment link to here">#</a>&nbsp;<a href="#annotationproperties" title="Annotation Properties Index">APs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -322,16 +329,12 @@
                     http://purl.org/dc/elements/1.1/
                 </td>
             </tr>
-            <tr>
-                <th>Description</th>
-                <td>
-                    Examples of a Contributor include a person, an organization, or a service. Typically, the name of a Contributor should be used to indicate the entity.
-                </td>
-            </tr>
         </table>
     </div>
-    <div class="entity property" id="Coverage">
-        <h3>Coverage<sup title="annotation property" class="sup-ap">ap</sup></h3>
+    <div class="entity property" id="coverage">
+        <h3>coverage<sup title="annotation property" class="sup-ap">ap</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#coverage" title="fragment link to here">#</a>&nbsp;<a href="#annotationproperties" title="Annotation Properties Index">APs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -343,16 +346,12 @@
                     http://purl.org/dc/elements/1.1/
                 </td>
             </tr>
-            <tr>
-                <th>Description</th>
-                <td>
-                    Spatial topic and spatial applicability may be a named place or a location specified by its geographic coordinates. Temporal topic may be a named period, date, or date range. A jurisdiction may be a named administrative entity or a geographic place to which the resource applies. Recommended best practice is to use a controlled vocabulary such as the Thesaurus of Geographic Names. Where appropriate, named places or time periods can be used in preference to numeric identifiers such as sets of coordinates or date ranges.
-                </td>
-            </tr>
         </table>
     </div>
-    <div class="entity property" id="Creator">
-        <h3>Creator<sup title="annotation property" class="sup-ap">ap</sup></h3>
+    <div class="entity property" id="creator">
+        <h3>creator<sup title="annotation property" class="sup-ap">ap</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#creator" title="fragment link to here">#</a>&nbsp;<a href="#annotationproperties" title="Annotation Properties Index">APs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -364,16 +363,12 @@
                     http://purl.org/dc/elements/1.1/
                 </td>
             </tr>
-            <tr>
-                <th>Description</th>
-                <td>
-                    Examples of a Creator include a person, an organization, or a service. Typically, the name of a Creator should be used to indicate the entity.
-                </td>
-            </tr>
         </table>
     </div>
-    <div class="entity property" id="Date">
-        <h3>Date<sup title="annotation property" class="sup-ap">ap</sup></h3>
+    <div class="entity property" id="date">
+        <h3>date<sup title="annotation property" class="sup-ap">ap</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#date" title="fragment link to here">#</a>&nbsp;<a href="#annotationproperties" title="Annotation Properties Index">APs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -385,16 +380,12 @@
                     http://purl.org/dc/elements/1.1/
                 </td>
             </tr>
-            <tr>
-                <th>Description</th>
-                <td>
-                    Date may be used to express temporal information at any level of granularity. Recommended best practice is to use an encoding scheme, such as the W3CDTF profile of ISO 8601.
-                </td>
-            </tr>
         </table>
     </div>
-    <div class="entity property" id="Description">
-        <h3>Description<sup title="annotation property" class="sup-ap">ap</sup></h3>
+    <div class="entity property" id="description">
+        <h3>description<sup title="annotation property" class="sup-ap">ap</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#description" title="fragment link to here">#</a>&nbsp;<a href="#annotationproperties" title="Annotation Properties Index">APs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -406,16 +397,12 @@
                     http://purl.org/dc/elements/1.1/
                 </td>
             </tr>
-            <tr>
-                <th>Description</th>
-                <td>
-                    Description may include but is not limited to: an abstract, a table of contents, a graphical representation, or a free-text account of the resource.
-                </td>
-            </tr>
         </table>
     </div>
-    <div class="entity property" id="Format">
-        <h3>Format<sup title="annotation property" class="sup-ap">ap</sup></h3>
+    <div class="entity property" id="format">
+        <h3>format<sup title="annotation property" class="sup-ap">ap</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#format" title="fragment link to here">#</a>&nbsp;<a href="#annotationproperties" title="Annotation Properties Index">APs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -427,16 +414,12 @@
                     http://purl.org/dc/elements/1.1/
                 </td>
             </tr>
-            <tr>
-                <th>Description</th>
-                <td>
-                    Examples of dimensions include size and duration. Recommended best practice is to use a controlled vocabulary such as the list of Internet Media Types.
-                </td>
-            </tr>
         </table>
     </div>
-    <div class="entity property" id="Identifier">
-        <h3>Identifier<sup title="annotation property" class="sup-ap">ap</sup></h3>
+    <div class="entity property" id="identifier">
+        <h3>identifier<sup title="annotation property" class="sup-ap">ap</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#identifier" title="fragment link to here">#</a>&nbsp;<a href="#annotationproperties" title="Annotation Properties Index">APs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -448,16 +431,12 @@
                     http://purl.org/dc/elements/1.1/
                 </td>
             </tr>
-            <tr>
-                <th>Description</th>
-                <td>
-                    Recommended best practice is to identify the resource by means of a string conforming to a formal identification system.
-                </td>
-            </tr>
         </table>
     </div>
-    <div class="entity property" id="Language">
-        <h3>Language<sup title="annotation property" class="sup-ap">ap</sup></h3>
+    <div class="entity property" id="language">
+        <h3>language<sup title="annotation property" class="sup-ap">ap</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#language" title="fragment link to here">#</a>&nbsp;<a href="#annotationproperties" title="Annotation Properties Index">APs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -469,16 +448,12 @@
                     http://purl.org/dc/elements/1.1/
                 </td>
             </tr>
-            <tr>
-                <th>Description</th>
-                <td>
-                    Recommended best practice is to use a controlled vocabulary such as RFC 4646.
-                </td>
-            </tr>
         </table>
     </div>
-    <div class="entity property" id="Publisher">
-        <h3>Publisher<sup title="annotation property" class="sup-ap">ap</sup></h3>
+    <div class="entity property" id="publisher">
+        <h3>publisher<sup title="annotation property" class="sup-ap">ap</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#publisher" title="fragment link to here">#</a>&nbsp;<a href="#annotationproperties" title="Annotation Properties Index">APs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -490,16 +465,12 @@
                     http://purl.org/dc/elements/1.1/
                 </td>
             </tr>
-            <tr>
-                <th>Description</th>
-                <td>
-                    Examples of a Publisher include a person, an organization, or a service. Typically, the name of a Publisher should be used to indicate the entity.
-                </td>
-            </tr>
         </table>
     </div>
-    <div class="entity property" id="Relation">
-        <h3>Relation<sup title="annotation property" class="sup-ap">ap</sup></h3>
+    <div class="entity property" id="relation">
+        <h3>relation<sup title="annotation property" class="sup-ap">ap</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#relation" title="fragment link to here">#</a>&nbsp;<a href="#annotationproperties" title="Annotation Properties Index">APs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -511,16 +482,12 @@
                     http://purl.org/dc/elements/1.1/
                 </td>
             </tr>
-            <tr>
-                <th>Description</th>
-                <td>
-                    Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system.
-                </td>
-            </tr>
         </table>
     </div>
-    <div class="entity property" id="Rights">
-        <h3>Rights<sup title="annotation property" class="sup-ap">ap</sup></h3>
+    <div class="entity property" id="rights">
+        <h3>rights<sup title="annotation property" class="sup-ap">ap</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#rights" title="fragment link to here">#</a>&nbsp;<a href="#annotationproperties" title="Annotation Properties Index">APs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -532,16 +499,12 @@
                     http://purl.org/dc/elements/1.1/
                 </td>
             </tr>
-            <tr>
-                <th>Description</th>
-                <td>
-                    Typically, rights information includes a statement about various property rights associated with the resource, including intellectual property rights.
-                </td>
-            </tr>
         </table>
     </div>
-    <div class="entity property" id="Source">
-        <h3>Source<sup title="annotation property" class="sup-ap">ap</sup></h3>
+    <div class="entity property" id="source">
+        <h3>source<sup title="annotation property" class="sup-ap">ap</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#source" title="fragment link to here">#</a>&nbsp;<a href="#annotationproperties" title="Annotation Properties Index">APs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -553,16 +516,12 @@
                     http://purl.org/dc/elements/1.1/
                 </td>
             </tr>
-            <tr>
-                <th>Description</th>
-                <td>
-                    The described resource may be derived from the related resource in whole or in part. Recommended best practice is to identify the related resource by means of a string conforming to a formal identification system.
-                </td>
-            </tr>
         </table>
     </div>
-    <div class="entity property" id="Subject">
-        <h3>Subject<sup title="annotation property" class="sup-ap">ap</sup></h3>
+    <div class="entity property" id="subject">
+        <h3>subject<sup title="annotation property" class="sup-ap">ap</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#subject" title="fragment link to here">#</a>&nbsp;<a href="#annotationproperties" title="Annotation Properties Index">APs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -574,16 +533,12 @@
                     http://purl.org/dc/elements/1.1/
                 </td>
             </tr>
-            <tr>
-                <th>Description</th>
-                <td>
-                    Typically, the subject will be represented using keywords, key phrases, or classification codes. Recommended best practice is to use a controlled vocabulary. To describe the spatial or temporal topic of the resource, use the Coverage element.
-                </td>
-            </tr>
         </table>
     </div>
-    <div class="entity property" id="Title">
-        <h3>Title<sup title="annotation property" class="sup-ap">ap</sup></h3>
+    <div class="entity property" id="title">
+        <h3>title<sup title="annotation property" class="sup-ap">ap</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#title" title="fragment link to here">#</a>&nbsp;<a href="#annotationproperties" title="Annotation Properties Index">APs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -595,16 +550,12 @@
                     http://purl.org/dc/elements/1.1/
                 </td>
             </tr>
-            <tr>
-                <th>Description</th>
-                <td>
-                    Typically, a Title will be a name by which the resource is formally known.
-                </td>
-            </tr>
         </table>
     </div>
-    <div class="entity property" id="Type">
-        <h3>Type<sup title="annotation property" class="sup-ap">ap</sup></h3>
+    <div class="entity property" id="type">
+        <h3>type<sup title="annotation property" class="sup-ap">ap</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#type" title="fragment link to here">#</a>&nbsp;<a href="#annotationproperties" title="Annotation Properties Index">APs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -616,16 +567,12 @@
                     http://purl.org/dc/elements/1.1/
                 </td>
             </tr>
-            <tr>
-                <th>Description</th>
-                <td>
-                    Recommended best practice is to use a controlled vocabulary such as the DCMI Type Vocabulary. To describe the file format, physical medium, or dimensions of the resource, use the Format element.
-                </td>
-            </tr>
         </table>
     </div>
-    <div class="entity property" id="date">
-        <h3>Date<sup title="annotation property" class="sup-ap">ap</sup></h3>
+    <div class="entity property" id="date1">
+        <h3>date<sup title="annotation property" class="sup-ap">ap</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#date1" title="fragment link to here">#</a>&nbsp;<a href="#annotationproperties" title="Annotation Properties Index">APs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -635,12 +582,6 @@
                 <th>Is Defined By</th>
                 <td>
                     http://purl.org/dc/terms/
-                </td>
-            </tr>
-            <tr>
-                <th>Description</th>
-                <td>
-                    Date may be used to express temporal information at any level of granularity. Recommended best practice is to use an encoding scheme, such as the W3CDTF profile of ISO 8601 [W3CDTF].
                 </td>
             </tr>
             <tr>
@@ -657,8 +598,10 @@
             </tr>
         </table>
     </div>
-    <div class="entity property" id="DateModified">
-        <h3>Date Modified<sup title="annotation property" class="sup-ap">ap</sup></h3>
+    <div class="entity property" id="modified">
+        <h3>modified<sup title="annotation property" class="sup-ap">ap</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#modified" title="fragment link to here">#</a>&nbsp;<a href="#annotationproperties" title="Annotation Properties Index">APs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -668,12 +611,6 @@
                 <th>Is Defined By</th>
                 <td>
                     http://purl.org/dc/terms/
-                </td>
-            </tr>
-            <tr>
-                <th>Description</th>
-                <td>
-                    Date on which the resource was changed.
                 </td>
             </tr>
             <tr>
@@ -691,7 +628,9 @@
         </table>
     </div>
     <div class="entity property" id="PreferredNamespacePrefix">
-        <h3>Preferred Namespace Prefix<sup title="annotation property" class="sup-ap">ap</sup></h3>
+        <h3>Preferred Namespace Prefix<sup title="annotation property" class="sup-ap">ap</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#PreferredNamespacePrefix" title="fragment link to here">#</a>&nbsp;<a href="#annotationproperties" title="Annotation Properties Index">APs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -706,13 +645,15 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    The preferred namespace prefix to use when using terms from this vocabulary in an XML document.
+                    <p>The preferred namespace prefix to use when using terms from this vocabulary in an XML document.</p>
                 </td>
             </tr>
         </table>
     </div>
     <div class="entity property" id="PreferredNamespaceUri">
-        <h3>Preferred Namespace Uri<sup title="annotation property" class="sup-ap">ap</sup></h3>
+        <h3>Preferred Namespace Uri<sup title="annotation property" class="sup-ap">ap</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#PreferredNamespaceUri" title="fragment link to here">#</a>&nbsp;<a href="#annotationproperties" title="Annotation Properties Index">APs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -727,13 +668,15 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    The preferred namespace URI to use when using terms from this vocabulary in an XML document.
+                    <p>The preferred namespace URI to use when using terms from this vocabulary in an XML document.</p>
                 </td>
             </tr>
         </table>
     </div>
     <div class="entity property" id="coversRequirements">
-        <h3>coversRequirements<sup title="annotation property" class="sup-ap">ap</sup></h3>
+        <h3>coversRequirements<sup title="annotation property" class="sup-ap">ap</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#coversRequirements" title="fragment link to here">#</a>&nbsp;<a href="#annotationproperties" title="Annotation Properties Index">APs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -748,13 +691,15 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    This annotation property is used for exemplifying possible requirements the content pattern provides a solution for. Requirements are expressed as natural language competency questions.
+                    <p>This annotation property is used for exemplifying possible requirements the content pattern provides a solution for. Requirements are expressed as natural language competency questions.</p>
                 </td>
             </tr>
         </table>
     </div>
     <div class="entity property" id="definition">
-        <h3>definition<sup title="annotation property" class="sup-ap">ap</sup></h3>
+        <h3>definition<sup title="annotation property" class="sup-ap">ap</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#definition" title="fragment link to here">#</a>&nbsp;<a href="#annotationproperties" title="Annotation Properties Index">APs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -763,7 +708,9 @@
         </table>
     </div>
     <div class="entity property" id="historyNote">
-        <h3>historyNote<sup title="annotation property" class="sup-ap">ap</sup></h3>
+        <h3>historyNote<sup title="annotation property" class="sup-ap">ap</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#historyNote" title="fragment link to here">#</a>&nbsp;<a href="#annotationproperties" title="Annotation Properties Index">APs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -772,7 +719,9 @@
         </table>
     </div>
     <div class="entity property" id="endpoint">
-        <h3>endpoint<sup title="annotation property" class="sup-ap">ap</sup></h3>
+        <h3>endpoint<sup title="annotation property" class="sup-ap">ap</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#endpoint" title="fragment link to here">#</a>&nbsp;<a href="#annotationproperties" title="Annotation Properties Index">APs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -787,13 +736,15 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    This annotation, when applied to an OWL class that is included for processing in OWL2OAS, governs the endpoint name that is generated for the class.
+                    <p>This annotation, when applied to an OWL class that is included for processing in OWL2OAS, governs the endpoint name that is generated for the class.</p>
                 </td>
             </tr>
         </table>
     </div>
     <div class="entity property" id="included">
-        <h3>included<sup title="annotation property" class="sup-ap">ap</sup></h3>
+        <h3>included<sup title="annotation property" class="sup-ap">ap</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#included" title="fragment link to here">#</a>&nbsp;<a href="#annotationproperties" title="Annotation Properties Index">APs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -808,7 +759,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    Usage of this annotation, in conjunction with the ClassInclusionPolicy and PropertyInclusionPolicy run time options, coverns whether OWL entities are included or ignored by the owl2oas code generator.
+                    <p>Usage of this annotation, in conjunction with the ClassInclusionPolicy and PropertyInclusionPolicy run time options, coverns whether OWL entities are included or ignored by the owl2oas code generator.</p>
                 </td>
             </tr>
             <tr>
@@ -820,7 +771,9 @@
         </table>
     </div>
     <div class="entity property" id="listproperty">
-        <h3>list property<sup title="annotation property" class="sup-ap">ap</sup></h3>
+        <h3>list property<sup title="annotation property" class="sup-ap">ap</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#listproperty" title="fragment link to here">#</a>&nbsp;<a href="#annotationproperties" title="Annotation Properties Index">APs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -829,7 +782,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    Usage of this annotation on an object or data property indicates that the property shall, when translated into RDF or OAS representations, be an ordered RDF list.
+                    <p>Usage of this annotation on an object or data property indicates that the property shall, when translated into RDF or OAS representations, be an ordered RDF list.</p>
                 </td>
             </tr>
             <tr>
@@ -841,7 +794,9 @@
         </table>
     </div>
     <div class="entity property" id="DTDLtype">
-        <h3>DTDL type<sup title="annotation property" class="sup-ap">ap</sup></h3>
+        <h3>DTDL type<sup title="annotation property" class="sup-ap">ap</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#DTDLtype" title="fragment link to here">#</a>&nbsp;<a href="#annotationproperties" title="Annotation Properties Index">APs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -850,7 +805,9 @@
         </table>
     </div>
     <div class="entity property" id="SemanticType">
-        <h3>Semantic Type<sup title="annotation property" class="sup-ap">ap</sup></h3>
+        <h3>Semantic Type<sup title="annotation property" class="sup-ap">ap</sup><span style="float:right; margin-right:10px; font-size:smaller;">
+            <a href="#SemanticType" title="fragment link to here">#</a>&nbsp;<a href="#annotationproperties" title="Annotation Properties Index">APs</a></span>
+        </h3>
         <table>
             <tr>
                 <th>URI</th>
@@ -859,7 +816,7 @@
             <tr>
                 <th>Description</th>
                 <td>
-                    Indicates which DTDL Semantic Type that an OWL datatype expresses.
+                    <p>Indicates which DTDL Semantic Type that an OWL datatype expresses.</p>
                 </td>
             </tr>
             <tr>
@@ -873,15 +830,11 @@
 </section>
 
   
-  <section id="namedindividuals">
-    <h2>Named Individuals <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
-    <ul class="hlist">
-    </ul>
-</section>
-  
   <section id="namespaces">
     <h2>Namespaces <span style="float:right; font-size:smaller;"><a href="">&uparrow;</a></span></h2>
     <dl>
+        <dt>default (metadata)</dt>
+        <dd><code>https://w3id.org/rec/metadata/3.3/</code></dd>
         <dt>:</dt>
         <dd><code>https://w3id.org/rec/metadata/</code></dd>
         <dt>cc</dt>
@@ -909,7 +862,7 @@
         <dt>rdfs</dt>
         <dd><code>http://www.w3.org/2000/01/rdf-schema#</code></dd>
         <dt>sdo</dt>
-        <dd><code>https://schema.org/</code></dd>
+        <dd><code>http://schema.org/</code></dd>
         <dt>skos</dt>
         <dd><code>http://www.w3.org/2004/02/skos/core#</code></dd>
         <dt>vann</dt>
